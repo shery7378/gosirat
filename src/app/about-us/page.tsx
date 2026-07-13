@@ -1,0 +1,45 @@
+import type { NextPage, Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "About GoSirat | AI-Powered School Transportation Platform",
+    description: "Learn how GoSirat is transforming school transportation through child safety, smart technology, verified drivers, and trusted partnerships with schools.",
+    alternates: {
+        canonical: "https://gosirat.com/about-us",
+    },
+};
+import { AboutHero } from "@/components/about/AboutHero";
+import { AboutMission } from "@/components/about/AboutMission";
+import { AboutVision } from "@/components/about/AboutVision";
+import { AboutCommitments } from "@/components/about/AboutCommitments";
+import { AboutStats } from "@/components/about/AboutStats";
+import { AboutTeam } from "@/components/about/AboutTeam";
+import { ParentStories } from "@/components/parent/ParentStories";
+import AppDownload from "@/components/AppDownload";
+import { WebPageSchema, BreadcrumbSchema } from "@/components/Schemas";
+
+const AboutPage: NextPage = () => {
+ return (
+  <div className="w-full relative bg-[#f4f7f4] flex flex-col items-center pt-6 px-0 pb-0 box-border leading-[normal] tracking-[normal]">
+   <WebPageSchema 
+      title="About GoSirat | AI-Powered School Transportation Platform" 
+      description="Learn how GoSirat is transforming school transportation through child safety, smart technology, verified drivers, and trusted partnerships with schools." 
+      url="https://gosirat.com/about-us" 
+    />
+    <BreadcrumbSchema items={[
+      { name: "Home", url: "https://gosirat.com/" },
+      { name: "About", url: "https://gosirat.com/about-us" }
+    ]} />
+   <AboutHero />
+   <AboutMission />
+   <AboutVision />
+   <AboutCommitments />
+   <AboutStats />
+   <AboutTeam />
+   <ParentStories isAboutPage={true} />
+   
+   <AppDownload hideImage={true} />
+  </div>
+ );
+};
+
+export default AboutPage;

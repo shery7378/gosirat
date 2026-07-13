@@ -1,0 +1,37 @@
+import Image from "next/image";
+
+import { Container } from "../Container";
+
+export const RouteManagement = () => {
+ return (
+  <section className="self-stretch bg-[#f4f7f4] flex flex-col items-center py-[100px] px-[60px] box-border max-w-full mq450:py-[65px] mq450:px-4 mq450:box-border" data-aos="zoom-in">
+   <Container className="flex items-center justify-between gap-12 lg:flex-wrap">
+    <div className="flex-1 min-w-[400px] flex justify-center mq450:min-w-full">
+     <Image
+      className="w-full max-w-[500px] h-auto object-contain"
+      src="/driver-route-management-mockup.png"
+      alt="Driver using GoSirat app for route management navigation"
+      width={500}
+      height={600}
+      priority
+     data-aos="fade-in" data-aos-delay="100" />
+    </div>
+    
+    <div className="flex-1 flex flex-col items-start gap-6 min-w-[400px] mq450:min-w-full">
+     <div className="h-[29.3px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] flex items-center py-[5px] px-3.5 gap-[5px]" data-aos="zoom-in" data-aos-delay="100">
+      <div className="h-1.5 w-1.5 rounded-[22369600px] bg-[#176938]" />
+      <div className="tracking-[1.68px] leading-4 uppercase font-medium text-xs text-[#176938]">
+       Route Management
+      </div>
+     </div>
+     <h2 className="m-0 text-5xl tracking-[-1.5px] leading-[1.2] font-semibold text-[#09131a] mq450:text-[38px]">
+      Your Day. Planned To The Minute.
+     </h2>
+     <p className="m-0 text-lg leading-[29px] text-[#202A32]">
+      Student manifests, turn-by-turn navigation and live schedule — built into one calm interface.
+     </p>
+    </div>
+   </Container>
+  </section>
+ );
+};
