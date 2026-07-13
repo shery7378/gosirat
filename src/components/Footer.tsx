@@ -105,7 +105,7 @@ const renderIcon = (icon: string) => {
 
 const Footer: NextPage = () => {
     return (
-        <div className="mt-auto box-border flex max-w-full flex-col border-t-[0.7px] border-solid border-gray-200 bg-white px-[60px] py-0 leading-[normal] tracking-[normal] shadow-[0_-4px_20px_rgba(23,105,56,0.15)] mq725:box-border mq725:px-[30px]" data-aos="zoom-in">
+        <div className="mt-auto box-border flex max-w-full flex-col border-t-[0.7px] border-solid border-gray-200 bg-white px-[60px] py-0 leading-[normal] tracking-[normal] shadow-[0_-4px_20px_rgba(23,105,56,0.15)] mq725:box-border mq725:px-[30px]">
             <footer className="box-border flex w-full flex-col items-start gap-4 px-0 pb-6 pt-16 text-left text-base text-gray-900 font-[Inter] mq725:box-border mq725:pb-6 mq725:pt-12">
                 <div className="flex max-w-full flex-wrap items-start justify-between gap-12 self-stretch py-0 px-0 [row-gap:32px] lg:flex-nowrap mq1050:flex-col mq1050:items-center">
                     <div className="flex shrink-0 max-w-[350px] flex-col items-start gap-6 mq1050:items-center mq1050:text-center">
