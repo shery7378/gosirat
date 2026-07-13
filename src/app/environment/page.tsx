@@ -67,7 +67,7 @@ export default function EnvironmentPage() {
                 </div>
                 <div className="hero-scroll">
                     <span>Scroll</span>
-                    <svg width="14" height="18" viewBox="0 0 14 18" fill="none"><path d="M7 1v15M1 10l6 6 6-6" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                    <svg width="14" height="18" viewBox="0 0 14 18" fill="none"><path d="M7 1v15M1 10l6 6 6-6" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
                 </div>
             </section>
 
@@ -83,28 +83,28 @@ export default function EnvironmentPage() {
                             <div className="why-features">
                                 <div className="feature-mini">
                                     <div className="icon-badge">
-                                        <svg viewBox="0 0 24 24" fill="none"><path d="M12 3C7 3 4 7 4 12c0 5 3.5 9 8 9s8-4 8-9c0-2-1-4-2-5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/><path d="M12 21V9" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/></svg>
+                                        <svg viewBox="0 0 24 24" fill="none"><path d="M12 3C7 3 4 7 4 12c0 5 3.5 9 8 9s8-4 8-9c0-2-1-4-2-5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /><path d="M12 21V9" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg>
                                     </div>
                                     <h4>Reduced Emissions</h4>
                                     <p>Fewer vehicles on the road means measurably cleaner air around every school.</p>
                                 </div>
                                 <div className="feature-mini">
                                     <div className="icon-badge blue">
-                                        <svg viewBox="0 0 24 24" fill="none"><circle cx="6" cy="18" r="2.4" stroke="currentColor" strokeWidth="1.8"/><circle cx="18" cy="18" r="2.4" stroke="currentColor" strokeWidth="1.8"/><path d="M8 18h8M6 15.6V8a2 2 0 0 1 2-2h5l4 4v5.6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/></svg>
+                                        <svg viewBox="0 0 24 24" fill="none"><circle cx="6" cy="18" r="2.4" stroke="currentColor" strokeWidth="1.8" /><circle cx="18" cy="18" r="2.4" stroke="currentColor" strokeWidth="1.8" /><path d="M8 18h8M6 15.6V8a2 2 0 0 1 2-2h5l4 4v5.6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg>
                                     </div>
                                     <h4>Less Congestion</h4>
                                     <p>Shared routes stop the heavy traffic jams at school gates and on neighborhood streets, making drop-off times faster and safer for everyone.</p>
                                 </div>
                                 <div className="feature-mini">
                                     <div className="icon-badge">
-                                        <svg viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round"/><path d="M9 12l2 2 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                                        <svg viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" /><path d="M9 12l2 2 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg>
                                     </div>
                                     <h4>Safer Commutes</h4>
                                     <p>Trained drivers and monitored vehicles keep every ride secure and tracked.</p>
                                 </div>
                                 <div className="feature-mini">
                                     <div className="icon-badge blue">
-                                        <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" strokeWidth="1.8"/><path d="M12 7.5v5l3.2 1.8" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                                        <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" strokeWidth="1.8" /><path d="M12 7.5v5l3.2 1.8" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg>
                                     </div>
                                     <h4>Smarter Routing</h4>
                                     <p>Our smart planning cuts out wasted time and extra miles from every trip, making each journey as efficient as possible.</p>
@@ -113,7 +113,7 @@ export default function EnvironmentPage() {
                         </div>
 
                         <div className="why-media reveal reveal-delay-2">
-                            <img src="/Gosirat-2.png" alt="Shared green transportation versus heavy traffic" />
+                            <img src="/Gosirat-2.jpeg" alt="Shared green transportation versus heavy traffic" />
                         </div>
                     </div>
                 </div>
@@ -131,28 +131,28 @@ export default function EnvironmentPage() {
                     <div className="impact-grid">
                         <div className="impact-card reveal">
                             <div className="icon-badge">
-                                <svg viewBox="0 0 24 24" fill="none"><path d="M12 3C7 3 4 7 4 12c0 5 3.5 9 8 9s8-4 8-9c0-2-1-4-2-5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/><path d="M12 21V9" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/></svg>
+                                <svg viewBox="0 0 24 24" fill="none"><path d="M12 3C7 3 4 7 4 12c0 5 3.5 9 8 9s8-4 8-9c0-2-1-4-2-5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /><path d="M12 21V9" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg>
                             </div>
                             <h3>Lower Carbon Emissions</h3>
                             <p>Our smart routes and shared trips use less fuel and lower carbon emissions on every school run, mile after mile.</p>
                         </div>
                         <div className="impact-card reveal reveal-delay-1">
                             <div className="icon-badge blue">
-                                <svg viewBox="0 0 24 24" fill="none"><path d="M4 14l1.5-5A2 2 0 0 1 7.4 7.5h9.2A2 2 0 0 1 18.5 9L20 14" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/><rect x="3" y="14" width="18" height="4.5" rx="1.6" stroke="currentColor" strokeWidth="1.8"/><circle cx="7.5" cy="18.7" r="1.4" stroke="currentColor" strokeWidth="1.8"/><circle cx="16.5" cy="18.7" r="1.4" stroke="currentColor" strokeWidth="1.8"/></svg>
+                                <svg viewBox="0 0 24 24" fill="none"><path d="M4 14l1.5-5A2 2 0 0 1 7.4 7.5h9.2A2 2 0 0 1 18.5 9L20 14" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /><rect x="3" y="14" width="18" height="4.5" rx="1.6" stroke="currentColor" strokeWidth="1.8" /><circle cx="7.5" cy="18.7" r="1.4" stroke="currentColor" strokeWidth="1.8" /><circle cx="16.5" cy="18.7" r="1.4" stroke="currentColor" strokeWidth="1.8" /></svg>
                             </div>
                             <h3>Fuel-Efficient Fleet</h3>
                             <p>Modern, well-maintained vehicles are engineered for lower consumption and cleaner combustion across every neighborhood route.</p>
                         </div>
                         <div className="impact-card reveal reveal-delay-2">
                             <div className="icon-badge">
-                                <svg viewBox="0 0 24 24" fill="none"><circle cx="6" cy="6" r="2.2" stroke="currentColor" strokeWidth="1.8"/><circle cx="18" cy="18" r="2.2" stroke="currentColor" strokeWidth="1.8"/><path d="M6 8.2V13a3 3 0 0 0 3 3h6.8" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/><path d="M14 13.5l2.5 2.5-2.5 2.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                                <svg viewBox="0 0 24 24" fill="none"><circle cx="6" cy="6" r="2.2" stroke="currentColor" strokeWidth="1.8" /><circle cx="18" cy="18" r="2.2" stroke="currentColor" strokeWidth="1.8" /><path d="M6 8.2V13a3 3 0 0 0 3 3h6.8" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /><path d="M14 13.5l2.5 2.5-2.5 2.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg>
                             </div>
                             <h3>Smart Route Optimization</h3>
                             <p>Our smart system constantly updates routes to cut out extra miles and wasted time, making every trip as fast and efficient as possible.</p>
                         </div>
                         <div className="impact-card reveal reveal-delay-3">
                             <div className="icon-badge blue">
-                                <svg viewBox="0 0 24 24" fill="none"><circle cx="8" cy="9" r="2.6" stroke="currentColor" strokeWidth="1.8"/><circle cx="17" cy="9" r="2.2" stroke="currentColor" strokeWidth="1.8"/><path d="M3.5 19c.7-3 2.4-4.6 4.5-4.6s3.8 1.6 4.5 4.6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/><path d="M13.8 14.6c1.9.2 3.3 1.8 3.9 4.4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/></svg>
+                                <svg viewBox="0 0 24 24" fill="none"><circle cx="8" cy="9" r="2.6" stroke="currentColor" strokeWidth="1.8" /><circle cx="17" cy="9" r="2.2" stroke="currentColor" strokeWidth="1.8" /><path d="M3.5 19c.7-3 2.4-4.6 4.5-4.6s3.8 1.6 4.5 4.6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /><path d="M13.8 14.6c1.9.2 3.3 1.8 3.9 4.4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg>
                             </div>
                             <h3>Community-Wide Reduction</h3>
                             <p>Shared rides remove thousands of individual car trips from local roads and school gates every single week.</p>
@@ -172,27 +172,27 @@ export default function EnvironmentPage() {
 
                     <div className="commitment-grid">
                         <div className="commitment-card reveal">
-                            <div className="icon-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3C7 3 4 7 4 12c0 5 3.5 9 8 9s8-4 8-9c0-2-1-4-2-5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/><path d="M12 21V9" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/></svg></div>
+                            <div className="icon-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3C7 3 4 7 4 12c0 5 3.5 9 8 9s8-4 8-9c0-2-1-4-2-5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /><path d="M12 21V9" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg></div>
                             <div><h4>Carbon-Conscious Fleet Expansion</h4><p>Every new vehicle we add must meet high standards for fuel efficiency and low emissions.</p></div>
                         </div>
                         <div className="commitment-card reveal reveal-delay-1">
-                            <div className="icon-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M13 3L5 14h6l-1 7 8-11h-6l1-7z" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round"/></svg></div>
+                            <div className="icon-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M13 3L5 14h6l-1 7 8-11h-6l1-7z" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" /></svg></div>
                             <div><h4>Renewable Energy Partnerships</h4><p>Working with clean-energy providers to power depots and charging infrastructure.</p></div>
                         </div>
                         <div className="commitment-card reveal reveal-delay-2">
-                            <div className="icon-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M4 7l1-3h14l1 3" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/><path d="M5 7l1 12.2A2 2 0 0 0 8 21h8a2 2 0 0 0 2-1.8L19 7" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/><path d="M9.5 11v6M14.5 11v6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/></svg></div>
+                            <div className="icon-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M4 7l1-3h14l1 3" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /><path d="M5 7l1 12.2A2 2 0 0 0 8 21h8a2 2 0 0 0 2-1.8L19 7" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /><path d="M9.5 11v6M14.5 11v6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg></div>
                             <div><h4>Zero-Waste Operations Goal</h4><p>Reducing operational waste across depots, maintenance, and back-office logistics.</p></div>
                         </div>
                         <div className="commitment-card reveal reveal-delay-3">
-                            <div className="icon-badge"><svg viewBox="0 0 24 24" fill="none"><circle cx="8" cy="9" r="2.6" stroke="currentColor" strokeWidth="1.8"/><circle cx="17" cy="9" r="2.2" stroke="currentColor" strokeWidth="1.8"/><path d="M3.5 19c.7-3 2.4-4.6 4.5-4.6s3.8 1.6 4.5 4.6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/><path d="M13.8 14.6c1.9.2 3.3 1.8 3.9 4.4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/></svg></div>
+                            <div className="icon-badge"><svg viewBox="0 0 24 24" fill="none"><circle cx="8" cy="9" r="2.6" stroke="currentColor" strokeWidth="1.8" /><circle cx="17" cy="9" r="2.2" stroke="currentColor" strokeWidth="1.8" /><path d="M3.5 19c.7-3 2.4-4.6 4.5-4.6s3.8 1.6 4.5 4.6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /><path d="M13.8 14.6c1.9.2 3.3 1.8 3.9 4.4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg></div>
                             <div><h4>Local Green Job Creation</h4><p>Building driver and technician roles within the communities GoSirat serves.</p></div>
                         </div>
                         <div className="commitment-card reveal reveal-delay-4">
-                            <div className="icon-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19.5V6a2 2 0 0 1 2-2h9l5 5v10.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 4 19.5z" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round"/><path d="M8 12h8M8 15.5h5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/></svg></div>
+                            <div className="icon-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19.5V6a2 2 0 0 1 2-2h9l5 5v10.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 4 19.5z" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" /><path d="M8 12h8M8 15.5h5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg></div>
                             <div><h4>Community Environmental Education</h4><p>Classroom programs that teach students the value of shared, sustainable travel.</p></div>
                         </div>
                         <div className="commitment-card reveal reveal-delay-5">
-                            <div className="icon-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19V9l6-4 6 4v10" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round"/><path d="M9 19v-6h4v6M14 9h5v10" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round"/></svg></div>
+                            <div className="icon-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19V9l6-4 6 4v10" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" /><path d="M9 19v-6h4v6M14 9h5v10" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" /></svg></div>
                             <div><h4>Transparent Sustainability Reporting</h4><p>Publishing clear, verifiable progress against every environmental commitment.</p></div>
                         </div>
                     </div>
@@ -211,31 +211,31 @@ export default function EnvironmentPage() {
                     <div className="stats-grid">
                         <div className="stat-card reveal">
                             <span className="route-dot"></span>
-                            <div className="icon-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3C7 3 4 7 4 12c0 5 3.5 9 8 9s8-4 8-9c0-2-1-4-2-5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/><path d="M12 21V9" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/></svg></div>
+                            <div className="icon-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3C7 3 4 7 4 12c0 5 3.5 9 8 9s8-4 8-9c0-2-1-4-2-5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /><path d="M12 21V9" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg></div>
                             <div className="stat-num"><span data-count="12400">0</span><span className="unit">+</span></div>
                             <div className="stat-label">Tons CO2 Avoided</div>
                         </div>
                         <div className="stat-card reveal reveal-delay-1">
                             <span className="route-dot"></span>
-                            <div className="icon-badge blue"><svg viewBox="0 0 24 24" fill="none"><circle cx="6" cy="6" r="2.2" stroke="currentColor" strokeWidth="1.8"/><circle cx="18" cy="18" r="2.2" stroke="currentColor" strokeWidth="1.8"/><path d="M6 8.2V13a3 3 0 0 0 3 3h6.8" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/></svg></div>
+                            <div className="icon-badge blue"><svg viewBox="0 0 24 24" fill="none"><circle cx="6" cy="6" r="2.2" stroke="currentColor" strokeWidth="1.8" /><circle cx="18" cy="18" r="2.2" stroke="currentColor" strokeWidth="1.8" /><path d="M6 8.2V13a3 3 0 0 0 3 3h6.8" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg></div>
                             <div className="stat-num"><span data-count="3.1" data-decimal="1">0</span><span className="unit">M km</span></div>
                             <div className="stat-label">Optimized Route Distance</div>
                         </div>
                         <div className="stat-card reveal reveal-delay-2">
                             <span className="route-dot"></span>
-                            <div className="icon-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M4 14l1.5-5A2 2 0 0 1 7.4 7.5h9.2A2 2 0 0 1 18.5 9L20 14" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/><rect x="3" y="14" width="18" height="4.5" rx="1.6" stroke="currentColor" strokeWidth="1.8"/><circle cx="7.5" cy="18.7" r="1.4" stroke="currentColor" strokeWidth="1.8"/><circle cx="16.5" cy="18.7" r="1.4" stroke="currentColor" strokeWidth="1.8"/></svg></div>
+                            <div className="icon-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M4 14l1.5-5A2 2 0 0 1 7.4 7.5h9.2A2 2 0 0 1 18.5 9L20 14" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /><rect x="3" y="14" width="18" height="4.5" rx="1.6" stroke="currentColor" strokeWidth="1.8" /><circle cx="7.5" cy="18.7" r="1.4" stroke="currentColor" strokeWidth="1.8" /><circle cx="16.5" cy="18.7" r="1.4" stroke="currentColor" strokeWidth="1.8" /></svg></div>
                             <div className="stat-num"><span data-count="48000">0</span><span className="unit">+</span></div>
                             <div className="stat-label">Car Trips Removed</div>
                         </div>
                         <div className="stat-card reveal reveal-delay-3">
                             <span className="route-dot"></span>
-                            <div className="icon-badge blue"><svg viewBox="0 0 24 24" fill="none"><circle cx="8" cy="9" r="2.6" stroke="currentColor" strokeWidth="1.8"/><circle cx="17" cy="9" r="2.2" stroke="currentColor" strokeWidth="1.8"/><path d="M3.5 19c.7-3 2.4-4.6 4.5-4.6s3.8 1.6 4.5 4.6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/><path d="M13.8 14.6c1.9.2 3.3 1.8 3.9 4.4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/></svg></div>
+                            <div className="icon-badge blue"><svg viewBox="0 0 24 24" fill="none"><circle cx="8" cy="9" r="2.6" stroke="currentColor" strokeWidth="1.8" /><circle cx="17" cy="9" r="2.2" stroke="currentColor" strokeWidth="1.8" /><path d="M3.5 19c.7-3 2.4-4.6 4.5-4.6s3.8 1.6 4.5 4.6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /><path d="M13.8 14.6c1.9.2 3.3 1.8 3.9 4.4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg></div>
                             <div className="stat-num"><span data-count="26500">0</span><span className="unit">+</span></div>
                             <div className="stat-label">Students Served Daily</div>
                         </div>
                         <div className="stat-card reveal reveal-delay-4">
                             <span className="route-dot"></span>
-                            <div className="icon-badge"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" strokeWidth="1.8"/><path d="M3.5 12h17M12 3.5c2.4 2.3 3.6 5.3 3.6 8.5s-1.2 6.2-3.6 8.5c-2.4-2.3-3.6-5.3-3.6-8.5S9.6 5.8 12 3.5z" stroke="currentColor" strokeWidth="1.8"/></svg></div>
+                            <div className="icon-badge"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" strokeWidth="1.8" /><path d="M3.5 12h17M12 3.5c2.4 2.3 3.6 5.3 3.6 8.5s-1.2 6.2-3.6 8.5c-2.4-2.3-3.6-5.3-3.6-8.5S9.6 5.8 12 3.5z" stroke="currentColor" strokeWidth="1.8" /></svg></div>
                             <div className="stat-num"><span data-count="94">0</span><span className="unit">%</span></div>
                             <div className="stat-label">Fleet Efficiency Rating</div>
                         </div>

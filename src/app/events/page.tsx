@@ -10,6 +10,19 @@ export const metadata: Metadata = {
     alternates: {
         canonical: "https://gosirat.com/events",
     },
+    openGraph: {
+        title: "School Safety Events | GoSirat Rawalpindi & Islamabad",
+        description: "Join GoSirat's school safety events covering traffic awareness, first aid, road safety, and eco-friendly transport for families in Rawalpindi and Islamabad.",
+        url: "https://gosirat.com/events",
+        images: [
+            {
+                url: "/GoSirat-school-safety-event.webp",
+                width: 1200,
+                height: 630,
+                alt: "School Safety Events | GoSirat Rawalpindi & Islamabad",
+            },
+        ],
+    },
 };
 
 const eventHighlights = [
@@ -111,7 +124,7 @@ export default function EventsPage() {
                         height={660}
                         sizes="100vw"
                         alt="GoSirat school safety event illustration"
-                        src="/gosirat-safe-school-transport.png"
+                        src="/GoSirat-school-safety-event.webp"
                         data-aos="fade-in"
                         data-aos-delay="100"
                     />

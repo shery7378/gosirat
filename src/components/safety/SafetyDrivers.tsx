@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { CheckIcon, ShieldIcon } from "./SafetyIcons";
 
 const verificationItems = [
@@ -31,18 +32,14 @@ export default function SafetyDrivers() {
                         ))}
                     </div>
                 </div>
-                <div className="rounded-[28px] bg-[#0F4C3A] p-8 shadow-[0_1px_2px_rgba(14,27,22,0.04),0_12px_32px_-12px_rgba(14,27,22,0.12)]">
-                    <div className="rounded-[24px] border border-white/20 bg-white/10 p-8 text-center text-white">
-                        <div className="mx-auto flex h-24 w-24 items-center justify-center rounded-full border border-[#8CE0B4]/40 bg-[#1FA463]/20">
-                            <ShieldIcon />
-                        </div>
-                        <h3 className="mt-6 text-2xl font-semibold" style={{ fontFamily: "Manrope, sans-serif" }}>
-                            Strong safety standards
-                        </h3>
-                        <p className="mt-4 text-sm leading-7 text-white/80">
-                            Each ride is backed by verified personnel, clear policies, and operational oversight that is designed to protect children from departure to arrival.
-                        </p>
-                    </div>
+                <div className="relative aspect-[4/5] w-full max-w-md mx-auto md:max-w-none overflow-hidden rounded-[28px] shadow-lg">
+                    <Image 
+                        src="/A_professional_Pakistani_male_driver,_202607131942.jpeg" 
+                        alt="Professional GoSirat Driver" 
+                        fill 
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        className="object-cover object-top" 
+                    />
                 </div>
             </div>
         </section>
