@@ -28,10 +28,10 @@ export default function SafetyStats() {
                             <div className="flex h-[38px] w-[38px] items-center justify-center rounded-[10px] bg-[rgba(213,240,219,0.4)]/70 text-[#176938]">
                                 <stat.Icon />
                             </div>
-                            <p className="mt-5 text-[20px] font-bold font-[Inter] text-[#0c140f] leading-tight">
+                            <p className="mt-5 text-[20px] font-bold font-inherit text-[#0c140f] leading-tight">
                                 {stat.value}
                             </p>
-                            <p className="mt-3 text-[14px] font-medium font-[Inter] text-[#57605b] leading-relaxed">
+                            <p className="mt-3 text-[14px] font-medium font-inherit text-[#57605b] leading-relaxed">
                                 {stat.label}
                             </p>
                         </div>

@@ -4,7 +4,7 @@ import Image from "next/image";
 const GreenImpact: NextPage = () => {
     return (
         <section className="self-stretch bg-white flex flex-col items-center pt-[60px] pb-0 box-border gap-0 shrink-0 max-w-full mq450:gap-5 mq450:pt-[39px]" data-aos="fade-in">
-            <section className="self-stretch flex items-center justify-between gap-8 max-w-full shrink-0 text-left text-xs text-[#176938] font-[Inter] px-[60px] mq450:pl-[30px] mq450:pr-[30px] mq450:box-border mq750:flex-col mq750:items-center mq750:text-center">
+            <section className="self-stretch flex items-center justify-between gap-8 max-w-full shrink-0 text-left text-xs text-[#176938] font-inherit px-[60px] mq450:pl-[30px] mq450:pr-[30px] mq450:box-border mq750:flex-col mq750:items-center mq750:text-center">
                 <div className="h-auto w-[700px] flex flex-col items-start max-w-full mq450:min-w-full mq750:flex-1 mq750:items-center">
                     <div className="self-stretch h-[29.3px] flex items-start mq750:justify-center">
                         <div className="h-[29.3px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] box-border flex items-center py-[5px] px-3.5 gap-1.5" data-aos="zoom-in" data-aos-delay="100">
@@ -38,7 +38,7 @@ const GreenImpact: NextPage = () => {
                         data-aos="fade-out" data-aos-delay="100" />
                 </div>
             </section>
-            <section className="w-full self-stretch bg-[#1f252e] flex flex-col items-start py-10 px-[60px] box-border text-left text-6xl text-base-white font-[Inter] mq450:pl-[30px] mq450:pr-[30px] mq450:box-border mx-auto mt-0 relative z-20">
+            <section className="w-full self-stretch bg-[#1f252e] flex flex-col items-start py-10 px-[60px] box-border text-left text-6xl text-base-white font-inherit mq450:pl-[30px] mq450:pr-[30px] mq450:box-border mx-auto mt-0 relative z-20">
                 <div className="self-stretch flex items-start justify-between gap-8 max-w-full flex-wrap mq750:flex-col mq750:items-center mq750:text-center">
                     <div className="h-auto w-full max-w-[389.6px] flex flex-col items-start mq750:items-center">
                         <div className="self-stretch flex flex-col items-start mq750:items-center">

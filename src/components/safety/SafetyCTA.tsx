@@ -13,7 +13,7 @@ export default function SafetyCTA() {
                     Join families across Islamabad and Rawalpindi who trust GoSirat for verified, tracked, and secure school transportation.
                 </p>
                 <Link href="/register" className="cursor-pointer mt-8 border-none py-3.5 px-8 bg-gradient-to-r from-[#176938] to-[#2ecc71] h-[54px] shadow-lg rounded-full inline-flex items-center justify-center gap-2 hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02] active:scale-95 no-underline transition-all duration-300 group">
-                    <span className="relative text-[17px] leading-[20px] font-bold font-[Inter] text-[#F7F9F6] tracking-wide">
+                    <span className="relative text-[17px] leading-[20px] font-bold font-inherit text-[#F7F9F6] tracking-wide">
                         Register Today
                     </span>
                     <svg className="w-5 h-5 text-white transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
