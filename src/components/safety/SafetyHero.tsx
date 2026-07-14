@@ -5,7 +5,7 @@ export default function SafetyHero() {
     return (
         <section className="relative flex min-h-[85vh] items-center justify-center overflow-hidden text-white">
             <Image
-                src="/images/gosirat-school-transportation-safety.webp"
+                src="/images/gosirat-school-transportation-safety.jpeg"
                 alt="GoSirat safe school transportation with verified drivers and secure student pickup"
                 fill
                 className="object-cover object-center"

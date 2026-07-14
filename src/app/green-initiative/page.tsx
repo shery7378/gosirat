@@ -9,14 +9,14 @@ export default function EnvironmentPage() {
             <section className="relative flex items-center justify-center text-center overflow-hidden min-h-[720px] h-screen">
                 <div className="absolute inset-0">
                     <img
-                        src="/images/gosirat-green-school-transportation.webp"
+                        src="/images/gosirat-green-school-transportation.jpeg"
                         alt="GoSirat eco-friendly school transportation creating a greener future with sustainable journeys"
                         style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-[rgba(9,38,28,0.72)] via-[rgba(9,38,28,0.55)] to-[rgba(8,32,24,0.86)]"></div>
                     <div className="absolute inset-0 bg-gradient-to-br from-[rgba(15,76,58,0.5)] to-[rgba(29,111,224,0.28)]"></div>
                 </div>
-                
+
                 <div className="relative z-10 max-w-[820px] px-6 text-white flex flex-col items-center">
                     <span className="flex items-center gap-2 text-[#8CE0B4] font-semibold text-[12.5px] uppercase tracking-[.14em] before:content-[''] before:w-4 before:h-0.5 before:bg-[#8CE0B4] before:rounded-[2px] justify-center" data-aos="fade-in">
                         GoSirat Green Initiative
@@ -45,7 +45,7 @@ export default function EnvironmentPage() {
 
             {/* ============ SECTION 2: WHY IT MATTERS ============ */}
             <section className="bg-[#f8fbf8] py-[120px] max-lg:py-[80px]" id="why">
-                <div className="max-w-[1240px] mx-auto px-8 max-lg:px-6">
+                <div className="w-full mx-auto px-8 max-lg:px-6">
                     <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-[72px] max-lg:gap-[48px] items-center">
                         <div data-aos="fade-up">
                             <span className="flex items-center gap-2 text-[#176938] font-semibold text-[12.5px] uppercase tracking-[.14em] before:content-[''] before:w-4 before:h-0.5 before:bg-[#176938] before:rounded-[2px]">
@@ -90,7 +90,7 @@ export default function EnvironmentPage() {
                             </div>
                         </div>
 
-                        <div className="relative rounded-[28px] overflow-hidden shadow-[0_1px_2px_rgba(14,27,22,0.04),_0_12px_32px_-12px_rgba(14,27,22,0.12)] aspect-[4/5] max-lg:aspect-[16/10] max-lg:order-first" data-aos="fade-up" data-aos-delay="200">
+                        <div className="relative w-full max-w-[500px] xl:max-w-[600px] ml-auto max-lg:mx-auto rounded-[28px] overflow-hidden shadow-[0_1px_2px_rgba(14,27,22,0.04),_0_12px_32px_-12px_rgba(14,27,22,0.12)] aspect-[4/5] max-lg:aspect-[16/10] max-lg:order-first" data-aos="fade-up" data-aos-delay="200">
                             <img
                                 src="/images/gosirat-green-transportation-reduces-traffic.webp"
                                 alt="GoSirat shared school transportation reducing traffic congestion and carbon emissions"
@@ -292,46 +292,46 @@ export default function EnvironmentPage() {
 
             {/* ============ SECTION 6: GLOBAL VISION ============ */}
             <section className="bg-white py-[120px] max-lg:py-[80px]" id="global">
-                <div className="max-w-[1240px] mx-auto px-8 max-lg:px-6">
+                <div className="w-full mx-auto px-8 max-lg:px-6">
                     <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-[72px] max-lg:gap-[48px] items-center">
                         <div data-aos="fade-up">
-                            <div className="mb-[28px] max-w-[640px]">
-                                <span className="flex items-center gap-2 text-[#176938] font-semibold text-[12.5px] uppercase tracking-[.14em] before:content-[''] before:w-4 before:h-0.5 before:bg-[#176938] before:rounded-[2px]">
+                            <div className="mb-[28px] max-w-[640px] xl:max-w-[720px]">
+                                <span className="flex items-center gap-2 text-[#176938] font-semibold text-[12.5px] xl:text-[14px] uppercase tracking-[.14em] before:content-[''] before:w-4 before:h-0.5 before:bg-[#176938] before:rounded-[2px]">
                                     Looking Ahead
                                 </span>
-                                <h2 className="mt-4 text-[clamp(30px,3.6vw,42px)] text-[#0c140f] leading-[1.1] tracking-[-0.02em] font-bold">
+                                <h2 className="mt-4 text-[clamp(30px,4vw,56px)] text-[#0c140f] leading-[1.1] tracking-[-0.02em] font-bold">
                                     A Green Standard, Built for the World
                                 </h2>
-                                <p className="mt-4 text-[17px] text-[#57605b] leading-[1.7]">
+                                <p className="mt-5 text-[17px] md:text-[19px] xl:text-[21px] text-[#57605b] leading-[1.75]">
                                     What starts as smarter school routes in one city becomes a blueprint for sustainable transportation everywhere GoSirat operates.
                                 </p>
                             </div>
-                            <ul className="flex flex-col gap-4 mt-2">
-                                <li className="flex items-start gap-3 text-[15px] text-[#57605b]">
-                                    <span className="w-2 h-2 rounded-full bg-[#176938] mt-[7px] shrink-0"></span>
+                            <ul className="flex flex-col gap-5 xl:gap-6 mt-4">
+                                <li className="flex items-start gap-4 text-[15px] md:text-[17px] xl:text-[19px] text-[#57605b]">
+                                    <span className="w-2 h-2 xl:w-2.5 xl:h-2.5 rounded-full bg-[#176938] mt-[7px] xl:mt-[9px] shrink-0"></span>
                                     Expanding shared green fleets to new cities and regions.
                                 </li>
-                                <li className="flex items-start gap-3 text-[15px] text-[#57605b]">
-                                    <span className="w-2 h-2 rounded-full bg-[#176938] mt-[7px] shrink-0"></span>
+                                <li className="flex items-start gap-4 text-[15px] md:text-[17px] xl:text-[19px] text-[#57605b]">
+                                    <span className="w-2 h-2 xl:w-2.5 xl:h-2.5 rounded-full bg-[#176938] mt-[7px] xl:mt-[9px] shrink-0"></span>
                                     Standardizing emissions reporting across every market.
                                 </li>
-                                <li className="flex items-start gap-3 text-[15px] text-[#57605b]">
-                                    <span className="w-2 h-2 rounded-full bg-[#176938] mt-[7px] shrink-0"></span>
+                                <li className="flex items-start gap-4 text-[15px] md:text-[17px] xl:text-[19px] text-[#57605b]">
+                                    <span className="w-2 h-2 xl:w-2.5 xl:h-2.5 rounded-full bg-[#176938] mt-[7px] xl:mt-[9px] shrink-0"></span>
                                     Partnering with local governments on clean-mobility policy.
                                 </li>
-                                <li className="flex items-start gap-3 text-[15px] text-[#57605b]">
-                                    <span className="w-2 h-2 rounded-full bg-[#176938] mt-[7px] shrink-0"></span>
+                                <li className="flex items-start gap-4 text-[15px] md:text-[17px] xl:text-[19px] text-[#57605b]">
+                                    <span className="w-2 h-2 xl:w-2.5 xl:h-2.5 rounded-full bg-[#176938] mt-[7px] xl:mt-[9px] shrink-0"></span>
                                     Connecting every route into one global sustainability network.
                                 </li>
                             </ul>
                         </div>
 
-                        <div className="relative rounded-[28px] aspect-square overflow-hidden shadow-[0_1px_2px_rgba(14,27,22,0.04),_0_12px_32px_-12px_rgba(14,27,22,0.12)] bg-gradient-to-br from-[#0c140f] to-[#0A2F24]" data-aos="fade-up" data-aos-delay="200">
+                        <div className="relative w-full max-w-[600px] xl:max-w-[700px] ml-auto max-lg:mx-auto rounded-[28px] aspect-[4/3] max-lg:aspect-[16/10] overflow-hidden shadow-[0_1px_2px_rgba(14,27,22,0.04),_0_12px_32px_-12px_rgba(14,27,22,0.12)] bg-gradient-to-br from-[#0c140f] to-[#0A2F24]" data-aos="fade-up" data-aos-delay="200">
                             <img
-                                src="/images/sustainable-school-transport-vehicle.jpg.webp"
+                                src="/images/sustainable-school-transport-vehicle.jpeg"
                                 alt="GoSirat green electric school transport bus on a city route."
                                 loading="lazy"
-                                className="w-full h-full object-cover"
+                                className="w-full h-full object-cover scale-[1.1]"
                             />
                         </div>
                     </div>
@@ -342,7 +342,7 @@ export default function EnvironmentPage() {
             <section className="relative min-h-[560px] flex items-center justify-center text-center overflow-hidden" id="cta">
                 <div className="absolute inset-0">
                     <img
-                        src="/images/gosirat-greener-school-future.webp"
+                        src="/images/gosirat-greener-school-future.jpeg"
                         alt="Students enjoying a greener and sustainable school transportation journey with GoSirat"
                         loading="lazy"
                         className="w-full h-full object-cover"
