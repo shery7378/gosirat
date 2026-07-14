@@ -9,7 +9,7 @@ export const RouteManagement = () => {
     <div className="flex-1 min-w-[400px] flex justify-center mq450:min-w-full">
      <Image
       className="w-full max-w-[500px] h-auto object-contain"
-      src="/driver-route-management-mockup.png"
+      src="/images/driver-route-management-mockup.png"
       alt="Driver using GoSirat app for route management navigation"
       width={500}
       height={600}

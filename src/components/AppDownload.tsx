@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { Container } from "./Container";
 
 interface AppDownloadProps {
@@ -17,20 +18,30 @@ const AppDownload: React.FC<AppDownloadProps> = ({ hideImage }) => {
                         <div className="rounded-[20px] bg-[rgba(255,255,255,0.2)] flex items-center py-1.5 px-3.5 gap-2" data-aos="fade-in" data-aos-delay="100">
                             <div className="h-1.5 w-1.5 rounded-full bg-white" />
                             <div className="tracking-[1.68px] leading-4 uppercase font-semibold text-white text-xs">
-                                Download
+                                Download the App
                             </div>
                         </div>
 
                         <h2 className="m-0 text-[50px] tracking-[-1.5px] leading-[60px] capitalize font-semibold text-[#f8fbf8] mq750:text-4xl mq450:text-3xl w-full">
-                            Start Your Safer School Journey Today.
+                            Start Your Safe School Transportation Journey Today
                         </h2>
 
-                        <div className="text-lg leading-[28px] text-[rgba(248,251,248,0.8)] mt-2 w-full font-medium">
-                            GoSirat is two apps that work together — for parents, and for the drivers they trust.
+                        <div className="text-lg leading-[28px] text-[rgba(248,251,248,0.8)] mt-2 w-full font-medium max-w-[800px]">
+                            Download the GoSirat Parent App or Driver App and experience safe, smart, and reliable school transportation services. With live GPS tracking, verified drivers, QR verification, real-time notifications, and secure student pick-up and drop-off, GoSirat makes every school journey safer for parents, students, schools, and drivers.
                         </div>
                     </div>
 
-                    <div className="flex items-center gap-4 flex-wrap w-full justify-center mt-4">
+                    <div className="flex items-center gap-4 flex-wrap w-full justify-center mt-6">
+                        <Link href="/register" className="group relative flex items-center justify-center gap-3 bg-white rounded-[14px] h-[54px] px-7 no-underline shadow-[0_4px_15px_rgba(0,0,0,0.2)] hover:shadow-[0_8px_25px_rgba(255,255,255,0.2)] hover:-translate-y-1 active:translate-y-0 transition-all duration-300">
+                            <span className="text-[17px] font-bold font-[Inter] text-[#176938] tracking-tight">
+                                Register Now
+                            </span>
+                            <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#176938] shadow-[0_2px_8px_rgba(23,105,56,0.4)] group-hover:bg-[#12552d] transition-colors duration-300">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="white" className="w-4 h-4 transform group-hover:translate-x-0.5 transition-transform duration-300" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                    <path d="M5 12h14M12 5l7 7-7 7" />
+                                </svg>
+                            </div>
+                        </Link>
                         {/* App Store Button */}
                         <a href="#" className="flex items-center justify-center gap-[10px] bg-black border border-[#444] rounded-[14px] py-2 hover:bg-[#1a1a1a] transition-colors h-[54px] w-[180px] no-underline">
                             <svg viewBox="0 0 384 512" className="w-[24px] h-[24px] text-white" fill="currentColor">

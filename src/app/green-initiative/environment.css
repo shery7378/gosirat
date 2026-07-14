@@ -1,15 +1,15 @@
 .env-page {
-  --forest:#0B3D2E;
-  --forest-2:#0F4C3A;
-  --green:#1FA463;
-  --green-light:#DCF3E6;
-  --blue:#1D6FE0;
-  --blue-light:#DDE9FC;
-  --paper:#FBFAF7;
-  --mist:#F1F4F1;
-  --ink:#0E1B16;
-  --ink-soft:#4A574F;
-  --line:#E4E9E3;
+  --forest:#0c140f;
+  --forest-2:#0c140f;
+  --green:#176938;
+  --green-light:rgba(213,240,219,0.4);
+  --blue:#176938;
+  --blue-light:rgba(213,240,219,0.4);
+  --paper:#f8fbf8;
+  --mist:#ffffff;
+  --ink:#0c140f;
+  --ink-soft:#57605b;
+  --line:rgba(23,105,56,0.15);
   --white:#FFFFFF;
   --radius-lg:28px;
   --radius-md:20px;
@@ -26,7 +26,7 @@
 }
 
 .env-page h1, .env-page h2, .env-page h3, .env-page h4 {
-  font-family:'Manrope', sans-serif;
+  font-family:'Inter', sans-serif;
   color:var(--forest);
   letter-spacing:-0.02em;
   line-height:1.1;
@@ -58,7 +58,7 @@
   display:inline-flex;
   align-items:center;
   gap:8px;
-  font-family:'IBM Plex Mono', monospace;
+  font-family:'Inter', sans-serif;
   font-size:12.5px;
   font-weight:600;
   letter-spacing:.14em;
@@ -75,8 +75,6 @@
 }
 .env-page .eyebrow.on-dark { color:#8CE0B4; }
 .env-page .eyebrow.on-dark::before { background:#8CE0B4; }
-.env-page .eyebrow.blue { color:var(--blue); }
-.env-page .eyebrow.blue::before { background:var(--blue); }
 
 .env-page .btn {
   display:inline-flex;
@@ -144,7 +142,6 @@
 }
 .env-page .hero-media {
   position:absolute; inset:0;
-  background:url('/Gosirat-1.png') center/cover no-repeat;
 }
 .env-page .hero-media::after {
   content:"";
@@ -215,7 +212,6 @@
   color:var(--green);
   flex-shrink:0;
 }
-.env-page .icon-badge.blue { background:var(--blue-light); color:var(--blue); }
 .env-page .icon-badge svg { width:22px; height:22px; }
 .env-page .feature-mini h4 { font-size:15px; color:var(--forest); }
 .env-page .feature-mini p { font-size:13.5px; color:var(--ink-soft); line-height:1.55; }
@@ -244,7 +240,7 @@
   border-radius:var(--radius-sm);
 }
 .env-page .why-media-caption .stat-num {
-  font-family:'Manrope', sans-serif; font-weight:800; font-size:26px; color:#fff; line-height:1;
+  font-family:'Inter', sans-serif; font-weight:800; font-size:26px; color:#fff; line-height:1;
 }
 .env-page .why-media-caption .stat-label { font-size:12.5px; color:rgba(255,255,255,.8); margin-top:4px; }
 
@@ -316,7 +312,7 @@
 .env-page .stat-card:hover { transform:translateY(-5px); box-shadow:var(--shadow-card); border-color:transparent; }
 .env-page .stat-card .icon-badge { margin:0 auto 18px; }
 .env-page .stat-num {
-  font-family:'Manrope', sans-serif; font-weight:800;
+  font-family:'Inter', sans-serif; font-weight:800;
   font-size:clamp(26px,2.4vw,32px);
   color:var(--forest);
   line-height:1;
@@ -369,7 +365,6 @@
 }
 .env-page .cta-media {
   position:absolute; inset:0;
-  background:url('/Gosirat-4.png') center/cover no-repeat;
 }
 .env-page .cta-media::after {
   content:"";

@@ -25,14 +25,14 @@ const Header: NextPage = () => {
                         height={51}
                         sizes="100vw"
                         alt="Logo"
-                        src="/logo.png"
+                        src="/images/logo.png"
                     />
                 </Link>
 
                 {/* Desktop Navigation */}
                 <nav className="m-0 flex-1 flex items-center justify-center gap-[35.8px] max-w-full text-left text-base text-gray-700 font-[Inter] mq750:hidden">
                     <div className="group relative flex items-center justify-center py-1 px-0 box-border no-underline text-inherit cursor-pointer transform transition-all duration-300">
-                        <Link href="/about-us" className={`relative leading-5 font-medium transition-colors duration-300 flex items-center gap-1 ${pathname.startsWith('/about-us') || pathname === '/safety' || pathname === '/environment' ? 'text-[#176938]' : 'group-hover:text-[#176938]'}`}>
+                        <Link href="/about-us" className={`relative leading-5 font-medium transition-colors duration-300 flex items-center gap-1 ${pathname.startsWith('/about-us') || pathname === '/safety' || pathname === '/green-initiative' ? 'text-[#176938]' : 'group-hover:text-[#176938]'}`}>
                             About Us
                             <svg className="w-4 h-4 transition-transform duration-300 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
@@ -47,8 +47,8 @@ const Header: NextPage = () => {
                             <Link href="/safety" className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${pathname === '/safety' ? 'text-[#176938] bg-[#F1F4F1]' : 'text-gray-700 hover:bg-[#F1F4F1] hover:text-[#176938]'}`}>
                                 Safety
                             </Link>
-                            <Link href="/environment" className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${pathname === '/environment' ? 'text-[#176938] bg-[#F1F4F1]' : 'text-gray-700 hover:bg-[#F1F4F1] hover:text-[#176938]'}`}>
-                                Environment
+                            <Link href="/green-initiative" className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${pathname === '/green-initiative' ? 'text-[#176938] bg-[#F1F4F1]' : 'text-gray-700 hover:bg-[#F1F4F1] hover:text-[#176938]'}`}>
+                                Green Initiative
                             </Link>
                         </div>
                     </div>
@@ -132,8 +132,8 @@ const Header: NextPage = () => {
                                 <Link onClick={() => setIsOpen(false)} href="/safety" className={`text-base no-underline font-medium hover:text-[#176938] transition-colors ${pathname === '/safety' ? 'text-[#176938]' : 'text-gray-600'}`}>
                                     Safety
                                 </Link>
-                                <Link onClick={() => setIsOpen(false)} href="/environment" className={`text-base no-underline font-medium hover:text-[#176938] transition-colors ${pathname === '/environment' ? 'text-[#176938]' : 'text-gray-600'}`}>
-                                    Environment
+                                <Link onClick={() => setIsOpen(false)} href="/green-initiative" className={`text-base no-underline font-medium hover:text-[#176938] transition-colors ${pathname === '/green-initiative' ? 'text-[#176938]' : 'text-gray-600'}`}>
+                                    Green Initiative
                                 </Link>
                             </div>
                         </div>

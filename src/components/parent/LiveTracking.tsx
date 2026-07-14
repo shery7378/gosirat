@@ -11,7 +11,7 @@ export const LiveTracking = () => {
                         height={371.9}
                         sizes="100vw"
                         alt="Parent tracking school bus with GoSirat app"
-                        src="/parent-live-bus-tracking.png"
+                        src="/images/parent-live-bus-tracking.png"
                         data-aos="zoom-in" data-aos-delay="100" />
                     <div className="w-[312.4px] h-[330.9px] absolute !m-0 top-[334.3px] left-[337px] max-h-full z-[1] overflow-hidden flex items-center justify-center shrink-0">
                         <Image
@@ -21,7 +21,7 @@ export const LiveTracking = () => {
                             height={330.9}
                             sizes="100vw"
                             alt="Live map marker indicating school bus location"
-                            src="/live-tracking-map-marker.png"
+                            src="/images/live-tracking-map-marker.png"
                             data-aos="fade-out" data-aos-delay="200" />
                     </div>
                     <Image
@@ -30,7 +30,7 @@ export const LiveTracking = () => {
                         height={232.4}
                         sizes="100vw"
                         alt="Optimized school transport route path on map"
-                        src="/live-tracking-route-path.png"
+                        src="/images/live-tracking-route-path.png"
                         data-aos="zoom-in" data-aos-delay="300" />
                 </div>
                 <section className="flex flex-col items-start py-5 px-0 box-border min-w-[433px] max-w-[800px] w-full text-left text-xs text-[#176938] font-[Inter] mq750:min-w-full mq450:min-w-full">

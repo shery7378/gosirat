@@ -24,7 +24,7 @@ export const DriverTraining = () => {
                     <div className="relative w-full max-w-[340px] h-auto shrink-0 -mb-[120px]">
                         <Image
                             className="w-full h-auto object-contain"
-                            src="/iphone-mockup.png"
+                            src="/images/iphone-mockup.png"
                             alt="Training Progress Tracker"
                             width={340}
                             height={700}

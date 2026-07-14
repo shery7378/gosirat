@@ -5,29 +5,54 @@ import { useState } from "react";
 
 const faqData = [
  {
-  question: "How does live tracking work?",
+  question: "How does live GPS tracking work?",
   answer:
-   "Every GoSirat vehicle streams its location continuously while a route is active. You see the bus on the map, the ETA, and milestone alerts at pickup, on route, arrival and release.",
+   "Every GoSirat vehicle is equipped with live GPS tracking. Parents can view the vehicle's real-time location, estimated arrival time (ETA), and receive instant notifications during pickup, the journey, arrival at school, and drop-off through the GoSirat Parent App.",
  },
  {
-  question: "How are drivers verified?",
+  question: "How are GoSirat drivers verified?",
   answer:
-   "Drivers go through application, training, certification, identity verification and continuous re-screening. Documents and certifications are revalidated on a schedule.",
+   "Every GoSirat driver completes identity verification, background checks, and safety screening before joining the platform. Drivers also receive child safety and defensive driving training to provide safe and reliable school transportation services.",
  },
  {
-  question: "How does child verification work?",
+  question: "How does QR child verification work?",
   answer:
-   "Each pickup and handover uses a QR code unique to the child. The driver scans it; the parent and school receive confirmation in real time.",
+   "GoSirat uses a secure QR verification system to confirm each student's identity during pickup and drop-off. This ensures children are safely handed over to authorized guardians and helps prevent unauthorized pickups.",
  },
  {
   question: "What happens if my child is absent?",
   answer:
-   "Report the absence inside the parent app before the route starts. The driver is notified automatically and the day is recorded in attendance.",
+   "Parents can report planned absences directly through the GoSirat Parent App. Drivers receive real-time updates, allowing routes to be adjusted efficiently while keeping schools informed.",
  },
  {
-  question: "How do transportation packages work?",
+  question: "What happens during an emergency?",
   answer:
-   "Choose a package that matches your school days and routine. Manage renewals, invoices and any changes directly from the app.",
+   "Parents receive immediate notifications while our operations team coordinates with drivers and schools to manage the situation safely.",
+ },
+ {
+  question: "Are vehicles inspected regularly?",
+  answer:
+   "Yes. Every vehicle follows scheduled maintenance and safety inspections before serving students.",
+ },
+ {
+  question: "How do GoSirat transportation packages work?",
+  answer:
+   "GoSirat offers flexible transportation packages designed for families and schools. Parents can manage subscriptions, view invoices, renew plans, and make payments through the Parent App.",
+ },
+ {
+  question: "Which cities does GoSirat currently serve?",
+  answer:
+   "GoSirat is initially launching in Islamabad and Rawalpindi, with plans to expand across Pakistan, Saudi Arabia, and other international markets.",
+ },
+ {
+  question: "What safety features does GoSirat provide?",
+  answer:
+   "GoSirat combines verified drivers, live GPS tracking, QR verification, secure child handover, attendance monitoring, and real-time notifications to provide a safe and reliable school transportation experience.",
+ },
+ {
+  question: "How can I contact GoSirat?",
+  answer:
+   "You can contact our support team through the Contact page, email, or phone for assistance with registrations, transportation services, or technical support.",
  },
 ];
 
@@ -45,12 +70,15 @@ const FAQ: NextPage = () => {
      <div className="flex items-center rounded-full bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] py-[5px] px-3.5 gap-1.5" data-aos="zoom-in" data-aos-delay="100">
       <div className="h-1.5 w-1.5 relative rounded-full bg-[#176938]" />
       <div className="relative tracking-[1.68px] leading-4 uppercase font-medium">
-       FAQ
+       Frequently Asked Questions
       </div>
      </div>
      <h2 className="m-0 relative text-6xl tracking-[-1.5px] leading-[75px] capitalize font-semibold font-[inherit] text-[#0c140f] mq750:text-5xl mq750:leading-[60px] mq450:text-4xl mq450:leading-[45px]">
-      Questions, answered.
+      Frequently Asked Questions About GoSirat
      </h2>
+     <div className="relative text-lg leading-7 text-[#57605b] max-w-[800px] mt-2 font-normal tracking-[0px]">
+      Find answers to common questions about GoSirat's school transportation services, including live GPS tracking, verified drivers, QR verification, student safety, attendance, and transportation packages. We're here to help parents, schools, and drivers make every school journey safe and stress-free.
+     </div>
     </section>
     
     <div className="w-full max-w-5xl flex flex-col items-start pt-14 mq450:pt-8 box-border">

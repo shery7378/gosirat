@@ -51,7 +51,7 @@ export const SchoolsVisibility: NextPage = () => {
           height={448}
           sizes="100vw"
           alt="School administration dashboard showing transport analytics"
-          src="/school-dashboard-visibility-analytics.png"
+          src="/images/school-dashboard-visibility-analytics.png"
         data-aos="fade-out" data-aos-delay="100" />
       </div>
       <section className="self-stretch flex items-center justify-start flex-wrap content-center gap-4 text-left text-lg text-[#09131a] font-[Inter] mq1400:justify-center">

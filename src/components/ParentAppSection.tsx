@@ -16,17 +16,15 @@ const ParentAppSection: NextPage = () => {
           </div>
           <div className="self-stretch flex flex-col items-start pt-6 px-0 pb-0 text-6xl text-[#0c140f]">
             <h2 className="m-0 self-stretch relative text-[length:inherit] tracking-[-1.5px] leading-[63px] capitalize font-semibold font-[inherit] mq750:text-5xl mq750:leading-[50px] mq450:text-4xl mq450:leading-[38px]">
-              <span className="leading-[63px]">{`The calmest part of your `}</span>
+              <span className="leading-[63px]">{`Parent App for `}</span>
               <span className="text-[#176938] leading-[63px]">
-                school morning.
+                Safe School Transportation
               </span>
             </h2>
           </div>
           <div className="self-stretch flex flex-col items-start pt-5 px-0 pb-0 text-lg text-[#57605b]">
             <div className="self-stretch relative leading-7">
-              GoSirat for parents gives you a single, focused view of every
-              child, every route and every ride — with the right notification
-              at the right moment. Parents enjoy complete visibility while monitoring school transportation.
+              The GoSirat Parent App gives parents complete control and visibility over their child's school transportation. Track every school pick-up and drop-off with live GPS tracking, receive real-time notifications, monitor attendance, and stay connected throughout every journey. Designed for modern families, our smart school transportation app provides safety, convenience, and peace of mind every day.
             </div>
           </div>
           <div className="self-stretch flex flex-col items-start pt-8 px-0 pb-0">
@@ -47,8 +45,9 @@ const ParentAppSection: NextPage = () => {
             width={458}
             height={448}
             sizes="100vw"
-            alt="Parent app features including live tracking and safe handover"
-            src="/parent-app-features-overview.png"
+            alt="GoSirat Parent App showing live GPS tracking, school pick and drop updates, attendance monitoring, and real-time notifications."
+            title="GoSirat Parent App for School Transportation"
+            src="/images/gosirat-parent-app-school-transportation.webp"
             data-aos="fade-out" data-aos-delay="100" />
         </div>
       </div>
@@ -69,7 +68,7 @@ const ParentAppSection: NextPage = () => {
             </div>
             <div className="w-full flex flex-col items-start pt-3 px-0 pb-0 box-border text-[15px] text-[#57605b]">
               <div className="w-full relative leading-[24.4px] inline-block break-words whitespace-normal">
-                Every child, school, route and guardian in one calm dashboard.
+                Manage every child's profile, school, assigned route, guardians, and transportation details from one simple dashboard.
               </div>
             </div>
           </div>
@@ -82,13 +81,13 @@ const ParentAppSection: NextPage = () => {
               </svg>
               <div className="flex-1 flex items-start pt-0 pb-[0.3px] px-0 box-border">
                 <div className="w-full relative tracking-[-0.45px] leading-7 font-semibold text-[#09131A] inline-block break-words whitespace-normal">
-                  Live Vehicle Tracking
+                  Live GPS Vehicle Tracking
                 </div>
               </div>
             </div>
             <div className="w-full flex flex-col items-start pt-3 px-0 pb-0 box-border text-[15px] text-[#57605b]">
               <div className="w-full relative leading-[24.4px] inline-block break-words whitespace-normal">
-                See the bus move in real time, with precise ETA to home or school.
+                Track your child's school vehicle in real time with accurate GPS location, estimated arrival time (ETA), and route updates.
               </div>
             </div>
           </div>
@@ -101,13 +100,13 @@ const ParentAppSection: NextPage = () => {
               </svg>
               <div className="flex-1 flex items-start pt-0 pb-[0.3px] px-0 box-border">
                 <div className="w-full relative tracking-[-0.45px] leading-7 font-semibold text-[#09131A] inline-block break-words whitespace-normal">
-                  Ride Notifications
+                  Real-Time Ride Notifications
                 </div>
               </div>
             </div>
             <div className="w-full flex flex-col items-start pt-3 px-0 pb-0 box-border text-[15px] text-[#57605b]">
               <div className="w-full relative leading-[24.4px] inline-block break-words whitespace-normal">
-                Pickup, en route, arrived, released — the alerts that actually matter.
+                Receive instant alerts for pickup, journey progress, school arrival, and secure student release to stay informed throughout every trip.
               </div>
             </div>
           </div>
@@ -126,7 +125,7 @@ const ParentAppSection: NextPage = () => {
             </div>
             <div className="w-full flex flex-col items-start pt-3 px-0 pb-0 box-border text-[15px] text-[#57605b]">
               <div className="w-full relative leading-[24.4px] inline-block break-words whitespace-normal">
-                Daily attendance for each child with timestamped confirmations.
+                View daily attendance records with accurate timestamps for every pickup and drop-off, giving parents complete confidence.
               </div>
             </div>
           </div>
@@ -145,7 +144,7 @@ const ParentAppSection: NextPage = () => {
             </div>
             <div className="w-full flex flex-col items-start pt-3 px-0 pb-0 box-border text-[15px] text-[#57605b]">
               <div className="w-full relative leading-[24.4px] inline-block break-words whitespace-normal">
-                Manage packages, renewals and receipts without paperwork.
+                Easily manage transportation plans, renew subscriptions, download invoices, and make payments digitally without paperwork.
               </div>
             </div>
           </div>
@@ -164,7 +163,7 @@ const ParentAppSection: NextPage = () => {
             </div>
             <div className="w-full flex flex-col items-start pt-3 px-0 pb-0 box-border text-[15px] text-[#57605b]">
               <div className="w-full relative leading-[24.4px] inline-block break-words whitespace-normal">
-                Report absences ahead of time. Refer other parents, earn rewards.
+                Report planned absences in advance and invite other families to GoSirat through our referral program to earn rewards.
               </div>
             </div>
           </div>

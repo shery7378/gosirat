@@ -1,8 +1,8 @@
 import type { NextPage, Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Safe School Transport Services |GoSirat Islamabad & Rawalpindi",
-  description: "Join GoSirat's school safety events covering traffic awareness, first aid, road safety, and eco-friendly transport for families in Rawalpindi and Islamabad.",
+  title: "Safe School Transportation Services | GoSirat",
+  description: "GoSirat provides safe school transportation and school pick & drop services with verified drivers, live GPS tracking, QR verification, and secure student transportation for modern families.",
   alternates: {
     canonical: "https://gosirat.com/",
   },
@@ -23,8 +23,8 @@ const Homepage: NextPage = () => {
  return (
   <div className="w-full relative bg-[#f4f7f4] flex flex-col items-center pt-6 px-0 pb-0 box-border leading-[normal] tracking-[normal]">
    <WebPageSchema 
-      title="Safe School Transport Services |GoSirat Islamabad & Rawalpindi" 
-      description="Join GoSirat's school safety events covering traffic awareness, first aid, road safety, and eco-friendly transport for families in Rawalpindi and Islamabad." 
+      title="Safe School Transportation Services | GoSirat" 
+      description="GoSirat provides safe school transportation and school pick & drop services with verified drivers, live GPS tracking, QR verification, and secure student transportation for modern families." 
       url="https://gosirat.com/" 
     />
     <BreadcrumbSchema items={[{ name: "Home", url: "https://gosirat.com/" }]} />

@@ -19,16 +19,14 @@ const Hero: NextPage = () => {
               <div className="w-full max-w-[795px] flex flex-col pt-7 px-0 pb-0 box-border text-left text-6xl text-[#0c140f] mq1125:text-center mq1125:items-center">
                 <div className="self-stretch flex flex-col items-center">
                   <h1 className="m-0 self-stretch relative text-[length:inherit] leading-[70px] capitalize font-semibold font-[inherit] mq750:text-5xl mq750:leading-[55px] mq450:text-[34px] mq450:leading-[44px]">
-                    Safe school transportation
+                    Safe & Smart School Transportation
                   </h1>
                   <h1 className="m-0 self-stretch relative text-[length:inherit] leading-[70px] capitalize font-semibold font-[inherit] text-[#176938] mq750:text-5xl mq750:leading-[55px] mq450:text-[34px] mq450:leading-[44px]">
                     for modern families.
                   </h1>
                 </div>
                 <h3 className="m-0 self-stretch relative text-lg leading-[28px] font-normal font-[inherit] text-[#57605b] mq450:text-base mq450:leading-[26px] mt-4">
-                  Verified drivers, live tracking, secure handover and
-                  real-time updates — every school ride engineered around your
-                  child's safety. GoSirat helps parents monitor school transportation through live tracking. Our school transport system uses verified drivers and QR verification. Schools benefit from better transportation management while parents enjoy complete visibility.
+                  GoSirat provides safe school transportation and school pick and drop services designed for modern families in Islamabad and Rawalpindi. Our smart transportation platform features verified drivers, live GPS tracking, secure QR verification, real-time notifications, and safe handover to ensure every child's journey is secure. Parents enjoy complete visibility through our Parent App, while schools benefit from efficient transportation management and optimized school transport operations.
                 </h3>
               </div>
             </div>
@@ -98,7 +96,7 @@ const Hero: NextPage = () => {
             height={505}
             sizes="100vw"
             alt="GoSirat safe school transport platform overview"
-            src="/gosirat-home-hero-illustration.png"
+            src="/images/gosirat-home-hero-illustration.png"
           data-aos="fade-in" data-aos-delay="200" />
           <Image
             className="w-[385px] absolute top-[170px] left-[88px] max-h-full object-contain z-[1] shrink-0 mq1125:w-[240px] mq1125:left-[55px] mq1125:top-[106px]"
@@ -106,8 +104,8 @@ const Hero: NextPage = () => {
             width={385}
             height={385}
             sizes="100vw"
-            alt="Safe school transport services in Islamabad and Rawalpindi"
-            src="/gosirat-safe-school-transport.png"
+            alt="GoSirat safe school transportation vehicle with verified drivers providing secure school pick and drop services for students."
+            src="/images/gosirat-safe-school-transportation.webp"
           data-aos="fade-out" data-aos-delay="300" />
         </div>
       </div>

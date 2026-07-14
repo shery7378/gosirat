@@ -36,7 +36,7 @@ export const AboutTeam = () => {
       height={280}
       sizes="100vw"
       alt="GoSirat team members and founders"
-      src="/gosirat-team-members.png"
+      src="/images/gosirat-team-members.png"
      data-aos="fade-out" data-aos-delay="100" />
      <div className="self-stretch flex flex-col items-center gap-6 shrink-0 px-6 pb-6">
       <div className="w-full max-w-[778px] relative leading-[120%] hidden shrink-0">{`My boys, Tucker and Noah, were training hard and competing year-round. But

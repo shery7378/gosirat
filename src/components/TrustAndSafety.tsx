@@ -10,14 +10,13 @@ const TrustAndSafety: NextPage = () => {
       <div className="relative tracking-[1.68px] leading-4 uppercase font-medium">{`Trust & safety`}</div>
      </div>
      <h2 className="m-0 relative text-6xl tracking-[-1.5px] leading-[75px] capitalize font-semibold font-[inherit] text-[#0c140f] mq750:text-5xl mq750:leading-[60px] mq450:text-4xl mq450:leading-[45px]">
-      <span className="leading-[75px]">{`Designed around `}</span>
+      <span className="leading-[75px]">{`Safe School Transportation Built Around `}</span>
       <span className="text-[#176938] leading-[75px]">
-       child safety.
+       Child Safety
       </span>
      </h2>
      <div className="relative text-lg leading-7 text-[#57605b] mt-2">
-      Safety is not a feature in GoSirat — it's the architecture. Every
-      interaction is verified, recorded and visible to you.
+      At GoSirat, child safety is the foundation of everything we do. Our safe school transportation services combine verified drivers, professional training, live GPS tracking, QR verification, and real-time parent notifications to ensure every school journey is secure. From pickup to drop-off, every interaction is verified, recorded, and visible, giving parents and schools complete peace of mind.
      </div>
     </div>
    </section>
@@ -38,8 +37,7 @@ const TrustAndSafety: NextPage = () => {
        </div>
        <div className="flex flex-col items-start text-[15px] text-[#57605b] mt-auto">
         <div className="leading-[24.4px] inline-block break-words whitespace-normal">
-         Every driver passes background checks, identity verification
-         and continuous re-screening.
+         Every GoSirat driver completes background checks, identity verification, and regular re-screening to ensure the highest standards of safe school transportation.
         </div>
        </div>
       </div>
@@ -58,8 +56,7 @@ const TrustAndSafety: NextPage = () => {
        </div>
        <div className="flex flex-col items-start text-[15px] text-[#57605b] mt-auto">
         <div className="leading-[24.4px] inline-block break-words whitespace-normal">
-         Required child-safety and defensive-driving courses before
-         they ever start a route.
+         Drivers receive professional child safety, defensive driving, and emergency response training before providing school pick-and-drop services.
         </div>
        </div>
       </div>
@@ -78,8 +75,7 @@ const TrustAndSafety: NextPage = () => {
        </div>
        <div className="flex flex-col items-start text-[15px] text-[#57605b] mt-auto">
         <div className="leading-[24.4px] inline-block break-words whitespace-normal">
-         QR-based handover at pickup and at school confirms the right
-         child, every time.
+         QR-based verification confirms every student's identity during pickup and drop-off, ensuring children are always handed over safely to authorized guardians.
         </div>
        </div>
       </div>
@@ -93,13 +89,12 @@ const TrustAndSafety: NextPage = () => {
        </div>
        <div className="flex flex-col items-start text-2xl text-[#0c140f]">
         <h3 className="m-0 text-[length:inherit] tracking-[-0.6px] leading-[30px] font-semibold font-[inherit] mq450:text-[19px] mq450:leading-6 break-words whitespace-normal">
-         Real-Time Tracking
+         Live GPS Tracking
         </h3>
        </div>
        <div className="flex flex-col items-start text-[15px] text-[#57605b] mt-auto">
         <div className="leading-[24.4px] inline-block break-words whitespace-normal">
-         Always-on GPS lets you see the bus on the map from the
-         moment the route begins.
+         Parents can monitor every school journey with live GPS tracking, real-time location updates, and accurate arrival notifications through the GoSirat Parent App.
         </div>
        </div>
       </div>
@@ -113,13 +108,12 @@ const TrustAndSafety: NextPage = () => {
        </div>
        <div className="flex flex-col items-start text-2xl text-[#0c140f]">
         <h3 className="m-0 text-[length:inherit] tracking-[-0.6px] leading-[30px] font-semibold font-[inherit] mq450:text-[19px] mq450:leading-6 break-words whitespace-normal">
-         Parent Notifications
+         Real-Time Parent Notifications
         </h3>
        </div>
        <div className="flex flex-col items-start text-[15px] text-[#57605b] mt-auto">
         <div className="leading-[24.4px] inline-block break-words whitespace-normal">
-         Pickup, on-route, arrival and release — the right alert at
-         the right moment.
+         Receive instant notifications when your child is picked up, en route, arrives at school, or is safely released, keeping you informed throughout every journey.
         </div>
        </div>
       </div>
@@ -133,13 +127,12 @@ const TrustAndSafety: NextPage = () => {
        </div>
        <div className="flex flex-col items-start text-2xl text-[#0c140f]">
         <h3 className="m-0 text-[length:inherit] tracking-[-0.6px] leading-[30px] font-semibold font-[inherit] mq450:text-[19px] mq450:leading-6 break-words whitespace-normal">
-         School-Side Release
+         Secure School Release
         </h3>
        </div>
        <div className="flex flex-col items-start text-[15px] text-[#57605b] mt-auto">
         <div className="leading-[24.4px] inline-block break-words whitespace-normal">
-         Children are released only to verified guardians, recorded
-         inside the app.
+         Students are released only to verified guardians using secure digital verification, ensuring every school pickup and drop-off is safe and properly recorded.
         </div>
        </div>
       </div>

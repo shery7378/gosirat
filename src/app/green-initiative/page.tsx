@@ -55,7 +55,15 @@ export default function EnvironmentPage() {
         <div className="env-page">
             {/* ============ SECTION 1: HERO ============ */}
             <section className="hero">
-                <div className="hero-media"></div>
+                <div className="hero-media">
+                    <img
+                        src="/images/gosirat-green-school-transportation.webp"
+                        alt="GoSirat eco-friendly school transportation creating a greener future with sustainable journeys"
+                        width="1920"
+                        height="800"
+                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                    />
+                </div>
                 <div className="hero-content">
                     <span className="eyebrow on-dark">GoSirat Green Initiative</span>
                     <h1>Moving Every Child Toward a Cleaner Tomorrow</h1>
@@ -89,7 +97,7 @@ export default function EnvironmentPage() {
                                     <p>Fewer vehicles on the road means measurably cleaner air around every school.</p>
                                 </div>
                                 <div className="feature-mini">
-                                    <div className="icon-badge blue">
+                                    <div className="icon-badge">
                                         <svg viewBox="0 0 24 24" fill="none"><circle cx="6" cy="18" r="2.4" stroke="currentColor" strokeWidth="1.8" /><circle cx="18" cy="18" r="2.4" stroke="currentColor" strokeWidth="1.8" /><path d="M8 18h8M6 15.6V8a2 2 0 0 1 2-2h5l4 4v5.6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg>
                                     </div>
                                     <h4>Less Congestion</h4>
@@ -103,7 +111,7 @@ export default function EnvironmentPage() {
                                     <p>Trained drivers and monitored vehicles keep every ride secure and tracked.</p>
                                 </div>
                                 <div className="feature-mini">
-                                    <div className="icon-badge blue">
+                                    <div className="icon-badge">
                                         <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" strokeWidth="1.8" /><path d="M12 7.5v5l3.2 1.8" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg>
                                     </div>
                                     <h4>Smarter Routing</h4>
@@ -113,7 +121,14 @@ export default function EnvironmentPage() {
                         </div>
 
                         <div className="why-media reveal reveal-delay-2">
-                            <img src="/Gosirat-2.jpeg" alt="Shared green transportation versus heavy traffic" />
+                            <img
+                                src="/images/gosirat-green-transportation-reduces-traffic.webp"
+                                alt="GoSirat shared school transportation reducing traffic congestion and carbon emissions"
+                                loading="lazy"
+                                width="900"
+                                height="650"
+                                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                            />
                         </div>
                     </div>
                 </div>
@@ -137,7 +152,7 @@ export default function EnvironmentPage() {
                             <p>Our smart routes and shared trips use less fuel and lower carbon emissions on every school run, mile after mile.</p>
                         </div>
                         <div className="impact-card reveal reveal-delay-1">
-                            <div className="icon-badge blue">
+                            <div className="icon-badge">
                                 <svg viewBox="0 0 24 24" fill="none"><path d="M4 14l1.5-5A2 2 0 0 1 7.4 7.5h9.2A2 2 0 0 1 18.5 9L20 14" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /><rect x="3" y="14" width="18" height="4.5" rx="1.6" stroke="currentColor" strokeWidth="1.8" /><circle cx="7.5" cy="18.7" r="1.4" stroke="currentColor" strokeWidth="1.8" /><circle cx="16.5" cy="18.7" r="1.4" stroke="currentColor" strokeWidth="1.8" /></svg>
                             </div>
                             <h3>Fuel-Efficient Fleet</h3>
@@ -151,7 +166,7 @@ export default function EnvironmentPage() {
                             <p>Our smart system constantly updates routes to cut out extra miles and wasted time, making every trip as fast and efficient as possible.</p>
                         </div>
                         <div className="impact-card reveal reveal-delay-3">
-                            <div className="icon-badge blue">
+                            <div className="icon-badge">
                                 <svg viewBox="0 0 24 24" fill="none"><circle cx="8" cy="9" r="2.6" stroke="currentColor" strokeWidth="1.8" /><circle cx="17" cy="9" r="2.2" stroke="currentColor" strokeWidth="1.8" /><path d="M3.5 19c.7-3 2.4-4.6 4.5-4.6s3.8 1.6 4.5 4.6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /><path d="M13.8 14.6c1.9.2 3.3 1.8 3.9 4.4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg>
                             </div>
                             <h3>Community-Wide Reduction</h3>
@@ -217,7 +232,7 @@ export default function EnvironmentPage() {
                         </div>
                         <div className="stat-card reveal reveal-delay-1">
                             <span className="route-dot"></span>
-                            <div className="icon-badge blue"><svg viewBox="0 0 24 24" fill="none"><circle cx="6" cy="6" r="2.2" stroke="currentColor" strokeWidth="1.8" /><circle cx="18" cy="18" r="2.2" stroke="currentColor" strokeWidth="1.8" /><path d="M6 8.2V13a3 3 0 0 0 3 3h6.8" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg></div>
+                            <div className="icon-badge"><svg viewBox="0 0 24 24" fill="none"><circle cx="6" cy="6" r="2.2" stroke="currentColor" strokeWidth="1.8" /><circle cx="18" cy="18" r="2.2" stroke="currentColor" strokeWidth="1.8" /><path d="M6 8.2V13a3 3 0 0 0 3 3h6.8" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg></div>
                             <div className="stat-num"><span data-count="3.1" data-decimal="1">0</span><span className="unit">M km</span></div>
                             <div className="stat-label">Optimized Route Distance</div>
                         </div>
@@ -229,7 +244,7 @@ export default function EnvironmentPage() {
                         </div>
                         <div className="stat-card reveal reveal-delay-3">
                             <span className="route-dot"></span>
-                            <div className="icon-badge blue"><svg viewBox="0 0 24 24" fill="none"><circle cx="8" cy="9" r="2.6" stroke="currentColor" strokeWidth="1.8" /><circle cx="17" cy="9" r="2.2" stroke="currentColor" strokeWidth="1.8" /><path d="M3.5 19c.7-3 2.4-4.6 4.5-4.6s3.8 1.6 4.5 4.6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /><path d="M13.8 14.6c1.9.2 3.3 1.8 3.9 4.4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg></div>
+                            <div className="icon-badge"><svg viewBox="0 0 24 24" fill="none"><circle cx="8" cy="9" r="2.6" stroke="currentColor" strokeWidth="1.8" /><circle cx="17" cy="9" r="2.2" stroke="currentColor" strokeWidth="1.8" /><path d="M3.5 19c.7-3 2.4-4.6 4.5-4.6s3.8 1.6 4.5 4.6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /><path d="M13.8 14.6c1.9.2 3.3 1.8 3.9 4.4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg></div>
                             <div className="stat-num"><span data-count="26500">0</span><span className="unit">+</span></div>
                             <div className="stat-label">Students Served Daily</div>
                         </div>
@@ -249,7 +264,7 @@ export default function EnvironmentPage() {
                     <div className="global-grid">
                         <div className="global-text reveal">
                             <div className="section-head">
-                                <span className="eyebrow blue">Looking Ahead</span>
+                                <span className="eyebrow">Looking Ahead</span>
                                 <h2>A Green Standard, Built for the World</h2>
                                 <p>What starts as smarter school routes in one city becomes a blueprint for sustainable transportation everywhere GoSirat operates.</p>
                             </div>
@@ -262,7 +277,12 @@ export default function EnvironmentPage() {
                         </div>
 
                         <div className="global-illustration reveal reveal-delay-2">
-                            <img src="/Gosirat-3.png" alt="" />
+                            <img
+                                src="/images/sustainable-school-transport-vehicle.jpg.webp"
+                                alt="GoSirat green electric school transport bus on a city route."
+                                loading="lazy"
+                                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                            />
                         </div>
                     </div>
                 </div>
@@ -270,7 +290,16 @@ export default function EnvironmentPage() {
 
             {/* ============ SECTION 7: CTA ============ */}
             <section className="cta" id="cta">
-                <div className="cta-media"></div>
+                <div className="cta-media">
+                    <img
+                        src="/images/gosirat-greener-school-future.webp"
+                        alt="Students enjoying a greener and sustainable school transportation journey with GoSirat"
+                        loading="lazy"
+                        width="1600"
+                        height="700"
+                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                    />
+                </div>
                 <div className="cta-content">
                     <span className="eyebrow on-dark">Get Involved</span>
                     <h2>Join the Movement Toward Greener School Journeys</h2>

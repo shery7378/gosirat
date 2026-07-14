@@ -56,7 +56,7 @@ export const SchoolsHero: NextPage = () => {
          height={16}
          sizes="100vw"
          alt=""
-         src="/Icon.svg"
+         src="/images/Icon.svg"
         data-aos="fade-in" data-aos-delay="100" />
         <div className="relative leading-5 font-medium">
          Verified Drivers
@@ -69,7 +69,7 @@ export const SchoolsHero: NextPage = () => {
          height={16}
          sizes="100vw"
          alt=""
-         src="/Icon.svg"
+         src="/images/Icon.svg"
         data-aos="zoom-in" data-aos-delay="200" />
         <div className="relative leading-5 font-medium">
          Live Tracking
@@ -82,7 +82,7 @@ export const SchoolsHero: NextPage = () => {
          height={16}
          sizes="100vw"
          alt=""
-         src="/Icon.svg"
+         src="/images/Icon.svg"
         data-aos="fade-out" data-aos-delay="300" />
         <div className="relative leading-5 font-medium">
          Secure Handover
@@ -95,7 +95,7 @@ export const SchoolsHero: NextPage = () => {
          height={16}
          sizes="100vw"
          alt=""
-         src="/Icon.svg"
+         src="/images/Icon.svg"
         data-aos="fade-out" data-aos-delay="400" />
         <div className="relative leading-5 font-medium">
          Eco-Friendly

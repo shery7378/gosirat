@@ -89,7 +89,7 @@ export const InstantNotifications = () => {
             height={979}
             sizes="100vw"
             alt="Parent receiving instant push notification for school bus arrival"
-            src="/parent-instant-notification-alerts.png"
+            src="/images/parent-instant-notification-alerts.png"
           data-aos="fade-out" data-aos-delay="100" />
 
           {/* Right Cards */}
@@ -157,7 +157,7 @@ export const InstantNotifications = () => {
             height={487}
             sizes="100vw"
             alt="Parent receiving instant push notification for school bus arrival"
-            src="/parent-instant-notification-alerts.png"
+            src="/images/parent-instant-notification-alerts.png"
           data-aos="fade-out" data-aos-delay="200" />
           <div className="flex flex-col gap-4 w-full max-w-[500px]">
             <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04)]" data-aos="fade-in" data-aos-delay="200">

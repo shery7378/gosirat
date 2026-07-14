@@ -23,7 +23,7 @@ export const DriverSafeHandover = () => {
     <div className="flex-1 min-w-[400px] flex justify-end mq450:min-w-full mq450:justify-center">
      <Image
       className="w-full max-w-[500px] h-auto object-contain"
-      src="/samsung-mockup.png"
+      src="/images/samsung-mockup.png"
       alt="QR Code Scanner on Phone"
       width={500}
       height={600}

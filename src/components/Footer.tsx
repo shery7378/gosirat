@@ -115,7 +115,7 @@ const Footer: NextPage = () => {
                             width={250}
                             height={78}
                             alt="GoSirat Logo"
-                            src="/logo.png"
+                            src="/images/logo.png"
                             unoptimized
                             data-aos="fade-out"
                             data-aos-delay="100"

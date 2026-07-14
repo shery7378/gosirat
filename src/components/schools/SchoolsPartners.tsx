@@ -34,7 +34,7 @@ export const SchoolsPartners: NextPage = () => {
       height={511}
       sizes="100vw"
       alt="Mockup"
-      src="/samsung-mockup.png"
+      src="/images/samsung-mockup.png"
      data-aos="fade-out" data-aos-delay="100" />
      <div className="ml-[-134.7px] h-[328.7px] w-[675.7px] relative shadow-[0px_2px_4px_rgba(16,_24,_16,_0.05),_0px_24px_60px_rgba(16,_24,_16,_0.1)] rounded-[28px] overflow-hidden shrink-0 z-[1] mq1125:hidden" data-aos="fade-out" data-aos-delay="200" />
     </div>
@@ -42,35 +42,35 @@ export const SchoolsPartners: NextPage = () => {
    <div className="w-full max-w-[1434px] flex flex-col items-center py-5 px-[60px] box-border gap-10 shrink-0 mq825:gap-5 mq825:pl-[30px] mq825:pr-[30px] mq825:box-border">
     {/* Row 1 */}
     <div className="self-stretch flex items-center justify-center py-5 px-0 gap-[100px] opacity-[0.8] mq825:gap-[30px] flex-wrap mq450:gap-[20px]">
-     <Image className="h-10 w-[202px] relative shrink-0" width={202} height={40} alt="Logo" src="/logilipusm.svg" data-aos="fade-in" data-aos-delay="200" />
-     <Image className="h-10 w-[166px] relative shrink-0" width={166} height={40} alt="School partner logo" src="/partner-logo-1.svg" data-aos="fade-in" data-aos-delay="300" />
-     <Image className="h-10 w-[164px] relative shrink-0" width={164} height={40} alt="Trusted transport partner logo" src="/partner-logo-2.svg" data-aos="fade-in" data-aos-delay="400" />
-     <Image className="h-10 w-[166px] relative shrink-0" width={166} height={40} alt="Educational institution partner logo" src="/partner-logo-3.svg" data-aos="zoom-in" data-aos-delay="500" />
-     <Image className="h-10 w-[220px] relative shrink-0" width={220} height={40} alt="Safety organization partner logo" src="/partner-logo-4.svg" data-aos="fade-in" data-aos-delay="100" />
+     <Image className="h-10 w-[202px] relative shrink-0" width={202} height={40} alt="Logo" src="/images/logilipusm.svg" data-aos="fade-in" data-aos-delay="200" />
+     <Image className="h-10 w-[166px] relative shrink-0" width={166} height={40} alt="School partner logo" src="/images/partner-logo-1.svg" data-aos="fade-in" data-aos-delay="300" />
+     <Image className="h-10 w-[164px] relative shrink-0" width={164} height={40} alt="Trusted transport partner logo" src="/images/partner-logo-2.svg" data-aos="fade-in" data-aos-delay="400" />
+     <Image className="h-10 w-[166px] relative shrink-0" width={166} height={40} alt="Educational institution partner logo" src="/images/partner-logo-3.svg" data-aos="zoom-in" data-aos-delay="500" />
+     <Image className="h-10 w-[220px] relative shrink-0" width={220} height={40} alt="Safety organization partner logo" src="/images/partner-logo-4.svg" data-aos="fade-in" data-aos-delay="100" />
     </div>
     {/* Row 2 */}
     <div className="self-stretch flex items-center justify-center py-5 px-0 gap-[100px] opacity-[0.8] mq825:gap-[30px] flex-wrap mq450:gap-[20px]">
-     <Image className="h-10 w-[166px] relative shrink-0" width={166} height={40} alt="School partner logo" src="/partner-logo-1.svg" data-aos="fade-in" data-aos-delay="200" />
-     <Image className="h-10 w-[166px] relative shrink-0" width={166} height={40} alt="Educational institution partner logo" src="/partner-logo-3.svg" data-aos="zoom-in" data-aos-delay="300" />
-     <Image className="h-10 w-[220px] relative shrink-0" width={220} height={40} alt="Safety organization partner logo" src="/partner-logo-4.svg" data-aos="fade-out" data-aos-delay="400" />
-     <Image className="h-10 w-[164px] relative shrink-0" width={164} height={40} alt="Trusted transport partner logo" src="/partner-logo-2.svg" data-aos="fade-in" data-aos-delay="500" />
-     <Image className="h-10 w-[202px] relative shrink-0" width={202} height={40} alt="Logo" src="/logilipusm.svg" data-aos="zoom-in" data-aos-delay="100" />
+     <Image className="h-10 w-[166px] relative shrink-0" width={166} height={40} alt="School partner logo" src="/images/partner-logo-1.svg" data-aos="fade-in" data-aos-delay="200" />
+     <Image className="h-10 w-[166px] relative shrink-0" width={166} height={40} alt="Educational institution partner logo" src="/images/partner-logo-3.svg" data-aos="zoom-in" data-aos-delay="300" />
+     <Image className="h-10 w-[220px] relative shrink-0" width={220} height={40} alt="Safety organization partner logo" src="/images/partner-logo-4.svg" data-aos="fade-out" data-aos-delay="400" />
+     <Image className="h-10 w-[164px] relative shrink-0" width={164} height={40} alt="Trusted transport partner logo" src="/images/partner-logo-2.svg" data-aos="fade-in" data-aos-delay="500" />
+     <Image className="h-10 w-[202px] relative shrink-0" width={202} height={40} alt="Logo" src="/images/logilipusm.svg" data-aos="zoom-in" data-aos-delay="100" />
     </div>
     {/* Row 3 */}
     <div className="self-stretch flex items-center justify-center py-5 px-0 gap-[100px] opacity-[0.8] mq825:gap-[30px] flex-wrap mq450:gap-[20px]">
-     <Image className="h-10 w-[164px] relative shrink-0" width={164} height={40} alt="Trusted transport partner logo" src="/partner-logo-2.svg" data-aos="fade-in" data-aos-delay="200" />
-     <Image className="h-10 w-[202px] relative shrink-0" width={202} height={40} alt="Logo" src="/logilipusm.svg" data-aos="fade-in" data-aos-delay="300" />
-     <Image className="h-10 w-[166px] relative shrink-0" width={166} height={40} alt="School partner logo" src="/partner-logo-1.svg" data-aos="zoom-in" data-aos-delay="400" />
-     <Image className="h-10 w-[220px] relative shrink-0" width={220} height={40} alt="Safety organization partner logo" src="/partner-logo-4.svg" data-aos="fade-out" data-aos-delay="500" />
-     <Image className="h-10 w-[166px] relative shrink-0" width={166} height={40} alt="Educational institution partner logo" src="/partner-logo-3.svg" data-aos="zoom-in" data-aos-delay="100" />
+     <Image className="h-10 w-[164px] relative shrink-0" width={164} height={40} alt="Trusted transport partner logo" src="/images/partner-logo-2.svg" data-aos="fade-in" data-aos-delay="200" />
+     <Image className="h-10 w-[202px] relative shrink-0" width={202} height={40} alt="Logo" src="/images/logilipusm.svg" data-aos="fade-in" data-aos-delay="300" />
+     <Image className="h-10 w-[166px] relative shrink-0" width={166} height={40} alt="School partner logo" src="/images/partner-logo-1.svg" data-aos="zoom-in" data-aos-delay="400" />
+     <Image className="h-10 w-[220px] relative shrink-0" width={220} height={40} alt="Safety organization partner logo" src="/images/partner-logo-4.svg" data-aos="fade-out" data-aos-delay="500" />
+     <Image className="h-10 w-[166px] relative shrink-0" width={166} height={40} alt="Educational institution partner logo" src="/images/partner-logo-3.svg" data-aos="zoom-in" data-aos-delay="100" />
     </div>
     {/* Row 4 */}
     <div className="self-stretch flex items-center justify-center py-5 px-0 gap-[100px] opacity-[0.8] mq825:gap-[30px] flex-wrap mq450:gap-[20px]">
-     <Image className="h-10 w-[202px] relative shrink-0" width={202} height={40} alt="Logo" src="/logilipusm.svg" data-aos="fade-in" data-aos-delay="200" />
-     <Image className="h-10 w-[220px] relative shrink-0" width={220} height={40} alt="Safety organization partner logo" src="/partner-logo-4.svg" data-aos="fade-out" data-aos-delay="300" />
-     <Image className="h-10 w-[164px] relative shrink-0" width={164} height={40} alt="Trusted transport partner logo" src="/partner-logo-2.svg" data-aos="zoom-in" data-aos-delay="400" />
-     <Image className="h-10 w-[166px] relative shrink-0" width={166} height={40} alt="Educational institution partner logo" src="/partner-logo-3.svg" data-aos="zoom-in" data-aos-delay="500" />
-     <Image className="h-10 w-[166px] relative shrink-0" width={166} height={40} alt="School partner logo" src="/partner-logo-1.svg" data-aos="fade-out" data-aos-delay="100" />
+     <Image className="h-10 w-[202px] relative shrink-0" width={202} height={40} alt="Logo" src="/images/logilipusm.svg" data-aos="fade-in" data-aos-delay="200" />
+     <Image className="h-10 w-[220px] relative shrink-0" width={220} height={40} alt="Safety organization partner logo" src="/images/partner-logo-4.svg" data-aos="fade-out" data-aos-delay="300" />
+     <Image className="h-10 w-[164px] relative shrink-0" width={164} height={40} alt="Trusted transport partner logo" src="/images/partner-logo-2.svg" data-aos="zoom-in" data-aos-delay="400" />
+     <Image className="h-10 w-[166px] relative shrink-0" width={166} height={40} alt="Educational institution partner logo" src="/images/partner-logo-3.svg" data-aos="zoom-in" data-aos-delay="500" />
+     <Image className="h-10 w-[166px] relative shrink-0" width={166} height={40} alt="School partner logo" src="/images/partner-logo-1.svg" data-aos="fade-out" data-aos-delay="100" />
     </div>
    </div>
   </section>

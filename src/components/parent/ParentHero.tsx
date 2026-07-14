@@ -53,7 +53,7 @@ export const ParentHero = () => {
                         height={727}
                         sizes="100vw"
                         alt="Parent and driver app mockup showing live bus tracking"
-                        src="/parent-driver-app-hero-mockup.png"
+                        src="/images/parent-driver-app-hero-mockup.png"
                     data-aos="fade-in" data-aos-delay="100" />
                 </section>
             </div>

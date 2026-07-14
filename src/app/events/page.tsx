@@ -16,7 +16,7 @@ export const metadata: Metadata = {
         url: "https://gosirat.com/events",
         images: [
             {
-                url: "/GoSirat-school-safety-event.webp",
+                url: "/images/GoSirat-school-safety-event.webp",
                 width: 1200,
                 height: 630,
                 alt: "School Safety Events | GoSirat Rawalpindi & Islamabad",
@@ -27,28 +27,34 @@ export const metadata: Metadata = {
 
 const eventHighlights = [
     {
-        title: "Traffic Awareness",
-        text: "Interactive sessions teach students, parents, and drivers how to recognize roads signs, signals, school zones, and safe crossing practices.",
+        icon: "🚦",
+        title: "Traffic Awareness Events",
+        text: "At GoSirat, we organize traffic awareness events to help students, parents, and drivers learn how to stay safe on the road. Our sessions cover road signs, traffic signals, zebra crossings, school zones, and safe road crossing. These activities help children build safe travel habits and support better school transportation services in Rawalpindi and Islamabad.",
     },
     {
-        title: "First Aid Training",
-        text: "Practical emergency readiness sessions help school staff and drivers respond quickly with confidence and care.",
+        icon: "⛑",
+        title: "First Aid & Emergency Training",
+        text: "Safety comes first at GoSirat. We provide first aid and emergency training to help drivers and school staff respond quickly during emergencies. The training includes basic first aid, emergency communication, and child safety procedures to make every school pick-and-drop service safer and more reliable.",
     },
     {
-        title: "Green Transport",
-        text: "We promote shared school transportation as a smarter choice that reduces traffic, fuel usage, and pollution.",
+        icon: "🚦",
+        title: "Green Environment Program",
+        text: "GoSirat supports a cleaner and greener future. Our shared school transportation services help reduce traffic, save fuel, and lower air pollution. We also encourage students to take part in environmental activities that promote clean and healthy communities across Rawalpindi and Islamabad.",
     },
     {
-        title: "Traffic Police Collaboration",
-        text: "Our events support awareness programs that strengthen safety habits for children and adults alike.",
+        icon: "🚦",
+        title: "Road Safety with Traffic Police",
+        text: "GoSirat promotes road safety by supporting awareness programs with schools and traffic authorities. Students learn about traffic rules, safe driving, road signs, and responsible road behavior. These sessions help create a safer environment for everyone using our school transportation services.",
     },
     {
-        title: "Road Safety Habits",
-        text: "Students learn about traffic lights, pedestrian crossings, speed limits, and responsible road behavior in a simple format.",
+        icon: "🚦",
+        title: "Traffic Rules & Road Safety",
+        text: "Knowing the traffic rules is important for every student and driver. GoSirat teaches children about traffic lights, pedestrian crossings, speed limits, and school bus safety. This knowledge helps make our school transportation and pick-and-drop services safer every day.",
     },
     {
+        icon: "🚑",
         title: "Accident Prevention",
-        text: "Verified drivers, GPS tracking, QR verification, and routine vehicle checks all help reduce preventable risks.",
+        text: "Many road accidents can be avoided by following safety rules and driving carefully. GoSirat focuses on accident prevention through verified drivers, GPS live tracking, QR child verification, regular vehicle checks, and driver training. Our goal is to provide safe and trusted school transportation services for families in Rawalpindi and Islamabad.",
     },
 ];
 
@@ -61,7 +67,7 @@ const eventBenefits = [
 
 export default function EventsPage() {
     return (
-    <div className="w-full relative bg-[#f4f7f4] flex flex-col items-center pt-6 px-0 pb-0 box-border leading-[normal] tracking-[normal] overflow-x-hidden">
+    <div className="w-full relative bg-[#f8fbf8] flex flex-col items-center pt-6 px-0 pb-0 box-border leading-[normal] tracking-[normal] overflow-x-hidden">
         <WebPageSchema
             title="School Safety Events | GoSirat Rawalpindi & Islamabad"
             description="Join GoSirat's school safety events covering traffic awareness, first aid, road safety, and eco-friendly transport for families in Rawalpindi and Islamabad."
@@ -116,18 +122,19 @@ export default function EventsPage() {
                     </div>
                 </section>
 
-                <section className="h-[480px] mq825:h-[450px] mq450:h-[350px] flex-1 flex items-start justify-center relative isolate min-w-[300px] max-w-full">
-                    <Image
-                        className="w-full max-w-[380px] h-auto object-contain shrink-0"
-                        loading="lazy"
-                        width={380}
-                        height={660}
-                        sizes="100vw"
-                        alt="GoSirat school safety event illustration"
-                        src="/GoSirat-school-safety-event.webp"
-                        data-aos="fade-in"
-                        data-aos-delay="100"
-                    />
+                <section className="flex-1 flex items-center justify-center relative min-w-[300px] max-w-md xl:max-w-lg mx-auto w-full">
+                    <div className="relative w-full aspect-[4/3] rounded-[32px] overflow-hidden shadow-[0_20px_50px_rgba(23,105,56,0.15)]">
+                        <Image
+                            className="object-cover object-top"
+                            loading="lazy"
+                            fill
+                            sizes="(max-width: 768px) 100vw, 50vw"
+                            alt="GoSirat school safety event illustration"
+                            src="/images/GoSirat-school-safety-event.webp"
+                            data-aos="fade-in"
+                            data-aos-delay="100"
+                        />
+                    </div>
                 </section>
             </div>
         </section>
@@ -135,34 +142,34 @@ export default function EventsPage() {
         <section className="w-full px-[60px] py-8 mq450:px-4">
             <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
                 {eventHighlights.map((event) => (
-                    <div key={event.title} className="rounded-[28px] border border-emerald-100 bg-white p-7 shadow-[0_12px_40px_rgba(15,23,42,0.06)]">
-                        <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-2xl bg-emerald-50 text-xl text-emerald-700">
-                            •
+                    <div key={event.title} className="rounded-[28px] border border-[rgba(23,105,56,0.15)] bg-white p-7 shadow-[0_12px_40px_rgba(15,23,42,0.06)]">
+                        <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-2xl bg-[rgba(213,240,219,0.4)] text-xl text-[#176938]">
+                            {event.icon}
                         </div>
-                        <h2 className="text-xl font-semibold text-gray-900">{event.title}</h2>
-                        <p className="mt-3 text-base leading-7 text-gray-600">{event.text}</p>
+                        <h2 className="text-xl font-semibold text-[#0c140f]">{event.title}</h2>
+                        <p className="mt-3 text-base leading-7 text-[#57605b]">{event.text}</p>
                     </div>
                 ))}
             </div>
         </section>
 
         <section className="w-full px-[60px] py-8 mq450:px-4">
-            <div className="rounded-[32px] border border-emerald-100 bg-white p-8 shadow-[0_20px_60px_rgba(15,23,42,0.08)] lg:p-10">
+            <div className="rounded-[32px] border border-[rgba(23,105,56,0.15)] bg-white p-8 shadow-[0_20px_60px_rgba(15,23,42,0.08)] lg:p-10">
                 <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
                     <div>
-                        <p className="text-sm font-semibold uppercase tracking-[0.35em] text-emerald-600">Why families and schools join</p>
-                        <h2 className="mt-3 text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
+                        <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#176938]">Why families and schools join</p>
+                        <h2 className="mt-3 text-3xl font-semibold tracking-tight text-[#0c140f] sm:text-4xl">
                             Practical learning that makes school transport safer every day.
                         </h2>
-                        <p className="mt-4 text-lg leading-8 text-gray-600">
+                        <p className="mt-4 text-lg leading-8 text-[#57605b]">
                             These community events are built to help children, parents, and staff understand the habits and systems that protect them on the road.
                         </p>
                     </div>
-                    <div className="rounded-[24px] bg-emerald-50 p-6">
+                    <div className="rounded-[24px] bg-[rgba(213,240,219,0.4)] p-6">
                         <ul className="space-y-3">
                             {eventBenefits.map((benefit) => (
-                                <li key={benefit} className="flex gap-3 text-gray-700">
-                                    <span className="mt-1 text-emerald-600">✓</span>
+                                <li key={benefit} className="flex gap-3 text-[#57605b]">
+                                    <span className="mt-1 text-[#176938]">✓</span>
                                     <span className="leading-7">{benefit}</span>
                                 </li>
                             ))}
@@ -175,15 +182,15 @@ export default function EventsPage() {
         <section className="w-full px-[60px] py-8 mq450:px-4">
             <div className="rounded-[32px] bg-[#176938] p-10 text-white shadow-[0_20px_60px_rgba(23,105,56,0.2)] lg:p-12">
                 <div className="max-w-3xl">
-                    <p className="text-sm font-semibold uppercase tracking-[0.35em] text-emerald-100">Community outreach</p>
+                    <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#f8fbf8]">Community outreach</p>
                     <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
                         Bring a safety event to your school or community.
                     </h2>
-                    <p className="mt-4 text-lg leading-8 text-emerald-50">
+                    <p className="mt-4 text-lg leading-8 text-[rgba(248,251,248,0.8)]">
                         We collaborate with schools, parents, and local authorities to deliver practical awareness programs that strengthen trust and promote safer road behavior.
                     </p>
                     <div className="mt-6 flex flex-wrap gap-3">
-                        <Link href="/contact-us" className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-[#176938] transition hover:bg-emerald-50">
+                        <Link href="/contact-us" className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-[#176938] transition hover:bg-[rgba(213,240,219,0.4)]">
                             Contact us
                         </Link>
                         <Link href="/register" className="rounded-full border border-white/30 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10">
