@@ -9,8 +9,9 @@ export const RouteManagement = () => {
     <div className="flex-1 min-w-[400px] flex justify-center mq450:min-w-full">
      <Image
       className="w-full max-w-[500px] h-auto object-contain"
-      src="/images/driver-route-management-mockup.png"
-      alt="Driver using GoSirat app for route management navigation"
+      src="/images/gosirat-driver-route-management.webp"
+      title="GoSirat Driver App Route Management"
+      alt="GoSirat Driver App showing route management, turn-by-turn navigation, student manifests, and live schedules for school transportation."
       width={500}
       height={600}
       priority
@@ -25,10 +26,10 @@ export const RouteManagement = () => {
       </div>
      </div>
      <h2 className="m-0 text-5xl tracking-[-1.5px] leading-[1.2] font-semibold text-[#09131a] mq450:text-[38px]">
-      Your Day. Planned To The Minute.
+      Smart Route Management for Every School Journey
      </h2>
      <p className="m-0 text-lg leading-[29px] text-[#202A32]">
-      Student manifests, turn-by-turn navigation and live schedule — built into one calm interface.
+      Manage daily routes, student manifests, turn-by-turn navigation, and live schedules from one easy-to-use Driver App. Every route is planned for safe, efficient, and reliable school transportation.
      </p>
     </div>
    </Container>

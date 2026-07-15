@@ -38,50 +38,61 @@ const GreenImpact: NextPage = () => {
                         data-aos="fade-out" data-aos-delay="100" />
                 </div>
             </section>
-            <section className="w-full self-stretch bg-[#1f252e] flex flex-col items-start py-10 px-[60px] box-border text-left text-6xl text-base-white font-inherit mq450:pl-[30px] mq450:pr-[30px] mq450:box-border mx-auto mt-0 relative z-20">
-                <div className="self-stretch flex items-start justify-between gap-8 max-w-full flex-wrap mq750:flex-col mq750:items-center mq750:text-center">
-                    <div className="h-auto w-full max-w-[389.6px] flex flex-col items-start mq750:items-center">
-                        <div className="self-stretch flex flex-col items-start mq750:items-center">
-                            <h2 className="m-0 relative text-2xl tracking-[-0.5px] leading-8 font-semibold font-[inherit] text-green-400 mq450:text-xl mq450:leading-7">
-                                🌱 62% Fewer Private Car Trips
-                            </h2>
+            <section className="w-full relative overflow-hidden bg-[#06110a] flex flex-col items-center py-20 px-[60px] box-border text-left font-['Inter',_sans-serif] mq450:px-6 mt-12">
+                {/* Background glow effects */}
+                <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-[#176938] rounded-full mix-blend-screen filter blur-[150px] opacity-20 pointer-events-none" />
+                <div className="absolute bottom-0 right-1/4 w-[400px] h-[400px] bg-[#22c55e] rounded-full mix-blend-screen filter blur-[150px] opacity-10 pointer-events-none" />
+
+                <div className="w-full max-w-[1200px] grid grid-cols-3 gap-8 relative z-10 mq1050:grid-cols-2 mq750:grid-cols-1">
+                    
+                    {/* Card 1 */}
+                    <div className="flex flex-col items-start p-8 rounded-[24px] bg-[#ffffff05] border border-[#ffffff15] backdrop-blur-xl hover:-translate-y-2 hover:bg-[#ffffff08] transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
+                        <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#176938] to-[#0d3b20] flex items-center justify-center text-[24px] shadow-lg mb-6">
+                            🌱
                         </div>
-                        <div className="flex flex-col items-start pt-3 px-0 pb-0 text-sm mq750:items-center">
-                            <div className="w-full h-auto flex items-start pt-[0.4px] px-0 pb-0 box-border">
-                                <div className="w-full relative leading-6 mq750:text-center text-gray-300">
-                                    Shared school transportation helps reduce the number of private vehicles around schools, making roads safer and less congested.
-                                </div>
-                            </div>
+                        <h3 className="m-0 text-[40px] font-bold text-white tracking-tight leading-none mb-2">
+                            62%
+                        </h3>
+                        <div className="text-[18px] font-semibold text-[#4ade80] mb-4">
+                            Fewer Private Car Trips
                         </div>
+                        <p className="m-0 text-[15px] leading-[24px] text-[#a1a1aa]">
+                            Shared school transportation helps reduce the number of private vehicles around schools, making roads safer and less congested.
+                        </p>
                     </div>
-                    <div className="h-auto w-full max-w-[389.6px] flex flex-col items-start mq750:items-center">
-                        <div className="self-stretch flex flex-col items-start mq750:items-center">
-                            <h2 className="m-0 relative text-2xl tracking-[-0.5px] leading-8 font-semibold font-[inherit] text-green-400 mq450:text-xl mq450:leading-7">
-                                🌍 1.4M kg Carbon Emissions Reduced
-                            </h2>
+
+                    {/* Card 2 */}
+                    <div className="flex flex-col items-start p-8 rounded-[24px] bg-[#ffffff05] border border-[#ffffff15] backdrop-blur-xl hover:-translate-y-2 hover:bg-[#ffffff08] transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
+                        <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#176938] to-[#0d3b20] flex items-center justify-center text-[24px] shadow-lg mb-6">
+                            🌍
                         </div>
-                        <div className="flex flex-col items-start pt-3 px-0 pb-0 text-sm mq750:items-center">
-                            <div className="w-full h-auto flex items-start pt-[0.4px] px-0 pb-0 box-border">
-                                <div className="w-full relative leading-6 mq750:text-center text-gray-300">
-                                    By replacing individual school commutes with shared transportation, GoSirat helps reduce harmful CO₂ emissions and supports a cleaner environment.
-                                </div>
-                            </div>
+                        <h3 className="m-0 text-[40px] font-bold text-white tracking-tight leading-none mb-2">
+                            1.4M<span className="text-[24px] ml-1">kg</span>
+                        </h3>
+                        <div className="text-[18px] font-semibold text-[#4ade80] mb-4">
+                            Carbon Emissions Reduced
                         </div>
+                        <p className="m-0 text-[15px] leading-[24px] text-[#a1a1aa]">
+                            By replacing individual school commutes with shared transportation, GoSirat helps reduce harmful CO₂ emissions and supports a cleaner environment.
+                        </p>
                     </div>
-                    <div className="h-auto w-full max-w-[389.6px] flex flex-col items-start mq750:items-center">
-                        <div className="self-stretch flex flex-col items-start mq750:items-center">
-                            <h2 className="m-0 relative text-2xl tracking-[-0.5px] leading-8 font-semibold font-[inherit] text-green-400 mq450:text-xl mq450:leading-7">
-                                🌱 3× More Efficient Transportation
-                            </h2>
+
+                    {/* Card 3 */}
+                    <div className="flex flex-col items-start p-8 rounded-[24px] bg-[#ffffff05] border border-[#ffffff15] backdrop-blur-xl hover:-translate-y-2 hover:bg-[#ffffff08] transition-all duration-300" data-aos="fade-up" data-aos-delay="300">
+                        <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#176938] to-[#0d3b20] flex items-center justify-center text-[24px] shadow-lg mb-6">
+                            ⚡
                         </div>
-                        <div className="flex flex-col items-start pt-3 px-0 pb-0 text-sm mq750:items-center">
-                            <div className="w-full h-auto flex items-start pt-[0.4px] px-0 pb-0 box-border">
-                                <div className="w-full relative leading-6 mq750:text-center text-gray-300">
-                                    Optimized routes and shared school transportation make daily travel significantly more efficient than individual family commutes.
-                                </div>
-                            </div>
+                        <h3 className="m-0 text-[40px] font-bold text-white tracking-tight leading-none mb-2">
+                            3x
+                        </h3>
+                        <div className="text-[18px] font-semibold text-[#4ade80] mb-4">
+                            More Efficient Transportation
                         </div>
+                        <p className="m-0 text-[15px] leading-[24px] text-[#a1a1aa]">
+                            Optimized routes and shared school transportation make daily travel significantly more efficient than individual family commutes.
+                        </p>
                     </div>
+
                 </div>
             </section>
         </section>

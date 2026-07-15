@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   },
 };
 import Hero from "@/components/Hero";
-import Branding from "@/components/Branding";
+// import Branding from "@/components/Branding";
 import TrustAndSafety from "@/components/TrustAndSafety";
 import ParentAppSection from "@/components/ParentAppSection";
 import GreenImpact from "@/components/GreenImpact";
@@ -20,26 +20,26 @@ import FAQ from "@/components/FAQ";
 import { WebPageSchema, BreadcrumbSchema } from "@/components/Schemas";
 
 const Homepage: NextPage = () => {
- return (
-  <div className="w-full relative bg-[#f4f7f4] flex flex-col items-center pt-6 px-0 pb-0 box-border leading-[normal] tracking-[normal]">
-   <WebPageSchema 
-      title="Safe School Transportation Services | GoSirat" 
-      description="GoSirat provides safe school transportation and school pick & drop services with verified drivers, live GPS tracking, QR verification, and secure student transportation for modern families." 
-      url="https://gosirat.com/" 
-    />
-    <BreadcrumbSchema items={[{ name: "Home", url: "https://gosirat.com/" }]} />
-   <Hero />
-   <Branding />
-   <TrustAndSafety />
-   <ParentAppSection />
-   <GreenImpact />
-   <DriverAppSection />
-   <CTASection />
-   <FeaturesList />
-   <AppDownload />
-   <FAQ />
-  </div>
- );
+  return (
+    <div className="w-full relative bg-[#f4f7f4] flex flex-col items-center pt-6 px-0 pb-0 box-border leading-[normal] tracking-[normal]">
+      <WebPageSchema
+        title="Safe School Transportation Services | GoSirat"
+        description="GoSirat provides safe school transportation and school pick & drop services with verified drivers, live GPS tracking, QR verification, and secure student transportation for modern families."
+        url="https://gosirat.com/"
+      />
+      <BreadcrumbSchema items={[{ name: "Home", url: "https://gosirat.com/" }]} />
+      <Hero />
+      {/* <Branding /> */}
+      <TrustAndSafety />
+      <ParentAppSection />
+      <GreenImpact />
+      <DriverAppSection />
+      <CTASection />
+      <FeaturesList />
+      <AppDownload />
+      <FAQ />
+    </div>
+  );
 };
 
 export default Homepage;

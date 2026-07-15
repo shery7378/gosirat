@@ -13,18 +13,19 @@ export const DriverSafeHandover = () => {
       </div>
      </div>
      <h2 className="m-0 text-5xl tracking-[-1.5px] leading-[1.2] font-semibold text-base-white mq450:text-[38px]">
-      A Scan At Every Handover.<br />A Record Forever.
+      Secure Student Handover with QR Verification
      </h2>
-     <p className="m-0 text-lg leading-[29px] text-[rgba(255,255,255,0.7)] max-w-[500px]">
-      Pickup, drop-off and school handover — every step is verified by QR scan.
+     <p className="m-0 text-lg leading-[29px] text-[rgba(255,255,255,0.7)] max-w-[600px]">
+      Every student pickup, school handover, and drop-off is verified through QR scanning in the GoSirat Driver App, creating a secure record and improving safety throughout every school journey.
      </p>
     </div>
 
     <div className="flex-1 min-w-[400px] flex justify-end mq450:min-w-full mq450:justify-center">
      <Image
       className="w-full max-w-[500px] h-auto object-contain"
-      src="/images/samsung-mockup.png"
-      alt="QR Code Scanner on Phone"
+      src="/images/gosirat-driver-app-qr-verification.webp"
+      title="GoSirat Driver App QR Verification"
+      alt="GoSirat Driver App using QR verification for secure student pickup, school handover, and safe drop-off."
       width={500}
       height={600}
       priority

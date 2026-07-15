@@ -18,18 +18,18 @@ export const DriverHero = () => {
        <div className="self-stretch flex flex-col items-start justify-center pt-7 px-0 pb-4 gap-4 text-left text-6xl text-[#0C140F]">
         <div className="self-stretch flex flex-col items-start justify-center">
          <h1 className="m-0 self-stretch relative text-[length:inherit] tracking-normal leading-[68px] capitalize font-semibold font-[inherit] mq450:text-[51px] mq450:leading-[59px] mq450:text-[38px] mq450:leading-[44px]">
-          Drive With Purpose.<br />Earn With Confidence.
+          Driver App for Safe School Transportation
          </h1>
         </div>
-        <h3 className="m-0 w-full max-w-[641px] relative text-lg leading-[28px] tracking-normal font-normal font-[inherit] text-[#57605B] inline-block mq450:text-base mq450:leading-[26px]">
-         Join the most professional school driver network — with reliable routes, transparent earnings and real support.
+        <h3 className="m-0 w-full max-w-[800px] relative text-lg leading-[28px] tracking-normal font-normal font-[inherit] text-[#57605B] inline-block mq450:text-base mq450:leading-[26px]">
+         Join the GoSirat Driver App and become part of a trusted school transportation network. Manage assigned routes, verify student pick-up and drop-off with QR verification, navigate efficiently, and earn with confidence through a safe, reliable, and transparent platform.
         </h3>
        </div>
       </div>
       <div className="flex items-center gap-2 shrink-0 mq450:flex-wrap">
        <button className="cursor-pointer [border:none] py-5 px-6 bg-gradient-to-r from-[#176938] to-[#2ecc71] rounded-2xl flex items-center gap-2 hover:shadow-lg hover:scale-[1.02] active:scale-95 transition-all duration-300">
         <div className="relative text-xl leading-5 font-medium font-[Inter] text-[#F7F9F6] text-left">
-         Become A Driver
+         Become a Driver
         </div>
         <svg className="h-4 w-4 relative text-[#F7F9F6]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
          <path strokeLinecap="round" strokeLinejoin="round" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
@@ -37,7 +37,7 @@ export const DriverHero = () => {
        </button>
        <button className="cursor-pointer border-[rgba(0,0,0,0.2)] border-solid border-[1px] py-5 px-[23px] bg-base-white rounded-2xl flex items-center hover:bg-[#e6e6e6] hover:border-[rgba(51,51,51,0.2)] hover:border-solid hover:hover:border-[1px] hover:box-border">
         <div className="relative text-xl leading-5 font-medium font-[Inter] text-[#0c140f] text-left">
-         Download App
+         Download the Driver App
         </div>
        </button>
       </div>
@@ -50,8 +50,9 @@ export const DriverHero = () => {
       width={350}
       height={727}
       sizes="100vw"
-      alt="Parent and driver app mockup showing live bus tracking"
-      src="/images/parent-driver-app-hero-mockup.png"
+      title="GoSirat Driver App for School Transportation"
+      alt="GoSirat Driver App showing route management, QR verification, navigation, and student pickup for safe school transportation."
+      src="/images/gosirat-driver-app-hero.webp"
      data-aos="zoom-in" data-aos-delay="100" />
     </section>
    </div>

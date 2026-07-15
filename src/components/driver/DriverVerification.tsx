@@ -12,11 +12,11 @@ export const DriverVerification = () => {
       </div>
      </div>
      <h2 className="m-0 self-stretch relative text-5xl tracking-[-1.5px] leading-[65px] capitalize font-semibold font-[inherit] text-[#F4F7F4] mq450:text-[38px] mq450:leading-[50px] mq450:text-[29px] mq450:leading-[40px] mt-4">
-      Five Stages Before A Driver Is<br />Trusted With A Child.
+      Every GoSirat Driver Is Verified Before Every School Journey
      </h2>
      <div className="self-stretch flex flex-col items-start pt-3 px-0 pb-0 text-lg text-[#F4F7F4]/70">
-      <div className="max-w-[700px] relative leading-[29.3px] inline-block">
-       Becoming a GoSirat driver is intentionally hard. Every stage is documented,<br />reviewed and re-verified on a schedule.
+      <div className="max-w-[800px] relative leading-[29.3px] inline-block">
+       Every GoSirat driver completes a structured verification process, including application review, professional training, certification, identity verification, and ongoing performance monitoring to ensure safe and reliable school transportation.
       </div>
      </div>
     </div>
@@ -31,11 +31,14 @@ export const DriverVerification = () => {
       <div className="relative text-[11px] tracking-[1.5px] leading-4 uppercase font-bold text-[#F4F7F4]/50">
        STAGE 1
       </div>
-      <div className="flex flex-col items-start gap-4">
+      <div className="flex flex-col items-start gap-4 flex-1">
        <h3 className="m-0 relative text-xl font-bold font-[inherit] text-[#F4F7F4]">
         Application
        </h3>
-       <div className="w-8 h-1 bg-[#176938] rounded-full" />
+       <div className="w-8 h-1 bg-[#176938] rounded-full shrink-0" />
+       <div className="text-sm text-[#F4F7F4]/70 leading-6 mt-2">
+        Complete the registration process and submit the required documents.
+       </div>
       </div>
      </div>
 
@@ -44,11 +47,14 @@ export const DriverVerification = () => {
       <div className="relative text-[11px] tracking-[1.5px] leading-4 uppercase font-bold text-[#F4F7F4]/50">
        STAGE 2
       </div>
-      <div className="flex flex-col items-start gap-4">
+      <div className="flex flex-col items-start gap-4 flex-1">
        <h3 className="m-0 relative text-xl font-bold font-[inherit] text-[#F4F7F4]">
         Training
        </h3>
-       <div className="w-8 h-1 bg-[#176938] rounded-full" />
+       <div className="w-8 h-1 bg-[#176938] rounded-full shrink-0" />
+       <div className="text-sm text-[#F4F7F4]/70 leading-6 mt-2">
+        Receive child safety, customer service, and defensive driving training.
+       </div>
       </div>
      </div>
 
@@ -57,11 +63,14 @@ export const DriverVerification = () => {
       <div className="relative text-[11px] tracking-[1.5px] leading-4 uppercase font-bold text-[#F4F7F4]/50">
        STAGE 3
       </div>
-      <div className="flex flex-col items-start gap-4">
+      <div className="flex flex-col items-start gap-4 flex-1">
        <h3 className="m-0 relative text-xl font-bold font-[inherit] text-[#F4F7F4]">
         Certification
        </h3>
-       <div className="w-8 h-1 bg-[#176938] rounded-full" />
+       <div className="w-8 h-1 bg-[#176938] rounded-full shrink-0" />
+       <div className="text-sm text-[#F4F7F4]/70 leading-6 mt-2">
+        Pass the required assessments before joining the GoSirat platform.
+       </div>
       </div>
      </div>
 
@@ -70,11 +79,14 @@ export const DriverVerification = () => {
       <div className="relative text-[11px] tracking-[1.5px] leading-4 uppercase font-bold text-[#F4F7F4]/50">
        STAGE 4
       </div>
-      <div className="flex flex-col items-start gap-4">
+      <div className="flex flex-col items-start gap-4 flex-1">
        <h3 className="m-0 relative text-xl font-bold font-[inherit] text-[#F4F7F4]">
         Verification
        </h3>
-       <div className="w-8 h-1 bg-[#176938] rounded-full" />
+       <div className="w-8 h-1 bg-[#176938] rounded-full shrink-0" />
+       <div className="text-sm text-[#F4F7F4]/70 leading-6 mt-2">
+        Identity, background, and document verification are completed before activation.
+       </div>
       </div>
      </div>
 
@@ -83,11 +95,14 @@ export const DriverVerification = () => {
       <div className="relative text-[11px] tracking-[1.5px] leading-4 uppercase font-bold text-[#F4F7F4]/50">
        STAGE 5
       </div>
-      <div className="flex flex-col items-start gap-4">
+      <div className="flex flex-col items-start gap-4 flex-1">
        <h3 className="m-0 relative text-xl font-bold font-[inherit] text-[#F4F7F4]">
         Active Driver
        </h3>
-       <div className="w-8 h-1 bg-[#176938] rounded-full" />
+       <div className="w-8 h-1 bg-[#176938] rounded-full shrink-0" />
+       <div className="text-sm text-[#F4F7F4]/70 leading-6 mt-2">
+        Begin accepting assigned school transportation routes with continuous performance monitoring.
+       </div>
       </div>
      </div>
 

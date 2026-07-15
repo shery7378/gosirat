@@ -11,16 +11,14 @@ export const SchoolsVisibility: NextPage = () => {
               <div className="h-[29.3px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] box-border flex items-center py-[5px] px-3.5 gap-[5px] text-center" data-aos="fade-out" data-aos-delay="100">
                 <div className="h-1.5 w-1.5 relative rounded-[22369600px] bg-[#176938]" />
                 <div className="relative tracking-[1.68px] leading-4 uppercase font-medium">
-                  Why visibility matters
+                  Why Visibility Matters
                 </div>
               </div>
               <h2 className="m-0 self-stretch relative text-5xl tracking-[-1.5px] capitalize font-semibold font-[inherit] text-[#0c140f] mq825:text-[38px] mq450:text-[29px] mq1400:text-center">
-                <span>{`You can't fix what `}</span>
-                <span className="text-[#176938]">you can't see.</span>
+                Complete Visibility. Better School Transportation.
               </h2>
               <div className="self-stretch relative text-lg leading-7 text-[#57605b] mq1400:text-center">
-                Without live route and student visibility, every
-                transportation incident becomes a fire drill.
+                Monitor every vehicle, student, and route in real time. The GoSirat school transportation platform helps schools improve safety, streamline operations, and keep parents informed with live updates.
               </div>
             </div>
           </div>
@@ -50,12 +48,13 @@ export const SchoolsVisibility: NextPage = () => {
           width={458}
           height={448}
           sizes="100vw"
-          alt="School administration dashboard showing transport analytics"
-          src="/images/school-dashboard-visibility-analytics.png"
+          alt="GoSirat school transportation dashboard showing live routes, student tracking, verified handovers, and transportation analytics."
+          title="GoSirat School Transportation Management Dashboard"
+          src="/images/gosirat-school-transportation-dashboard.webp"
         data-aos="fade-out" data-aos-delay="100" />
       </div>
       <section className="self-stretch flex items-center justify-start flex-wrap content-center gap-4 text-left text-lg text-[#09131a] font-[Inter] mq1400:justify-center">
-        <div className="min-h-[202.8px] h-auto flex-1 rounded-[22px] bg-[#fff] border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7 min-w-[245px] max-w-[318px] mq450:max-w-full" data-aos="zoom-in" data-aos-delay="200">
+        <div className="min-h-[202.8px] h-auto flex-1 rounded-[22px] bg-[#fff] border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7 min-w-[245px] mq450:max-w-full" data-aos="zoom-in" data-aos-delay="200">
           <div className="self-stretch h-16 flex items-start pt-0 px-0 pb-5 box-border">
             <div className="h-11 w-11 rounded-[14px] bg-[rgba(13,99,50,0.1)] flex items-center justify-center" data-aos="zoom-in" data-aos-delay="300">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#176938" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-[18px] h-[18px]">
@@ -75,7 +74,7 @@ export const SchoolsVisibility: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="min-h-[202.8px] h-auto flex-1 rounded-[22px] bg-[#fff] border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7 min-w-[245px] max-w-[318px] mq450:max-w-full" data-aos="fade-out" data-aos-delay="400">
+        <div className="min-h-[202.8px] h-auto flex-1 rounded-[22px] bg-[#fff] border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7 min-w-[245px] mq450:max-w-full" data-aos="fade-out" data-aos-delay="400">
           <div className="self-stretch h-16 flex items-start pt-0 px-0 pb-5 box-border">
             <div className="h-11 w-11 rounded-[14px] bg-[rgba(13,99,50,0.1)] flex items-center justify-center" data-aos="fade-out" data-aos-delay="500">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#176938" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-[18px] h-[18px]">
@@ -95,7 +94,7 @@ export const SchoolsVisibility: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="min-h-[202.8px] h-auto flex-1 rounded-[22px] bg-[#fff] border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7 min-w-[245px] max-w-[318px] mq450:max-w-full" data-aos="zoom-in" data-aos-delay="600">
+        <div className="min-h-[202.8px] h-auto flex-1 rounded-[22px] bg-[#fff] border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7 min-w-[245px] mq450:max-w-full" data-aos="zoom-in" data-aos-delay="600">
           <div className="self-stretch h-16 flex items-start pt-0 px-0 pb-5 box-border">
             <div className="h-11 w-11 rounded-[14px] bg-[rgba(13,99,50,0.1)] flex items-center justify-center" data-aos="fade-out" data-aos-delay="100">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#176938" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-[18px] h-[18px]">
@@ -117,7 +116,7 @@ export const SchoolsVisibility: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="min-h-[202.8px] h-auto flex-1 rounded-[22px] bg-[#fff] border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7 min-w-[245px] max-w-[318px] mq450:max-w-full" data-aos="fade-in" data-aos-delay="200">
+        <div className="min-h-[202.8px] h-auto flex-1 rounded-[22px] bg-[#fff] border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7 min-w-[245px] mq450:max-w-full" data-aos="fade-in" data-aos-delay="200">
           <div className="self-stretch h-16 flex items-start pt-0 px-0 pb-5 box-border">
             <div className="h-11 w-11 rounded-[14px] bg-[rgba(13,99,50,0.1)] flex items-center justify-center" data-aos="fade-in" data-aos-delay="300">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#176938" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-[18px] h-[18px]">

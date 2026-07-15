@@ -3,52 +3,74 @@ import Image from "next/image";
 
 const CTASection: NextPage = () => {
   return (
-    <section className="self-stretch bg-[linear-gradient(#176938,#022913)] flex flex-col items-start py-[100px] px-[60px] text-left text-6xl text-[#f8fbf8] font-[Inter] mq450:py-[65px] mq450:px-[30px] mq450:box-border" data-aos="zoom-in">
-      <div className="self-stretch flex flex-col items-start">
-        <div className="self-stretch flex flex-col items-start gap-4">
-          <h2 className="m-0 self-stretch relative text-[length:inherit] tracking-[-1.5px] leading-[63px] capitalize font-semibold font-[inherit] mq450:text-4xl mq450:leading-[38px] mq450:text-5xl mq450:leading-[50px]">
-            Why Parents Choose GoSirat for Safe School Transportation
+    <section className="w-full relative overflow-hidden bg-[#06140b] flex flex-col items-center py-[120px] px-[60px] text-left font-['Inter',_sans-serif] mq450:py-[80px] mq450:px-6 z-10" data-aos="fade-in">
+      {/* Background glow effects */}
+      <div className="absolute top-[-20%] left-[-10%] w-[600px] h-[600px] bg-[#176938] rounded-full mix-blend-screen filter blur-[200px] opacity-30 pointer-events-none" />
+      <div className="absolute bottom-[-20%] right-[-10%] w-[500px] h-[500px] bg-[#22c55e] rounded-full mix-blend-screen filter blur-[200px] opacity-20 pointer-events-none" />
+
+      <div className="w-full max-w-[1200px] flex flex-col items-start relative z-10">
+        <div className="flex flex-col items-start gap-6 max-w-[800px] mb-16">
+          <h2 className="m-0 text-[48px] text-white tracking-tight leading-[1.1] font-bold mq450:text-[36px]">
+            Why Parents Choose GoSirat for <span className="text-[#4ade80]">Safe School Transportation</span>
           </h2>
-          <div className="relative text-lg leading-7 text-[rgba(248,251,248,0.8)] max-w-[1000px]">
+          <div className="text-[18px] leading-[32px] text-[#a3b8ad]">
             GoSirat is trusted by parents because we combine safe school transportation, verified drivers, live GPS tracking, QR verification, and real-time notifications into one smart platform. Every feature is designed to provide a safer, more reliable, and stress-free school journey for children and complete peace of mind for families.
           </div>
         </div>
-        <section className="self-stretch flex flex-col items-start pt-10 px-0 pb-0 text-left text-6xl text-[#f8fbf8] font-[Inter]">
-          <div className="self-stretch rounded-[28px] bg-[#2f6244] overflow-hidden flex items-start justify-between flex-wrap content-start gap-5 p-10" data-aos="zoom-in" data-aos-delay="100">
-            <div className="flex-1 min-w-[250px] flex flex-col items-start gap-3">
-              <h2 className="m-0 relative text-[32px] text-[#f8fbf8] tracking-[-1px] leading-[1.2] font-semibold font-[Inter]">
-                🛡️ 100% Verified Drivers
-              </h2>
-              <div className="w-full relative font-[Inter] font-normal text-[15px] leading-[24px] text-[rgba(248,251,248,0.8)]">
-                Every GoSirat driver completes identity verification, background checks, and safety screening before transporting students.
-              </div>
+
+        <div className="w-full grid grid-cols-4 gap-6 mq1050:grid-cols-2 mq750:grid-cols-1">
+          {/* Feature 1 */}
+          <div className="flex flex-col items-start p-8 rounded-[24px] bg-[#ffffff05] border border-[#ffffff10] backdrop-blur-xl hover:-translate-y-2 hover:bg-[#ffffff0a] transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
+            <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#176938] to-[#0a2e18] flex items-center justify-center text-[24px] shadow-lg mb-6">
+              🛡️
             </div>
-            <div className="flex-1 min-w-[250px] flex flex-col items-start gap-3">
-              <h2 className="m-0 relative text-[32px] text-[#f8fbf8] tracking-[-1px] leading-[1.2] font-semibold font-[Inter]">
-                ⚡ &lt;30 Seconds Fast Parent Notifications
-              </h2>
-              <div className="w-full relative font-[Inter] font-normal text-[15px] leading-[24px] text-[rgba(248,251,248,0.8)]">
-                Parents receive instant pickup, journey, arrival, and drop-off notifications through the GoSirat Parent App.
-              </div>
-            </div>
-            <div className="flex-1 min-w-[250px] flex flex-col items-start gap-3">
-              <h2 className="m-0 relative text-[32px] text-[#f8fbf8] tracking-[-1px] leading-[1.2] font-semibold font-[Inter]">
-                🌱 24/7 Live GPS Tracking
-              </h2>
-              <div className="w-full relative font-[Inter] font-normal text-[15px] leading-[24px] text-[rgba(248,251,248,0.8)]">
-                Track every active school ride in real time with accurate GPS location updates and estimated arrival times.
-              </div>
-            </div>
-            <div className="flex-1 min-w-[250px] flex flex-col items-start gap-3">
-              <h2 className="m-0 relative text-[32px] text-[#f8fbf8] tracking-[-1px] leading-[1.2] font-semibold font-[Inter]">
-                ⭐ 4.9/5 Parent Satisfaction
-              </h2>
-              <div className="w-full relative font-[Inter] font-normal text-[15px] leading-[24px] text-[rgba(248,251,248,0.8)]">
-                Families trust GoSirat for providing safe, reliable, and transparent school transportation services.
-              </div>
+            <h3 className="m-0 text-[22px] font-bold text-white tracking-tight leading-[1.3] mb-4">
+              100% Verified Drivers
+            </h3>
+            <div className="text-[15px] leading-[26px] text-[#a1a1aa]">
+              Every GoSirat driver completes identity verification, background checks, and safety screening before transporting students.
             </div>
           </div>
-        </section>
+
+          {/* Feature 2 */}
+          <div className="flex flex-col items-start p-8 rounded-[24px] bg-[#ffffff05] border border-[#ffffff10] backdrop-blur-xl hover:-translate-y-2 hover:bg-[#ffffff0a] transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
+            <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#176938] to-[#0a2e18] flex items-center justify-center text-[24px] shadow-lg mb-6">
+              ⚡
+            </div>
+            <h3 className="m-0 text-[22px] font-bold text-white tracking-tight leading-[1.3] mb-4">
+              &lt;30s Fast Parent Notifications
+            </h3>
+            <div className="text-[15px] leading-[26px] text-[#a1a1aa]">
+              Parents receive instant pickup, journey, arrival, and drop-off notifications through the GoSirat Parent App.
+            </div>
+          </div>
+
+          {/* Feature 3 */}
+          <div className="flex flex-col items-start p-8 rounded-[24px] bg-[#ffffff05] border border-[#ffffff10] backdrop-blur-xl hover:-translate-y-2 hover:bg-[#ffffff0a] transition-all duration-300" data-aos="fade-up" data-aos-delay="300">
+            <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#176938] to-[#0a2e18] flex items-center justify-center text-[24px] shadow-lg mb-6">
+              📍
+            </div>
+            <h3 className="m-0 text-[22px] font-bold text-white tracking-tight leading-[1.3] mb-4">
+              24/7 Live GPS Tracking
+            </h3>
+            <div className="text-[15px] leading-[26px] text-[#a1a1aa]">
+              Track every active school ride in real time with accurate GPS location updates and estimated arrival times.
+            </div>
+          </div>
+
+          {/* Feature 4 */}
+          <div className="flex flex-col items-start p-8 rounded-[24px] bg-[#ffffff05] border border-[#ffffff10] backdrop-blur-xl hover:-translate-y-2 hover:bg-[#ffffff0a] transition-all duration-300" data-aos="fade-up" data-aos-delay="400">
+            <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#176938] to-[#0a2e18] flex items-center justify-center text-[24px] shadow-lg mb-6">
+              ⭐
+            </div>
+            <h3 className="m-0 text-[22px] font-bold text-white tracking-tight leading-[1.3] mb-4">
+              4.9/5 Parent Satisfaction
+            </h3>
+            <div className="text-[15px] leading-[26px] text-[#a1a1aa]">
+              Families trust GoSirat for providing safe, reliable, and transparent school transportation services.
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

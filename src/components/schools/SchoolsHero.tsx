@@ -18,12 +18,10 @@ export const SchoolsHero: NextPage = () => {
        </div>
        <div className="self-stretch flex flex-col items-center pt-7 px-0 pb-0 text-6xl text-[#0c140f] mq750:text-5xl mq450:text-4xl">
         <h1 className="m-0 self-stretch relative text-[length:inherit] capitalize font-semibold font-[inherit] mq825:text-[51px] mq450:text-[38px] mq750:text-center leading-[68px]">
-         Safe school transportation
+         Smarter School Transportation
         </h1>
-        <div className="self-stretch relative text-lg leading-[28px] text-[#57605b] mq450:text-base mq450:leading-[26px] mq750:text-center mt-4">
-         Verified drivers, live tracking, secure handover and
-         real-time updates — every school ride engineered around your
-         child's safety.
+        <div className="self-stretch relative text-lg leading-[28px] text-[#57605b] mq450:text-base mq450:leading-[26px] mq750:text-center mt-4 max-w-[800px] mx-auto">
+         GoSirat helps schools manage student transportation with verified drivers, live GPS tracking, secure QR verification, and real-time parent notifications—all from one smart platform.
         </div>
        </div>
       </div>
@@ -48,55 +46,35 @@ export const SchoolsHero: NextPage = () => {
       </div>
      </div>
      <div className="flex flex-col items-center justify-center text-center text-sm text-[#57605b] w-full">
-      <div className="w-full max-w-[600px] flex flex-wrap justify-center items-center gap-[28.1px] h-auto mx-auto">
+      <div className="w-full max-w-[800px] flex flex-wrap justify-center items-center gap-[28.1px] h-auto mx-auto">
        <div className="flex items-center gap-[7px]">
-        <Image
-         className="h-4 w-4 relative"
-         width={16}
-         height={16}
-         sizes="100vw"
-         alt=""
-         src="/images/Icon.svg"
-        data-aos="fade-in" data-aos-delay="100" />
+        <svg className="h-5 w-5 relative shrink-0 text-[#176938]" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-aos="fade-in" data-aos-delay="100">
+         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+        </svg>
         <div className="relative leading-5 font-medium">
          Verified Drivers
         </div>
        </div>
        <div className="flex items-center gap-[7px]">
-        <Image
-         className="h-4 w-4 relative"
-         width={16}
-         height={16}
-         sizes="100vw"
-         alt=""
-         src="/images/Icon.svg"
-        data-aos="zoom-in" data-aos-delay="200" />
+        <svg className="h-5 w-5 relative shrink-0 text-[#176938]" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-aos="zoom-in" data-aos-delay="200">
+         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+        </svg>
         <div className="relative leading-5 font-medium">
-         Live Tracking
+         Live GPS Tracking
         </div>
        </div>
        <div className="flex items-center gap-2">
-        <Image
-         className="h-4 w-4 relative"
-         width={16}
-         height={16}
-         sizes="100vw"
-         alt=""
-         src="/images/Icon.svg"
-        data-aos="fade-out" data-aos-delay="300" />
+        <svg className="h-5 w-5 relative shrink-0 text-[#176938]" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-aos="fade-out" data-aos-delay="300">
+         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+        </svg>
         <div className="relative leading-5 font-medium">
-         Secure Handover
+         Secure QR Verification
         </div>
        </div>
        <div className="flex items-center gap-2">
-        <Image
-         className="h-4 w-4 relative"
-         width={16}
-         height={16}
-         sizes="100vw"
-         alt=""
-         src="/images/Icon.svg"
-        data-aos="fade-out" data-aos-delay="400" />
+        <svg className="h-5 w-5 relative shrink-0 text-[#176938]" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-aos="fade-out" data-aos-delay="400">
+         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+        </svg>
         <div className="relative leading-5 font-medium">
          Eco-Friendly
         </div>

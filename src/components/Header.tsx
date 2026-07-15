@@ -31,6 +31,9 @@ const Header: NextPage = () => {
 
                 {/* Desktop Navigation */}
                 <nav className="m-0 flex-1 flex items-center justify-center gap-[35.8px] max-w-full text-left text-base text-gray-700 font-[Inter] mq750:hidden">
+                    <Link href="/" className="group flex items-center justify-center py-1 px-0 box-border no-underline text-inherit cursor-pointer transform hover:scale-105 hover:-translate-y-0.5 transition-all duration-300">
+                        <div className={`relative leading-5 font-medium transition-colors duration-300 ${pathname === '/' ? 'text-[#176938]' : 'group-hover:text-[#176938]'}`}>Discover</div>
+                    </Link>
                     <div className="group relative flex items-center justify-center py-1 px-0 box-border no-underline text-inherit cursor-pointer transform transition-all duration-300">
                         <Link href="/about-us" className={`relative leading-5 font-medium transition-colors duration-300 flex items-center gap-1 ${pathname.startsWith('/about-us') || pathname === '/safety' || pathname === '/green-initiative' ? 'text-[#176938]' : 'group-hover:text-[#176938]'}`}>
                             About Us
@@ -122,6 +125,9 @@ const Header: NextPage = () => {
                     </button>
 
                     <nav className="flex flex-col gap-6 text-left text-lg text-[#0c140f] font-[Inter]">
+                        <Link onClick={() => setIsOpen(false)} href="/" className={`py-2 border-b border-[rgba(23,105,56,0.1)] no-underline font-medium hover:text-[#176938] transition-colors ${pathname === '/' ? 'text-[#176938]' : 'text-inherit'}`}>
+                            Discover
+                        </Link>
                         <div className="flex flex-col border-b border-[rgba(23,105,56,0.1)]">
                             <div className="flex items-center justify-between py-2">
                                 <Link onClick={() => setIsOpen(false)} href="/about-us" className={`no-underline font-medium hover:text-[#176938] transition-colors ${pathname === '/about-us' ? 'text-[#176938]' : 'text-inherit'}`}>

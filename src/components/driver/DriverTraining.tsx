@@ -9,14 +9,14 @@ export const DriverTraining = () => {
                     <div className="h-[29.3px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] flex items-center py-[5px] px-3.5 gap-[5px]" data-aos="fade-out" data-aos-delay="100">
                         <div className="h-1.5 w-1.5 rounded-[22369600px] bg-[#176938]" />
                         <div className="tracking-[1.68px] leading-4 uppercase font-medium text-xs text-[#176938]">
-                            3-Day Training Program
+                            Driver Training Program
                         </div>
                     </div>
                     <h2 className="m-0 text-5xl tracking-[-1.5px] leading-[1.2] font-semibold text-[#09131a] mq450:text-[38px]">
-                        Defensive Driving. Child Welfare. First Response.
+                        Professional Driver Training for Safe School Transportation
                     </h2>
-                    <p className="m-0 text-lg leading-[29px] text-[#202A32] max-w-[700px]">
-                        Every GoSirat driver completes intensive training before carrying their first student.
+                    <p className="m-0 text-lg leading-[29px] text-[#202A32] max-w-[800px]">
+                        Every GoSirat driver completes a comprehensive training program covering defensive driving, child safety, communication, and emergency response before transporting students.
                     </p>
                 </div>
 
@@ -24,8 +24,9 @@ export const DriverTraining = () => {
                     <div className="relative w-full max-w-[340px] h-auto shrink-0 -mb-[120px]">
                         <Image
                             className="w-full h-auto object-contain"
-                            src="/images/iphone-mockup.png"
-                            alt="Training Progress Tracker"
+                            src="/images/gosirat-driver-training-program.webp"
+                            title="GoSirat Driver Training Program"
+                            alt="GoSirat driver training program covering defensive driving, child safety, communication, and emergency response."
                             width={340}
                             height={700}
                         data-aos="fade-out" data-aos-delay="100" />
@@ -39,7 +40,7 @@ export const DriverTraining = () => {
                             </div>
                             <div className="flex flex-col items-start text-left">
                                 <div className="text-[11px] font-bold text-[#176938] uppercase tracking-[1px] leading-[14px]">Day 2</div>
-                                <div className="text-[15px] font-bold text-[#09131a] leading-[20px] mt-1">Child welfare & communication</div>
+                                <div className="text-[15px] font-bold text-[#09131a] leading-[20px] mt-1">Child Safety & Communication</div>
                             </div>
                         </div>
 
@@ -53,7 +54,7 @@ export const DriverTraining = () => {
                             </div>
                             <div className="flex flex-col items-start text-left">
                                 <div className="text-[11px] font-bold text-[#176938] uppercase tracking-[1px] leading-[14px]">Day 1</div>
-                                <div className="text-[15px] font-bold text-[#09131a] leading-[20px] mt-1">Defensive driving & route safety</div>
+                                <div className="text-[15px] font-bold text-[#09131a] leading-[20px] mt-1">Defensive Driving & Route Safety</div>
                             </div>
                         </div>
 
@@ -66,7 +67,7 @@ export const DriverTraining = () => {
                             </div>
                             <div className="flex flex-col items-start text-left">
                                 <div className="text-[11px] font-bold text-[#176938] uppercase tracking-[1px] leading-[14px]">Day 3</div>
-                                <div className="text-[15px] font-bold text-[#09131a] leading-[20px] mt-1">First aid & emergency response</div>
+                                <div className="text-[15px] font-bold text-[#09131a] leading-[20px] mt-1">First Aid & Emergency Response</div>
                             </div>
                         </div>
                     </div>
