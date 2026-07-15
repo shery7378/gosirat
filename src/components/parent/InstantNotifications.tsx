@@ -13,11 +13,10 @@ export const InstantNotifications = () => {
           </div>
           <div className="self-stretch flex flex-col items-center gap-3 text-5xl text-[#09131a] text-center">
             <h2 className="m-0 relative text-[length:inherit] tracking-[-1.61px] leading-[56.5px] capitalize font-semibold font-[inherit] mq750:text-4xl mq450:text-3xl mq750:leading-[45px]">
-              Calm, considered updates — not a flood.
+              Stay Updated at Every Step
             </h2>
             <div className="self-stretch relative text-lg leading-[29.3px] text-[#202A32] text-center max-w-[800px] mx-auto">
-              We notify you when it matters: driver arrival, child boarded,
-              school arrival, school release, and home drop-off. That's it.
+              Receive real-time notifications for driver arrival, student pickup, school arrival, school departure, and safe drop-off, so you always know your child's school journey.
             </div>
           </div>
         </section>
@@ -88,8 +87,9 @@ export const InstantNotifications = () => {
             width={483}
             height={979}
             sizes="100vw"
-            alt="Parent receiving instant push notification for school bus arrival"
-            src="/images/parent-instant-notification-alerts.png"
+            title="GoSirat Parent App Real-Time Notifications"
+            alt="GoSirat Parent App showing real-time notifications for school transportation, including pickup, school arrival, and safe drop-off."
+            src="/images/gosirat-parent-app-notifications.webp"
           data-aos="fade-out" data-aos-delay="100" />
 
           {/* Right Cards */}
@@ -156,8 +156,9 @@ export const InstantNotifications = () => {
             width={240}
             height={487}
             sizes="100vw"
-            alt="Parent receiving instant push notification for school bus arrival"
-            src="/images/parent-instant-notification-alerts.png"
+            title="GoSirat Parent App Real-Time Notifications"
+            alt="GoSirat Parent App showing real-time notifications for school transportation, including pickup, school arrival, and safe drop-off."
+            src="/images/gosirat-parent-app-notifications.webp"
           data-aos="fade-out" data-aos-delay="200" />
           <div className="flex flex-col gap-4 w-full max-w-[500px]">
             <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04)]" data-aos="fade-in" data-aos-delay="200">

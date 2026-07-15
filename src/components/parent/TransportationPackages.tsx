@@ -6,24 +6,24 @@ export const TransportationPackages = () => {
 
   const packages = [
     {
-      type: "Special-needs",
+      type: "Special Needs",
       title: "1 Seater",
-      description: "Premium private ride — special-needs ready.",
+      description: "Private transportation designed for students who need extra care, comfort, and personalized support.",
     },
     {
-      type: "Shared",
+      type: "Shared Ride",
       title: "3 Seater",
-      description: "Small shared ride for close-by families.",
+      description: "A small shared ride for nearby families, offering a safe and comfortable school journey.",
     },
     {
-      type: "Shared",
+      type: "Shared Ride",
       title: "7 Seater",
-      description: "Optimised shared route for siblings and neighbours.",
+      description: "An efficient shared transportation option for siblings, neighbors, and nearby students.",
     },
     {
-      type: "Shared",
+      type: "School Van",
       title: "Van",
-      description: "Full school-route service with attendant.",
+      description: "A reliable school transportation service with a professional driver and attendant for larger routes.",
     },
   ];
 
@@ -37,8 +37,11 @@ export const TransportationPackages = () => {
             </div>
           </div>
           <h2 className="m-0 relative text-5xl tracking-[-1.61px] leading-[56.5px] capitalize font-semibold font-[inherit] text-[#09131a] mq450:text-[38px] mq450:leading-[45px] mq450:text-[29px] mq450:leading-[34px]">
-            Choose the ride that fits your family.
+            Choose the Ride That Fits Your Family.
           </h2>
+          <div className="w-full relative text-lg leading-[29.3px] text-[#202A32] mt-4 max-w-[800px]">
+            Select the school transportation package that best matches your child's travel needs, schedule, and comfort. GoSirat offers safe, flexible, and reliable school pick-up and drop-off services for every family.
+          </div>
         </div>
         <section className="self-stretch flex flex-col items-start pt-12 px-0 pb-0 text-left text-xs text-[#0D6332] font-[Inter]">
           <div className="self-stretch flex items-center justify-start flex-wrap content-center gap-4">

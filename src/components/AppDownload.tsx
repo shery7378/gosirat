@@ -5,9 +5,21 @@ import { Container } from "./Container";
 
 interface AppDownloadProps {
     hideImage?: boolean;
+    label?: string;
+    heading?: string;
+    description?: string;
+    primaryCtaText?: string;
+    primaryCtaLink?: string;
 }
 
-const AppDownload: React.FC<AppDownloadProps> = ({ hideImage }) => {
+const AppDownload: React.FC<AppDownloadProps> = ({ 
+    hideImage,
+    label = "Download the App",
+    heading = "Start Your Safe School Transportation Journey Today",
+    description = "Download the GoSirat Parent App or Driver App and experience safe, smart, and reliable school transportation services. With live GPS tracking, verified drivers, QR verification, real-time notifications, and secure student pick-up and drop-off, GoSirat makes every school journey safer for parents, students, schools, and drivers.",
+    primaryCtaText = "Register Now",
+    primaryCtaLink = "/register"
+}) => {
     return (
         <section className="w-full flex flex-col items-center p-16 box-border mq450:py-10 mq450:px-4 mx-auto" data-aos="zoom-in">
             <Container className="w-full rounded-[40px] bg-[#176938] overflow-hidden flex flex-col items-center text-center justify-center py-24 px-8 relative min-h-[464px] box-border">
@@ -18,23 +30,23 @@ const AppDownload: React.FC<AppDownloadProps> = ({ hideImage }) => {
                         <div className="rounded-[20px] bg-[rgba(255,255,255,0.2)] flex items-center py-1.5 px-3.5 gap-2" data-aos="fade-in" data-aos-delay="100">
                             <div className="h-1.5 w-1.5 rounded-full bg-white" />
                             <div className="tracking-[1.68px] leading-4 uppercase font-semibold text-white text-xs">
-                                Download the App
+                                {label}
                             </div>
                         </div>
 
                         <h2 className="m-0 text-[50px] tracking-[-1.5px] leading-[60px] capitalize font-semibold text-[#f8fbf8] mq750:text-4xl mq450:text-3xl w-full">
-                            Start Your Safe School Transportation Journey Today
+                            {heading}
                         </h2>
 
                         <div className="text-lg leading-[28px] text-[rgba(248,251,248,0.8)] mt-2 w-full font-medium max-w-[800px]">
-                            Download the GoSirat Parent App or Driver App and experience safe, smart, and reliable school transportation services. With live GPS tracking, verified drivers, QR verification, real-time notifications, and secure student pick-up and drop-off, GoSirat makes every school journey safer for parents, students, schools, and drivers.
+                            {description}
                         </div>
                     </div>
 
                     <div className="flex items-center gap-4 flex-wrap w-full justify-center mt-6">
-                        <Link href="/register" className="group relative flex items-center justify-center gap-3 bg-white rounded-[14px] h-[54px] px-7 no-underline shadow-[0_4px_15px_rgba(0,0,0,0.2)] hover:shadow-[0_8px_25px_rgba(255,255,255,0.2)] hover:-translate-y-1 active:translate-y-0 transition-all duration-300">
+                        <Link href={primaryCtaLink} className="group relative flex items-center justify-center gap-3 bg-white rounded-[14px] h-[54px] px-7 no-underline shadow-[0_4px_15px_rgba(0,0,0,0.2)] hover:shadow-[0_8px_25px_rgba(255,255,255,0.2)] hover:-translate-y-1 active:translate-y-0 transition-all duration-300">
                             <span className="text-[17px] font-bold font-[Inter] text-[#176938] tracking-tight">
-                                Register Now
+                                {primaryCtaText}
                             </span>
                             <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#176938] shadow-[0_2px_8px_rgba(23,105,56,0.4)] group-hover:bg-[#12552d] transition-colors duration-300">
                                 <svg viewBox="0 0 24 24" fill="none" stroke="white" className="w-4 h-4 transform group-hover:translate-x-0.5 transition-transform duration-300" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">

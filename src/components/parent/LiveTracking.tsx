@@ -10,8 +10,8 @@ export const LiveTracking = () => {
                         width={591.4}
                         height={371.9}
                         sizes="100vw"
-                        alt="Parent tracking school bus with GoSirat app"
-                        src="/images/parent-live-bus-tracking.png"
+                        alt="Live GPS tracking in the GoSirat Parent App for school transportation."
+                        src="/images/gosirat-live-gps-tracking.webp"
                         data-aos="zoom-in" data-aos-delay="100" />
                     <div className="w-[312.4px] h-[330.9px] absolute !m-0 top-[334.3px] left-[337px] max-h-full z-[1] overflow-hidden flex items-center justify-center shrink-0">
                         <Image
@@ -43,12 +43,11 @@ export const LiveTracking = () => {
                         </div>
                         <div className="self-stretch flex flex-col items-start text-5xl text-[#0c140f]">
                             <h2 className="m-0 self-stretch relative text-[length:inherit] tracking-[-1.5px] leading-[63px] capitalize font-semibold font-[inherit] mq450:text-[38px] mq450:leading-[50px] mq450:text-[29px] mq450:leading-[38px]">
-                                No more "where are you?
+                                Track Every School Journey Live
                             </h2>
                             <div className="self-stretch flex flex-col items-start pt-5 px-0 pb-0 text-lg text-[#57605b]">
                                 <div className="self-stretch relative leading-7">
-                                    Watch your child's vehicle move live on a map, with ETA,
-                                    speed and route progress updated every second.
+                                    Monitor your child's school transportation in real time with live GPS tracking, ETA, and route updates.
                                 </div>
                             </div>
                         </div>

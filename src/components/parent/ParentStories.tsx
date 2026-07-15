@@ -13,7 +13,7 @@ export const ParentStories = ({ isAboutPage = false }: { isAboutPage?: boolean }
                     <div className="rounded-full bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] flex items-center py-[5px] px-3.5 gap-1.5" data-aos="fade-in" data-aos-delay="100">
                         <div className="h-1.5 w-1.5 rounded-full bg-[#176938] shrink-0" />
                         <div className="tracking-[1.68px] leading-4 uppercase font-medium whitespace-nowrap">
-                            Stories
+                            Parent Stories
                         </div>
                     </div>
                 </div>
@@ -25,9 +25,7 @@ export const ParentStories = ({ isAboutPage = false }: { isAboutPage?: boolean }
      mq650:text-[32px] mq650:leading-[42px] mq650:tracking-[-1px]
      mq450:text-[26px] mq450:leading-[34px] mq450:tracking-[-0.5px]
     ">
-                    <span>{`Heard from `}</span>
-                    <span className="text-[#176938]">parents{isAboutPage ? "," : ""}</span>
-                    {isAboutPage && <span> drivers and schools.</span>}
+                    Trusted by Parents Every School Day
                 </h2>
             </section>
 
@@ -40,38 +38,27 @@ export const ParentStories = ({ isAboutPage = false }: { isAboutPage?: boolean }
     ">
                     {/* Card 1 */}
                     <TestimonialCard
-                        quote="My mornings finally feel calm. I open the app, see the bus on the map, and I know exactly when she'll be at school."
+                        quote="The GoSirat Parent App has made our mornings much easier. I can track the school vehicle live and know exactly when my daughter arrives safely at school."
                         name="Aisha M."
-                        role="Parent · Grade 3"
+                        role="Parent • Grade 3 Student"
                     />
                     {/* Card 2 */}
                     <TestimonialCard
-                        quote="Verification at pickup and at the school gate is the part I appreciate most. Nothing is left to chance."
+                        quote="The QR verification and instant notifications give me complete confidence. I know exactly when my children are picked up, arrive at school, and return home safely."
                         name="Hassan K."
-                        role="Parent · Grade 6 & 8"
+                        role="Parent • Grade 6 & Grade 8 Students"
                     />
                     {/* Card 3 */}
                     <TestimonialCard
-                        quote="The driver app keeps me focused on the road. The manifest, the QR check, the earnings — everything I need is one tap away."
-                        name="Yousef R."
-                        role="GoSirat driver, 3 years"
+                        quote="I love receiving live notifications throughout the journey. Knowing where my son is at every stage makes our daily school routine completely stress-free."
+                        name="Sarah A."
+                        role="Parent • Grade 5 Student"
                     />
                 </div>
             </div>
         </section>
     );
 };
-
-const QuoteIcon = () => (
-    <svg
-        viewBox="0 0 24 24"
-        fill="#448b61"
-        className="w-8 h-8 shrink-0 mb-2 opacity-100"
-        aria-hidden="true"
-    >
-        <path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" />
-    </svg>
-);
 
 const TestimonialCard = ({
     quote,
@@ -96,7 +83,13 @@ const TestimonialCard = ({
    w-full overflow-hidden
   "
     >
-        <QuoteIcon />
+        <div className="flex gap-1 mb-2">
+            {[1, 2, 3, 4, 5].map((star) => (
+                <svg key={star} className="w-6 h-6 text-[#176938] fill-current" viewBox="0 0 24 24">
+                    <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z" />
+                </svg>
+            ))}
+        </div>
 
         <div className="flex-1 pt-5 mq450:pt-4 w-full">
             <p className="

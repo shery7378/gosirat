@@ -12,9 +12,9 @@ export const HowItWorks = () => {
                         </div>
                     </div>
                     <h2 className="m-0 self-stretch relative text-5xl tracking-[-1.5px] leading-[75px] capitalize font-semibold font-[inherit] text-[#f4f7f4] mq450:text-[38px] mq450:leading-[60px] mq450:text-[29px] mq450:leading-[45px]">
-                        <span className="leading-[75px]">{`Five steps from `}</span>
+                        <span className="leading-[75px]">{`GoSirat Parent App Works in `}</span>
                         <span className="text-base-white leading-[75px]">
-                            sign-up to school.
+                            5 Simple Steps
                         </span>
                     </h2>
                 </div>
@@ -33,7 +33,7 @@ export const HowItWorks = () => {
                         </div>
                         <div className="self-stretch flex flex-col items-start pt-3 px-0 pb-0 text-sm">
                             <div className="w-full h-auto relative leading-[22.8px] inline-block text-[rgba(255,255,255,0.7)] group-hover:text-white transition-colors duration-300">
-                                Create a profile for each child adding basic details.
+                                Create a secure profile for each child by adding their basic information, school details, pickup location, and authorized guardians.
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,9 @@ export const HowItWorks = () => {
                             </h2>
                         </div>
                         <div className="self-stretch flex flex-col items-start pt-3 px-0 pb-0 text-sm">
-                            <div className="w-full h-auto relative leading-[22.8px] inline-block text-[rgba(255,255,255,0.7)] group-hover:text-white transition-colors duration-300">{`Pick a plan that matches your school days & schedule.`}</div>
+                            <div className="w-full h-auto relative leading-[22.8px] inline-block text-[rgba(255,255,255,0.7)] group-hover:text-white transition-colors duration-300">
+                                Select the school transportation package that best fits your child's school schedule, pickup location, and daily travel requirements.
+                            </div>
                         </div>
                     </div>
                     {/* Card 3 */}
@@ -63,8 +65,7 @@ export const HowItWorks = () => {
                         </div>
                         <div className="self-stretch flex flex-col items-start pt-3 px-0 pb-0 text-sm">
                             <div className="w-full h-auto relative leading-[22.8px] inline-block text-[rgba(255,255,255,0.7)] group-hover:text-white transition-colors duration-300">
-                                GoSirat matches you with the optimal route and a verified
-                                driver.
+                                GoSirat intelligently assigns your child to the most efficient route and a verified driver, helping provide safe, reliable, and timely school transportation.
                             </div>
                         </div>
                     </div>
@@ -80,8 +81,7 @@ export const HowItWorks = () => {
                         </div>
                         <div className="self-stretch flex flex-col items-start pt-3 px-0 pb-0 text-sm">
                             <div className="w-full h-auto relative leading-[22.8px] text-[rgba(255,255,255,0.7)] group-hover:text-white transition-colors duration-300">
-                                Watch the bus live, get notified at each milestone, contact
-                                the driver.
+                                Use the GoSirat Parent App to monitor your child's school transportation in real time with live GPS tracking, instant notifications, and direct communication when needed.
                             </div>
                         </div>
                     </div>
@@ -92,12 +92,12 @@ export const HowItWorks = () => {
                         </h2>
                         <div className="self-stretch flex flex-col items-start pt-6 px-0 pb-0 text-[28px]">
                             <h2 className="m-0 self-stretch relative text-[length:inherit] tracking-[-0.5px] font-medium font-[inherit] group-hover:text-white transition-colors duration-300 mq450:text-[22px]">
-                                Safe Arrival
+                                Safe Pickup & Drop-Off
                             </h2>
                         </div>
                         <div className="w-full flex flex-col items-start pt-3 px-0 pb-0 box-border text-sm">
                             <div className="self-stretch relative leading-[22.8px] text-[rgba(255,255,255,0.7)] group-hover:text-white transition-colors duration-300">
-                                Confirmed handover at school — and again on the way home.
+                                Every pickup and drop-off is securely confirmed using QR verification and authorized guardian confirmation, giving parents complete peace of mind.
                             </div>
                         </div>
                     </div>

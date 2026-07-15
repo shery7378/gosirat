@@ -10,13 +10,12 @@ export const SafeHandover = () => {
                     </div>
                     <div className="self-stretch flex flex-col items-start pt-4 px-0 pb-0 text-[54px] text-base-white">
                         <h2 className="m-0 w-full relative text-[length:inherit] tracking-[-1.61px] leading-[62px] capitalize font-semibold font-[inherit] inline-block mq450:text-[43px] mq450:leading-[50px] mq450:text-[32px] mq450:leading-[37px]">
-                            Only the right person can collect your child.
+                            Secure QR Verification at Every Handover
                         </h2>
                     </div>
                     <div className="self-stretch flex flex-col items-start pt-5 px-0 pb-0 text-lg text-[rgba(255,255,255,0.7)]">
                         <div className="w-full relative leading-[29.3px] inline-block">
-                            QR-based verification at every handover step — pickup, school,
-                            release and home drop-off.
+                            Every school pick-up and drop-off is protected with secure QR verification. Parents receive confirmation at every step, ensuring safe school transportation and complete peace of mind.
                         </div>
                     </div>
                 </section>
@@ -29,14 +28,13 @@ export const SafeHandover = () => {
                             <div className="self-stretch flex flex-col items-start pt-3 px-0 pb-0 text-base text-base-white">
                                 <div className="self-stretch flex flex-col items-start">
                                     <div className="relative tracking-[-0.4px] leading-6 font-semibold">
-                                        Pickup verification
+                                        Pickup Verification
                                     </div>
                                 </div>
                             </div>
                             <div className="w-full flex flex-col items-start pt-2 px-0 pb-0 box-border text-sm text-[rgba(255,255,255,0.7)]">
                                 <div className="w-full relative leading-[22.8px] inline-block">
-                                    QR scan and timestamp — a permanent record of who handed
-                                    over and who received.
+                                    The driver scans a secure QR code before the child boards, creating a verified pickup record.
                                 </div>
                             </div>
                         </div>
@@ -47,14 +45,13 @@ export const SafeHandover = () => {
                             <div className="self-stretch flex flex-col items-start pt-3 px-0 pb-0 text-base text-base-white">
                                 <div className="self-stretch flex flex-col items-start">
                                     <div className="relative tracking-[-0.4px] leading-6 font-semibold">
-                                        School handover
+                                        School Arrival
                                     </div>
                                 </div>
                             </div>
                             <div className="w-full flex flex-col items-start pt-2 px-0 pb-0 box-border text-sm text-[rgba(255,255,255,0.7)]">
                                 <div className="w-full relative leading-[22.8px] inline-block">
-                                    QR scan and timestamp — a permanent record of who handed
-                                    over and who received.
+                                    The student's arrival at school is securely confirmed with QR verification and a timestamp.
                                 </div>
                             </div>
                         </div>
@@ -65,14 +62,13 @@ export const SafeHandover = () => {
                             <div className="self-stretch flex flex-col items-start pt-3 px-0 pb-0 text-base text-base-white">
                                 <div className="self-stretch flex flex-col items-start">
                                     <div className="relative tracking-[-0.4px] leading-6 font-semibold">
-                                        School release
+                                        School Release
                                     </div>
                                 </div>
                             </div>
                             <div className="w-full flex flex-col items-start pt-2 px-0 pb-0 box-border text-sm text-[rgba(255,255,255,0.7)]">
                                 <div className="w-full relative leading-[22.8px] inline-block">
-                                    QR scan and timestamp — a permanent record of who handed
-                                    over and who received.
+                                    The child's departure from school is verified before leaving with the assigned driver.
                                 </div>
                             </div>
                         </div>
@@ -83,14 +79,13 @@ export const SafeHandover = () => {
                             <div className="self-stretch flex flex-col items-start pt-3 px-0 pb-0 text-base text-base-white">
                                 <div className="self-stretch flex flex-col items-start">
                                     <div className="relative tracking-[-0.4px] leading-6 font-semibold">
-                                        Parent verification
+                                        Parent Confirmation
                                     </div>
                                 </div>
                             </div>
                             <div className="w-full flex flex-col items-start pt-2 px-0 pb-0 box-border text-sm text-[rgba(255,255,255,0.7)]">
                                 <div className="w-full relative leading-[22.8px] inline-block">
-                                    QR scan and timestamp — a permanent record of who handed
-                                    over and who received.
+                                    The final QR scan confirms the child has been safely handed over to the authorized parent or guardian.
                                 </div>
                             </div>
                         </div>

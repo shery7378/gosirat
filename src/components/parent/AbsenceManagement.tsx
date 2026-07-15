@@ -100,13 +100,12 @@ export const AbsenceManagement = () => {
                 </div>
                 <div className="w-full flex flex-col items-start pt-4 px-0 pb-0 box-border text-5xl text-[#09131a]">
                     <h2 className="m-0 w-full relative text-[length:inherit] tracking-[-1.61px] leading-[56.5px] font-semibold font-[inherit] inline-block mq450:text-[38px] mq450:leading-[45px] mq450:text-[29px] mq450:leading-[34px]">
-                        One tap. Driver informed.
+                        Report Absences in One Tap
                     </h2>
                 </div>
                 <div className="w-full flex flex-col items-start pt-5 px-0 pb-0 box-border text-lg text-[#202A32]">
                     <div className="w-full relative leading-[29.3px] inline-block">
-                        Mark your child absent in seconds — the driver and school are
-                        notified instantly, and the route is automatically adjusted.
+                        Mark your child absent in seconds. The GoSirat Parent App instantly notifies the driver and school, helping keep school transportation routes efficient and up to date.
                     </div>
                 </div>
             </section>

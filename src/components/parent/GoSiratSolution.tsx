@@ -13,35 +13,22 @@ export const GoSiratSolution = () => {
                         </div>
                         <div className="w-full flex flex-col items-start pt-4 px-0 pb-0 box-border shrink-0 text-5xl text-[#09131a]">
                             <h2 className="m-0 w-full relative text-[length:inherit] tracking-[-1.61px] leading-[54px] capitalize font-semibold font-[inherit] inline-block mq450:text-[38px] mq450:leading-[43px] mq450:text-[29px] mq450:leading-8">
-                                One app. Every answer. Every morning.
+                                One App. Every Answer. Every Morning.
                             </h2>
                         </div>
                         <div className="w-full flex flex-col items-start pt-5 px-0 pb-0 box-border shrink-0 text-lg text-[#202A32]">
                             <div className="w-full relative leading-[29.3px] inline-block">
-                                Replace anxiety with clarity. Replace silence with live
-                                updates. Replace uncertainty with verification.
+                                Track your child's school transportation in real time, receive instant notifications, verify every pick-up and drop-off through QR verification, and manage payments with complete transparency.
                             </div>
                         </div>
                         <div className="self-stretch flex flex-col items-start pt-8 px-0 pb-0 shrink-0">
                             <div className="flex items-center gap-4 mq450:flex-wrap">
-                                {/* App Store Button */}
-                                <a href="#" className="flex items-center justify-center gap-[10px] bg-black border border-[#444] rounded-xl py-2 hover:bg-[#1a1a1a] transition-colors h-[54px] w-[180px] no-underline">
-                                    <svg viewBox="0 0 384 512" className="w-[24px] h-[24px] text-white" fill="currentColor">
-                                        <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z" />
-                                    </svg>
-                                    <div className="flex flex-col items-start justify-center">
-                                        <span className="text-[10px] leading-[12px] text-gray-200 font-medium">Download on the</span>
-                                        <span className="text-[19px] leading-[22px] text-white font-semibold tracking-wide">App Store</span>
-                                    </div>
+                                <a href="#" className="flex items-center justify-center gap-[10px] bg-[#0D6332] rounded-xl py-2 px-6 hover:bg-[#0a4f27] transition-colors h-[54px] no-underline">
+                                    <span className="text-base text-white font-semibold tracking-wide">Download Parent App</span>
                                 </a>
 
-                                {/* Google Play Button */}
-                                <a href="#" className="flex items-center justify-center gap-[10px] bg-black border border-[#444] rounded-xl py-2 hover:bg-[#1a1a1a] transition-colors h-[54px] w-[180px] no-underline">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Play_Arrow_logo.svg" alt="Google Play" className="w-[24px] h-[24px]" data-aos="fade-out" data-aos-delay="100" />
-                                    <div className="flex flex-col items-start justify-center">
-                                        <span className="text-[10px] leading-[12px] text-gray-200 font-medium tracking-wide uppercase">Get it on</span>
-                                        <span className="text-[19px] leading-[22px] text-white font-semibold tracking-wide">Google Play</span>
-                                    </div>
+                                <a href="/register" className="flex items-center justify-center gap-[10px] bg-transparent border-[1.5px] border-[#0D6332] rounded-xl py-2 px-6 hover:bg-[rgba(13,99,50,0.05)] transition-colors h-[54px] no-underline">
+                                    <span className="text-base text-[#0D6332] font-semibold tracking-wide">Register as a Parent</span>
                                 </a>
                             </div>
                         </div>
@@ -60,12 +47,12 @@ export const GoSiratSolution = () => {
                             </div>
                             <div className="self-stretch flex flex-col items-start">
                                 <div className="relative tracking-[-0.45px] leading-7 font-semibold text-[#09131A]">
-                                    Live location
+                                    Live GPS Tracking
                                 </div>
                             </div>
                             <div className="w-full flex flex-col items-start pt-2 px-0 pb-0 box-border text-sm text-[#202A32]">
                                 <div className="w-full relative leading-[22.8px] inline-block">
-                                    See exactly where your child is, every moment.
+                                    Track your child's school transportation in real time with accurate GPS location updates.
                                 </div>
                             </div>
                         </div>
@@ -79,12 +66,12 @@ export const GoSiratSolution = () => {
                             </div>
                             <div className="self-stretch flex flex-col items-start">
                                 <div className="relative tracking-[-0.45px] leading-7 font-semibold text-[#09131A]">
-                                    Verified handovers
+                                    Secure QR Verification
                                 </div>
                             </div>
                             <div className="w-full flex flex-col items-start pt-2 px-0 pb-0 box-border text-sm text-[#202A32]">
                                 <div className="w-full relative leading-[22.8px] inline-block">
-                                    QR-based pickup, release and drop-off.
+                                    Every student pickup and drop-off is verified through secure QR verification, ensuring children are handed over safely to authorized guardians.
                                 </div>
                             </div>
                         </div>
@@ -100,12 +87,12 @@ export const GoSiratSolution = () => {
                             </div>
                             <div className="self-stretch flex flex-col items-start">
                                 <div className="relative tracking-[-0.45px] leading-7 font-semibold text-[#09131A]">
-                                    Instant alerts
+                                    Instant Notifications
                                 </div>
                             </div>
                             <div className="w-full flex flex-col items-start pt-2 px-0 pb-0 box-border text-sm text-[#202A32]">
                                 <div className="w-full relative leading-[22.8px] inline-block">
-                                    Every checkpoint pushes a real-time notification.
+                                    Receive real-time alerts for vehicle arrival, pickup, journey progress, school arrival, and drop-off so you always know where your child is.
                                 </div>
                             </div>
                         </div>
@@ -119,12 +106,12 @@ export const GoSiratSolution = () => {
                             </div>
                             <div className="self-stretch flex flex-col items-start">
                                 <div className="relative tracking-[-0.45px] leading-7 font-semibold text-[#09131A]">
-                                    Transparent billing
+                                    Transparent Billing
                                 </div>
                             </div>
                             <div className="w-full flex flex-col items-start pt-2 px-0 pb-0 box-border text-sm text-[#202A32]">
                                 <div className="w-full relative leading-[22.8px] inline-block">
-                                    One clear bill. No surprises. No cash.
+                                    View transportation packages, invoices, payment history, and subscription details in one place with secure and transparent digital billing.
                                 </div>
                             </div>
                         </div>

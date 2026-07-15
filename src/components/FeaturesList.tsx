@@ -23,7 +23,13 @@ const FeaturesList: NextPage = () => {
             <div className="self-stretch flex flex-col items-start pt-16 px-0 pb-0 mq450:pt-[42px] mq450:box-border">
                 <div className="self-stretch grid grid-cols-3 mq975:grid-cols-2 mq650:grid-cols-1 gap-5">
                     <section className="h-full w-full overflow-hidden shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04),_0px_8px_24px_rgba(16,_24,_16,_0.06)] rounded-[28px] bg-white border-[rgba(222,227,222,0.7)] border-solid border-[0.7px] box-border flex flex-col items-start p-8 text-left text-lg text-[#0c140f] font-[Inter]">
-                        <div className="text-xl mb-3">⭐⭐⭐⭐⭐</div>
+                        <div className="flex gap-1 mb-4">
+                            {[1, 2, 3, 4, 5].map((star) => (
+                                <svg key={`star1-${star}`} className="w-6 h-6 text-[#176938] fill-current" viewBox="0 0 24 24">
+                                    <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z" />
+                                </svg>
+                            ))}
+                        </div>
                         <div className="flex-1 w-full pt-1 px-0 pb-0">
                             <div className="w-full relative leading-[29.3px] break-words whitespace-normal inline-block">
                                 "GoSirat has made our school mornings stress-free. I can track the vehicle in real time, receive instant notifications, and know exactly when my daughter arrives safely at school. It gives me complete peace of mind."
@@ -44,7 +50,13 @@ const FeaturesList: NextPage = () => {
                     </section>
 
                     <section className="h-full w-full overflow-hidden shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04),_0px_8px_24px_rgba(16,_24,_16,_0.06)] rounded-[28px] bg-white border-[rgba(222,227,222,0.7)] border-solid border-[0.7px] box-border flex flex-col items-start p-8 text-left text-lg text-[#0c140f] font-[Inter]">
-                        <div className="text-xl mb-3">⭐⭐⭐⭐⭐</div>
+                        <div className="flex gap-1 mb-4">
+                            {[1, 2, 3, 4, 5].map((star) => (
+                                <svg key={`star2-${star}`} className="w-6 h-6 text-[#176938] fill-current" viewBox="0 0 24 24">
+                                    <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z" />
+                                </svg>
+                            ))}
+                        </div>
                         <div className="flex-1 w-full pt-1 px-0 pb-0">
                             <div className="w-full relative leading-[29.3px] break-words whitespace-normal inline-block">
                                 "The QR verification system and secure handover are the features I trust the most. Every pickup and drop-off is verified, which makes me feel confident that my children are always safe."
@@ -65,7 +77,13 @@ const FeaturesList: NextPage = () => {
                     </section>
 
                     <section className="h-full w-full overflow-hidden shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04),_0px_8px_24px_rgba(16,_24,_16,_0.06)] rounded-[28px] bg-white border-[rgba(222,227,222,0.7)] border-solid border-[0.7px] box-border flex flex-col items-start p-8 text-left text-lg text-[#0c140f] font-[Inter]">
-                        <div className="text-xl mb-3">⭐⭐⭐⭐⭐</div>
+                        <div className="flex gap-1 mb-4">
+                            {[1, 2, 3, 4, 5].map((star) => (
+                                <svg key={`star3-${star}`} className="w-6 h-6 text-[#176938] fill-current" viewBox="0 0 24 24">
+                                    <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z" />
+                                </svg>
+                            ))}
+                        </div>
                         <div className="flex-1 w-full pt-1 px-0 pb-0">
                             <div className="w-full relative leading-[29.3px] break-words whitespace-normal inline-block">
                                 "The GoSirat Driver App makes my daily work much easier. Route navigation, student attendance, QR verification, and earnings are all available in one place, allowing me to focus on driving safely."

@@ -12,13 +12,12 @@ export const ParentChallenges = () => {
                     </div>
                     <div className="self-stretch flex flex-col items-start pt-4 px-0 pb-0 text-5xl text-base-white">
                         <h2 className="m-0 w-full relative text-[length:inherit] tracking-[-1.61px] leading-[54px] capitalize font-semibold font-[inherit] inline-block mq450:text-[38px] mq450:leading-[43px] mq450:text-[29px] mq450:leading-8">
-                            School mornings shouldn't feel like a guessing game.
+                            School Mornings Shouldn't Feel Like a Guessing Game.
                         </h2>
                     </div>
                     <div className="self-stretch flex flex-col items-start pt-5 px-0 pb-0 text-lg text-[rgba(255,255,255,0.7)]">
                         <div className="w-full relative leading-[29.3px] inline-block">
-                            Today's parents are juggling work, family and uncertainty — with
-                            no real visibility into the most important journey of the day.
+                            Today's parents are balancing work, family, and busy schedules while trying to stay informed about their child's school transportation. GoSirat is designed to give families complete visibility, safer school pick-up and drop-off, and peace of mind from pickup to arrival.
                         </div>
                     </div>
                 </section>
@@ -32,7 +31,7 @@ export const ParentChallenges = () => {
                             </div>
                             <div className="w-full flex flex-col items-start pt-2 px-0 pb-0 box-border text-sm text-[rgba(255,255,255,0.7)]">
                                 <div className="w-full relative leading-[22.8px] inline-block">
-                                    Not knowing where your child is between home and school.
+                                    Parents shouldn't have to wonder where their child is between home and school. Without live GPS tracking and real-time updates, every school journey can feel uncertain.
                                 </div>
                             </div>
                         </div>
@@ -44,7 +43,7 @@ export const ParentChallenges = () => {
                             </div>
                             <div className="w-full h-auto flex flex-col items-start pt-2 px-0 pb-0 box-border text-sm text-[rgba(255,255,255,0.7)]">
                                 <div className="w-full relative leading-[22.8px] inline-block">
-                                    Information that arrives too late, or never at all.
+                                    Important information should arrive at the right time. Parents need instant pickup, journey, arrival, and drop-off notifications—not delayed messages or unanswered questions.
                                 </div>
                             </div>
                         </div>
@@ -56,8 +55,7 @@ export const ParentChallenges = () => {
                             </div>
                             <div className="w-full flex flex-col items-start pt-2 px-0 pb-0 box-border text-sm text-[rgba(255,255,255,0.7)]">
                                 <div className="w-full relative leading-[22.8px] inline-block">
-                                    No verified record of who picked up or dropped off your
-                                    child.
+                                    Every child deserves a verified and secure handover. GoSirat records pickup and drop-off through QR verification and authorized guardian confirmation, helping schools and parents stay informed and protected.
                                 </div>
                             </div>
                         </div>

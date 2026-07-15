@@ -22,9 +22,7 @@ export const ParentHero = () => {
                                     </h1>
                                 </div>
                                 <h3 className="m-0 w-full max-w-[641px] relative text-lg leading-[28px] font-normal font-[inherit] text-[#57605b] inline-block mq450:text-base mq450:leading-[26px]">
-                                    Open the app. See exactly where your child is. From the
-                                    moment the driver arrives until the moment they're safely
-                                    back home.
+                                    The GoSirat Parent App gives parents complete visibility and control over their child's school transportation. Track every school pick-up and drop-off in real time with live GPS tracking, receive instant notifications, verify safe handovers through QR verification, and monitor attendance—all from one easy-to-use app.
                                 </h3>
                             </div>
                         </div>
@@ -52,9 +50,10 @@ export const ParentHero = () => {
                         width={350}
                         height={727}
                         sizes="100vw"
-                        alt="Parent and driver app mockup showing live bus tracking"
-                        src="/images/parent-driver-app-hero-mockup.png"
-                    data-aos="fade-in" data-aos-delay="100" />
+                        alt="GoSirat Parent App showing live GPS tracking, school pick and drop updates, QR verification, and real-time notifications for parents."
+                        title="GoSirat Parent App for Safe School Transportation"
+                        src="/images/gosirat-parent-app-live-gps-tracking.webp"
+                        data-aos="fade-in" data-aos-delay="100" />
                 </section>
             </div>
         </section>

@@ -1,8 +1,8 @@
 import type { NextPage, Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Parent App | Live School Bus Tracking & Child Safety | GoSirat",
-    description: "Track your child's school journey live, receive instant alerts, manage absences, and enjoy secure QR-based handovers with the GoSirat Parent App.",
+    title: "GoSirat Parent App | Safe School Transportation & GPS",
+    description: "Track your child's school transportation with the GoSirat Parent App. Enjoy live GPS tracking, QR verification, real-time notifications, and safe school pick-up and drop-off.",
     alternates: {
         canonical: "https://gosirat.com/parent-app",
     },
@@ -26,8 +26,8 @@ const ParentPage: NextPage = () => {
  return (
   <div className="w-full relative bg-[#f4f7f4] flex flex-col items-center pt-6 px-0 pb-0 box-border leading-[normal] tracking-[normal] overflow-x-hidden">
    <WebPageSchema 
-      title="Parent App | Live School Bus Tracking & Child Safety | GoSirat" 
-      description="Track your child's school journey live, receive instant alerts, manage absences, and enjoy secure QR-based handovers with the GoSirat Parent App." 
+      title="GoSirat Parent App | Safe School Transportation & GPS" 
+      description="Track your child's school transportation with the GoSirat Parent App. Enjoy live GPS tracking, QR verification, real-time notifications, and safe school pick-up and drop-off." 
       url="https://gosirat.com/parent-app" 
     />
     <BreadcrumbSchema items={[
@@ -49,7 +49,13 @@ const ParentPage: NextPage = () => {
    <SafeHandover />
    <TransportationPackages />
    <ParentStories />
-   <AppDownload />
+   <AppDownload 
+     label="Download the Parent App"
+     heading="Start Your Child's Safer School Journey Today"
+     description="Download the GoSirat Parent App and enjoy safe, smart, and reliable school transportation. Track every journey with live GPS tracking, receive real-time notifications, verify secure QR handovers, and stay connected from pickup to drop-off—all in one simple app."
+     primaryCtaText="Register as a Parent"
+     primaryCtaLink="/register"
+   />
    <FAQ />
   </div>
  );
