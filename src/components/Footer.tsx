@@ -189,7 +189,7 @@ const Footer: NextPage = () => {
                 <div className="mt-2 flex flex-col items-center self-stretch text-gray-600">
                     <div className="box-border flex w-full max-w-full items-center justify-between gap-4 border-t-[0.7px] border-solid border-gray-200 px-0 pb-0 pt-4 [row-gap:16px] mq650:flex-col mq650:items-center mq650:text-center">
                         <div className="flex items-start mq650:justify-center">
-                            <div className="relative flex-1 leading-5">Â© 2026 GoSirat. All rights reserved.</div>
+                            <div className="relative flex-1 leading-5">© 2026 GoSirat. All rights reserved.</div>
                         </div>
                         <div className="flex flex-wrap items-center gap-[19.6px] text-gray-500 mq650:justify-center">
                             {socialLinks.map((link) => (
