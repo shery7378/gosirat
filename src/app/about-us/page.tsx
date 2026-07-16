@@ -37,7 +37,7 @@ const AboutPage: NextPage = () => {
    <AboutTeam />
    <ParentStories isAboutPage={true} />
    
-   <AppDownload hideImage={true} />
+   <AppDownload />
   </div>
  );
 };
