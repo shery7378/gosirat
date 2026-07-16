@@ -40,9 +40,9 @@ const footerSections: Array<{ title: string; links: FooterLink[] }> = [
         title: "Legal",
         links: [
             { label: "Privacy Policy", href: "/privacy-policy" },
-            { label: "Terms", href: "/terms" },
-            { label: "Cookies", href: "/cookies" },
-            { label: "Disclosures", href: "/disclosures" },
+            { label: "Terms & Conditions", href: "/terms-and-conditions" },
+            { label: "Cookie Policy", href: "/cookie-policy" },
+            { label: "Disclaimer", href: "/disclaimer" },
         ],
     },
 ];
@@ -138,7 +138,7 @@ const Footer: NextPage = () => {
                                 <div className="flex flex-col items-start self-stretch pt-4 pb-0 px-0 text-gray-600 mq725:items-center">
                                     {section.links.map((link) => {
                                         const content = (
-                                            <div className="flex items-center gap-2 leading-5">
+                                            <div className="flex items-center gap-2 leading-5 whitespace-nowrap">
                                                 {link.icon ? renderIcon(link.icon) : null}
                                                 <span>{link.label}</span>
                                             </div>
