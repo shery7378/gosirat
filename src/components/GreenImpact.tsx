@@ -34,7 +34,7 @@ const GreenImpact: NextPage = () => {
                         sizes="100vw"
                         alt="GoSirat eco-friendly school transportation reducing traffic congestion and carbon emissions through shared school rides."
                         title="GoSirat Eco-Friendly School Transportation"
-                        src="/images/gosirat-green-school-transportation.png"
+                        src="/images/gosirat-green-school-transportation.jpeg"
                         data-aos="fade-out" data-aos-delay="100" />
                 </div>
             </section>
