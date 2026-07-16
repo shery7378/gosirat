@@ -11,7 +11,7 @@ export default function EnvironmentPage() {
                     <img
                         src="/images/gosirat-green-school-transportation.webp"
                         alt="GoSirat eco-friendly school transportation creating a greener future with sustainable journeys"
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                        className="w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-[rgba(9,38,28,0.72)] via-[rgba(9,38,28,0.55)] to-[rgba(8,32,24,0.86)]"></div>
                     <div className="absolute inset-0 bg-gradient-to-br from-[rgba(15,76,58,0.5)] to-[rgba(29,111,224,0.28)]"></div>

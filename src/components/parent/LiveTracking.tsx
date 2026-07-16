@@ -67,7 +67,7 @@ export const LiveTracking = () => {
                                 />
                             </svg>
                             {/* Bus Icon */}
-                            <div className="bus-icon-animated z-10" style={{position:'absolute', top:0, left:0}}>
+                            <div className="bus-icon-animated z-10 absolute top-0 left-0">
                                 <svg width="72" height="44" viewBox="0 0 72 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <defs>
                                         <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
