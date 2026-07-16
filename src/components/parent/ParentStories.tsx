@@ -25,8 +25,11 @@ export const ParentStories = ({ isAboutPage = false }: { isAboutPage?: boolean }
      mq650:text-[32px] mq650:leading-[42px] mq650:tracking-[-1px]
      mq450:text-[26px] mq450:leading-[34px] mq450:tracking-[-0.5px]
     ">
-                    Trusted by Parents Every School Day
+                    Trusted by Families for Safer School Transportation
                 </h2>
+                <p className="m-0 w-full max-w-[800px] relative text-[16px] md:text-[18px] text-[#57605b] font-normal leading-[1.6] mt-4">
+                    Parents trust GoSirat to make every school journey safer, smarter, and more transparent. From live GPS tracking to verified drivers and secure QR verification, our platform gives families confidence and peace of mind every school day.
+                </p>
             </section>
 
             <div className="self-stretch pt-16 mq650:pt-10 mq450:pt-8">
@@ -38,19 +41,19 @@ export const ParentStories = ({ isAboutPage = false }: { isAboutPage?: boolean }
     ">
                     {/* Card 1 */}
                     <TestimonialCard
-                        quote="The GoSirat Parent App has made our mornings much easier. I can track the school vehicle live and know exactly when my daughter arrives safely at school."
+                        quote="GoSirat has completely changed our school mornings. Live GPS tracking lets me know exactly where the school vehicle is, and I always receive confirmation when my daughter arrives safely at school."
                         name="Aisha M."
                         role="Parent • Grade 3 Student"
                     />
                     {/* Card 2 */}
                     <TestimonialCard
-                        quote="The QR verification and instant notifications give me complete confidence. I know exactly when my children are picked up, arrive at school, and return home safely."
+                        quote="The QR verification and instant notifications give our family complete confidence. Every pickup, school arrival, and home drop-off is recorded, so we always know our children are safe."
                         name="Hassan K."
                         role="Parent • Grade 6 & Grade 8 Students"
                     />
                     {/* Card 3 */}
                     <TestimonialCard
-                        quote="I love receiving live notifications throughout the journey. Knowing where my son is at every stage makes our daily school routine completely stress-free."
+                        quote="Knowing my son's journey is tracked from start to finish gives me real peace of mind. GoSirat has made school transportation safer, more reliable, and completely stress-free for our family."
                         name="Sarah A."
                         role="Parent • Grade 5 Student"
                     />
