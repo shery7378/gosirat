@@ -19,10 +19,8 @@ const Hero: NextPage = () => {
               <div className="w-full max-w-[795px] flex flex-col pt-7 px-0 pb-0 box-border text-left text-6xl text-[#0c140f] mq1125:text-center mq1125:items-center">
                 <div className="self-stretch flex flex-col items-center">
                   <h1 className="m-0 self-stretch relative text-[length:inherit] leading-[70px] capitalize font-semibold font-[inherit] mq750:text-5xl mq750:leading-[55px] mq450:text-[34px] mq450:leading-[44px]">
-                    Safe & Smart School Transportation
-                  </h1>
-                  <h1 className="m-0 self-stretch relative text-[length:inherit] leading-[70px] capitalize font-semibold font-[inherit] text-[#176938] mq750:text-5xl mq750:leading-[55px] mq450:text-[34px] mq450:leading-[44px]">
-                    for modern families.
+                    <span className="block">Safe & Smart School Transportation</span>
+                    <span className="block text-[#176938]">for modern families.</span>
                   </h1>
                 </div>
                 <h3 className="m-0 self-stretch relative text-lg leading-[28px] font-normal font-[inherit] text-[#57605b] mq450:text-base mq450:leading-[26px] mt-4">
