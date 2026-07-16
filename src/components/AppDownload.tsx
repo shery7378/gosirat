@@ -70,7 +70,7 @@ const AppDownload: React.FC<AppDownloadProps> = ({
                 {!hideImage && (
                     <div className="absolute right-0 bottom-0 h-full w-[60%] hidden md:block pointer-events-none">
                         <img 
-                            src="/images/Free Mockup of Female Holding iPhone 14 Pro  (Mockuuups Studio).svg"
+                            src="/images/gosirat-parent-app-mockup.webp"
                             alt="Parent using GoSirat App"
                             className="w-full h-full object-cover object-bottom"
                         />
