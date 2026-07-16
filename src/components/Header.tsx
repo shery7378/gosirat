@@ -25,7 +25,7 @@ const Header: NextPage = () => {
                         height={51}
                         sizes="100vw"
                         alt="Logo"
-                        src="/images/logo.png"
+                        src="/images/logo.webp"
                     />
                 </Link>
 

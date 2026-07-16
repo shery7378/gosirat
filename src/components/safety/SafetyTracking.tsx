@@ -34,7 +34,7 @@ export default function SafetyTracking() {
                 </div>
                 <div className="relative aspect-[4/5] w-full max-w-md mx-auto md:max-w-none overflow-hidden rounded-[28px] shadow-lg">
                     <Image 
-                        src="/images/Phone_with_live_tracking_map_202607131952.jpeg" 
+                        src="/images/Phone_with_live_tracking_map_202607131952.webp" 
                         alt="Live GPS tracking on GoSirat App" 
                         fill 
                         sizes="(max-width: 768px) 100vw, 50vw"

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
         url: "https://gosirat.com/events",
         images: [
             {
-                url: "/images/GoSirat-school-safety-event.jpeg",
+                url: "/images/GoSirat-school-safety-event.webp",
                 width: 1200,
                 height: 630,
                 alt: "School Safety Events | GoSirat Rawalpindi & Islamabad",
@@ -130,7 +130,7 @@ export default function EventsPage() {
                                 fill
                                 sizes="(max-width: 768px) 100vw, 50vw"
                                 alt="GoSirat school safety event illustration"
-                                src="/images/GoSirat-school-safety-event.jpeg"
+                                src="/images/GoSirat-school-safety-event.webp"
                                 data-aos="fade-in"
                                 data-aos-delay="100"
                             />

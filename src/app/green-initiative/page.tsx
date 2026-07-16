@@ -9,7 +9,7 @@ export default function EnvironmentPage() {
             <section className="relative flex items-center justify-center text-center overflow-hidden min-h-[720px] h-screen">
                 <div className="absolute inset-0">
                     <img
-                        src="/images/gosirat-green-school-transportation.jpeg"
+                        src="/images/gosirat-green-school-transportation.webp"
                         alt="GoSirat eco-friendly school transportation creating a greener future with sustainable journeys"
                         style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                     />
@@ -328,7 +328,7 @@ export default function EnvironmentPage() {
 
                         <div className="relative w-full max-w-[600px] xl:max-w-[700px] ml-auto max-lg:mx-auto rounded-[28px] aspect-[4/3] max-lg:aspect-[16/10] overflow-hidden shadow-[0_1px_2px_rgba(14,27,22,0.04),_0_12px_32px_-12px_rgba(14,27,22,0.12)] bg-gradient-to-br from-[#0c140f] to-[#0A2F24]" data-aos="fade-up" data-aos-delay="200">
                             <img
-                                src="/images/sustainable-school-transport-vehicle.jpeg"
+                                src="/images/sustainable-school-transport-vehicle.webp"
                                 alt="GoSirat green electric school transport bus on a city route."
                                 loading="lazy"
                                 className="w-full h-full object-cover scale-[1.1]"
@@ -342,7 +342,7 @@ export default function EnvironmentPage() {
             <section className="relative min-h-[560px] flex items-center justify-center text-center overflow-hidden" id="cta">
                 <div className="absolute inset-0">
                     <img
-                        src="/images/gosirat-greener-school-future.jpeg"
+                        src="/images/gosirat-greener-school-future.webp"
                         alt="Students enjoying a greener and sustainable school transportation journey with GoSirat"
                         loading="lazy"
                         className="w-full h-full object-cover"

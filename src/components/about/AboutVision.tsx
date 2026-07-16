@@ -31,7 +31,7 @@ export const AboutVision = () => {
         {/* Image Column */}
         <div className="w-full md:w-[45%] relative rounded-3xl md:rounded-[32px] overflow-hidden shadow-xl md:shadow-2xl border border-[rgba(255,255,255,0.1)] bg-[#0c4020]" data-aos="zoom-in" data-aos-delay="200">
           <Image
-            src="/images/gosirat-vision-safe-school-transportation.png"
+            src="/images/gosirat-vision-safe-school-transportation.webp"
             alt="Parent tracking a child's school journey with the GoSirat app while a GoSirat vehicle safely transports students to school."
             title="GoSirat Vision for Safe School Transportation"
             width={1064}

@@ -25,7 +25,7 @@ export const DriverEarnings = () => {
           <div className="flex-1 min-w-[400px] flex flex-col mq450:min-w-full">
             <Image
               className="w-full h-full object-cover rounded-[24px]"
-              src="/images/Car_driving_with_human_2K_202607151940 (1).jpeg"
+              src="/images/Car_driving_with_human_2K_202607151940 (1).webp"
               title="GoSirat Driver Green Impact Rewards"
               alt="GoSirat Driver App showing AI route analysis, CO2 savings, and monthly green impact rewards."
               width={1000}

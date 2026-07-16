@@ -96,7 +96,7 @@ const Hero: NextPage = () => {
             height={505}
             sizes="100vw"
             alt="GoSirat safe school transport platform overview"
-            src="/images/gosirat-home-hero-illustration.png"
+            src="/images/gosirat-home-hero-illustration.webp"
           data-aos="fade-in" data-aos-delay="200" />
           <Image
             className="w-[385px] absolute top-[170px] left-[88px] max-h-full object-contain z-[1] shrink-0 mq1125:w-[240px] mq1125:left-[55px] mq1125:top-[106px]"

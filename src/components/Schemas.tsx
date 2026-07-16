@@ -18,7 +18,7 @@ export const GlobalSchemas = () => {
     "@type": "Organization",
     "name": "GoSirat",
     "url": "https://gosirat.com",
-    "logo": "https://gosirat.com/logo.png",
+    "logo": "https://gosirat.com/logo.webp",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+92-309-9104803",
@@ -33,7 +33,7 @@ export const GlobalSchemas = () => {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "GoSirat",
-    "image": "https://gosirat.com/logo.png",
+    "image": "https://gosirat.com/logo.webp",
     "url": "https://gosirat.com",
     "telephone": "+92-309-9104803",
     "address": {

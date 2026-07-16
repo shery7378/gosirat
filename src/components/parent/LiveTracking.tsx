@@ -21,7 +21,7 @@ export const LiveTracking = () => {
                             height={330.9}
                             sizes="100vw"
                             alt="Live map marker indicating school bus location"
-                            src="/images/live-tracking-map-marker.png"
+                            src="/images/live-tracking-map-marker.webp"
                             data-aos="fade-out" data-aos-delay="200" />
                     </div>
                     <Image
@@ -30,7 +30,7 @@ export const LiveTracking = () => {
                         height={232.4}
                         sizes="100vw"
                         alt="Optimized school transport route path on map"
-                        src="/images/live-tracking-route-path.png"
+                        src="/images/live-tracking-route-path.webp"
                         data-aos="zoom-in" data-aos-delay="300" />
                 </div>
                 <section className="flex flex-col items-start py-5 px-0 box-border min-w-[433px] max-w-[800px] w-full text-left text-xs text-[#176938] font-[Inter] mq750:min-w-full mq450:min-w-full">

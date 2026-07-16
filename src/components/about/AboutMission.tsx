@@ -15,7 +15,7 @@ export const AboutMission = () => {
         </div>
         <div className="w-full max-w-[1200px] flex justify-center mt-4 mb-8 px-4" data-aos="zoom-in">
           <Image
-            src="/images/gosirat-story-split-illustration.png"
+            src="/images/gosirat-story-split-illustration.webp"
             alt="GoSirat Before and After School Commute"
             width={1200}
             height={500}
