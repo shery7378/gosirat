@@ -9,6 +9,7 @@ import { usePathname } from "next/navigation";
 const Header: NextPage = () => {
     const pathname = usePathname();
     const [isOpen, setIsOpen] = useState(false);
+    const [isAboutOpen, setIsAboutOpen] = useState(false);
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
@@ -17,7 +18,7 @@ const Header: NextPage = () => {
     return (
         <header className="w-full sticky top-0 box-border z-50">
             <div className="w-full bg-white/80 backdrop-blur-xl shadow-md shadow-[#176938]/30 box-border flex items-center justify-between px-[60px] mq725:px-[30px] py-4 gap-0 leading-[normal] tracking-[normal] transition-all duration-300">
-                <Link href="/" className="cursor-pointer z-50 transform hover:scale-105 transition-transform duration-300">
+                <Link href="/" className="shrink-0 cursor-pointer z-50 transform hover:scale-105 transition-transform duration-300">
                     <Image
                         className="w-48 md:w-56 h-auto relative max-h-full object-contain"
                         loading="lazy"
@@ -30,12 +31,12 @@ const Header: NextPage = () => {
                 </Link>
 
                 {/* Desktop Navigation */}
-                <nav className="m-0 flex-1 flex items-center justify-center gap-[35.8px] max-w-full text-left text-base text-gray-700 font-[Inter] mq750:hidden">
+                <nav className="m-0 flex-1 flex items-center justify-center gap-8 mq1400:gap-6 mq1275:gap-4 max-w-full text-left text-base text-gray-700 font-[Inter] mq1125:hidden">
                     <Link href="/" className="group flex items-center justify-center py-1 px-0 box-border no-underline text-inherit cursor-pointer transform hover:scale-105 hover:-translate-y-0.5 transition-all duration-300">
-                        <div className={`relative leading-5 font-medium transition-colors duration-300 ${pathname === '/' ? 'text-[#176938]' : 'group-hover:text-[#176938]'}`}>Discover</div>
+                        <div className={`relative whitespace-nowrap leading-5 font-medium transition-colors duration-300 ${pathname === '/' ? 'text-[#176938]' : 'group-hover:text-[#176938]'}`}>Discover</div>
                     </Link>
                     <div className="group relative flex items-center justify-center py-1 px-0 box-border no-underline text-inherit cursor-pointer transform transition-all duration-300">
-                        <Link href="/about-us" className={`relative leading-5 font-medium transition-colors duration-300 flex items-center gap-1 ${pathname.startsWith('/about-us') || pathname === '/safety' || pathname === '/green-initiative' ? 'text-[#176938]' : 'group-hover:text-[#176938]'}`}>
+                        <Link href="/about-us" className={`relative whitespace-nowrap leading-5 font-medium transition-colors duration-300 flex items-center gap-1 ${pathname.startsWith('/about-us') || pathname === '/safety' || pathname === '/green-initiative' ? 'text-[#176938]' : 'group-hover:text-[#176938]'}`}>
                             About Us
                             <svg className="w-4 h-4 transition-transform duration-300 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
@@ -56,24 +57,24 @@ const Header: NextPage = () => {
                         </div>
                     </div>
                     <Link href="/parent-app" className="group flex items-center justify-center py-1 px-0 box-border no-underline text-inherit cursor-pointer transform hover:scale-105 hover:-translate-y-0.5 transition-all duration-300">
-                        <div className={`relative leading-5 font-medium transition-colors duration-300 ${pathname === '/parent-app' ? 'text-[#176938]' : 'group-hover:text-[#176938]'}`}>Parent App</div>
+                        <div className={`relative whitespace-nowrap leading-5 font-medium transition-colors duration-300 ${pathname === '/parent-app' ? 'text-[#176938]' : 'group-hover:text-[#176938]'}`}>Parent App</div>
                     </Link>
                     <Link href="/driver-app" className="group flex items-center justify-center py-1 px-0 box-border no-underline text-inherit cursor-pointer transform hover:scale-105 hover:-translate-y-0.5 transition-all duration-300">
-                        <div className={`relative leading-5 shrink-0 font-medium transition-colors duration-300 ${pathname === '/driver-app' ? 'text-[#176938]' : 'group-hover:text-[#176938]'}`}>Driver App</div>
+                        <div className={`relative whitespace-nowrap leading-5 shrink-0 font-medium transition-colors duration-300 ${pathname === '/driver-app' ? 'text-[#176938]' : 'group-hover:text-[#176938]'}`}>Driver App</div>
                     </Link>
                     <Link href="/events" className="group flex items-center justify-center py-1 px-0 box-border no-underline text-inherit cursor-pointer transform hover:scale-105 hover:-translate-y-0.5 transition-all duration-300">
-                        <div className={`relative leading-5 font-medium transition-colors duration-300 ${pathname === '/events' ? 'text-[#176938]' : 'group-hover:text-[#176938]'}`}>Events</div>
+                        <div className={`relative whitespace-nowrap leading-5 font-medium transition-colors duration-300 ${pathname === '/events' ? 'text-[#176938]' : 'group-hover:text-[#176938]'}`}>Events</div>
                     </Link>
                     <Link href="/schools" className="group flex items-center justify-center py-1 px-0 box-border no-underline text-inherit cursor-pointer transform hover:scale-105 hover:-translate-y-0.5 transition-all duration-300">
-                        <div className={`relative leading-5 font-medium transition-colors duration-300 ${pathname === '/schools' ? 'text-[#176938]' : 'group-hover:text-[#176938]'}`}>Schools</div>
+                        <div className={`relative whitespace-nowrap leading-5 font-medium transition-colors duration-300 ${pathname === '/schools' ? 'text-[#176938]' : 'group-hover:text-[#176938]'}`}>Schools</div>
                     </Link>
                     <Link href="/contact-us" className="group flex items-center justify-center py-1 px-0 box-border no-underline text-inherit cursor-pointer transform hover:scale-105 hover:-translate-y-0.5 transition-all duration-300">
-                        <div className={`relative leading-5 font-medium transition-colors duration-300 ${pathname === '/contact-us' ? 'text-[#176938]' : 'group-hover:text-[#176938]'}`}>Contact Us</div>
+                        <div className={`relative whitespace-nowrap leading-5 font-medium transition-colors duration-300 ${pathname === '/contact-us' ? 'text-[#176938]' : 'group-hover:text-[#176938]'}`}>Contact Us</div>
                     </Link>
                 </nav>
 
                 {/* Desktop Register Button */}
-                <Link href="/register" className="cursor-pointer [border:none] py-3.5 px-7 bg-gradient-to-r from-[#176938] to-[#2ecc71] h-[52px] shadow-md rounded-full flex items-center box-border gap-2 hover:shadow-lg hover:-translate-y-1 hover:scale-105 active:scale-95 no-underline transition-all duration-300 mq750:hidden group">
+                <Link href="/register" className="shrink-0 cursor-pointer [border:none] py-3.5 px-7 bg-gradient-to-r from-[#176938] to-[#2ecc71] h-[52px] shadow-md rounded-full flex items-center box-border gap-2 hover:shadow-lg hover:-translate-y-1 hover:scale-105 active:scale-95 no-underline transition-all duration-300 mq1125:hidden group">
                     <div className="relative text-base leading-5 font-semibold font-[Inter] text-white text-left">
                         Register Here
                     </div>
@@ -96,7 +97,7 @@ const Header: NextPage = () => {
                 {/* Hamburger Icon for Mobile */}
                 <button
                     onClick={toggleMenu}
-                    className="hidden mq750:flex flex-col justify-center items-center gap-1.5 w-10 h-10 rounded-xl bg-[#176938] text-white border-none cursor-pointer hover:bg-[#3d8f5e] transition-colors focus:outline-none z-50"
+                    className="hidden mq1125:flex flex-col justify-center items-center gap-1.5 w-10 h-10 rounded-xl bg-[#176938] text-white border-none cursor-pointer hover:bg-[#3d8f5e] transition-colors focus:outline-none z-50"
                     aria-label="Toggle Menu"
                 >
                     {isOpen ? (
@@ -113,7 +114,7 @@ const Header: NextPage = () => {
 
             {/* Mobile Menu Drawer Overlay */}
             {isOpen && (
-                <div className="fixed inset-0 bg-[#f4f7f4] z-[60] flex flex-col justify-between pt-28 pb-8 px-8 transition-all duration-300 overflow-y-auto">
+                <div className="fixed inset-0 bg-[#f4f7f4] z-[60] flex flex-col pt-24 pb-24 px-8 transition-all duration-300 overflow-y-auto h-[100dvh]">
                     <button
                         onClick={() => setIsOpen(false)}
                         className="absolute top-6 right-6 w-10 h-10 rounded-xl bg-[rgba(23,105,56,0.1)] text-[#176938] flex items-center justify-center border-none cursor-pointer hover:bg-[rgba(23,105,56,0.2)] transition-colors focus:outline-none"
@@ -124,23 +125,34 @@ const Header: NextPage = () => {
                         </svg>
                     </button>
 
-                    <nav className="flex flex-col gap-6 text-left text-lg text-[#0c140f] font-[Inter]">
+                    <nav className="flex flex-col gap-6 text-left text-lg text-[#0c140f] font-[Inter] flex-1">
                         <Link onClick={() => setIsOpen(false)} href="/" className={`py-2 border-b border-[rgba(23,105,56,0.1)] no-underline font-medium hover:text-[#176938] transition-colors ${pathname === '/' ? 'text-[#176938]' : 'text-inherit'}`}>
                             Discover
                         </Link>
                         <div className="flex flex-col border-b border-[rgba(23,105,56,0.1)]">
-                            <div className="flex items-center justify-between py-2">
-                                <Link onClick={() => setIsOpen(false)} href="/about-us" className={`no-underline font-medium hover:text-[#176938] transition-colors ${pathname === '/about-us' ? 'text-[#176938]' : 'text-inherit'}`}>
+                            <button 
+                                onClick={() => setIsAboutOpen(!isAboutOpen)} 
+                                className="flex items-center justify-between py-2 bg-transparent border-none w-full text-left cursor-pointer focus:outline-none"
+                            >
+                                <span className={`font-medium transition-colors text-lg font-[Inter] ${pathname.startsWith('/about-us') || pathname === '/safety' || pathname === '/green-initiative' ? 'text-[#176938]' : 'text-inherit'}`}>
                                     About Us
-                                </Link>
-                            </div>
-                            <div className="flex flex-col pl-4 pb-3 gap-4 mt-2 border-l-2 border-[rgba(23,105,56,0.1)] ml-2">
-                                <Link onClick={() => setIsOpen(false)} href="/safety" className={`text-base no-underline font-medium hover:text-[#176938] transition-colors ${pathname === '/safety' ? 'text-[#176938]' : 'text-gray-600'}`}>
-                                    Safety
-                                </Link>
-                                <Link onClick={() => setIsOpen(false)} href="/green-initiative" className={`text-base no-underline font-medium hover:text-[#176938] transition-colors ${pathname === '/green-initiative' ? 'text-[#176938]' : 'text-gray-600'}`}>
-                                    Green Initiative
-                                </Link>
+                                </span>
+                                <svg className={`w-5 h-5 text-gray-500 transition-transform duration-300 ${isAboutOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </button>
+                            <div className={`overflow-hidden transition-all duration-300 ${isAboutOpen ? 'max-h-48 opacity-100 mb-3' : 'max-h-0 opacity-0 mb-0'}`}>
+                                <div className="flex flex-col pl-4 gap-4 mt-2 border-l-2 border-[rgba(23,105,56,0.1)] ml-2">
+                                    <Link onClick={() => setIsOpen(false)} href="/about-us" className={`text-base no-underline font-medium hover:text-[#176938] transition-colors ${pathname === '/about-us' ? 'text-[#176938]' : 'text-gray-600'}`}>
+                                        Overview
+                                    </Link>
+                                    <Link onClick={() => setIsOpen(false)} href="/safety" className={`text-base no-underline font-medium hover:text-[#176938] transition-colors ${pathname === '/safety' ? 'text-[#176938]' : 'text-gray-600'}`}>
+                                        Safety
+                                    </Link>
+                                    <Link onClick={() => setIsOpen(false)} href="/green-initiative" className={`text-base no-underline font-medium hover:text-[#176938] transition-colors ${pathname === '/green-initiative' ? 'text-[#176938]' : 'text-gray-600'}`}>
+                                        Green Initiative
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                         <Link onClick={() => setIsOpen(false)} href="/parent-app" className={`py-2 border-b border-[rgba(23,105,56,0.1)] no-underline font-medium hover:text-[#176938] transition-colors ${pathname === '/parent-app' ? 'text-[#176938]' : 'text-inherit'}`}>
@@ -160,7 +172,7 @@ const Header: NextPage = () => {
                         </Link>
                     </nav>
 
-                    <Link onClick={() => setIsOpen(false)} href="/register" className="cursor-pointer [border:none] py-4 px-6 bg-gradient-to-r from-[#176938] to-[#2ecc71] h-[60px] shadow-[0px_8px_24px_rgba(16,_24,_16,_0.1)] rounded-2xl flex items-center justify-center gap-2 hover:shadow-lg hover:scale-[1.02] active:scale-95 no-underline transition-all duration-300 w-full mt-8 group">
+                    <Link onClick={() => setIsOpen(false)} href="/register" className="cursor-pointer [border:none] py-4 px-6 bg-gradient-to-r from-[#176938] to-[#2ecc71] shrink-0 h-[60px] shadow-[0px_8px_24px_rgba(16,_24,_16,_0.1)] rounded-2xl flex items-center justify-center gap-2 hover:shadow-lg hover:scale-[1.02] active:scale-95 no-underline transition-all duration-300 w-full mt-auto group">
                         <span className="text-lg leading-6 font-semibold font-[Inter] text-[#fff]">
                             Register Here
                         </span>

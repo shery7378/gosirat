@@ -6,47 +6,59 @@ import { useState } from "react";
 
 const RegisterPage: NextPage = () => {
     const [activeCard, setActiveCard] = useState<'parent' | 'driver' | 'school'>('parent');
+    const [isSubmitted, setIsSubmitted] = useState(false);
 
     const renderForm = () => {
         if (activeCard === 'parent') {
             return (
                 <>
-                    <div className="self-stretch flex items-start gap-5 max-w-full mq750:flex-wrap mq450:flex-col">
+                    <div className="w-full flex flex-col items-start gap-2 mb-2">
+                        <h3 className="m-0 text-[28px] leading-8 font-semibold text-[#101828] font-[Inter]">Register Your Family</h3>
+                        <p className="m-0 text-base font-normal text-[#57605b] font-[Inter] leading-6">Tell us about your family and school transportation needs. We'll help you find the most suitable GoSirat transportation solution.</p>
+                    </div>
+                    <div className="self-stretch flex flex-wrap items-start gap-5 max-w-full">
                         <input
-                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[200px] mq450:min-w-full [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
+                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[220px] [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
                             type="text"
-                            placeholder="Full Name"
+                            placeholder="Enter your full name"
+                            required
                         />
                         <input
-                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[200px] mq450:min-w-full [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
-                            type="text"
-                            placeholder="Phone or WhatsApp (e.g. +92 300 1234567)"
+                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[220px] [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
+                            type="tel"
+                            placeholder="+92 300 1234567"
+                            pattern="^(?:\+92|0092|0)?\d{10}$"
+                            title="Pakistan: 11 digits or 10 digits without the leading 0 (after country code)"
+                            required
                         />
                     </div>
-                    <div className="self-stretch flex items-start gap-5 max-w-full mq750:flex-wrap mq450:flex-col">
+                    <div className="self-stretch flex flex-wrap items-start gap-5 max-w-full">
                         <input
-                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[200px] mq450:min-w-full [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
+                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[220px] [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
                             type="text"
-                            placeholder="Pickup Address"
+                            placeholder="House No, Street, Area"
+                            required
                         />
                         <input
-                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[200px] mq450:min-w-full [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
+                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[220px] [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
                             type="text"
-                            placeholder="School Drop Off Address"
+                            placeholder="School name and complete address"
+                            required
                         />
                     </div>
-                    <div className="self-stretch flex items-start gap-5 max-w-full mq750:flex-wrap mq450:flex-col">
+                    <div className="self-stretch flex flex-wrap items-start gap-5 max-w-full">
                         <input
-                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[200px] mq450:min-w-full [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
+                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[220px] [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
                             type="text"
                             placeholder="City"
+                            required
                         />
                     </div>
-                    <div className="self-stretch rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] flex items-start pt-3 px-3 pb-[164px]">
+                    <div className="self-stretch rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] flex items-start p-3">
                         <textarea
-                            className="w-full [border:none] [outline:none] font-[Inter] text-base bg-[transparent] resize-none text-[#101828] placeholder:text-[#bababa] leading-[18.2px]"
-                            placeholder="Message"
-                            rows={1}
+                            className="w-full min-h-[164px] [border:none] [outline:none] font-[Inter] text-base bg-[transparent] resize-none text-[#101828] placeholder:text-[#bababa] leading-[18.2px]"
+                            placeholder="Tell us about your child's transportation requirements, preferred pickup time, or any special instructions."
+                            rows={6}
                         ></textarea>
                     </div>
                 </>
@@ -56,46 +68,52 @@ const RegisterPage: NextPage = () => {
         if (activeCard === 'driver') {
             return (
                 <>
-                    <div className="self-stretch flex items-start gap-5 max-w-full mq750:flex-wrap mq450:flex-col">
+                    <div className="w-full flex flex-col items-start gap-2 mb-2">
+                        <h3 className="m-0 text-[28px] leading-8 font-semibold text-[#101828] font-[Inter]">Become a GoSirat Driver</h3>
+                        <p className="m-0 text-base font-normal text-[#57605b] font-[Inter] leading-6">Join our verified driver network and enjoy professional support, transparent earnings, AI-powered green bonuses, and optimized school transportation routes.</p>
+                    </div>
+                    <div className="self-stretch flex flex-wrap items-start gap-5 max-w-full">
                         <input
-                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[200px] mq450:min-w-full [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
+                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[220px] [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
                             type="text"
-                            placeholder="Full Name"
+                            placeholder="Enter your full name"
+                            required
                         />
                         <input
-                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[200px] mq450:min-w-full [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
-                            type="text"
-                            placeholder="Phone or WhatsApp"
+                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[220px] [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
+                            type="tel"
+                            placeholder="+92 300 1234567"
+                            pattern="^(?:\+92|0092|0)?\d{10}$"
+                            title="Pakistan: 11 digits or 10 digits without the leading 0 (after country code)"
+                            required
                         />
                     </div>
-                    <div className="self-stretch flex items-start gap-5 max-w-full mq750:flex-wrap mq450:flex-col">
-                        <select className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[200px] mq450:min-w-full [outline:none] font-[Inter] text-base text-[#101828] invalid:text-[#bababa]">
-                            <option value="" disabled selected hidden>Vehicle</option>
+                    <div className="self-stretch flex flex-wrap items-start gap-5 max-w-full">
+                        <select 
+                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[220px] [outline:none] font-[Inter] text-base text-[#101828] invalid:text-[#bababa]"
+                            required
+                            defaultValue=""
+                        >
+                            <option value="" disabled hidden>Select Vehicle Type</option>
                             <option value="own_car">Own Car</option>
                             <option value="own_hiroof">Own Hi-Roof / Carry Daba</option>
                             <option value="own_van">Own Van / Minibus</option>
                             <option value="own_coaster">Own Coaster / Bus</option>
                             <option value="need_car">Need a Vehicle</option>
                         </select>
-                        <select className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[200px] mq450:min-w-full [outline:none] font-[Inter] text-base text-[#101828] invalid:text-[#bababa]">
-                            <option value="" disabled selected hidden>Driving License</option>
-                            <option value="yes">Yes</option>
-                            <option value="no">No</option>
-                        </select>
-                    </div>
-                    <div className="self-stretch flex items-start gap-5 max-w-full mq750:flex-wrap mq450:flex-col">
                         <input
-                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[200px] mq450:min-w-full [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
+                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[220px] [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
                             type="text"
-                            placeholder="City"
+                            placeholder="Enter your driving license number"
                         />
                     </div>
-                    <div className="self-stretch rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] flex items-start pt-3 px-3 pb-[164px]">
-                        <textarea
-                            className="w-full [border:none] [outline:none] font-[Inter] text-base bg-[transparent] resize-none text-[#101828] placeholder:text-[#bababa] leading-[18.2px]"
-                            placeholder="Details"
-                            rows={1}
-                        ></textarea>
+                    <div className="self-stretch flex flex-wrap items-start gap-5 max-w-full">
+                        <input
+                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[220px] [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
+                            type="text"
+                            placeholder="City"
+                            required
+                        />
                     </div>
                 </>
             );
@@ -104,35 +122,52 @@ const RegisterPage: NextPage = () => {
         if (activeCard === 'school') {
             return (
                 <>
-                    <div className="self-stretch flex items-start gap-5 max-w-full mq750:flex-wrap mq450:flex-col">
+                    <div className="w-full flex flex-col items-start gap-2 mb-2">
+                        <h3 className="m-0 text-[28px] leading-8 font-semibold text-[#101828] font-[Inter]">Partner With GoSirat</h3>
+                        <p className="m-0 text-base font-normal text-[#57605b] font-[Inter] leading-6">Register your school to provide students and parents with safer, smarter, and more transparent school transportation services.</p>
+                    </div>
+                    <div className="self-stretch flex flex-wrap items-start gap-5 max-w-full">
                         <input
-                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[200px] mq450:min-w-full [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
+                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[220px] [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
                             type="text"
-                            placeholder="School Name"
+                            placeholder="Enter school name"
+                            required
                         />
                         <input
-                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[200px] mq450:min-w-full [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
+                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[220px] [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
                             type="text"
-                            placeholder="Contact Person Name"
+                            placeholder="Principal / Administrator / Transport Manager"
+                            required
                         />
                     </div>
-                    <div className="self-stretch flex items-start gap-5 max-w-full mq750:flex-wrap mq450:flex-col">
+                    <div className="self-stretch flex flex-wrap items-start gap-5 max-w-full">
                         <input
-                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[200px] mq450:min-w-full [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
-                            type="text"
-                            placeholder="Phone / Contact"
+                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[220px] [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
+                            type="tel"
+                            placeholder="+92 300 1234567"
+                            pattern="^(?:\+92|0092|0)?\d{10}$"
+                            title="Pakistan: 11 digits or 10 digits without the leading 0 (after country code)"
+                            required
                         />
                         <input
-                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[200px] mq450:min-w-full [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
+                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[220px] [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
+                            type="email"
+                            placeholder="school@example.com"
+                        />
+                    </div>
+                    <div className="self-stretch flex flex-wrap items-start gap-5 max-w-full">
+                        <input
+                            className="h-[50px] flex-1 rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] box-border px-3 w-full min-w-[220px] [outline:none] font-[Inter] text-base text-[#101828] placeholder:text-[#bababa]"
                             type="text"
                             placeholder="City"
+                            required
                         />
                     </div>
-                    <div className="self-stretch rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] flex items-start pt-3 px-3 pb-[164px]">
+                    <div className="self-stretch rounded-lg bg-white border-[rgba(0,0,0,0.25)] border-solid border-[1px] flex items-start p-3">
                         <textarea
-                            className="w-full [border:none] [outline:none] font-[Inter] text-base bg-[transparent] resize-none text-[#101828] placeholder:text-[#bababa] leading-[18.2px]"
-                            placeholder="Message"
-                            rows={1}
+                            className="w-full min-h-[164px] [border:none] [outline:none] font-[Inter] text-base bg-[transparent] resize-none text-[#101828] placeholder:text-[#bababa] leading-[18.2px]"
+                            placeholder="Tell us about your school's transportation requirements, existing transport system, or any questions for our team."
+                            rows={6}
                         ></textarea>
                     </div>
                 </>
@@ -142,14 +177,25 @@ const RegisterPage: NextPage = () => {
 
     return (
         <div className="relative rounded-[40px] w-full flex flex-col items-center justify-center py-20 px-[30px] box-border gap-8 leading-[normal] tracking-[normal] mq975:gap-4">
-            <header className="self-stretch flex flex-col items-center gap-3 max-w-full text-left text-[38px] text-[#101828] font-[Inter]">
+            <header className="self-stretch flex flex-col items-center gap-3 max-w-full text-left text-[38px] text-[#101828] font-[Inter] mb-4" data-aos="fade-up">
+                <div className="h-[29.3px] flex items-center justify-center">
+                    <div className="h-[29.3px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] box-border flex items-center py-[5px] px-3.5 gap-1.5">
+                        <div className="h-1.5 w-1.5 relative rounded-[22369600px] bg-[#176938]" />
+                        <div className="relative text-xs text-[#176938] tracking-[1.68px] leading-4 uppercase font-medium">
+                            GoSirat Registration
+                        </div>
+                    </div>
+                </div>
                 <h1 className="m-0 relative text-[length:inherit] leading-[46px] capitalize font-semibold font-[inherit] inline-block max-w-full text-center">
-                    Tell us a little about you.
+                    Join GoSirat Today
                 </h1>
-                <h3 className="m-0 relative text-xl capitalize font-normal font-[inherit] inline-block max-w-full text-center text-gray-500">
-                    We'll get back to you within one business day with next steps.
-                </h3>
+                <p className="m-0 relative text-xl font-normal font-[inherit] inline-block max-w-[800px] text-center text-gray-500">
+                    Start your journey with GoSirat. Whether you're a parent looking for safe school transportation, a driver seeking reliable earning opportunities, or a school wanting smarter transportation management, we're here to help. Complete the form below, and our team will contact you within one business day.
+                </p>
             </header>
+            <div className="w-full max-w-[970px] flex flex-col items-start mt-4 mb-2">
+                <h2 className="text-[28px] font-semibold text-[#101828] font-[Inter] m-0">Choose Your Role</h2>
+            </div>
             <section className="w-full flex items-center flex-wrap content-center gap-4 max-w-[970px] text-left text-sm text-[#09131a] font-[Inter] mq975:max-w-full">
                 <div
                     onClick={() => {
@@ -168,10 +214,10 @@ const RegisterPage: NextPage = () => {
                     </div>
                     <div className="w-full flex flex-col items-start mt-6">
                         <div className="text-base font-semibold text-[#09131a]">
-                            I'm a parent
+                            Parent
                         </div>
                         <div className="text-sm font-normal text-[#202A32] leading-5 mt-1">
-                            Register your family for GoSirat.
+                            Register your family for safe and reliable school transportation.
                         </div>
                     </div>
 
@@ -194,10 +240,10 @@ const RegisterPage: NextPage = () => {
                     </div>
                     <div className="w-full flex flex-col items-start mt-6">
                         <div className="text-base font-semibold text-[#09131a]">
-                            I'm a driver
+                            Driver
                         </div>
                         <div className="text-sm font-normal text-[#202A32] leading-5 mt-1">
-                            Join the verified driver network.
+                            Join our verified driver network and start earning with confidence.
                         </div>
                     </div>
 
@@ -220,27 +266,42 @@ const RegisterPage: NextPage = () => {
                     </div>
                     <div className="w-full flex flex-col items-start mt-6">
                         <div className="text-base font-semibold text-[#09131a]">
-                            I'm a school
+                            School
                         </div>
                         <div className="text-sm font-normal text-[#202A32] leading-5 mt-1">
-                            Partner with GoSirat.
+                            Partner with GoSirat to provide safer transportation for your students.
                         </div>
                     </div>
 
                 </div>
             </section>
-            <section className="w-full rounded-[10px] bg-[#F3F7F4] flex flex-col items-start justify-center p-7 box-border max-w-[970px] text-left text-base text-[#bababa] font-[Inter] mq450:pt-5 mq450:pb-5 mq450:box-border mq975:max-w-full shadow-sm">
-                <div className="self-stretch flex flex-col items-start gap-5 max-w-full">
-                    <div className="self-stretch flex flex-col items-start gap-5 max-w-full">
-                        {renderForm()}
+            {isSubmitted ? (
+                <section className="w-full rounded-[10px] bg-[#f0fdf4] border border-[#bbf7d0] flex flex-col items-center justify-center p-12 box-border max-w-[970px] text-center shadow-sm">
+                    <div className="w-16 h-16 bg-[#176938] rounded-full flex items-center justify-center mb-6 shadow-md">
+                        <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" /></svg>
                     </div>
-                    <button className="cursor-pointer border-none bg-[#176938] w-full h-[60px] rounded-2xl flex items-center justify-center hover:bg-[#12532c] hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 px-5 py-3 gap-3">
-                        <div className="relative text-lg font-semibold font-[Inter] text-white text-center">
-                            Submit Here
+                    <h2 className="m-0 text-3xl font-semibold text-[#101828] font-[Inter] mb-3">Thank You!</h2>
+                    <p className="m-0 text-lg text-[#57605b] font-[Inter] leading-7 max-w-2xl">
+                        Your registration has been received successfully. A GoSirat representative will contact you within one business day to discuss the next steps.
+                    </p>
+                </section>
+            ) : (
+                <section className="w-full rounded-[10px] bg-[#F3F7F4] flex flex-col items-start justify-center p-7 box-border max-w-[970px] text-left text-base text-[#bababa] font-[Inter] mq450:pt-5 mq450:pb-5 mq450:box-border mq975:max-w-full shadow-sm">
+                    <form 
+                        className="self-stretch flex flex-col items-start gap-5 max-w-full"
+                        onSubmit={(e) => { e.preventDefault(); setIsSubmitted(true); }}
+                    >
+                        <div className="self-stretch flex flex-col items-start gap-5 max-w-full">
+                            {renderForm()}
                         </div>
-                    </button>
-                </div>
-            </section>
+                        <button type="submit" className="cursor-pointer border-none bg-[#176938] w-full h-[60px] rounded-2xl flex items-center justify-center hover:bg-[#12532c] hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 px-5 py-3 gap-3">
+                            <div className="relative text-lg font-semibold font-[Inter] text-white text-center">
+                                Submit Registration
+                            </div>
+                        </button>
+                    </form>
+                </section>
+            )}
         </div>
     );
 };

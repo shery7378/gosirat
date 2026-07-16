@@ -105,10 +105,10 @@ const renderIcon = (icon: string) => {
 
 const Footer: NextPage = () => {
     return (
-        <div className="mt-auto box-border flex max-w-full flex-col border-t-[0.7px] border-solid border-gray-200 bg-white px-[60px] py-0 leading-[normal] tracking-[normal] shadow-[0_-4px_20px_rgba(23,105,56,0.15)] mq725:box-border mq725:px-[30px]">
-            <footer className="box-border flex w-full flex-col items-start gap-4 px-0 pb-6 pt-16 text-left text-base text-gray-900 font-[Inter] mq725:box-border mq725:pb-6 mq725:pt-12">
-                <div className="flex max-w-full flex-wrap items-start justify-between gap-12 self-stretch py-0 px-0 [row-gap:32px] lg:flex-nowrap mq1050:flex-col mq1050:items-center">
-                    <div className="flex shrink-0 max-w-[350px] flex-col items-start gap-6 mq1050:items-center mq1050:text-center">
+        <div className="mt-auto box-border flex max-w-full flex-col border-t-[0.7px] border-solid border-gray-200 bg-white px-[60px] py-0 leading-[normal] tracking-[normal] shadow-[0_-4px_20px_rgba(23,105,56,0.15)] mq725:box-border mq725:px-[20px] max-sm:px-4">
+            <footer className="box-border flex w-full flex-col items-start gap-4 px-0 pb-6 pt-16 text-left text-base text-gray-900 font-[Inter] mq725:box-border mq725:pb-6 mq725:pt-8">
+                <div className="flex max-w-full min-w-0 flex-wrap items-start justify-between gap-8 sm:gap-12 self-stretch py-0 px-0 lg:flex-nowrap mq1050:flex-col mq1050:items-stretch">
+                    <div className="flex shrink-0 max-w-[350px] flex-col items-start gap-6 mq1050:mx-auto mq1050:items-center mq1050:text-center">
                         <Image
                             className="relative h-auto w-[250px] object-contain"
                             loading="lazy"
@@ -117,7 +117,7 @@ const Footer: NextPage = () => {
                             alt="GoSirat Logo"
                             src="/images/logo.webp"
                             unoptimized
-                            data-aos="fade-out"
+                            data-aos="fade-in"
                             data-aos-delay="100"
                         />
                         <div className="flex w-full flex-col items-start gap-4 mq1050:items-center">
@@ -127,31 +127,31 @@ const Footer: NextPage = () => {
                         </div>
                     </div>
 
-                    <div className="flex min-w-[500px] max-w-full flex-1 flex-wrap items-start justify-between gap-4 pt-6 text-gray-900 mq1050:min-w-full mq1050:justify-center mq1050:text-center">
+                    <div className="grid w-full min-w-0 flex-1 grid-cols-4 justify-between gap-x-12 gap-y-6 pt-6 text-gray-900 mq725:grid-cols-[auto_auto] mq725:justify-center mq650:gap-x-8 mq450:gap-x-6">
                         {footerSections.map((section) => (
-                            <div key={section.title} className="flex w-[142.4px] flex-col items-start mq725:items-center">
-                                <div className="flex flex-col items-start self-stretch mq725:items-center">
-                                    <div className="relative text-[15px] font-semibold leading-5 tracking-[-0.35px]">
+                            <div key={section.title} className="flex flex-col items-start min-w-0 max-w-full">
+                                <div className="flex flex-col items-start self-stretch">
+                                    <div className="relative text-[14px] sm:text-[15px] font-semibold leading-5 tracking-[-0.35px]">
                                         {section.title}
                                     </div>
                                 </div>
-                                <div className="flex flex-col items-start self-stretch pt-4 pb-0 px-0 text-gray-600 mq725:items-center">
+                                <div className="flex flex-col items-start self-stretch pt-3 pb-0 px-0 text-gray-600 gap-2 min-w-0 mq725:pt-4 mq725:gap-3">
                                     {section.links.map((link) => {
                                         const content = (
-                                            <div className="flex items-center gap-2 leading-5 whitespace-nowrap">
-                                                {link.icon ? renderIcon(link.icon) : null}
-                                                <span>{link.label}</span>
+                                            <div className="flex items-start gap-2 leading-5 text-base break-words min-w-0 w-full mq725:text-[13px] mq725:gap-1.5">
+                                                <div className="shrink-0 mt-[2px]">{link.icon ? renderIcon(link.icon) : null}</div>
+                                                <span className="break-words min-w-0 whitespace-normal">{link.label}</span>
                                             </div>
                                         );
 
                                         return (
-                                            <div key={link.label} className="flex flex-col items-start self-stretch pt-1 first:pt-0 mq725:items-center">
+                                            <div key={link.label} className="flex flex-col items-start self-stretch min-w-0 w-full">
                                                 {link.href.startsWith("http") ? (
-                                                    <a href={link.href} className="relative leading-5 transition-colors hover:text-gray-900">
+                                                    <a href={link.href} className="relative leading-5 transition-colors hover:text-gray-900 w-full">
                                                         {content}
                                                     </a>
                                                 ) : (
-                                                    <Link href={link.href} className="relative leading-5 transition-colors hover:text-gray-900">
+                                                    <Link href={link.href} className="relative leading-5 transition-colors hover:text-gray-900 w-full">
                                                         {content}
                                                     </Link>
                                                 )}
