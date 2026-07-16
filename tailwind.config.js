@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['var(--font-inter)'],
+        manrope: ['var(--font-manrope)', 'sans-serif'],
       },
       colors: {
         "base-white": "#fff",

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Manrope } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -9,6 +9,11 @@ import { GlobalSchemas } from "@/components/Schemas";
 const inter = Inter({
     subsets: ["latin"],
     variable: "--font-inter",
+});
+
+const manrope = Manrope({
+    subsets: ["latin"],
+    variable: "--font-manrope",
 });
 
 export const metadata: Metadata = {
@@ -27,7 +32,7 @@ export default function RootLayout({
     return (
         <html
             lang="en"
-            className={`${inter.variable} font-sans h-full antialiased`}
+            className={`${inter.variable} ${manrope.variable} font-sans h-full antialiased`}
         >
             <head>
                 <link rel="icon" href="/favicon.ico?v=1" />

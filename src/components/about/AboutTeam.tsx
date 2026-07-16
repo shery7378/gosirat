@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const AboutTeam = () => {
       return (
-            <section className="w-full bg-light-gray-30 overflow-hidden flex flex-col items-start justify-center p-[60px] box-border gap-10 max-w-full text-left text-sm text-black font-[Manrope] mq450:gap-5 mq450:py-[39px] mq450:px-4 mq450:box-border" data-aos="fade-out">
+            <section className="w-full bg-light-gray-30 overflow-hidden flex flex-col items-start justify-center p-[60px] box-border gap-10 max-w-full text-left text-sm text-black font-manrope mq450:gap-5 mq450:py-[39px] mq450:px-4 mq450:box-border" data-aos="fade-out">
                   <div className="w-full max-w-[770px] flex flex-col items-start justify-center gap-3 shrink-0">
                         <div className="rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] flex items-center justify-center py-[7px] px-3.5 gap-1.5 text-[#176938]">
                               <div className="h-1.5 w-1.5 relative rounded-[22369600px] bg-[#176938]" />
@@ -27,7 +27,7 @@ export const AboutTeam = () => {
                                     <span>Thank you for believing in our vision. Together, we're building a future where every school journey is backed by trust, innovation, and care.</span>
                               </div>
                         </div>
-                        <div className="h-fit w-full max-w-[530px] rounded-xl bg-white flex flex-col items-center gap-8 text-base text-black font-[Manrope] mq450:gap-4 flex-1 shadow-sm" data-aos="fade-out" data-aos-delay="100">
+                        <div className="h-fit w-full max-w-[530px] rounded-xl bg-white flex flex-col items-center gap-8 text-base text-black font-manrope mq450:gap-4 flex-1 shadow-sm" data-aos="fade-out" data-aos-delay="100">
                               <Image
                                     className="self-stretch relative rounded-lg w-full h-auto object-cover shrink-0"
                                     loading="lazy"

@@ -1,17 +1,19 @@
 "use client";
 
 import { useEffect } from "react";
-import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function AosInit() {
   useEffect(() => {
-    AOS.init({
-      once: false,
-      mirror: true,
-      duration: 800,
-      easing: "ease-out-cubic",
-      offset: 50,
+    import("aos").then((module) => {
+      const AOS = module.default;
+      AOS.init({
+        once: false,
+        mirror: true,
+        duration: 800,
+        easing: "ease-out-cubic",
+        offset: 50,
+      });
     });
   }, []);
 
