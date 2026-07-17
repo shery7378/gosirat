@@ -82,10 +82,10 @@ export default function EventsPage() {
 
             <section className="self-stretch overflow-hidden flex flex-col items-start pt-10 px-0 pb-5 box-border max-w-full">
                 <div className="self-stretch flex items-center justify-between pt-0 px-[60px] pb-10 box-border gap-10 max-w-full flex-wrap mq825:px-[30px] mq450:px-4 mq450:pb-[52px]">
-                    <section className="flex flex-col items-center py-5 px-0 box-border max-w-full text-center text-xs text-[#176938] font-[Inter] flex-1 min-w-[300px]">
-                        <div className="w-full max-w-[657px] flex flex-col items-center gap-6">
-                            <div className="w-full max-w-[706px] flex flex-col items-center shrink-0">
-                                <div className="h-[29.3px] flex items-start justify-center">
+                    <section className="flex flex-col items-start py-5 px-0 box-border max-w-full text-left text-xs text-[#176938] font-[Inter] flex-1 min-w-[300px] mq825:items-center mq825:text-center">
+                        <div className="w-full max-w-[657px] flex flex-col items-start gap-6 mq825:items-center">
+                            <div className="w-full max-w-[706px] flex flex-col items-start shrink-0 mq825:items-center">
+                                <div className="h-[29.3px] flex items-start justify-start mq825:justify-center">
                                     <div className="self-stretch rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="zoom-in" data-aos-delay="100">
                                         <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#176938]" />
                                         <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
@@ -93,18 +93,18 @@ export default function EventsPage() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="self-stretch flex flex-col items-center justify-center pt-7 px-0 pb-4 gap-4 text-center text-6xl text-[#0c140f] mq750:text-5xl mq450:text-4xl">
-                                    <div className="self-stretch flex flex-col items-center justify-center">
-                                        <h1 className="m-0 self-stretch relative font-[Inter] font-semibold text-[64px] leading-[100%] tracking-[0px] text-center text-[#0c140f] mq825:text-[51px] mq450:text-[38px]">
+                                <div className="self-stretch flex flex-col items-start justify-center pt-7 px-0 pb-4 gap-4 text-left text-6xl text-[#0c140f] mq825:items-center mq825:text-center mq750:text-5xl mq450:text-4xl">
+                                    <div className="self-stretch flex flex-col items-start justify-center mq825:items-center">
+                                        <h1 className="m-0 self-stretch relative font-[Inter] font-semibold text-[64px] leading-[100%] tracking-[0px] text-left text-[#0c140f] mq825:text-center mq825:text-[51px] mq450:text-[38px]">
                                             Community safety programs that help every ride start and end safely.
                                         </h1>
                                     </div>
-                                    <div className="self-stretch relative font-[Inter] font-normal text-[20px] leading-[32.5px] tracking-[0px] text-center text-[#57605b] mq450:text-base mq450:leading-[26px] mt-4 max-w-[800px] mx-auto">
+                                    <div className="self-stretch relative font-[Inter] font-normal text-[20px] leading-[32.5px] tracking-[0px] text-left text-[#57605b] mq825:text-center mq450:text-base mq450:leading-[26px] mt-4 max-w-[800px]">
                                         GoSirat brings families, schools, authorities, and drivers together through practical events focused on safe travel, emergency readiness, and greener transport in Rawalpindi and Islamabad.
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex items-center justify-center gap-4 shrink-0 flex-wrap w-full">
+                            <div className="flex items-center justify-start mq825:justify-center gap-4 shrink-0 flex-wrap w-full">
                                 <Link href="/contact-us" className="cursor-pointer border-none py-4 px-6 bg-gradient-to-r from-[#176938] to-[#2ecc71] rounded-2xl flex items-center justify-center gap-2 hover:shadow-lg hover:scale-[1.02] active:scale-95 transition-all duration-300 no-underline mq450:w-full">
                                     <div className="relative text-xl leading-5 font-medium font-[Inter] text-[#F7F9F6] text-center">
                                         Arrange an event
