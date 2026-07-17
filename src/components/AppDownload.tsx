@@ -12,7 +12,7 @@ interface AppDownloadProps {
     primaryCtaLink?: string;
 }
 
-const AppDownload: React.FC<AppDownloadProps> = ({ 
+const AppDownload: React.FC<AppDownloadProps> = ({
     hideImage,
     label = "Download",
     heading = "Start Your Safe School Transportation Journey Today",
@@ -21,11 +21,11 @@ const AppDownload: React.FC<AppDownloadProps> = ({
     primaryCtaLink = "/register"
 }) => {
     return (
-        <section className="w-full flex flex-col items-center p-16 box-border mq450:py-10 mq450:px-4 mx-auto" data-aos="zoom-in">
-            <Container className="w-full rounded-[40px] bg-[#176938] overflow-hidden flex flex-col md:flex-row items-center justify-between relative box-border min-h-[464px]">
-                
+        <section className="w-full flex flex-col items-center py-16 px-[60px] box-border mq725:px-[30px] mq450:py-10 mq450:px-4 mx-auto" data-aos="zoom-in">
+            <div className="w-full rounded-[24px] md:rounded-[40px] bg-gradient-to-b from-[#176938] to-[#022913] overflow-hidden flex flex-col md:flex-row items-center justify-between relative box-border min-h-0 md:min-h-[464px]">
+
                 {/* Text Section (Left Column) */}
-                <div className="flex flex-col gap-6 z-10 relative w-full md:w-[55%] items-start text-left py-16 px-8 md:py-24 md:pl-16 md:pr-4">
+                <div className="flex flex-col gap-6 z-10 relative w-full md:w-[60%] min-[1050px]:w-[55%] items-start text-left py-12 px-6 sm:px-8 md:py-24 md:pl-12 md:pr-4 min-[1050px]:pl-16">
                     <div className="flex flex-col gap-4 w-full items-start">
                         <div className="rounded-[20px] bg-[#89b99a] flex items-center py-1.5 px-3.5 gap-2" data-aos="fade-in" data-aos-delay="100">
                             <div className="h-[6px] w-[6px] rounded-[22369600px] bg-[#124225]" />
@@ -43,7 +43,7 @@ const AppDownload: React.FC<AppDownloadProps> = ({
                         </div>
                     </div>
 
-                    <div className="flex items-center gap-4 flex-wrap w-full justify-start mt-6">
+                    <div className="flex items-center gap-4 flex-wrap w-full justify-center sm:justify-start mt-6">
                         {/* App Store Button */}
                         <a href="#" className="flex items-center justify-center gap-[10px] bg-black border border-black rounded-[14px] py-2 hover:bg-[#1a1a1a] transition-colors h-[54px] w-[180px] no-underline">
                             <svg viewBox="0 0 384 512" className="w-[24px] h-[24px] text-white" fill="currentColor">
@@ -68,15 +68,15 @@ const AppDownload: React.FC<AppDownloadProps> = ({
 
                 {/* Image Section (Right Column) */}
                 {!hideImage && (
-                    <div className="absolute right-0 bottom-0 h-full w-[60%] hidden md:block pointer-events-none">
-                        <img 
+                    <div className="absolute right-0 bottom-0 h-full w-[45%] min-[1050px]:w-[60%] hidden md:block pointer-events-none">
+                        <img
                             src="/images/gosirat-parent-app-mockup.webp"
                             alt="Parent using GoSirat App"
-                            className="w-full h-full object-cover object-bottom"
+                            className="w-full h-full object-contain object-right-bottom scale-[1.35] min-[1050px]:scale-[1.45] origin-bottom-right"
                         />
                     </div>
                 )}
-            </Container>
+            </div>
         </section>
     );
 };

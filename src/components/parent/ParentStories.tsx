@@ -19,8 +19,8 @@ export const ParentStories = ({ isAboutPage = false }: { isAboutPage?: boolean }
                 </div>
 
                 <h2 className="
-     m-0 relative capitalize font-semibold font-[inherit] text-[#0c140f]
-     text-5xl tracking-[-1.5px] leading-[63px]
+     m-0 relative font-semibold font-[Inter] text-[#0C140F]
+     text-[48px] -tracking-[1.5px] leading-[63px]
      mq750:text-[38px] mq750:leading-[50px]
      mq650:text-[32px] mq650:leading-[42px] mq650:tracking-[-1px]
      mq450:text-[26px] mq450:leading-[34px] mq450:tracking-[-0.5px]
@@ -96,11 +96,9 @@ const TestimonialCard = ({
 
         <div className="flex-1 pt-5 mq450:pt-4 w-full">
             <p className="
-    m-0 leading-[29.3px]
-    text-lg
-    mq450:text-base mq450:leading-[26px]
-    break-words
-    whitespace-normal
+    m-0 relative font-[Inter] font-normal text-[18px] leading-[29.25px] tracking-[0px] text-[#0C140F]
+    mq450:text-[16px] mq450:leading-[26px]
+    break-words whitespace-normal
    ">
                 {quote}
             </p>

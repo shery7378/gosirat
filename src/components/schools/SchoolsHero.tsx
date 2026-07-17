@@ -4,7 +4,7 @@ import Image from "next/image";
 export const SchoolsHero: NextPage = () => {
  return (
   <section className="self-stretch overflow-hidden flex flex-col items-start pt-10 px-0 pb-5 text-left text-xl text-[#F7F9F6] font-[Inter] mq825:pt-[52px] mq825:box-border" data-aos="fade-in">
-   <div className="self-stretch flex items-start justify-center pt-0 px-[60px] pb-10 mq1125:pl-[30px] mq1125:pr-[30px] mq1125:box-border mq450:pb-[52px] mq450:box-border">
+   <div className="self-stretch flex items-start justify-center pt-0 px-[60px] pb-10 mq1125:pl-[30px] mq1125:pr-[30px] mq1125:box-border mq450:px-4 mq450:pb-[52px] mq450:box-border">
     <div className="w-full max-w-[924px] flex flex-col items-center gap-5">
      <section className="self-stretch flex flex-col items-center text-center text-xs text-[#176938] font-[Inter]">
       <div className="w-full flex flex-col items-center max-w-full">
@@ -17,7 +17,7 @@ export const SchoolsHero: NextPage = () => {
         </div>
        </div>
        <div className="self-stretch flex flex-col items-center pt-7 px-0 pb-0 text-6xl text-[#0c140f] mq750:text-5xl mq450:text-4xl">
-        <h1 className="m-0 self-stretch relative font-[Inter] font-semibold text-[64px] leading-[100%] tracking-[0px] text-center text-[#0c140f] mq825:text-[51px] mq450:text-[38px] whitespace-nowrap">
+        <h1 className="m-0 self-stretch relative font-[Inter] font-semibold text-[64px] leading-[100%] tracking-[0px] text-center text-[#0c140f] mq825:text-[51px] mq450:text-[38px]">
          Safe School Transportation
         </h1>
         <div className="self-stretch relative font-[Inter] font-normal text-[20px] leading-[32.5px] tracking-[0px] text-center text-[#57605b] mq450:text-base mq450:leading-[26px] mt-4 max-w-[800px] mx-auto">

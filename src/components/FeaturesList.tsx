@@ -13,7 +13,7 @@ const FeaturesList: NextPage = () => {
                         </div>
                     </div>
                 </div>
-                <h2 className="m-0 relative text-6xl tracking-[-1.5px] leading-[63px] capitalize font-semibold font-[inherit] text-[#0c140f] mq450:text-4xl mq450:leading-[38px] mq450:text-5xl mq450:leading-[50px]">
+                <h2 className="m-0 relative text-6xl tracking-[-1.5px] leading-[63px] capitalize font-semibold font-[inherit] text-[#0c140f] mq825:text-5xl mq825:leading-[50px] mq450:text-4xl mq450:leading-[38px]">
                     Trusted by Parents, Drivers & Schools
                 </h2>
                 <div className="relative text-lg leading-7 text-[#57605b] max-w-[800px] mt-4 font-normal tracking-[0px]">

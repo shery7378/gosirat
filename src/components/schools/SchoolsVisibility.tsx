@@ -3,22 +3,22 @@ import Image from "next/image";
 
 export const SchoolsVisibility: NextPage = () => {
   return (
-    <section className="self-stretch flex flex-col items-start p-[60px] box-border max-w-full gap-16 mq825:py-[39px] mq825:px-[30px] mq825:box-border mq450:pt-[25px] mq450:pb-[25px] mq450:box-border" data-aos="zoom-in">
+    <section className="self-stretch flex flex-col items-start p-[60px] box-border max-w-full gap-16 mq825:py-[39px] mq825:px-[30px] mq825:box-border mq450:px-4 mq450:pt-[25px] mq450:pb-[25px] mq450:box-border" data-aos="zoom-in">
       <div className="self-stretch h-auto flex items-center justify-between gap-5 max-w-full mq1400:flex-col mq1400:items-center mq1400:gap-8">
         <section className="w-full max-w-[713px] flex flex-col items-start py-5 px-0 box-border text-left text-xs text-[#176938] font-[Inter] mq1400:text-center mq1400:items-center">
           <div className="self-stretch flex flex-col items-start mq1400:items-center">
             <div className="self-stretch flex flex-col items-start gap-2.5 mq1400:items-center">
-              <div className="h-[29.33px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] box-border flex items-center py-[6px] px-[14px] gap-[8px] text-center" data-aos="fade-out" data-aos-delay="100">
+              <div className="min-h-[29px] h-auto rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] box-border flex items-center py-[6px] px-[14px] gap-[8px] text-center flex-wrap justify-center" data-aos="fade-out" data-aos-delay="100">
                 <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#176938]" />
                 <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
                   Why Visibility Matters
                 </div>
               </div>
-              <h2 className="m-0 self-stretch relative font-[Inter] font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-[#0c140f] mq825:text-[38px] mq450:text-[29px] mq1400:text-center">
+              <h2 className="m-0 self-stretch relative font-[Inter] font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-[#0c140f] mq825:text-[38px] mq450:text-[24px] mq450:leading-[32px] mq1400:text-center break-words">
                 Complete Visibility. <span className="text-[#176938]">Better School Transportation.</span>
               </h2>
               <div className="self-stretch relative font-[Inter] font-normal text-[18px] leading-[28px] tracking-[0px] text-[#57605b] mq1400:text-center">
-                Without live route and student visibility, every transportation incident becomes a fire drill.
+                Monitor every vehicle, student, and route in real time. The GoSirat school transportation platform helps schools improve safety, streamline operations, and keep parents informed with live updates.
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ export const SchoolsVisibility: NextPage = () => {
           </div>
         </section>
         <Image
-          className="h-auto w-full max-w-[458px] relative object-contain mq1400:mx-auto mt-6 -mb-[150px] mq1400:mb-0 z-0"
+          className="h-auto w-full max-w-[458px] relative object-contain mq1400:mx-auto mt-6 -mb-[150px] mq1400:-mb-[100px] z-0"
           loading="lazy"
           width={458}
           height={448}

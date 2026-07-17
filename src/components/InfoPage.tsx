@@ -29,7 +29,7 @@ export default function InfoPage({
                 <p className="text-sm font-semibold uppercase tracking-[0.35em] text-emerald-600">
                     {eyebrow}
                 </p>
-                <h1 className="mt-4 font-[Inter] font-semibold text-[64px] leading-[100%] tracking-[0px] text-center text-[#0c140f] sm:text-4xl">
+                <h1 className="mt-4 font-[Inter] font-semibold text-4xl leading-[100%] tracking-[0px] text-center text-[#0c140f] sm:text-[64px]">
                     {title}
                 </h1>
                 <p className="mt-6 font-[Inter] font-normal text-[20px] leading-[32.5px] tracking-[0px] text-center text-[#57605b]">{description}</p>

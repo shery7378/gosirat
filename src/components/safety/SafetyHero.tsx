@@ -17,7 +17,7 @@ export default function SafetyHero() {
                     <span className="h-2 w-2 rounded-full bg-[#8CE0B4]" />
                     GoSirat safety standards
                 </span>
-                <h1 className="mt-6 font-[Inter] font-semibold text-[64px] leading-[100%] tracking-[0px] text-center text-[#0c140f] sm:text-5xl lg:text-6xl">
+                <h1 className="mt-6 font-[Inter] font-semibold text-4xl leading-[100%] tracking-[0px] text-center text-[#0c140f] sm:text-5xl lg:text-[64px]">
                     Your child&apos;s safety is our first priority.
                 </h1>
                 <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-white/85 sm:text-xl">

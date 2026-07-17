@@ -43,7 +43,7 @@ const ContactPage: NextPage = () => {
     <div className="rounded-[40px] max-w-full flex items-start flex-wrap content-center box-border gap-8 leading-[normal] tracking-[normal] mq750:gap-4">
      <section className="flex-[1.0796] flex flex-col items-start justify-start min-w-[280px] w-full max-w-[508px] text-left text-[38px] text-[#101828] font-[Inter] mq450:max-w-full">
       <div className="self-stretch flex flex-col items-center gap-4 max-w-full text-xl text-[#000]">
-       <div className="self-stretch h-[100px] rounded-xl border-[#176938] border-solid border-t-[1px] border-r-[1px] border-b-[1px] border-l-[6px] box-border bg-white flex items-center p-6 gap-[10px]">
+       <div className="self-stretch min-h-[100px] rounded-xl border-[#176938] border-solid border-t-[1px] border-r-[1px] border-b-[1px] border-l-[6px] box-border bg-white flex items-center p-6 gap-[10px]">
          <svg xmlns="http://www.w3.org/2000/svg" width="20.83" height="20.83" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.56" strokeLinecap="round" strokeLinejoin="round" className="text-[#176938] shrink-0">
           <polyline points="16 2 16 8 22 8"></polyline>
           <line x1="23" y1="1" x2="16" y2="8"></line>
@@ -58,7 +58,7 @@ const ContactPage: NextPage = () => {
           </div>
          </div>
        </div>
-       <div className="self-stretch h-[100px] rounded-xl border-[#176938] border-solid border-t-[1px] border-r-[1px] border-b-[1px] border-l-[6px] box-border bg-white flex items-center p-6 gap-[10px]">
+       <div className="self-stretch min-h-[100px] rounded-xl border-[#176938] border-solid border-t-[1px] border-r-[1px] border-b-[1px] border-l-[6px] box-border bg-white flex items-center p-6 gap-[10px]">
          <svg xmlns="http://www.w3.org/2000/svg" width="20.83" height="20.83" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.56" strokeLinecap="round" strokeLinejoin="round" className="text-[#176938] shrink-0">
           <rect width="20" height="16" x="2" y="4" rx="2"></rect>
           <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
@@ -72,16 +72,16 @@ const ContactPage: NextPage = () => {
           </div>
          </div>
        </div>
-       <div className="self-stretch h-[100px] rounded-xl border-[#176938] border-solid border-t-[1px] border-r-[1px] border-b-[1px] border-l-[6px] box-border bg-white flex items-center p-6 gap-[10px]">
+       <div className="self-stretch min-h-[100px] rounded-xl border-[#176938] border-solid border-t-[1px] border-r-[1px] border-b-[1px] border-l-[6px] box-border bg-white flex items-center p-6 gap-[10px]">
          <svg xmlns="http://www.w3.org/2000/svg" width="20.83" height="20.83" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.56" strokeLinecap="round" strokeLinejoin="round" className="text-[#176938] shrink-0">
           <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
           <circle cx="12" cy="10" r="3"></circle>
          </svg>
-         <div className="flex-1 flex flex-col items-start gap-1.5 overflow-hidden">
+         <div className="flex-1 flex flex-col items-start gap-1.5">
           <h3 className="m-0 self-stretch relative text-[20px] leading-[20px] font-semibold font-[Inter] text-[#000] mq450:text-base mq450:leading-4">
            Visit Our Office
           </h3>
-          <div className="self-stretch relative text-[18px] leading-[24px] font-normal font-[Inter] text-[#000000] tracking-[0%] truncate">
+          <div className="self-stretch relative text-[18px] leading-[24px] font-normal font-[Inter] text-[#000000] tracking-[0%]">
            Office No. C-03, Bahrain Plaza, Civic Centre, Bahria Town Phase 4, Islamabad, Pakistan
           </div>
          </div>

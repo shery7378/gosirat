@@ -73,7 +73,7 @@ const FAQ: NextPage = () => {
        Frequently Asked Questions
       </div>
      </div>
-     <h2 className="m-0 relative text-6xl tracking-[-1.5px] leading-[75px] capitalize font-semibold font-[inherit] text-[#0c140f] mq750:text-5xl mq750:leading-[60px] mq450:text-4xl mq450:leading-[45px]">
+     <h2 className="m-0 relative font-[Inter] font-semibold text-[60px] leading-[75px] -tracking-[1.5px] text-center capitalize text-[#0C140F] mq750:text-5xl mq750:leading-[60px] mq450:text-4xl mq450:leading-[45px]">
       Frequently Asked Questions About GoSirat
      </h2>
      <div className="relative text-lg leading-7 text-[#57605b] max-w-[800px] mt-2 font-normal tracking-[0px]">

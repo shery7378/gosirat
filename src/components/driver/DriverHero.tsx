@@ -17,7 +17,7 @@ export const DriverHero = () => {
        </div>
        <div className="self-stretch flex flex-col items-start justify-center pt-7 px-0 pb-4 gap-4 text-left text-6xl text-[#0C140F]">
         <div className="self-stretch flex flex-col items-start justify-center">
-         <h1 className="m-0 self-stretch relative font-[Inter] font-semibold text-[64px] leading-[100%] tracking-[0px] text-center text-[#0c140f] mq450:text-[51px] mq450:leading-[59px] mq450:text-[38px] mq450:leading-[44px]">
+         <h1 className="m-0 self-stretch relative font-[Inter] font-semibold text-[64px] leading-[100%] tracking-[0px] text-center text-[#0c140f] mq825:text-[51px] mq825:leading-[59px] mq450:text-[38px] mq450:leading-[44px]">
           Driver App for Safe School Transportation
          </h1>
         </div>
