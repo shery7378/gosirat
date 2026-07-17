@@ -3,7 +3,7 @@ import { Container } from "../Container";
 
 export const DriverEarnings = () => {
   return (
-    <section className="self-stretch bg-white flex flex-col items-center py-[100px] px-[60px] mq450:py-[65px] mq450:px-4 mq450:box-border" data-aos="fade-out">
+    <section className="self-stretch bg-white flex flex-col items-center py-[100px] px-[60px] mq450:py-[65px] mq450:px-4 mq450:box-border">
       <Container className="flex flex-col items-center justify-center gap-12">
 
         <div className="flex flex-col items-center text-center gap-6 max-w-[800px]">
@@ -13,10 +13,10 @@ export const DriverEarnings = () => {
               Green Impact Rewards
             </div>
           </div>
-          <h2 className="m-0 text-5xl tracking-[-1.5px] leading-[1.2] font-semibold text-[#09131a] mq450:text-[38px]">
+          <h2 className="m-0 self-stretch relative font-[Inter] font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-[#0c140f] mq825:text-[38px] mq450:text-[24px] mq450:leading-[32px] break-words">
             Drive Smarter.<br className="hidden mq450:block" /> Earn <span className="text-[#176938]">Greener.</span>
           </h2>
-          <p className="m-0 text-lg leading-[29px] text-[#202A32] max-w-[700px]">
+          <p className="m-0 self-stretch relative font-[Inter] font-normal text-[18px] leading-[28px] tracking-[0px] text-[#57605b] max-w-[700px]">
             Our AI measures every driver's environmental impact by analyzing route efficiency and CO₂ emissions. The more you reduce, the more you earn — automatically, every month.
           </p>
         </div>
@@ -31,11 +31,11 @@ export const DriverEarnings = () => {
               width={1000}
               height={1000}
               priority
-              data-aos="fade-right" data-aos-delay="200" />
+              data-aos="fade-in" data-aos-delay="200" />
           </div>
 
           {/* Right Side: Earnings Cards */}
-          <div className="flex-1 flex flex-col gap-6 min-w-[400px] mq450:min-w-full" data-aos="fade-left" data-aos-delay="300">
+          <div className="flex-1 flex flex-col gap-6 min-w-[400px] mq450:min-w-full" data-aos="fade-in" data-aos-delay="300">
 
             {/* Card 1: Monthly earnings */}
             <div className="bg-white rounded-[24px] shadow-[0px_8px_32px_rgba(0,0,0,0.06)] border border-gray-100 p-8 flex flex-col gap-6 font-[Inter]">

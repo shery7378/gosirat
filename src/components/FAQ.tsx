@@ -82,7 +82,7 @@ const FAQ: NextPage = () => {
     </section>
     
     <div className="w-full max-w-5xl flex flex-col items-start pt-14 mq450:pt-8 box-border">
-     <div className="self-stretch shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04),_0px_8px_24px_rgba(16,_24,_16,_0.06)] rounded-[28px] bg-white border-[rgba(222,227,222,0.7)] border-solid border-[0.7px] box-border flex flex-col items-start w-full overflow-hidden" data-aos="fade-out" data-aos-delay="200">
+     <div className="self-stretch shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04),_0px_8px_24px_rgba(16,_24,_16,_0.06)] rounded-[28px] bg-white border-[rgba(222,227,222,0.7)] border-solid border-[0.7px] box-border flex flex-col items-start w-full overflow-hidden" data-aos="fade-in" data-aos-delay="200">
       {faqData.map((faq, index) => {
        const isOpen = openIndex === index;
        return (

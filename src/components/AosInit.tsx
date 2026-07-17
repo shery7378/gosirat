@@ -8,8 +8,8 @@ export default function AosInit() {
     import("aos").then((module) => {
       const AOS = module.default;
       AOS.init({
-        once: false,
-        mirror: true,
+        once: true,
+        mirror: false,
         duration: 800,
         easing: "ease-out-cubic",
         offset: 50,
