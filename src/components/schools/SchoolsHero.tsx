@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/image";
+import Link from "next/link";
 
 export const SchoolsHero: NextPage = () => {
  return (
@@ -27,7 +28,7 @@ export const SchoolsHero: NextPage = () => {
       </div>
      </section>
      <div className="flex items-center">
-      <div className="rounded-2xl bg-gradient-to-r from-[#176938] to-[#2ecc71] flex items-center py-5 px-6 gap-[7px] cursor-pointer hover:shadow-lg hover:scale-[1.02] active:scale-95 transition-all duration-300" data-aos="zoom-in" data-aos-delay="200">
+      <Link href="/register" className="no-underline rounded-2xl bg-gradient-to-r from-[#176938] to-[#2ecc71] flex items-center py-5 px-6 gap-[7px] cursor-pointer hover:shadow-lg hover:scale-[1.02] active:scale-95 transition-all duration-300" data-aos="zoom-in" data-aos-delay="200">
        <h3 className="m-0 relative text-[length:inherit] leading-5 font-medium font-[inherit] text-white">
         Register Your School
        </h3>
@@ -43,7 +44,7 @@ export const SchoolsHero: NextPage = () => {
         >
          <path d="M5 12h14M12 5l7 7-7 7" />
         </svg>
-      </div>
+      </Link>
      </div>
      <div className="flex flex-col items-center justify-center text-center text-sm text-[#57605b] w-full">
       <div className="w-full max-w-[800px] flex flex-wrap justify-center items-center gap-[28.1px] h-auto mx-auto">

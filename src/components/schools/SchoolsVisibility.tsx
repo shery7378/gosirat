@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/image";
+import Link from "next/link";
 
 export const SchoolsVisibility: NextPage = () => {
   return (
@@ -23,7 +24,7 @@ export const SchoolsVisibility: NextPage = () => {
             </div>
           </div>
           <div className="self-stretch flex flex-col items-start pt-8 px-0 pb-0 mq1400:items-center">
-            <button className="cursor-pointer [border:none] py-5 px-6 bg-gradient-to-r from-[#176938] to-[#2ecc71] rounded-2xl flex items-center gap-[7px] hover:shadow-lg hover:scale-[1.02] active:scale-95 transition-all duration-300">
+            <Link href="/register" className="cursor-pointer no-underline py-5 px-6 bg-gradient-to-r from-[#176938] to-[#2ecc71] rounded-2xl flex items-center gap-[7px] hover:shadow-lg hover:scale-[1.02] active:scale-95 transition-all duration-300">
               <div className="relative text-xl leading-5 font-medium font-[Inter] text-[#F7F9F6] text-left">
                 Register Your School
               </div>
@@ -39,7 +40,7 @@ export const SchoolsVisibility: NextPage = () => {
               >
                 <path d="M5 12h14M12 5l7 7-7 7" />
               </svg>
-            </button>
+            </Link>
           </div>
         </section>
         <Image
