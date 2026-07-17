@@ -26,17 +26,17 @@ const HowItWorksPage: NextPage = () => {
             {/* Hero Section */}
             <section className="w-full max-w-7xl mx-auto px-4 py-16 md:py-24 flex flex-col items-center text-center">
                 <div className="rounded-[20px] bg-[#89b99a] flex items-center py-1.5 px-3.5 gap-2 mb-8" data-aos="fade-in">
-                    <div className="h-1.5 w-1.5 rounded-full bg-[#124225]" />
-                    <div className="tracking-[1.68px] leading-4 uppercase font-bold text-[#124225] text-xs">
+                    <div className="h-[6px] w-[6px] rounded-[22369600px] bg-[#124225]" />
+                    <div className="font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#124225]">
                         How GoSirat Works
                     </div>
                 </div>
 
-                <h1 className="m-0 text-[38px] md:text-[54px] tracking-[-1.61px] leading-[1.1] capitalize font-semibold text-[#09131a] mb-8 max-w-4xl" data-aos="fade-up">
+                <h1 className="m-0 font-[Inter] font-semibold text-[64px] leading-[100%] tracking-[0px] text-center text-[#0c140f] mb-8 max-w-4xl" data-aos="fade-up">
                     Safe School Transportation Made Simple
                 </h1>
 
-                <p className="m-0 text-lg md:text-xl text-[#202A32] leading-[1.6] max-w-3xl mb-12" data-aos="fade-up" data-aos-delay="100">
+                <p className="m-0 font-[Inter] font-normal text-[20px] leading-[32.5px] tracking-[0px] text-center text-[#57605b] mb-12 max-w-3xl" data-aos="fade-up" data-aos-delay="100">
                     GoSirat connects parents, schools, and drivers through one smart transportation platform. From verified drivers and live tracking to secure student handovers, every step is designed to make school journeys safer and more transparent.
                 </p>
 

@@ -86,16 +86,16 @@ export default function EventsPage() {
                         <div className="w-full max-w-[657px] flex flex-col items-start gap-6">
                             <div className="w-full max-w-[706px] flex flex-col items-start shrink-0">
                                 <div className="h-[29.3px] flex items-start justify-center">
-                                    <div className="self-stretch rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] flex items-center py-[5px] px-3.5 gap-[5px]" data-aos="zoom-in" data-aos-delay="100">
-                                        <div className="h-1.5 w-1.5 relative rounded-[22369600px] bg-[#176938]" />
-                                        <div className="relative tracking-[1.68px] leading-4 uppercase font-medium">
+                                    <div className="self-stretch rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="zoom-in" data-aos-delay="100">
+                                        <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#176938]" />
+                                        <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
                                             School Safety Events
                                         </div>
                                     </div>
                                 </div>
                                 <div className="self-stretch flex flex-col items-start justify-center pt-7 px-0 pb-4 gap-4 text-left text-6xl text-[#0c140f]">
                                     <div className="self-stretch flex flex-col items-start justify-center">
-                                        <h1 className="m-0 self-stretch relative text-[length:inherit] leading-[68px] capitalize font-semibold font-[inherit] mq450:text-[51px] mq450:leading-[59px] mq450:text-[38px] mq450:leading-[44px]">
+                                        <h1 className="m-0 self-stretch relative font-[Inter] font-semibold text-[64px] leading-[100%] tracking-[0px] text-center text-[#0c140f] mq450:text-[51px] mq450:leading-[59px] mq450:text-[38px] mq450:leading-[44px]">
                                             Community safety programs that help every ride start and end safely.
                                         </h1>
                                     </div>

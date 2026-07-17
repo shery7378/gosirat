@@ -9,18 +9,18 @@ export const SchoolsHero: NextPage = () => {
      <section className="self-stretch flex flex-col items-center text-center text-xs text-[#176938] font-[Inter]">
       <div className="w-full flex flex-col items-center max-w-full">
        <div className="h-[29.3px] flex items-start justify-center">
-        <div className="self-stretch rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] flex items-center py-[5px] px-3.5 gap-1.5" data-aos="zoom-in" data-aos-delay="100">
-         <div className="h-1.5 w-1.5 relative rounded-[22369600px] bg-[#176938]" />
-         <div className="relative tracking-[1.68px] leading-4 uppercase font-medium">
+        <div className="self-stretch rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="zoom-in" data-aos-delay="100">
+         <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#176938]" />
+         <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
           For modern families
          </div>
         </div>
        </div>
        <div className="self-stretch flex flex-col items-center pt-7 px-0 pb-0 text-6xl text-[#0c140f] mq750:text-5xl mq450:text-4xl">
-        <h1 className="m-0 self-stretch relative text-[length:inherit] capitalize font-semibold font-[inherit] mq825:text-[51px] mq450:text-[38px] mq750:text-center leading-[68px]">
-         Smarter School Transportation
+        <h1 className="m-0 self-stretch relative font-[Inter] font-semibold text-[64px] leading-[100%] tracking-[0px] text-center text-[#0c140f] mq825:text-[51px] mq450:text-[38px] whitespace-nowrap">
+         Safe School Transportation
         </h1>
-        <div className="self-stretch relative text-lg leading-[28px] text-[#57605b] mq450:text-base mq450:leading-[26px] mq750:text-center mt-4 max-w-[800px] mx-auto">
+        <div className="self-stretch relative font-[Inter] font-normal text-[20px] leading-[32.5px] tracking-[0px] text-center text-[#57605b] mq450:text-base mq450:leading-[26px] mt-4 max-w-[800px] mx-auto">
          GoSirat helps schools manage student transportation with verified drivers, live GPS tracking, secure QR verification, and real-time parent notifications—all from one smart platform.
         </div>
        </div>
@@ -48,34 +48,34 @@ export const SchoolsHero: NextPage = () => {
      <div className="flex flex-col items-center justify-center text-center text-sm text-[#57605b] w-full">
       <div className="w-full max-w-[800px] flex flex-wrap justify-center items-center gap-[28.1px] h-auto mx-auto">
        <div className="flex items-center gap-[7px]">
-        <svg className="h-5 w-5 relative shrink-0 text-[#176938]" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-aos="fade-in" data-aos-delay="100">
-         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 relative shrink-0 text-[#176938]" data-aos="fade-in" data-aos-delay="100">
+         <path d="M4 7.6L6.8 10.4L12 4.8" stroke="currentColor" strokeWidth="1.92" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
-        <div className="relative leading-5 font-medium">
+        <div className="relative font-[Inter] font-medium text-[14px] leading-[20px] tracking-[0px] text-center text-[#57605b]">
          Verified Drivers
         </div>
        </div>
        <div className="flex items-center gap-[7px]">
-        <svg className="h-5 w-5 relative shrink-0 text-[#176938]" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-aos="zoom-in" data-aos-delay="200">
-         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 relative shrink-0 text-[#176938]" data-aos="zoom-in" data-aos-delay="200">
+         <path d="M4 7.6L6.8 10.4L12 4.8" stroke="currentColor" strokeWidth="1.92" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
-        <div className="relative leading-5 font-medium">
+        <div className="relative font-[Inter] font-medium text-[14px] leading-[20px] tracking-[0px] text-center text-[#57605b]">
          Live GPS Tracking
         </div>
        </div>
        <div className="flex items-center gap-2">
-        <svg className="h-5 w-5 relative shrink-0 text-[#176938]" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-aos="fade-out" data-aos-delay="300">
-         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 relative shrink-0 text-[#176938]" data-aos="fade-out" data-aos-delay="300">
+         <path d="M4 7.6L6.8 10.4L12 4.8" stroke="currentColor" strokeWidth="1.92" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
-        <div className="relative leading-5 font-medium">
+        <div className="relative font-[Inter] font-medium text-[14px] leading-[20px] tracking-[0px] text-center text-[#57605b]">
          Secure QR Verification
         </div>
        </div>
        <div className="flex items-center gap-2">
-        <svg className="h-5 w-5 relative shrink-0 text-[#176938]" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-aos="fade-out" data-aos-delay="400">
-         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 relative shrink-0 text-[#176938]" data-aos="fade-out" data-aos-delay="400">
+         <path d="M4 7.6L6.8 10.4L12 4.8" stroke="currentColor" strokeWidth="1.92" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
-        <div className="relative leading-5 font-medium">
+        <div className="relative font-[Inter] font-medium text-[14px] leading-[20px] tracking-[0px] text-center text-[#57605b]">
          Eco-Friendly
         </div>
        </div>

@@ -21,7 +21,7 @@ export default function EnvironmentPage() {
                     <span className="flex items-center gap-2 text-[#8CE0B4] font-semibold text-[12.5px] uppercase tracking-[.14em] before:content-[''] before:w-4 before:h-0.5 before:bg-[#8CE0B4] before:rounded-[2px] justify-center" data-aos="fade-in">
                         GoSirat Green Initiative
                     </span>
-                    <h1 className="text-white text-[clamp(38px,6vw,68px)] mt-[22px] font-extrabold leading-[1.1] tracking-[-0.02em]" data-aos="fade-up" data-aos-delay="100">
+                    <h1 className="font-[Inter] font-semibold text-[64px] leading-[100%] tracking-[0px] text-center text-[#0c140f] mt-[22px]" data-aos="fade-up" data-aos-delay="100">
                         Moving Every Child Toward a Cleaner Tomorrow
                     </h1>
                     <p className="text-[18px] text-[rgba(255,255,255,0.86)] max-w-[600px] mt-[22px] mx-auto leading-[1.7]" data-aos="fade-up" data-aos-delay="200">

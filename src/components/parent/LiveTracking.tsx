@@ -36,9 +36,9 @@ export const LiveTracking = () => {
                 <section className="flex flex-col items-start py-5 px-0 box-border min-w-[433px] max-w-[800px] w-full text-left text-xs text-[#176938] font-[Inter] mq750:min-w-full mq450:min-w-full">
                     <div className="self-stretch flex flex-col items-start gap-2.5">
                         <div className="self-stretch h-[29.3px] flex items-start">
-                            <div className="h-[29.3px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] box-border flex items-center py-[5px] px-3.5 gap-[5px]" data-aos="fade-in" data-aos-delay="200">
-                                <div className="h-1.5 w-1.5 relative rounded-[22369600px] bg-[#176938]" />
-                                <div className="relative tracking-[1.68px] leading-4 uppercase font-medium">{`Live tracking & handover`}</div>
+                            <div className="h-[29.33px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] box-border flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in" data-aos-delay="200">
+                                <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#176938]" />
+                                <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">{`Live tracking & handover`}</div>
                             </div>
                         </div>
                         <div className="self-stretch flex flex-col items-start text-5xl text-[#0c140f]">

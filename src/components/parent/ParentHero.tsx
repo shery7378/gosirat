@@ -8,20 +8,20 @@ export const ParentHero = () => {
                     <div className="w-full max-w-[657px] flex flex-col items-start gap-6">
                         <div className="w-full max-w-[706px] flex flex-col items-start shrink-0">
                             <div className="h-[29.3px] flex items-start justify-center">
-                                <div className="self-stretch rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] flex items-center py-[5px] px-3.5 gap-[5px]" data-aos="zoom-in" data-aos-delay="100">
-                                    <div className="h-1.5 w-1.5 relative rounded-[22369600px] bg-[#176938]" />
-                                    <div className="relative tracking-[1.68px] leading-4 uppercase font-medium">
+                                <div className="self-stretch rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="zoom-in" data-aos-delay="100">
+                                    <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#176938]" />
+                                    <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
                                         Parent App
                                     </div>
                                 </div>
                             </div>
                             <div className="self-stretch flex flex-col items-start justify-center pt-7 px-0 pb-4 gap-4 text-left text-6xl text-[#0c140f]">
                                 <div className="self-stretch flex flex-col items-start justify-center">
-                                    <h1 className="m-0 self-stretch relative text-[length:inherit] leading-[68px] capitalize font-semibold font-[inherit] mq450:text-[51px] mq450:leading-[59px] mq450:text-[38px] mq450:leading-[44px]">
+                                    <h1 className="m-0 self-stretch relative font-[Inter] font-semibold text-[64px] leading-[100%] tracking-[0px] text-center text-[#0c140f] mq450:text-[51px] mq450:leading-[59px] mq450:text-[38px] mq450:leading-[44px]">
                                         Never wonder where your child is again.
                                     </h1>
                                 </div>
-                                <h3 className="m-0 w-full max-w-[641px] relative text-lg leading-[28px] font-normal font-[inherit] text-[#57605b] inline-block mq450:text-base mq450:leading-[26px]">
+                                <h3 className="m-0 w-full max-w-[641px] relative font-[Inter] font-normal text-[20px] leading-[32.5px] tracking-[0px] text-center text-[#57605b] inline-block mq450:text-base mq450:leading-[26px]">
                                     The GoSirat Parent App gives parents complete visibility and control over their child's school transportation. Track every school pick-up and drop-off in real time with live GPS tracking, receive instant notifications, verify safe handovers through QR verification, and monitor attendance—all from one easy-to-use app.
                                 </h3>
                             </div>

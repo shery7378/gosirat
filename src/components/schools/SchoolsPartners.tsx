@@ -7,9 +7,9 @@ export const SchoolsPartners: NextPage = () => {
    <section className="self-stretch overflow-hidden flex items-center justify-between gap-10 max-w-full shrink-0 text-left text-xs text-[#176938] font-[Inter] mq1400:flex-wrap mq1400:gap-10">
     <div className="h-auto w-full max-w-[700px] flex flex-col items-start mq1125:min-w-full mq1400:flex-1">
       <div className="self-stretch h-[29.3px] flex items-start">
-       <div className="h-[29.3px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] box-border flex items-center py-[5px] px-3.5 gap-1.5" data-aos="fade-in" data-aos-delay="100">
-        <div className="h-1.5 w-1.5 relative rounded-[22369600px] bg-[#176938]" />
-        <div className="relative tracking-[1.68px] leading-4 uppercase font-medium">
+       <div className="h-[29.33px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] box-border flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in" data-aos-delay="100">
+        <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#176938]" />
+        <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
          School Partners
         </div>
        </div>

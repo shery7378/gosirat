@@ -6,8 +6,8 @@ const TrustAndSafety: NextPage = () => {
    <section className="self-stretch flex flex-col items-center text-center text-xs text-[#176938] font-[Inter]">
     <div className="flex flex-col items-center gap-2.5 max-w-4xl w-full">
      <div className="flex items-center rounded-full bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] py-[5px] px-3.5 gap-1.5" data-aos="fade-out" data-aos-delay="100">
-      <div className="h-1.5 w-1.5 relative rounded-full bg-[#176938]" />
-      <div className="relative tracking-[1.68px] leading-4 uppercase font-medium">{`Trust & safety`}</div>
+      <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#176938]" />
+      <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">{`Trust & safety`}</div>
      </div>
      <h2 className="m-0 relative text-6xl tracking-[-1.5px] leading-[75px] capitalize font-semibold font-[inherit] text-[#0c140f] mq750:text-5xl mq750:leading-[60px] mq450:text-4xl mq450:leading-[45px]">
       <span className="leading-[75px]">{`Safe School Transportation Built Around `}</span>

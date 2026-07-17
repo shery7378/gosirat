@@ -32,11 +32,11 @@ const PressPage: NextPage = () => {
                     </div>
                 </div>
                 
-                <h1 className="m-0 text-[42px] md:text-[60px] tracking-[-0.03em] leading-[1.1] capitalize font-extrabold text-[#09131a] mb-8 max-w-5xl" data-aos="fade-up">
+                <h1 className="m-0 font-[Inter] font-semibold text-[64px] leading-[100%] tracking-[0px] text-center text-[#0c140f] mb-8 max-w-5xl" data-aos="fade-up">
                     GoSirat News, Media & Company Updates
                 </h1>
                 
-                <p className="m-0 text-lg md:text-xl text-[#202A32]/85 leading-[1.6] max-w-3xl mb-12" data-aos="fade-up" data-aos-delay="100">
+                <p className="m-0 font-[Inter] font-normal text-[20px] leading-[32.5px] tracking-[0px] text-center text-[#57605b] mb-12 max-w-3xl" data-aos="fade-up" data-aos-delay="100">
                     Welcome to the GoSirat Press Center. Here journalists, media partners, and industry professionals can find company updates, transportation insights, safety information, and partnership opportunities related to the future of safe school transportation.
                 </p>
             </section>

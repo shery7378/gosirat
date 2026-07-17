@@ -28,8 +28,8 @@ const AppDownload: React.FC<AppDownloadProps> = ({
                 <div className="flex flex-col gap-6 z-10 relative w-full md:w-[55%] items-start text-left py-16 px-8 md:py-24 md:pl-16 md:pr-4">
                     <div className="flex flex-col gap-4 w-full items-start">
                         <div className="rounded-[20px] bg-[#89b99a] flex items-center py-1.5 px-3.5 gap-2" data-aos="fade-in" data-aos-delay="100">
-                            <div className="h-1.5 w-1.5 rounded-full bg-[#124225]" />
-                            <div className="tracking-[1.68px] leading-4 uppercase font-bold text-[#124225] text-xs">
+                            <div className="h-[6px] w-[6px] rounded-[22369600px] bg-[#124225]" />
+                            <div className="font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#124225]">
                                 {label}
                             </div>
                         </div>

@@ -11,8 +11,8 @@ export const ParentStories = ({ isAboutPage = false }: { isAboutPage?: boolean }
             <section className="self-stretch flex flex-col items-start gap-2.5 text-left text-xs text-[#176938] font-[Inter]">
                 <div className="self-stretch flex items-start">
                     <div className="rounded-full bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] flex items-center py-[5px] px-3.5 gap-1.5" data-aos="fade-in" data-aos-delay="100">
-                        <div className="h-1.5 w-1.5 rounded-full bg-[#176938] shrink-0" />
-                        <div className="tracking-[1.68px] leading-4 uppercase font-medium whitespace-nowrap">
+                        <div className="h-[6px] w-[6px] rounded-[22369600px] bg-[#176938] shrink-0" />
+                        <div className="font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase whitespace-nowrap">
                             Parent Stories
                         </div>
                     </div>

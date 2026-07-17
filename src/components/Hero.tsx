@@ -9,21 +9,21 @@ const Hero: NextPage = () => {
           <div className="flex flex-col items-start gap-4 mq1125:items-center">
             <div className="flex flex-col items-start mq1125:items-center">
               <div className="h-[29.3px] flex items-start justify-center">
-                <div className="self-stretch rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] flex items-center py-[5px] px-3.5 gap-[5px]" data-aos="fade-out" data-aos-delay="100">
-                  <div className="h-1.5 w-1.5 relative rounded-[22369600px] bg-[#176938]" />
-                  <div className="relative tracking-[1.68px] leading-4 uppercase font-medium">
+                <div className="self-stretch rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-out" data-aos-delay="100">
+                  <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#176938]" />
+                  <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
                     For modern families
                   </div>
                 </div>
               </div>
               <div className="w-full max-w-[795px] flex flex-col pt-7 px-0 pb-0 box-border text-left text-6xl text-[#0c140f] mq1125:text-center mq1125:items-center">
                 <div className="self-stretch flex flex-col items-center">
-                  <h1 className="m-0 self-stretch relative text-[length:inherit] leading-[70px] capitalize font-semibold font-[inherit] mq750:text-5xl mq750:leading-[55px] mq450:text-[34px] mq450:leading-[44px]">
+                  <h1 className="m-0 self-stretch relative font-[Inter] font-semibold text-[64px] leading-[100%] tracking-[0px] text-center text-[#0c140f] mq750:text-5xl mq750:leading-[55px] mq450:text-[34px] mq450:leading-[44px]">
                     <span className="block">Safe & Smart School Transportation</span>
                     <span className="block text-[#176938]">for modern families.</span>
                   </h1>
                 </div>
-                <h3 className="m-0 self-stretch relative text-lg leading-[28px] font-normal font-[inherit] text-[#57605b] mq450:text-base mq450:leading-[26px] mt-4">
+                <h3 className="m-0 self-stretch relative font-[Inter] font-normal text-[20px] leading-[32.5px] tracking-[0px] text-center text-[#57605b] mq450:text-base mq450:leading-[26px] mt-4">
                   GoSirat provides safe school transportation and school pick and drop services designed for modern families in Islamabad and Rawalpindi. Our smart transportation platform features verified drivers, live GPS tracking, secure QR verification, real-time notifications, and safe handover to ensure every child's journey is secure. Parents enjoy complete visibility through our Parent App, while schools benefit from efficient transportation management and optimized school transport operations.
                 </h3>
               </div>
@@ -53,34 +53,34 @@ const Hero: NextPage = () => {
           <div className="flex flex-col items-start justify-center text-sm text-[#57605b] w-full mq1125:items-center">
             <div className="w-full max-w-[574.7px] flex flex-wrap items-start gap-[28.1px] h-auto mq1125:justify-center mt-4">
               <div className="flex items-center gap-[7px]">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 relative text-[#176938] shrink-0">
-                  <path d="M5 13L9 17L19 7" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 relative text-[#176938] shrink-0">
+                  <path d="M4 7.6L6.8 10.4L12 4.8" stroke="currentColor" strokeWidth="1.92" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-                <div className="relative leading-5 font-medium">
+                <div className="relative font-[Inter] font-medium text-[14px] leading-[20px] tracking-[0px] text-center text-[#57605b]">
                   Verified Drivers
                 </div>
               </div>
               <div className="flex items-center gap-[7px]">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 relative text-[#176938] shrink-0">
-                  <path d="M5 13L9 17L19 7" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 relative text-[#176938] shrink-0">
+                  <path d="M4 7.6L6.8 10.4L12 4.8" stroke="currentColor" strokeWidth="1.92" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-                <div className="relative leading-5 font-medium">
+                <div className="relative font-[Inter] font-medium text-[14px] leading-[20px] tracking-[0px] text-center text-[#57605b]">
                   Live Tracking
                 </div>
               </div>
               <div className="flex items-center gap-2">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 relative text-[#176938] shrink-0">
-                  <path d="M5 13L9 17L19 7" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 relative text-[#176938] shrink-0">
+                  <path d="M4 7.6L6.8 10.4L12 4.8" stroke="currentColor" strokeWidth="1.92" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-                <div className="relative leading-5 font-medium">
+                <div className="relative font-[Inter] font-medium text-[14px] leading-[20px] tracking-[0px] text-center text-[#57605b]">
                   Secure Handover
                 </div>
               </div>
               <div className="flex items-center gap-2">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 relative text-[#176938] shrink-0">
-                  <path d="M5 13L9 17L19 7" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 relative text-[#176938] shrink-0">
+                  <path d="M4 7.6L6.8 10.4L12 4.8" stroke="currentColor" strokeWidth="1.92" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-                <div className="relative leading-5 font-medium">
+                <div className="relative font-[Inter] font-medium text-[14px] leading-[20px] tracking-[0px] text-center text-[#57605b]">
                   Eco-Friendly
                 </div>
               </div>

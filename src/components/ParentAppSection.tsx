@@ -7,9 +7,9 @@ const ParentAppSection: NextPage = () => {
       <div className="self-stretch flex items-center justify-between gap-10 w-full mq750:flex-col mq750:gap-5">
         <section className="w-full max-w-2xl flex flex-col items-start py-5 px-0 box-border text-left text-xs text-[#176938] font-[Inter] mq750:flex-1">
           <div className="self-stretch flex items-start">
-            <div className="rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] box-border flex items-center py-[5px] px-3.5 gap-[5px]" data-aos="fade-in" data-aos-delay="100">
-              <div className="h-1.5 w-1.5 relative rounded-[22369600px] bg-[#176938]" />
-              <div className="relative tracking-[1.68px] leading-4 uppercase font-medium">
+            <div className="rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] box-border flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in" data-aos-delay="100">
+              <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#176938]" />
+              <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
                 Parent app
               </div>
             </div>

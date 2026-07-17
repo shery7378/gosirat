@@ -5,7 +5,7 @@ export default function NotFound() {
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-[#f3f7f4] to-white px-6 font-[Inter]">
       <div className="text-center">
         {/* Animated 404 Text */}
-        <h1 className="text-[120px] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#176938] to-[#3d8f5e] drop-shadow-sm leading-none mq450:text-[80px]">
+        <h1 className="font-[Inter] font-semibold text-[64px] leading-[100%] tracking-[0px] text-center text-[#0c140f] drop-shadow-sm mq450:text-[80px]">
           404
         </h1>
         

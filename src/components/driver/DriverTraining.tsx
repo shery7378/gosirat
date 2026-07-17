@@ -6,9 +6,9 @@ export const DriverTraining = () => {
         <section className="self-stretch bg-[#f4f7f4] overflow-hidden flex flex-col items-center pt-[100px] pb-0 px-[60px] mq450:pt-[65px] mq450:pb-0 mq450:px-4 mq450:box-border" data-aos="fade-out">
             <Container className="w-full flex flex-col items-center gap-12">
                 <div className="flex flex-col items-center text-center gap-6">
-                    <div className="h-[29.3px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] flex items-center py-[5px] px-3.5 gap-[5px]" data-aos="fade-out" data-aos-delay="100">
-                        <div className="h-1.5 w-1.5 rounded-[22369600px] bg-[#176938]" />
-                        <div className="tracking-[1.68px] leading-4 uppercase font-medium text-xs text-[#176938]">
+                    <div className="h-[29.33px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-out" data-aos-delay="100">
+                        <div className="h-[6px] w-[6px] rounded-[22369600px] bg-[#176938]" />
+                        <div className="font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#176938]">
                             Driver Training Program
                         </div>
                     </div>

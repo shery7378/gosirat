@@ -68,8 +68,8 @@ const FAQ: NextPage = () => {
    <div className="w-full flex flex-col items-center max-w-full">
     <section className="self-stretch flex flex-col items-center gap-4 text-center text-xs text-[#176938] font-[Inter]">
      <div className="flex items-center rounded-full bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] py-[5px] px-3.5 gap-1.5" data-aos="zoom-in" data-aos-delay="100">
-      <div className="h-1.5 w-1.5 relative rounded-full bg-[#176938]" />
-      <div className="relative tracking-[1.68px] leading-4 uppercase font-medium">
+      <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#176938]" />
+      <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
        Frequently Asked Questions
       </div>
      </div>

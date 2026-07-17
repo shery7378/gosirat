@@ -5,13 +5,13 @@ export const SchoolsStats: NextPage = () => {
   <section className="self-stretch bg-[#176938] flex flex-col items-start py-[100px] px-[60px] box-border max-w-full text-left text-5xl text-[#f8fbf8] font-[Inter] mq825:py-[65px] mq825:px-[30px] mq825:box-border" data-aos="fade-in">
    <div className="self-stretch flex items-start justify-between gap-5 max-w-full mq1400:flex-wrap mq1400:gap-5">
     <div className="w-full max-w-[609px] flex flex-col items-start gap-4 mq825:min-w-full mq1400:flex-1">
-     <div className="h-[29.3px] rounded-[22369600px] bg-[rgba(255,255,255,0.1)] border-[rgba(255,255,255,0.2)] border-solid border-[0.7px] box-border flex items-center py-[5px] px-3.5 gap-1.5" data-aos="fade-in">
-      <div className="h-1.5 w-1.5 relative rounded-[22369600px] bg-[#2ecc71]" />
-      <div className="relative tracking-[1.68px] leading-4 uppercase font-medium text-xs text-white">
+     <div className="h-[29.33px] rounded-[22369600px] bg-[rgba(255,255,255,0.1)] border-[rgba(255,255,255,0.2)] border-solid border-[0.67px] box-border flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in">
+      <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#2ecc71]" />
+      <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-white">
        Why Schools Trust GoSirat
       </div>
      </div>
-     <h2 className="m-0 self-stretch relative text-[length:inherit] tracking-[-1.5px] leading-[63px] capitalize font-semibold font-[inherit] mq825:text-[38px] mq825:leading-[50px] mq450:text-[29px] mq450:leading-[38px]">
+     <h2 className="m-0 self-stretch relative font-[Inter] font-semibold text-[48px] leading-none tracking-[-1.5px] capitalize mq825:text-[38px] mq825:leading-[48px] mq450:text-[29px] mq450:leading-9">
       Helping Schools Build Parent Trust Every Day
      </h2>
      <div className="self-stretch relative text-lg leading-7 text-[rgba(248,251,248,0.8)]">

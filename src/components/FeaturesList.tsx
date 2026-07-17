@@ -6,9 +6,9 @@ const FeaturesList: NextPage = () => {
         <section className="self-stretch flex flex-col items-start py-20 px-16 mq450:py-[52px] mq450:px-[30px] mq450:box-border" data-aos="fade-in">
             <section className="self-stretch flex flex-col items-start gap-2.5 text-left text-xs text-[#176938] font-[Inter]">
                 <div className="self-stretch flex items-start">
-                    <div className="rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] box-border flex items-center py-[5px] px-3.5 gap-1.5" data-aos="fade-out" data-aos-delay="100">
-                        <div className="h-1.5 w-1.5 relative rounded-[22369600px] bg-[#176938]" />
-                        <div className="relative tracking-[1.68px] leading-4 uppercase font-medium">
+                    <div className="rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] box-border flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-out" data-aos-delay="100">
+                        <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#176938]" />
+                        <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
                             Testimonials
                         </div>
                     </div>

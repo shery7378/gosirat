@@ -4,9 +4,9 @@ export const DriverVerification = () => {
    <section className="w-full flex flex-col items-start text-left text-xs text-[#F4F7F4] font-[Inter]">
     <div className="self-stretch flex flex-col items-start gap-2.5">
      <div className="self-stretch h-[29.3px] flex items-start">
-      <div className="h-[29.3px] rounded-[22369600px] bg-[rgba(213,240,219,0.1)] border-[rgba(23,105,56,0.3)] border-solid border-[0.7px] box-border flex items-center py-[5px] px-3.5 gap-[5px]" data-aos="zoom-in" data-aos-delay="100">
-       <div className="h-1.5 w-1.5 relative rounded-[22369600px] bg-base-white" />
-       <div className="relative tracking-[1.68px] leading-4 uppercase font-medium text-[rgba(255,255,255,0.8)]">
+      <div className="h-[29.33px] rounded-[22369600px] bg-[rgba(213,240,219,0.1)] border-[rgba(23,105,56,0.3)] border-solid border-[0.67px] box-border flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="zoom-in" data-aos-delay="100">
+       <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-base-white" />
+       <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[rgba(255,255,255,0.8)]">
         Driver Verification
        </div>
       </div>

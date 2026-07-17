@@ -27,9 +27,9 @@ export const AboutMission = () => {
         <section className="self-stretch flex-1 bg-[#fffee9] flex flex-col items-center justify-center py-10 px-4 md:py-6 md:px-[60px] box-border min-w-full md:min-w-[468px] text-left text-xs text-[#0d4a22] font-[Inter]">
           <div className="w-full max-w-[588.3px] flex flex-col">
             <div className="self-stretch flex items-start pt-[1.7px] px-0 pb-3 box-border">
-              <div className="h-[25.3px] rounded-[22369600px] bg-[#d9f3dd] border-[rgba(43,114,65,0.2)] border-solid border-[0.7px] box-border flex items-center py-[3px] px-3 gap-2" data-aos="fade-in" data-aos-delay="100">
-                <div className="h-1.5 w-1.5 relative rounded-[22369600px] bg-[#2b7241]" />
-                <div className="relative tracking-[0.6px] leading-4 uppercase font-semibold">
+              <div className="h-[29.33px] rounded-[22369600px] bg-[#d9f3dd] border-[rgba(43,114,65,0.2)] border-solid border-[0.67px] box-border flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in" data-aos-delay="100">
+                <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#2b7241]" />
+                <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
                   Our story
                 </div>
               </div>
@@ -49,9 +49,9 @@ export const AboutMission = () => {
         <section className="self-stretch flex-1 flex flex-col items-center justify-center py-10 px-4 md:py-6 md:px-[60px] box-border min-w-full md:min-w-[468px] text-left text-xs text-[#0d4a22] font-[Inter]">
           <div className="w-full max-w-[588.3px] flex flex-col">
             <div className="self-stretch flex items-start pt-[1.7px] px-0 pb-3 box-border">
-              <div className="h-[25.3px] rounded-[22369600px] bg-[#d9f3dd] border-[rgba(43,114,65,0.2)] border-solid border-[0.7px] box-border flex items-center py-[3px] px-3 gap-[7px]" data-aos="fade-in" data-aos-delay="200">
-                <div className="h-1.5 w-1.5 relative rounded-[22369600px] bg-[#2b7241]" />
-                <div className="relative tracking-[0.6px] leading-4 uppercase font-semibold">
+              <div className="h-[29.33px] rounded-[22369600px] bg-[#d9f3dd] border-[rgba(43,114,65,0.2)] border-solid border-[0.67px] box-border flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in" data-aos-delay="200">
+                <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#2b7241]" />
+                <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
                   Our Solution
                 </div>
               </div>

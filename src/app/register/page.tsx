@@ -179,17 +179,17 @@ const RegisterPage: NextPage = () => {
         <div className="relative rounded-[40px] w-full flex flex-col items-center justify-center py-20 px-[30px] box-border gap-8 leading-[normal] tracking-[normal] mq975:gap-4">
             <header className="self-stretch flex flex-col items-center gap-3 max-w-full text-left text-[38px] text-[#101828] font-[Inter] mb-4" data-aos="fade-up">
                 <div className="h-[29.3px] flex items-center justify-center">
-                    <div className="h-[29.3px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] box-border flex items-center py-[5px] px-3.5 gap-1.5">
-                        <div className="h-1.5 w-1.5 relative rounded-[22369600px] bg-[#176938]" />
-                        <div className="relative text-xs text-[#176938] tracking-[1.68px] leading-4 uppercase font-medium">
+                    <div className="h-[29.33px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] box-border flex items-center py-[6px] px-[14px] gap-[8px]">
+                        <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#176938]" />
+                        <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#176938]">
                             GoSirat Registration
                         </div>
                     </div>
                 </div>
-                <h1 className="m-0 relative text-[length:inherit] leading-[46px] capitalize font-semibold font-[inherit] inline-block max-w-full text-center">
+                <h1 className="m-0 relative font-[Inter] font-semibold text-[64px] leading-[100%] tracking-[0px] text-center text-[#0c140f] inline-block max-w-full">
                     Join GoSirat Today
                 </h1>
-                <p className="m-0 relative text-xl font-normal font-[inherit] inline-block max-w-[800px] text-center text-gray-500">
+                <p className="m-0 relative font-[Inter] font-normal text-[20px] leading-[32.5px] tracking-[0px] text-center text-[#57605b] inline-block max-w-[800px]">
                     Start your journey with GoSirat. Whether you're a parent looking for safe school transportation, a driver seeking reliable earning opportunities, or a school wanting smarter transportation management, we're here to help. Complete the form below, and our team will contact you within one business day.
                 </p>
             </header>

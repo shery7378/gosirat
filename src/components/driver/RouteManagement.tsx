@@ -19,9 +19,9 @@ export const RouteManagement = () => {
     </div>
     
     <div className="flex-1 flex flex-col items-start gap-6 min-w-[400px] mq450:min-w-full">
-     <div className="h-[29.3px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] flex items-center py-[5px] px-3.5 gap-[5px]" data-aos="zoom-in" data-aos-delay="100">
-      <div className="h-1.5 w-1.5 rounded-[22369600px] bg-[#176938]" />
-      <div className="tracking-[1.68px] leading-4 uppercase font-medium text-xs text-[#176938]">
+     <div className="h-[29.33px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="zoom-in" data-aos-delay="100">
+      <div className="h-[6px] w-[6px] rounded-[22369600px] bg-[#176938]" />
+      <div className="font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#176938]">
        Route Management
       </div>
      </div>

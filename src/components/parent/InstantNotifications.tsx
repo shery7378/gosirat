@@ -5,9 +5,9 @@ export const InstantNotifications = () => {
     <section className="w-full self-stretch bg-[#f4f7f4] flex flex-col items-center py-20 px-[60px] box-border mq450:px-4 mq450:py-[34px]" data-aos="fade-in">
       <div className="w-full max-w-[1440px] flex flex-col items-center relative isolate gap-[60px]">
         <section className="self-stretch flex flex-col items-center gap-4 z-[0] shrink-0 text-left text-xs text-[#176938] font-[Inter]">
-          <div className="h-[29.3px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] box-border flex items-center py-[5px] px-3.5 gap-[5px] mx-auto" data-aos="fade-in" data-aos-delay="100">
-            <div className="h-1.5 w-1.5 relative rounded-[22369600px] bg-[#176938]" />
-            <div className="relative tracking-[1.68px] leading-4 uppercase font-medium">
+          <div className="h-[29.33px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] box-border flex items-center py-[6px] px-[14px] gap-[8px] mx-auto" data-aos="fade-in" data-aos-delay="100">
+            <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#176938]" />
+            <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
               Instant notifications
             </div>
           </div>
