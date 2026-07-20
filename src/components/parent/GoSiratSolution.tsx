@@ -7,19 +7,22 @@ export const GoSiratSolution = () => {
                 <section className="h-auto w-full max-w-[580.3px] flex flex-col items-start text-left text-xs text-[#0D6332] font-[Inter] flex-1 min-w-[300px]">
                     <div className="w-full h-auto flex flex-col items-start max-w-[768px] mq450:max-w-full">
                         <div className="self-stretch flex flex-col items-start shrink-0">
-                            <div className="relative tracking-[1.92px] leading-[18px] uppercase font-semibold">
-                                THE GOSIRAT SOLUTION
+                            <div className="h-[29.33px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="zoom-in" data-aos-delay="100">
+                                <div className="h-[6px] w-[6px] rounded-[22369600px] bg-[#176938]" />
+                                <div className="font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#176938]">
+                                    THE GOSIRAT SOLUTION
+                                </div>
                             </div>
                         </div>
-                        <div className="w-full flex flex-col items-start pt-4 px-0 pb-0 box-border shrink-0 text-5xl text-[#09131a]">
-                            <h2 className="m-0 w-full relative text-[length:inherit] tracking-[-1.61px] leading-[54px] capitalize font-semibold font-[inherit] inline-block mq450:text-[38px] mq450:leading-[43px] mq450:text-[29px] mq450:leading-8">
+                        <div className="w-full flex flex-col items-start pt-6 px-0 pb-0 box-border shrink-0">
+                            <h2 className="m-0 self-stretch relative font-[Inter] font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-[#0c140f] mq825:text-[38px] mq450:text-[24px] mq450:leading-[32px] break-words">
                                 One App. Every Answer. Every Morning.
                             </h2>
                         </div>
-                        <div className="w-full flex flex-col items-start pt-5 px-0 pb-0 box-border shrink-0 text-lg text-[#202A32]">
-                            <div className="w-full relative leading-[29.3px] inline-block">
+                        <div className="w-full flex flex-col items-start pt-5 px-0 pb-0 box-border shrink-0">
+                            <p className="m-0 self-stretch relative font-[Inter] font-normal text-[18px] leading-[28px] tracking-[0px] text-[#57605b]">
                                 Track your child's school transportation in real time, receive instant notifications, verify every pick-up and drop-off through QR verification, and manage payments with complete transparency.
-                            </div>
+                            </p>
                         </div>
                         <div className="self-stretch flex flex-col items-start pt-8 px-0 pb-0 shrink-0">
                             <div className="flex items-center gap-4 mq450:flex-wrap">

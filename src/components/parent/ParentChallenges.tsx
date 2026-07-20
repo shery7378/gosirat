@@ -2,23 +2,26 @@ import Image from "next/image";
 
 export const ParentChallenges = () => {
     return (
-        <section className="self-stretch bg-[#1f252e] flex flex-col items-start py-20 px-[60px] mq450:pt-[52px] mq450:pb-[52px] mq450:box-border mq450:px-4 mq450:box-border" data-aos="fade-out">
+        <section className="self-stretch bg-[#0C140F] flex flex-col items-start py-[100px] px-[60px] mq450:py-[65px] mq450:px-4 mq450:box-border">
             <div className="w-full flex flex-col items-start mq450:max-w-full">
-                <section className="w-full flex flex-col items-start max-w-[768px] text-left text-xs text-[rgba(255,255,255,0.6)] font-[Inter] mq450:max-w-full">
+                <section className="w-full flex flex-col items-start max-w-[768px] text-left text-xs font-[Inter] mq450:max-w-full">
                     <div className="self-stretch flex flex-col items-start">
-                        <div className="relative tracking-[1.92px] leading-[18px] uppercase font-semibold">
-                            THE DAILY PARENT CHALLENGE
+                        <div className="h-[29.33px] rounded-[22369600px] bg-[rgba(213,240,219,0.1)] border-[rgba(23,105,56,0.3)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="zoom-in" data-aos-delay="100">
+                            <div className="h-[6px] w-[6px] rounded-[22369600px] bg-[#2ecc71]" />
+                            <div className="font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#2ecc71]">
+                                THE DAILY PARENT CHALLENGE
+                            </div>
                         </div>
                     </div>
-                    <div className="self-stretch flex flex-col items-start pt-4 px-0 pb-0 text-5xl text-base-white">
-                        <h2 className="m-0 w-full relative text-[length:inherit] tracking-[-1.61px] leading-[54px] capitalize font-semibold font-[inherit] inline-block mq450:text-[38px] mq450:leading-[43px] mq450:text-[29px] mq450:leading-8">
+                    <div className="self-stretch flex flex-col items-start pt-6 px-0 pb-0">
+                        <h2 className="m-0 self-stretch relative font-[Inter] font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-[#F4F7F4] mq825:text-[38px] mq450:text-[24px] mq450:leading-[32px] break-words">
                             School Mornings Shouldn't Feel Like a Guessing Game.
                         </h2>
                     </div>
-                    <div className="self-stretch flex flex-col items-start pt-5 px-0 pb-0 text-lg text-[rgba(255,255,255,0.7)]">
-                        <div className="w-full relative leading-[29.3px] inline-block">
+                    <div className="self-stretch flex flex-col items-start pt-5 px-0 pb-0">
+                        <p className="m-0 self-stretch relative font-[Inter] font-normal text-[18px] leading-[28px] tracking-[0px] text-[#A3ACA6]">
                             Today's parents are balancing work, family, and busy schedules while trying to stay informed about their child's school transportation. GoSirat is designed to give families complete visibility, safer school pick-up and drop-off, and peace of mind from pickup to arrival.
-                        </div>
+                        </p>
                     </div>
                 </section>
                 <section className="self-stretch flex flex-col items-start pt-12 px-0 pb-0 text-left text-base text-base-white font-[Inter]">

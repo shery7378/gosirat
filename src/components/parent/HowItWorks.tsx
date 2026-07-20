@@ -1,19 +1,19 @@
 export const HowItWorks = () => {
     return (
-        <section className="w-full self-stretch bg-[#1f252e] flex flex-col items-start py-[100px] px-[60px] box-border mq450:py-[65px] mq450:px-4 mq450:box-border" data-aos="zoom-in">
+        <section className="w-full self-stretch bg-[#0C140F] flex flex-col items-start py-[100px] px-[60px] box-border mq450:py-[65px] mq450:px-4 mq450:box-border" data-aos="zoom-in">
             <section className="w-full flex flex-col items-start text-left text-xs text-base-white font-[Inter]">
                 <div className="self-stretch flex flex-col items-start gap-2.5">
                     <div className="self-stretch h-[29.3px] flex items-start">
-                        <div className="h-[29.33px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] box-border flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-out" data-aos-delay="100">
-                            <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-base-white" />
-                            <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
+                        <div className="h-[29.33px] rounded-[22369600px] bg-[rgba(213,240,219,0.1)] border-[rgba(23,105,56,0.3)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="zoom-in" data-aos-delay="100">
+                            <div className="h-[6px] w-[6px] rounded-[22369600px] bg-[#2ecc71]" />
+                            <div className="font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#2ecc71]">
                                 How it works
                             </div>
                         </div>
                     </div>
-                    <h2 className="m-0 self-stretch relative text-5xl tracking-[-1.5px] leading-[75px] capitalize font-semibold font-[inherit] text-[#f4f7f4] mq450:text-[38px] mq450:leading-[60px] mq450:text-[29px] mq450:leading-[45px]">
-                        <span className="leading-[75px]">{`GoSirat Parent App Works in `}</span>
-                        <span className="text-base-white leading-[75px]">
+                    <h2 className="m-0 self-stretch relative font-[Inter] font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-[#F4F7F4] mq825:text-[38px] mq450:text-[24px] mq450:leading-[32px] break-words mt-4">
+                        <span className="">{`GoSirat Parent App Works in `}</span>
+                        <span className="text-base-white">
                             5 Simple Steps
                         </span>
                     </h2>

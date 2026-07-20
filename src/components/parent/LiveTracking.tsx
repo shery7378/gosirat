@@ -36,20 +36,20 @@ export const LiveTracking = () => {
                 <section className="flex flex-col items-start py-5 px-0 box-border min-w-[433px] max-w-[800px] w-full text-left text-xs text-[#176938] font-[Inter] mq750:min-w-full mq450:min-w-full">
                     <div className="self-stretch flex flex-col items-start gap-2.5">
                         <div className="self-stretch h-[29.3px] flex items-start">
-                            <div className="h-[29.33px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] box-border flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in" data-aos-delay="200">
-                                <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#176938]" />
-                                <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">{`Live tracking & handover`}</div>
+                            <div className="h-[29.33px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in" data-aos-delay="200">
+                                <div className="h-[6px] w-[6px] rounded-[22369600px] bg-[#176938]" />
+                                <div className="font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#176938]">{`Live tracking & handover`}</div>
                             </div>
                         </div>
-                        <div className="self-stretch flex flex-col items-start text-5xl text-[#0c140f]">
-                            <h2 className="m-0 self-stretch relative text-[length:inherit] tracking-[-1.5px] leading-[63px] capitalize font-semibold font-[inherit] mq450:text-[38px] mq450:leading-[50px] mq450:text-[29px] mq450:leading-[38px]">
+                        <div className="self-stretch flex flex-col items-start pt-3">
+                            <h2 className="m-0 self-stretch relative font-[Inter] font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-[#0c140f] mq825:text-[38px] mq450:text-[24px] mq450:leading-[32px] break-words">
                                 Track Every School Journey Live
                             </h2>
-                            <div className="self-stretch flex flex-col items-start pt-5 px-0 pb-0 text-lg text-[#57605b]">
-                                <div className="self-stretch relative leading-7">
-                                    Monitor your child's school transportation in real time with live GPS tracking, ETA, and route updates.
-                                </div>
-                            </div>
+                        </div>
+                        <div className="self-stretch flex flex-col items-start pt-2">
+                            <p className="m-0 self-stretch relative font-[Inter] font-normal text-[18px] leading-[28px] tracking-[0px] text-[#57605b]">
+                                Monitor your child's school transportation in real time with live GPS tracking, ETA, and route updates.
+                            </p>
                         </div>
                     </div>
                     <div className="self-stretch h-auto flex flex-col items-start pt-8 px-0 pb-[116.4px] box-border gap-[60px] max-w-full text-[#f8fbf8] mq750:pb-[76px] mq450:pt-[21px] mq450:pb-[76px] mq450:box-border relative">

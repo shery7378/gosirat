@@ -27,18 +27,18 @@ const AppDownload: React.FC<AppDownloadProps> = ({
                 {/* Text Section (Left Column) */}
                 <div className="flex flex-col gap-6 z-10 relative w-full md:w-[60%] min-[1050px]:w-[55%] items-start text-left py-12 px-6 sm:px-8 md:py-24 md:pl-12 md:pr-4 min-[1050px]:pl-16">
                     <div className="flex flex-col gap-4 w-full items-start">
-                        <div className="rounded-[20px] bg-[#89b99a] flex items-center py-1.5 px-3.5 gap-2" data-aos="fade-in" data-aos-delay="100">
-                            <div className="h-[6px] w-[6px] rounded-[22369600px] bg-[#124225]" />
-                            <div className="font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#124225]">
+                        <div className="inline-flex rounded-[30px] bg-[#89b99a] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in" data-aos-delay="100">
+                            <div className="h-[6px] w-[6px] relative rounded-full bg-[#124225]" />
+                            <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#124225]">
                                 {label}
                             </div>
                         </div>
 
-                        <h2 className="m-0 text-[32px] md:text-[42px] tracking-[-1px] leading-[1.2] capitalize font-semibold text-white w-full max-w-[550px]">
+                        <h2 className="m-0 mt-6 self-stretch relative font-[Inter] font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-left text-white mq825:text-[38px] mq825:leading-[48px] mq450:text-[24px] mq450:leading-[32px] break-words max-w-[550px]">
                             {heading}
                         </h2>
 
-                        <div className="text-lg leading-[28px] text-[rgba(255,255,255,0.85)] mt-2 w-full font-medium max-w-[600px]">
+                        <div className="w-full relative font-[Inter] font-normal text-[20px] leading-[32.5px] tracking-[0px] text-left text-[rgba(255,255,255,0.85)] max-w-[600px] mt-[19.7px]">
                             {description}
                         </div>
                     </div>

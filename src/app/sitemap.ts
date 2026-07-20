@@ -8,8 +8,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/about-us',
     '/careers',
     '/contact-us',
-    '/cookies',
-    '/disclosures',
+    '/cookie-policy',
+    '/disclaimer',
     '/driver-app',
     '/events',
     '/green-initiative',
@@ -18,11 +18,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/parent-app',
     '/press',
     '/privacy-policy',
-    '/register',
     '/safety',
     '/schools',
     '/support',
-    '/terms',
+    '/terms-and-conditions',
   ];
 
   return routes.map((route) => ({

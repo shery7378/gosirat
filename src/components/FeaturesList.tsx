@@ -3,26 +3,26 @@ import Image from "next/image";
 
 const FeaturesList: NextPage = () => {
     return (
-        <section className="self-stretch flex flex-col items-start py-20 px-16 mq450:py-[52px] mq450:px-[30px] mq450:box-border" data-aos="fade-in">
+        <section className="self-stretch flex flex-col items-start py-[100px] px-[60px] mq825:py-[65px] mq825:px-[30px] mq450:px-4 box-border" data-aos="fade-in">
             <section className="self-stretch flex flex-col items-start gap-2.5 text-left text-xs text-[#176938] font-[Inter]">
                 <div className="self-stretch flex items-start">
-                    <div className="rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] box-border flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-out" data-aos-delay="100">
-                        <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#176938]" />
-                        <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
+                    <div className="h-[29.33px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-out" data-aos-delay="100">
+                        <div className="h-[6px] w-[6px] rounded-full bg-[#176938]" />
+                        <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#176938]">
                             Testimonials
                         </div>
                     </div>
                 </div>
-                <h2 className="m-0 relative text-6xl tracking-[-1.5px] leading-[63px] capitalize font-semibold font-[inherit] text-[#0c140f] mq825:text-5xl mq825:leading-[50px] mq450:text-4xl mq450:leading-[38px]">
+                <h2 className="m-0 mt-6 self-stretch relative font-[Inter] font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-left text-[#0c140f] mq825:text-[38px] mq825:leading-[48px] mq450:text-[24px] mq450:leading-[32px] break-words">
                     Trusted by Parents, Drivers & Schools
                 </h2>
-                <div className="relative text-lg leading-7 text-[#57605b] max-w-[800px] mt-4 font-normal tracking-[0px]">
+                <div className="w-full relative font-[Inter] font-normal text-[18px] leading-[28px] tracking-[0px] text-left text-[#57605b] max-w-[800px] mt-[19.7px]">
                     Families, drivers, and schools trust GoSirat for safe school transportation, live GPS tracking, verified drivers, and secure student pick-up and drop-off. Here's what our community has to say about their experience.
                 </div>
             </section>
             <div className="self-stretch flex flex-col items-start pt-16 px-0 pb-0 mq450:pt-[42px] mq450:box-border">
                 <div className="self-stretch grid grid-cols-3 mq975:grid-cols-2 mq650:grid-cols-1 gap-5">
-                    <section className="h-full w-full overflow-hidden shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04),_0px_8px_24px_rgba(16,_24,_16,_0.06)] rounded-[28px] bg-white border-[rgba(222,227,222,0.7)] border-solid border-[0.7px] box-border flex flex-col items-start p-8 text-left text-lg text-[#0c140f] font-[Inter]">
+                    <section className="flex flex-col shadow-[0px_1px_2px_rgba(16,24,16,0.04),_0px_8px_24px_rgba(16,24,16,0.06)] rounded-[28px] bg-white border-[rgba(222,227,222,0.7)] border-solid border-[0.7px] p-8 text-left text-lg text-[#0c140f] font-[Inter] h-full w-full overflow-hidden">
                         <div className="flex gap-1 mb-4">
                             {[1, 2, 3, 4, 5].map((star) => (
                                 <svg key={`star1-${star}`} className="w-6 h-6 text-[#176938] fill-current" viewBox="0 0 24 24">
@@ -36,7 +36,7 @@ const FeaturesList: NextPage = () => {
                             </div>
                         </div>
                         <div className="self-stretch flex flex-col items-start pt-8 px-0 pb-0 text-base">
-                            <div className="self-stretch border-[#dee3de] border-solid border-t-[0.7px] box-border flex flex-col items-start pt-5 px-0 pb-0">
+                            <div className="self-stretch border-[#e5e7eb] border-solid border-t-[0.7px] box-border flex flex-col items-start pt-5 px-0 pb-0">
                                 <div className="self-stretch flex flex-col items-start">
                                     <div className="relative leading-6 font-semibold">
                                         Aisha M.
@@ -49,7 +49,7 @@ const FeaturesList: NextPage = () => {
                         </div>
                     </section>
 
-                    <section className="h-full w-full overflow-hidden shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04),_0px_8px_24px_rgba(16,_24,_16,_0.06)] rounded-[28px] bg-white border-[rgba(222,227,222,0.7)] border-solid border-[0.7px] box-border flex flex-col items-start p-8 text-left text-lg text-[#0c140f] font-[Inter]">
+                    <section className="flex flex-col shadow-[0px_1px_2px_rgba(16,24,16,0.04),_0px_8px_24px_rgba(16,24,16,0.06)] rounded-[28px] bg-white border-[rgba(222,227,222,0.7)] border-solid border-[0.7px] p-8 text-left text-lg text-[#0c140f] font-[Inter] h-full w-full overflow-hidden">
                         <div className="flex gap-1 mb-4">
                             {[1, 2, 3, 4, 5].map((star) => (
                                 <svg key={`star2-${star}`} className="w-6 h-6 text-[#176938] fill-current" viewBox="0 0 24 24">
@@ -63,7 +63,7 @@ const FeaturesList: NextPage = () => {
                             </div>
                         </div>
                         <div className="self-stretch flex flex-col items-start pt-8 px-0 pb-0 text-base">
-                            <div className="self-stretch border-[#dee3de] border-solid border-t-[0.7px] box-border flex flex-col items-start pt-5 px-0 pb-0">
+                            <div className="self-stretch border-[#e5e7eb] border-solid border-t-[0.7px] box-border flex flex-col items-start pt-5 px-0 pb-0">
                                 <div className="self-stretch flex flex-col items-start">
                                     <div className="relative leading-6 font-semibold">
                                         Hassan K.
@@ -76,7 +76,7 @@ const FeaturesList: NextPage = () => {
                         </div>
                     </section>
 
-                    <section className="h-full w-full overflow-hidden shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04),_0px_8px_24px_rgba(16,_24,_16,_0.06)] rounded-[28px] bg-white border-[rgba(222,227,222,0.7)] border-solid border-[0.7px] box-border flex flex-col items-start p-8 text-left text-lg text-[#0c140f] font-[Inter]">
+                    <section className="flex flex-col shadow-[0px_1px_2px_rgba(16,24,16,0.04),_0px_8px_24px_rgba(16,24,16,0.06)] rounded-[28px] bg-white border-[rgba(222,227,222,0.7)] border-solid border-[0.7px] p-8 text-left text-lg text-[#0c140f] font-[Inter] h-full w-full overflow-hidden">
                         <div className="flex gap-1 mb-4">
                             {[1, 2, 3, 4, 5].map((star) => (
                                 <svg key={`star3-${star}`} className="w-6 h-6 text-[#176938] fill-current" viewBox="0 0 24 24">
@@ -90,7 +90,7 @@ const FeaturesList: NextPage = () => {
                             </div>
                         </div>
                         <div className="self-stretch flex flex-col items-start pt-8 px-0 pb-0 text-base">
-                            <div className="self-stretch border-[#dee3de] border-solid border-t-[0.7px] box-border flex flex-col items-start pt-5 px-0 pb-0">
+                            <div className="self-stretch border-[#e5e7eb] border-solid border-t-[0.7px] box-border flex flex-col items-start pt-5 px-0 pb-0">
                                 <div className="self-stretch flex flex-col items-start">
                                     <div className="relative leading-6 font-semibold">
                                         Yousef R.

@@ -11,13 +11,13 @@ export const InstantNotifications = () => {
               Instant notifications
             </div>
           </div>
-          <div className="self-stretch flex flex-col items-center gap-3 text-5xl text-[#09131a] text-center">
-            <h2 className="m-0 relative text-[length:inherit] tracking-[-1.61px] leading-[56.5px] capitalize font-semibold font-[inherit] mq750:text-4xl mq450:text-3xl mq750:leading-[45px]">
+          <div className="self-stretch flex flex-col items-center gap-5 text-center mt-6">
+            <h2 className="m-0 self-stretch relative font-[Inter] font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-[#0c140f] mq825:text-[38px] mq450:text-[24px] mq450:leading-[32px] break-words">
               Stay Updated at Every Step
             </h2>
-            <div className="self-stretch relative text-lg leading-[29.3px] text-[#202A32] text-center max-w-[800px] mx-auto">
+            <p className="m-0 self-stretch relative font-[Inter] font-normal text-[18px] leading-[28px] tracking-[0px] text-[#57605b] max-w-[800px] mx-auto">
               Receive real-time notifications for driver arrival, student pickup, school arrival, school departure, and safe drop-off, so you always know your child's school journey.
-            </div>
+            </p>
           </div>
         </section>
 

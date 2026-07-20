@@ -11,18 +11,21 @@ const stats = [
 
 export default function SafetyStats() {
     return (
-        <section id="stats" className="bg-[#f8fbf8] px-6 py-20 lg:px-8">
+        <section id="stats" className="bg-[#f8fbf8] px-8 py-20 mq825:px-6">
             <div className="mx-auto max-w-7xl">
-                <div className="mx-auto max-w-3xl text-center">
-                    <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#176938]">Our safety statistics</p>
-                    <h2 className="mt-4 text-3xl font-extrabold text-[#0c140f] sm:text-4xl">
+                <div className="mx-auto max-w-[800px] text-center flex flex-col items-center">
+                    <div className="inline-flex items-center gap-2 rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] px-[14px] py-[6px] text-[12px] font-medium uppercase tracking-[1.68px] text-[#176938]">
+                        <span className="h-[6px] w-[6px] rounded-full bg-[#176938]" />
+                        Our safety statistics
+                    </div>
+                    <h2 className="mt-4 font-[Inter] font-semibold text-[48px] leading-[63px] tracking-[-1.5px] text-[#0c140f] mq825:text-[38px] mq825:leading-[48px] mq450:text-[29px] mq450:leading-9">
                         Trusted numbers, verified safety.
                     </h2>
-                    <p className="mt-5 text-lg leading-8 text-[#57605b]">
+                    <p className="mt-5 font-[Inter] font-normal text-[18px] leading-[28px] tracking-[0px] text-[#57605b]">
                         GoSirat combines modern technology with professional transportation services to make every ride safer.
                     </p>
                 </div>
-                <div className="mt-12 grid gap-4 grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
+                <div className="mt-12 grid gap-4 grid-cols-6 mq1125:grid-cols-3 mq825:grid-cols-2 mq450:grid-cols-1">
                     {stats.map((stat) => (
                         <div key={stat.label} className="rounded-[16px] border border-[rgba(23,105,56,0.15)]/70 bg-white p-6 flex flex-col items-center justify-start text-center shadow-[0_4px_20px_rgb(0,0,0,0.02)]">
                             <div className="flex h-[38px] w-[38px] items-center justify-center rounded-[10px] bg-[rgba(213,240,219,0.4)]/70 text-[#176938]">

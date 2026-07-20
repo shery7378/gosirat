@@ -32,15 +32,22 @@ export const TransportationPackages = () => {
       <div className="w-full flex flex-col items-start">
         <div className="flex flex-col items-start">
           <div className="self-stretch flex flex-col items-start">
-            <div className="relative tracking-[1.92px] leading-[18px] uppercase font-semibold">
-              TRANSPORTATION PACKAGES
+            <div className="h-[29.33px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in" data-aos-delay="100">
+                <div className="h-[6px] w-[6px] rounded-[22369600px] bg-[#176938]" />
+                <div className="font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#176938]">
+                    TRANSPORTATION PACKAGES
+                </div>
             </div>
           </div>
-          <h2 className="m-0 relative text-5xl tracking-[-1.61px] leading-[56.5px] capitalize font-semibold font-[inherit] text-[#09131a] mq450:text-[38px] mq450:leading-[45px] mq450:text-[29px] mq450:leading-[34px]">
-            Choose the Ride That Fits Your Family.
-          </h2>
-          <div className="w-full relative text-lg leading-[29.3px] text-[#202A32] mt-4 max-w-[800px]">
-            Select the school transportation package that best matches your child's travel needs, schedule, and comfort. GoSirat offers safe, flexible, and reliable school pick-up and drop-off services for every family.
+          <div className="self-stretch flex flex-col items-start pt-6 px-0 pb-0 box-border">
+              <h2 className="m-0 self-stretch relative font-[Inter] font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-[#0c140f] mq825:text-[38px] mq450:text-[24px] mq450:leading-[32px] break-words">
+                Choose the Ride That Fits Your Family.
+              </h2>
+          </div>
+          <div className="self-stretch flex flex-col items-start pt-5 px-0 pb-0 box-border">
+              <p className="m-0 self-stretch relative font-[Inter] font-normal text-[18px] leading-[28px] tracking-[0px] text-[#57605b] max-w-[800px]">
+                Select the school transportation package that best matches your child's travel needs, schedule, and comfort. GoSirat offers safe, flexible, and reliable school pick-up and drop-off services for every family.
+              </p>
           </div>
         </div>
         <section className="self-stretch flex flex-col items-start pt-12 px-0 pb-0 text-left text-xs text-[#0D6332] font-[Inter]">

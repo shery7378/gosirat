@@ -2,26 +2,26 @@ import Image from "next/image";
 
 export const ParentHero = () => {
     return (
-        <section className="self-stretch overflow-hidden flex flex-col items-start pt-10 px-0 pb-5 box-border max-w-full mq450:pt-[26px] mq450:box-border" data-aos="fade-out">
+        <section className="self-stretch overflow-hidden flex flex-col items-start pt-10 px-0 pb-5 box-border max-w-full mq450:pt-[26px] mq450:box-border">
             <div className="self-stretch flex items-center justify-between pt-0 px-[60px] pb-10 box-border gap-10 max-w-full flex-wrap mq450:px-4 mq450:pb-[52px]">
                 <section className="flex flex-col items-start py-5 px-0 box-border max-w-full text-center text-xs text-[#176938] font-[Inter] flex-1 min-w-[300px]">
                     <div className="w-full max-w-[657px] flex flex-col items-start gap-6">
                         <div className="w-full max-w-[706px] flex flex-col items-start shrink-0">
-                            <div className="h-[29.3px] flex items-start justify-center">
+                            <div className="h-[29.33px] flex items-start justify-center">
                                 <div className="self-stretch rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="zoom-in" data-aos-delay="100">
-                                    <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#176938]" />
-                                    <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
+                                    <div className="h-[6px] w-[6px] rounded-[22369600px] bg-[#176938]" />
+                                    <div className="font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#176938]">
                                         Parent App
                                     </div>
                                 </div>
                             </div>
                             <div className="self-stretch flex flex-col items-start justify-center pt-7 px-0 pb-4 gap-4 text-left text-6xl text-[#0c140f]">
                                 <div className="self-stretch flex flex-col items-start justify-center">
-                                    <h1 className="m-0 self-stretch relative font-[Inter] font-semibold text-[64px] leading-[100%] tracking-[0px] text-center text-[#0c140f] mq825:text-[51px] mq825:leading-[59px] mq450:text-[38px] mq450:leading-[44px]">
+                                    <h1 className="m-0 self-stretch relative font-[Inter] font-semibold text-[64px] leading-[100%] tracking-[0px] text-center text-[#0c140f] mq1050:text-center mq825:text-[51px] mq825:leading-[59px] mq450:text-[38px] mq450:leading-[44px]">
                                         Never wonder where your child is again.
                                     </h1>
                                 </div>
-                                <h3 className="m-0 w-full max-w-[641px] relative font-[Inter] font-normal text-[20px] leading-[32.5px] tracking-[0px] text-center text-[#57605b] inline-block mq450:text-base mq450:leading-[26px]">
+                                <h3 className="m-0 w-full relative font-[Inter] font-normal text-[20px] leading-[32.5px] tracking-[0px] text-center text-[#57605b] mq450:text-base mq450:leading-[26px]">
                                     The GoSirat Parent App gives parents complete visibility and control over their child's school transportation. Track every school pick-up and drop-off in real time with live GPS tracking, receive instant notifications, verify safe handovers through QR verification, and monitor attendance—all from one easy-to-use app.
                                 </h3>
                             </div>

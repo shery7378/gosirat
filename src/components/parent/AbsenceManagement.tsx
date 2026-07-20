@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const AbsenceManagement = () => {
     return (
-        <section className="self-stretch bg-base-white flex items-center justify-between py-16 px-[60px] box-border gap-10 max-w-full mq1125:flex-col mq1125:items-center mq450:gap-5 mq450:py-[60px] mq450:box-border mq450:flex-wrap mq450:px-4" data-aos="fade-out">
+        <section className="self-stretch bg-base-white flex items-center justify-between py-16 px-[60px] box-border gap-10 max-w-full mq1125:flex-col mq1125:items-center mq450:gap-5 mq450:py-[60px] mq450:box-border mq450:flex-wrap mq450:px-4">
             <div className="w-full max-w-[580.3px] flex flex-col items-center justify-center relative isolate mq450:min-w-full mq450:flex-1">
                 {/* Main Card: Will Ahmed be absent? */}
                 <div className="w-[398px] relative bg-white rounded-[24px] shadow-[0px_12px_24px_rgba(0,0,0,0.08)] border-2 border-solid border-[#176938]/30 p-6 flex flex-col gap-5 z-[1] shrink-0 font-[Inter] mq450:w-full" data-aos="fade-in" data-aos-delay="100">
@@ -70,7 +70,7 @@ export const AbsenceManagement = () => {
                 </div>
 
                 {/* Floating Pill Card: Tomorrow, 5 June */}
-                <div className="w-[300px] absolute top-2 right-0 bg-white rounded-[20px] shadow-[0px_16px_32px_rgba(0,0,0,0.12)] border border-gray-100 p-4 flex flex-col gap-3 z-[2] font-[Inter] mq1125:relative mq1125:top-[-40px] mq1125:right-auto mq450:w-[calc(100%-32px)]">
+                <div className="w-[300px] absolute top-2 right-0 bg-white rounded-[20px] shadow-[0px_16px_32px_rgba(0,0,0,0.12)] border border-gray-100 p-4 flex flex-col gap-3 z-[2] font-[Inter] mq1125:relative mq1125:top-0 mq1125:mt-6 mq1125:right-auto mq450:w-[calc(100%-32px)]">
                     <div className="flex items-start gap-3 w-full">
                         <div className="w-10 h-10 rounded-full bg-[#f0f4f8] flex items-center justify-center shrink-0 mt-1" data-aos="fade-in" data-aos-delay="200">
                             <svg className="w-5 h-5 text-[#176938]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -94,19 +94,22 @@ export const AbsenceManagement = () => {
             </div>
             <section className="h-auto w-full max-w-[580.3px] flex flex-col items-start text-left text-xs text-[#0D6332] font-[Inter] mq1125:mt-10 mq450:min-w-full mq450:flex-1">
                 <div className="self-stretch flex flex-col items-start">
-                    <div className="relative tracking-[1.92px] leading-[18px] uppercase font-semibold">
-                        ABSENCE MANAGEMENT
+                    <div className="h-[29.33px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="zoom-in" data-aos-delay="100">
+                        <div className="h-[6px] w-[6px] rounded-[22369600px] bg-[#176938]" />
+                        <div className="font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#176938]">
+                            ABSENCE MANAGEMENT
+                        </div>
                     </div>
                 </div>
-                <div className="w-full flex flex-col items-start pt-4 px-0 pb-0 box-border text-5xl text-[#09131a]">
-                    <h2 className="m-0 w-full relative text-[length:inherit] tracking-[-1.61px] leading-[56.5px] font-semibold font-[inherit] inline-block mq450:text-[38px] mq450:leading-[45px] mq450:text-[29px] mq450:leading-[34px]">
+                <div className="w-full flex flex-col items-start pt-6 px-0 pb-0 box-border">
+                    <h2 className="m-0 self-stretch relative font-[Inter] font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-[#0c140f] mq825:text-[38px] mq450:text-[24px] mq450:leading-[32px] break-words">
                         Report Absences in One Tap
                     </h2>
                 </div>
-                <div className="w-full flex flex-col items-start pt-5 px-0 pb-0 box-border text-lg text-[#202A32]">
-                    <div className="w-full relative leading-[29.3px] inline-block">
+                <div className="w-full flex flex-col items-start pt-5 px-0 pb-0 box-border">
+                    <p className="m-0 self-stretch relative font-[Inter] font-normal text-[18px] leading-[28px] tracking-[0px] text-[#57605b]">
                         Mark your child absent in seconds. The GoSirat Parent App instantly notifies the driver and school, helping keep school transportation routes efficient and up to date.
-                    </div>
+                    </p>
                 </div>
             </section>
         </section>

@@ -10,26 +10,23 @@ export const ParentStories = ({ isAboutPage = false }: { isAboutPage?: boolean }
   " data-aos="zoom-in">
             <section className="self-stretch flex flex-col items-start gap-2.5 text-left text-xs text-[#176938] font-[Inter]">
                 <div className="self-stretch flex items-start">
-                    <div className="rounded-full bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] flex items-center py-[5px] px-3.5 gap-1.5" data-aos="fade-in" data-aos-delay="100">
-                        <div className="h-[6px] w-[6px] rounded-[22369600px] bg-[#176938] shrink-0" />
-                        <div className="font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase whitespace-nowrap">
+                    <div className="h-[29.33px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in" data-aos-delay="100">
+                        <div className="h-[6px] w-[6px] rounded-[22369600px] bg-[#176938]" />
+                        <div className="font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#176938]">
                             Parent Stories
                         </div>
                     </div>
                 </div>
-
-                <h2 className="
-     m-0 relative font-semibold font-[Inter] text-[#0C140F]
-     text-[48px] -tracking-[1.5px] leading-[63px]
-     mq750:text-[38px] mq750:leading-[50px]
-     mq650:text-[32px] mq650:leading-[42px] mq650:tracking-[-1px]
-     mq450:text-[26px] mq450:leading-[34px] mq450:tracking-[-0.5px]
-    ">
-                    Trusted by Families for Safer School Transportation
-                </h2>
-                <p className="m-0 w-full max-w-[800px] relative text-[16px] md:text-[18px] text-[#57605b] font-normal leading-[1.6] mt-4">
-                    Parents trust GoSirat to make every school journey safer, smarter, and more transparent. From live GPS tracking to verified drivers and secure QR verification, our platform gives families confidence and peace of mind every school day.
-                </p>
+                <div className="self-stretch flex flex-col items-start pt-6 px-0 pb-0 box-border">
+                    <h2 className="m-0 self-stretch relative font-[Inter] font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-[#0c140f] mq825:text-[38px] mq450:text-[24px] mq450:leading-[32px] break-words">
+                        Trusted by Families for Safer School Transportation
+                    </h2>
+                </div>
+                <div className="self-stretch flex flex-col items-start pt-5 px-0 pb-0 box-border">
+                    <p className="m-0 self-stretch relative font-[Inter] font-normal text-[18px] leading-[28px] tracking-[0px] text-[#57605b] max-w-[800px]">
+                        Parents trust GoSirat to make every school journey safer, smarter, and more transparent. From live GPS tracking to verified drivers and secure QR verification, our platform gives families confidence and peace of mind every school day.
+                    </p>
+                </div>
             </section>
 
             <div className="self-stretch pt-16 mq650:pt-10 mq450:pt-8">

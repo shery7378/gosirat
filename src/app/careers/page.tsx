@@ -61,27 +61,27 @@ const CareersPage: NextPage = () => {
                     <h2 className="m-0 text-3xl md:text-4xl font-semibold text-[#09131a] mb-10 text-center">Open Positions</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         <div className="bg-white rounded-[22px] p-8 border border-[rgba(0,0,0,0.1)] shadow-sm flex flex-col h-full hover:shadow-md transition-shadow">
-                            <h3 className="m-0 text-xl font-semibold text-[#0D6332] mb-4">Product & Design</h3>
+                            <h3 className="m-0 text-xl font-semibold text-[#0D6332] mb-4">📢 Marketing Team</h3>
                             <p className="m-0 text-[#202A32] leading-relaxed flex-1">
-                                Design intuitive experiences that help parents, schools, and drivers enjoy safer and smarter school transportation.
+                                Help more parents and schools discover GoSirat. Promote our safe school transportation services through digital marketing, social media, and community campaigns.
                             </p>
                         </div>
                         <div className="bg-white rounded-[22px] p-8 border border-[rgba(0,0,0,0.1)] shadow-sm flex flex-col h-full hover:shadow-md transition-shadow">
-                            <h3 className="m-0 text-xl font-semibold text-[#0D6332] mb-4">Operations & Partnerships</h3>
+                            <h3 className="m-0 text-xl font-semibold text-[#0D6332] mb-4">🤝 Operations & Partnerships</h3>
                             <p className="m-0 text-[#202A32] leading-relaxed flex-1">
-                                Build relationships with schools, transportation providers, and strategic partners to expand GoSirat's impact.
+                                Work with schools and transportation partners to keep school transportation running smoothly, safely, and on time every day.
                             </p>
                         </div>
                         <div className="bg-white rounded-[22px] p-8 border border-[rgba(0,0,0,0.1)] shadow-sm flex flex-col h-full hover:shadow-md transition-shadow">
-                            <h3 className="m-0 text-xl font-semibold text-[#0D6332] mb-4">Community & Customer Support</h3>
+                            <h3 className="m-0 text-xl font-semibold text-[#0D6332] mb-4">💬 Community & Customer Support</h3>
                             <p className="m-0 text-[#202A32] leading-relaxed flex-1">
-                                Deliver outstanding support, strengthen customer relationships, and help families and schools get the most from GoSirat.
+                                Support parents, schools, and drivers by answering questions, solving problems, and providing the best GoSirat experience.
                             </p>
                         </div>
                         <div className="bg-white rounded-[22px] p-8 border border-[rgba(0,0,0,0.1)] shadow-sm flex flex-col h-full hover:shadow-md transition-shadow">
-                            <h3 className="m-0 text-xl font-semibold text-[#0D6332] mb-4">Engineering</h3>
+                            <h3 className="m-0 text-xl font-semibold text-[#0D6332] mb-4">🚌 Transport Managers</h3>
                             <p className="m-0 text-[#202A32] leading-relaxed flex-1">
-                                Develop secure, reliable, and scalable technology that powers safe school transportation and real-time communication.
+                                Manage drivers, plan school routes, monitor daily trips, and make sure every school transportation journey is safe, reliable, and on time.
                             </p>
                         </div>
                     </div>

@@ -4,31 +4,32 @@ import Image from "next/image";
 const Hero: NextPage = () => {
   return (
     <section className="w-full border-[#176938] border-solid border-b-[6px] box-border overflow-hidden flex flex-col items-start pt-10 px-0 pb-0 mq450:pt-[34px] mq450:h-auto" data-aos="fade-out">
-      <div className="self-stretch flex items-start justify-between pt-0 px-[60px] pb-0 box-border [row-gap:20px] max-w-full mq1125:flex-col mq1125:items-center mq450:pb-10 mq750:pl-[30px] mq750:pr-[30px] mq750:box-border">
+      <div className="self-stretch flex items-start justify-between pt-0 px-[60px] pb-0 box-border [row-gap:20px] max-w-full mq1125:px-8 mq825:flex-col mq825:items-center mq450:pb-10 mq825:px-6">
         <section className="flex flex-col items-start gap-5 max-w-full text-center text-xs text-[#176938] font-[Inter] mq450:flex-1 mq450:min-w-full">
-          <div className="flex flex-col items-start gap-4 mq1125:items-center">
-            <div className="flex flex-col items-start mq1125:items-center">
+          <div className="flex flex-col items-start gap-4 mq825:items-center">
+            <div className="flex flex-col items-start mq825:items-center">
               <div className="h-[29.3px] flex items-start justify-center">
-                <div className="self-stretch rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-out" data-aos-delay="100">
-                  <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#176938]" />
-                  <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
+                <div className="inline-flex rounded-[30px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-out" data-aos-delay="100">
+                  <div className="h-[6px] w-[6px] relative rounded-full bg-[#176938]" />
+                  <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#176938]">
                     For modern families
                   </div>
                 </div>
               </div>
-              <div className="w-full max-w-[795px] flex flex-col pt-7 px-0 pb-0 box-border text-left text-6xl text-[#0c140f] mq1125:text-center mq1125:items-center">
-                <div className="self-stretch flex flex-col items-center">
-                  <h1 className="m-0 self-stretch relative font-[Inter] font-semibold text-[64px] leading-[100%] tracking-[0px] text-center text-[#0c140f] mq750:text-5xl mq750:leading-[55px] mq450:text-[34px] mq450:leading-[44px]">
-                    <span className="block">Safe & Smart School Transportation</span>
-                    <span className="block text-[#176938]">for modern families.</span>
+              <div className="w-full max-w-[795px] flex flex-col pt-7 px-0 pb-0 box-border text-left text-6xl text-[#0c140f] mq825:text-center mq825:items-center">
+                <div className="self-stretch flex flex-col items-start mq825:items-center">
+                  <h1 className="m-0 self-stretch relative font-[Inter] font-semibold text-[64px] leading-[1.1] tracking-[0px] text-left text-[#0c140f] mq1125:text-[52px] mq825:text-center mq825:text-5xl mq825:leading-[1.1] mq450:text-[34px] mq450:leading-[1.2]">
+                    Safe & Smart School Transportation
+                    <br className="hidden sm:block" />
+                    <span className="text-[#176938]">for modern families.</span>
                   </h1>
                 </div>
-                <h3 className="m-0 self-stretch relative font-[Inter] font-normal text-[20px] leading-[32.5px] tracking-[0px] text-center text-[#57605b] mq450:text-base mq450:leading-[26px] mt-4">
-                  GoSirat provides safe school transportation and school pick and drop services designed for modern families in Islamabad and Rawalpindi. Our smart transportation platform features verified drivers, live GPS tracking, secure QR verification, real-time notifications, and safe handover to ensure every child's journey is secure. Parents enjoy complete visibility through our Parent App, while schools benefit from efficient transportation management and optimized school transport operations.
+                <h3 className="m-0 self-stretch relative font-[Inter] font-normal text-[20px] leading-[32.5px] tracking-[0px] text-left text-[#57605b] mq825:text-center mq450:text-base mq450:leading-[1.5] mt-4">
+                  GoSirat provides safe school transportation and school pick and drop services with verified drivers, live GPS tracking, QR verification, and real-time updates. Parents, schools, and drivers stay connected through one smart transportation platform.
                 </h3>
               </div>
             </div>
-            <div className="flex items-center gap-4 mq450:flex-wrap mt-2 mq1125:justify-center w-full justify-start">
+            <div className="flex items-center gap-4 mq450:flex-wrap mt-2 mq825:justify-center w-full justify-start">
               {/* App Store Button */}
               <a href="#" className="flex items-center justify-center gap-[10px] bg-black border border-[#444] rounded-xl py-2 hover:bg-[#1a1a1a] transition-colors h-[54px] w-[180px] no-underline">
                 <svg viewBox="0 0 384 512" className="w-[24px] h-[24px] text-white" fill="currentColor">
@@ -50,13 +51,13 @@ const Hero: NextPage = () => {
               </a>
             </div>
           </div>
-          <div className="flex flex-col items-start justify-center text-sm text-[#57605b] w-full mq1125:items-center">
-            <div className="w-full max-w-[574.7px] flex flex-wrap items-start gap-[28.1px] h-auto mq1125:justify-center mt-4">
+          <div className="flex flex-col items-start justify-center text-sm text-[#57605b] w-full mq825:items-center">
+            <div className="w-full max-w-[574.7px] flex flex-wrap items-start gap-[28.1px] h-auto mq825:justify-center mt-4">
               <div className="flex items-center gap-[7px]">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 relative text-[#176938] shrink-0">
                   <path d="M4 7.6L6.8 10.4L12 4.8" stroke="currentColor" strokeWidth="1.92" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-                <div className="relative font-[Inter] font-medium text-[14px] leading-[20px] tracking-[0px] text-center text-[#57605b]">
+                <div className="relative font-[Inter] font-medium text-[14px] leading-[20px] tracking-[0px] text-left text-[#57605b]">
                   Verified Drivers
                 </div>
               </div>
@@ -64,7 +65,7 @@ const Hero: NextPage = () => {
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 relative text-[#176938] shrink-0">
                   <path d="M4 7.6L6.8 10.4L12 4.8" stroke="currentColor" strokeWidth="1.92" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-                <div className="relative font-[Inter] font-medium text-[14px] leading-[20px] tracking-[0px] text-center text-[#57605b]">
+                <div className="relative font-[Inter] font-medium text-[14px] leading-[20px] tracking-[0px] text-left text-[#57605b]">
                   Live Tracking
                 </div>
               </div>
@@ -72,7 +73,7 @@ const Hero: NextPage = () => {
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 relative text-[#176938] shrink-0">
                   <path d="M4 7.6L6.8 10.4L12 4.8" stroke="currentColor" strokeWidth="1.92" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-                <div className="relative font-[Inter] font-medium text-[14px] leading-[20px] tracking-[0px] text-center text-[#57605b]">
+                <div className="relative font-[Inter] font-medium text-[14px] leading-[20px] tracking-[0px] text-left text-[#57605b]">
                   Secure Handover
                 </div>
               </div>
@@ -80,14 +81,14 @@ const Hero: NextPage = () => {
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 relative text-[#176938] shrink-0">
                   <path d="M4 7.6L6.8 10.4L12 4.8" stroke="currentColor" strokeWidth="1.92" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-                <div className="relative font-[Inter] font-medium text-[14px] leading-[20px] tracking-[0px] text-center text-[#57605b]">
+                <div className="relative font-[Inter] font-medium text-[14px] leading-[20px] tracking-[0px] text-left text-[#57605b]">
                   Eco-Friendly
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <div className="min-h-[505px] w-[474px] flex flex-col items-start relative isolate mq1125:h-[350px] mq1125:w-[350px] mq1125:flex-none mq1125:mx-auto mq1125:mt-10">
+        <div className="min-h-[505px] w-[474px] flex flex-col items-start relative isolate mq1125:h-[350px] mq1125:w-[350px] mq825:flex-none mq825:mx-auto mq825:mt-10">
           <Image
             className="w-[243px] h-[505px] absolute top-[40px] left-[0px] object-contain shrink-0 mq1125:w-[150px] mq1125:h-[310px] mq1125:left-[0px] mq1125:top-[25px]"
             width={243}

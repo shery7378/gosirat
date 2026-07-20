@@ -9,26 +9,26 @@ const processSteps = [
 
 export default function SafetyHandovers() {
     return (
-        <section id="verification" className="bg-[#f8fbf8] px-6 py-24 lg:px-8">
+        <section id="verification" className="bg-[#f8fbf8] px-8 py-24 mq825:px-6">
             <div className="mx-auto max-w-5xl">
-                <div className="mx-auto max-w-3xl text-center">
-                    <div className="flex items-center justify-center gap-3 text-sm font-bold uppercase tracking-[0.15em] text-[#176938]">
-                        <span className="h-[2px] w-5 bg-[#176938]"></span>
+                <div className="mx-auto max-w-[800px] text-center flex flex-col items-center">
+                    <div className="inline-flex items-center gap-2 rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] px-[14px] py-[6px] text-[12px] font-medium uppercase tracking-[1.68px] text-[#176938]">
+                        <span className="h-[6px] w-[6px] rounded-full bg-[#176938]" />
                         SECURE HANDOVERS
                     </div>
-                    <h2 className="mt-6 text-4xl font-extrabold text-[#0c140f] sm:text-5xl leading-[1.2]">
+                    <h2 className="mt-4 font-[Inter] font-semibold text-[48px] leading-[63px] tracking-[-1.5px] text-[#0c140f] mq825:text-[38px] mq825:leading-[48px] mq450:text-[29px] mq450:leading-9">
                         Every Pickup. Every Drop-off.<br />Verified.
                     </h2>
-                    <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[#57605b]">
+                    <p className="mt-5 font-[Inter] font-normal text-[18px] leading-[28px] tracking-[0px] text-[#57605b]">
                         Every student handover is protected with secure QR verification. Only authorized parents or guardians can hand over or receive a child, creating a secure digital record for every journey.
                     </p>
                 </div>
                 
                 <div className="relative mt-20">
                     {/* Dotted connecting line */}
-                    <div className="absolute top-10 left-[12.5%] right-[12.5%] h-[2px] border-t-[2px] border-dashed border-[rgba(23,105,56,0.15)] hidden md:block"></div>
+                    <div className="absolute top-10 left-[12.5%] right-[12.5%] h-[2px] border-t-[2px] border-dashed border-[rgba(23,105,56,0.15)] block mq825:hidden"></div>
                     
-                    <div className="grid grid-cols-1 gap-10 md:grid-cols-4 relative z-10">
+                    <div className="grid grid-cols-4 mq825:grid-cols-2 mq450:grid-cols-1 gap-10 relative z-10">
                         {processSteps.map((step, index) => (
                             <div key={step.title} className="flex flex-col items-center text-center">
                                 <div className="flex h-20 w-20 items-center justify-center rounded-[24px] bg-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-[rgba(23,105,56,0.15)]/50">

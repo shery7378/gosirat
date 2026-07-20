@@ -3,27 +3,27 @@ import Image from "next/image";
 
 const ParentAppSection: NextPage = () => {
   return (
-    <section className="self-stretch flex flex-col items-start p-16 box-border shrink-0 w-full mq450:py-8 mq450:px-4" data-aos="fade-in">
-      <div className="self-stretch flex items-center justify-between gap-10 w-full mq750:flex-col mq750:gap-5">
-        <section className="w-full max-w-2xl flex flex-col items-start py-5 px-0 box-border text-left text-xs text-[#176938] font-[Inter] mq750:flex-1">
+    <section className="self-stretch flex flex-col items-start p-[60px] box-border max-w-full gap-16 mq1125:p-[40px] mq825:py-[39px] mq825:px-[30px] mq825:box-border mq450:px-4 mq450:pt-[25px] mq450:pb-[25px] mq450:box-border" data-aos="zoom-in">
+      <div className="self-stretch h-auto flex items-center justify-between gap-5 max-w-full mq825:flex-col mq825:items-center mq825:gap-8">
+        <section className="w-full max-w-2xl flex-1 flex flex-col items-start py-5 px-0 box-border text-left text-xs text-[#176938] font-[Inter]">
           <div className="self-stretch flex items-start">
-            <div className="rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] box-border flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in" data-aos-delay="100">
-              <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#176938]" />
-              <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
+            <div className="inline-flex rounded-[30px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in" data-aos-delay="100">
+              <div className="h-[6px] w-[6px] relative rounded-full bg-[#176938]" />
+              <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#176938]">
                 Parent app
               </div>
             </div>
           </div>
           <div className="self-stretch flex flex-col items-start pt-6 px-0 pb-0 text-6xl text-[#0c140f]">
-            <h2 className="m-0 self-stretch relative text-[length:inherit] tracking-[-1.5px] leading-[63px] capitalize font-semibold font-[inherit] mq750:text-5xl mq750:leading-[50px] mq450:text-4xl mq450:leading-[38px]">
-              <span className="leading-[63px]">{`Parent App for `}</span>
-              <span className="text-[#176938] leading-[63px]">
+            <h2 className="m-0 self-stretch relative font-[Inter] font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-left text-[#0c140f] mq825:text-[38px] mq825:leading-[48px] mq450:text-[24px] mq450:leading-[32px] break-words">
+              <span className="leading-[100%]">{`Parent App for `}</span>
+              <span className="text-[#176938] leading-[100%]">
                 Safe School Transportation
               </span>
             </h2>
           </div>
           <div className="self-stretch flex flex-col items-start pt-5 px-0 pb-0 text-lg text-[#57605b]">
-            <div className="self-stretch relative leading-7">
+            <div className="w-full relative font-[Inter] font-normal text-[20px] leading-[32.5px] tracking-[0px] text-left text-[#57605b]">
               The GoSirat Parent App gives parents complete control and visibility over their child's school transportation. Track every school pick-up and drop-off with live GPS tracking, receive real-time notifications, monitor attendance, and stay connected throughout every journey. Designed for modern families, our smart school transportation app provides safety, convenience, and peace of mind every day.
             </div>
           </div>
@@ -38,7 +38,7 @@ const ParentAppSection: NextPage = () => {
             </button>
           </div>
         </section>
-        <div className="flex justify-center items-center w-full max-w-[458px]">
+        <div className="flex justify-center items-center w-full max-w-[458px] flex-1">
           <Image
             className="h-auto w-full relative object-contain"
             loading="lazy"
@@ -54,119 +54,138 @@ const ParentAppSection: NextPage = () => {
 
       <section className="self-stretch flex flex-col items-start px-0 pb-0 text-left text-lg text-[#0c140f] font-[Inter]">
         <div className="self-stretch grid grid-cols-3 mq975:grid-cols-2 mq650:grid-cols-1 gap-5">
-          <div className="h-full w-full shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04),_0px_8px_24px_rgba(16,_24,_16,_0.06)] rounded-3xl bg-white border-[rgba(222,227,222,0.7)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7" data-aos="fade-in" data-aos-delay="200">
-            <div className="self-stretch flex items-center gap-3">
-              <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-9 w-9 relative shrink-0">
-                <circle cx="18" cy="18" r="18" fill="#dcece2" />
-                <path d="M12 18.5L16.5 23L25 13" stroke="#176938" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+          <div className="min-h-[202.8px] h-auto flex-1 rounded-[22px] bg-[#fff] border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7 min-w-[245px] mq450:max-w-full" data-aos="fade-in" data-aos-delay="200">
+          <div className="self-stretch h-16 flex items-start pt-0 px-0 pb-5 box-border">
+            <div className="w-[44px] h-[44px] rounded-[14px] bg-[#0d6332]/10 flex items-center justify-center">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#176938" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-[18px] h-[18px]">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
               </svg>
-              <div className="flex-1 flex items-start pt-0 pb-[0.3px] px-0 box-border">
-                <div className="w-full relative tracking-[-0.45px] leading-7 font-semibold text-[#09131A] inline-block break-words whitespace-normal">
-                  Manage Children
-                </div>
-              </div>
-            </div>
-            <div className="w-full flex flex-col items-start pt-3 px-0 pb-0 box-border text-[15px] text-[#57605b]">
-              <div className="w-full relative leading-[24.4px] inline-block break-words whitespace-normal">
-                Manage every child's profile, school, assigned route, guardians, and transportation details from one simple dashboard.
-              </div>
             </div>
           </div>
+          <div className="self-stretch flex flex-col items-start">
+            <div className="relative font-[Inter] font-semibold text-[18px] leading-[28px] tracking-[-0.45px] text-[#09131A]">
+              Manage Children
+            </div>
+          </div>
+          <div className="w-full flex flex-col items-start pt-2 px-0 pb-0 box-border">
+            <div className="w-full relative font-[Inter] font-normal text-[14px] leading-[22.75px] tracking-[0px] text-[#202A32]">
+              Manage every child's profile, school, assigned route, guardians, and transportation details from one simple dashboard.
+            </div>
+          </div>
+        </div>
 
-          <div className="h-full w-full shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04),_0px_8px_24px_rgba(16,_24,_16,_0.06)] rounded-3xl bg-white border-[rgba(222,227,222,0.7)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7" data-aos="fade-out" data-aos-delay="300">
-            <div className="self-stretch flex items-center gap-3">
-              <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-9 w-9 relative shrink-0">
-                <circle cx="18" cy="18" r="18" fill="#dcece2" />
-                <path d="M12 18.5L16.5 23L25 13" stroke="#176938" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+          <div className="min-h-[202.8px] h-auto flex-1 rounded-[22px] bg-[#fff] border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7 min-w-[245px] mq450:max-w-full" data-aos="fade-out" data-aos-delay="300">
+          <div className="self-stretch h-16 flex items-start pt-0 px-0 pb-5 box-border">
+            <div className="w-[44px] h-[44px] rounded-[14px] bg-[#0d6332]/10 flex items-center justify-center">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#176938" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-[18px] h-[18px]">
+                <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+                <circle cx="12" cy="12" r="3" />
               </svg>
-              <div className="flex-1 flex items-start pt-0 pb-[0.3px] px-0 box-border">
-                <div className="w-full relative tracking-[-0.45px] leading-7 font-semibold text-[#09131A] inline-block break-words whitespace-normal">
-                  Live GPS Vehicle Tracking
-                </div>
-              </div>
-            </div>
-            <div className="w-full flex flex-col items-start pt-3 px-0 pb-0 box-border text-[15px] text-[#57605b]">
-              <div className="w-full relative leading-[24.4px] inline-block break-words whitespace-normal">
-                Track your child's school vehicle in real time with accurate GPS location, estimated arrival time (ETA), and route updates.
-              </div>
             </div>
           </div>
+          <div className="self-stretch flex flex-col items-start">
+            <div className="relative font-[Inter] font-semibold text-[18px] leading-[28px] tracking-[-0.45px] text-[#09131A]">
+              Live GPS Vehicle Tracking
+            </div>
+          </div>
+          <div className="w-full flex flex-col items-start pt-2 px-0 pb-0 box-border">
+            <div className="w-full relative font-[Inter] font-normal text-[14px] leading-[22.75px] tracking-[0px] text-[#202A32]">
+              Track your child's school vehicle in real time with accurate GPS location, estimated arrival time (ETA), and route updates.
+            </div>
+          </div>
+        </div>
 
-          <div className="h-full w-full shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04),_0px_8px_24px_rgba(16,_24,_16,_0.06)] rounded-3xl bg-white border-[rgba(222,227,222,0.7)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7" data-aos="fade-out" data-aos-delay="400">
-            <div className="self-stretch flex items-center gap-3">
-              <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-9 w-9 relative shrink-0">
-                <circle cx="18" cy="18" r="18" fill="#dcece2" />
-                <path d="M12 18.5L16.5 23L25 13" stroke="#176938" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+          <div className="min-h-[202.8px] h-auto flex-1 rounded-[22px] bg-[#fff] border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7 min-w-[245px] mq450:max-w-full" data-aos="fade-out" data-aos-delay="400">
+          <div className="self-stretch h-16 flex items-start pt-0 px-0 pb-5 box-border">
+            <div className="w-[44px] h-[44px] rounded-[14px] bg-[#0d6332]/10 flex items-center justify-center">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#176938" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-[18px] h-[18px]">
+                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
+                <path d="M13.73 21a2 2 0 0 1-3.46 0" />
               </svg>
-              <div className="flex-1 flex items-start pt-0 pb-[0.3px] px-0 box-border">
-                <div className="w-full relative tracking-[-0.45px] leading-7 font-semibold text-[#09131A] inline-block break-words whitespace-normal">
-                  Real-Time Ride Notifications
-                </div>
-              </div>
-            </div>
-            <div className="w-full flex flex-col items-start pt-3 px-0 pb-0 box-border text-[15px] text-[#57605b]">
-              <div className="w-full relative leading-[24.4px] inline-block break-words whitespace-normal">
-                Receive instant alerts for pickup, journey progress, school arrival, and secure student release to stay informed throughout every trip.
-              </div>
             </div>
           </div>
+          <div className="self-stretch flex flex-col items-start">
+            <div className="relative font-[Inter] font-semibold text-[18px] leading-[28px] tracking-[-0.45px] text-[#09131A]">
+              Real-Time Ride Notifications
+            </div>
+          </div>
+          <div className="w-full flex flex-col items-start pt-2 px-0 pb-0 box-border">
+            <div className="w-full relative font-[Inter] font-normal text-[14px] leading-[22.75px] tracking-[0px] text-[#202A32]">
+              Receive instant alerts for pickup, journey progress, school arrival, and secure student release to stay informed throughout every trip.
+            </div>
+          </div>
+        </div>
 
-          <div className="h-full w-full shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04),_0px_8px_24px_rgba(16,_24,_16,_0.06)] rounded-3xl bg-white border-[rgba(222,227,222,0.7)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7" data-aos="zoom-in" data-aos-delay="500">
-            <div className="self-stretch flex items-center gap-3">
-              <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-9 w-9 relative shrink-0">
-                <circle cx="18" cy="18" r="18" fill="#dcece2" />
-                <path d="M12 18.5L16.5 23L25 13" stroke="#176938" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+          <div className="min-h-[202.8px] h-auto flex-1 rounded-[22px] bg-[#fff] border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7 min-w-[245px] mq450:max-w-full" data-aos="zoom-in" data-aos-delay="500">
+          <div className="self-stretch h-16 flex items-start pt-0 px-0 pb-5 box-border">
+            <div className="w-[44px] h-[44px] rounded-[14px] bg-[#0d6332]/10 flex items-center justify-center">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#176938" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-[18px] h-[18px]">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                <polyline points="14 2 14 8 20 8" />
+                <line x1="16" y1="13" x2="8" y2="13" />
+                <line x1="16" y1="17" x2="8" y2="17" />
+                <polyline points="10 9 9 9 8 9" />
               </svg>
-              <div className="flex-1 flex items-start pt-0 pb-[0.3px] px-0 box-border">
-                <div className="w-full relative tracking-[-0.45px] leading-7 font-semibold text-[#09131A] inline-block break-words whitespace-normal">
-                  Attendance Updates
-                </div>
-              </div>
-            </div>
-            <div className="w-full flex flex-col items-start pt-3 px-0 pb-0 box-border text-[15px] text-[#57605b]">
-              <div className="w-full relative leading-[24.4px] inline-block break-words whitespace-normal">
-                View daily attendance records with accurate timestamps for every pickup and drop-off, giving parents complete confidence.
-              </div>
             </div>
           </div>
+          <div className="self-stretch flex flex-col items-start">
+            <div className="relative font-[Inter] font-semibold text-[18px] leading-[28px] tracking-[-0.45px] text-[#09131A]">
+              Attendance Updates
+            </div>
+          </div>
+          <div className="w-full flex flex-col items-start pt-2 px-0 pb-0 box-border">
+            <div className="w-full relative font-[Inter] font-normal text-[14px] leading-[22.75px] tracking-[0px] text-[#202A32]">
+              View daily attendance records with accurate timestamps for every pickup and drop-off, giving parents complete confidence.
+            </div>
+          </div>
+        </div>
 
-          <div className="h-full w-full shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04),_0px_8px_24px_rgba(16,_24,_16,_0.06)] rounded-3xl bg-white border-[rgba(222,227,222,0.7)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7" data-aos="fade-out" data-aos-delay="600">
-            <div className="self-stretch flex items-center gap-3">
-              <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-9 w-9 relative shrink-0">
-                <circle cx="18" cy="18" r="18" fill="#dcece2" />
-                <path d="M12 18.5L16.5 23L25 13" stroke="#176938" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+          <div className="min-h-[202.8px] h-auto flex-1 rounded-[22px] bg-[#fff] border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7 min-w-[245px] mq450:max-w-full" data-aos="fade-out" data-aos-delay="600">
+          <div className="self-stretch h-16 flex items-start pt-0 px-0 pb-5 box-border">
+            <div className="w-[44px] h-[44px] rounded-[14px] bg-[#0d6332]/10 flex items-center justify-center">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#176938" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-[18px] h-[18px]">
+                <line x1="12" y1="1" x2="12" y2="23" />
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
               </svg>
-              <div className="flex-1 flex items-start pt-0 pb-[0.3px] px-0 box-border">
-                <div className="w-full relative tracking-[-0.45px] leading-7 font-semibold text-[#09131A] inline-block break-words whitespace-normal">
-                  {`Invoices & Subscriptions`}
-                </div>
-              </div>
-            </div>
-            <div className="w-full flex flex-col items-start pt-3 px-0 pb-0 box-border text-[15px] text-[#57605b]">
-              <div className="w-full relative leading-[24.4px] inline-block break-words whitespace-normal">
-                Easily manage transportation plans, renew subscriptions, download invoices, and make payments digitally without paperwork.
-              </div>
             </div>
           </div>
+          <div className="self-stretch flex flex-col items-start">
+            <div className="relative font-[Inter] font-semibold text-[18px] leading-[28px] tracking-[-0.45px] text-[#09131A]">
+              {`Invoices & Subscriptions`}
+            </div>
+          </div>
+          <div className="w-full flex flex-col items-start pt-2 px-0 pb-0 box-border">
+            <div className="w-full relative font-[Inter] font-normal text-[14px] leading-[22.75px] tracking-[0px] text-[#202A32]">
+              Easily manage transportation plans, renew subscriptions, download invoices, and make payments digitally without paperwork.
+            </div>
+          </div>
+        </div>
 
-          <div className="h-full w-full shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04),_0px_8px_24px_rgba(16,_24,_16,_0.06)] rounded-3xl bg-white border-[rgba(222,227,222,0.7)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7" data-aos="fade-in" data-aos-delay="100">
-            <div className="self-stretch flex items-center gap-3">
-              <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-9 w-9 relative shrink-0">
-                <circle cx="18" cy="18" r="18" fill="#dcece2" />
-                <path d="M12 18.5L16.5 23L25 13" stroke="#176938" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+          <div className="min-h-[202.8px] h-auto flex-1 rounded-[22px] bg-[#fff] border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7 min-w-[245px] mq450:max-w-full" data-aos="fade-in" data-aos-delay="100">
+          <div className="self-stretch h-16 flex items-start pt-0 px-0 pb-5 box-border">
+            <div className="w-[44px] h-[44px] rounded-[14px] bg-[#0d6332]/10 flex items-center justify-center">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#176938" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-[18px] h-[18px]">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
               </svg>
-              <div className="flex-1 flex items-start pt-0 pb-[0.3px] px-0 box-border">
-                <div className="w-full relative tracking-[-0.45px] leading-7 font-semibold text-[#09131A] inline-block break-words whitespace-normal">
-                  {`Absence & Referrals`}
-                </div>
-              </div>
-            </div>
-            <div className="w-full flex flex-col items-start pt-3 px-0 pb-0 box-border text-[15px] text-[#57605b]">
-              <div className="w-full relative leading-[24.4px] inline-block break-words whitespace-normal">
-                Report planned absences in advance and invite other families to GoSirat through our referral program to earn rewards.
-              </div>
             </div>
           </div>
+          <div className="self-stretch flex flex-col items-start">
+            <div className="relative font-[Inter] font-semibold text-[18px] leading-[28px] tracking-[-0.45px] text-[#09131A]">
+              {`Absence & Referrals`}
+            </div>
+          </div>
+          <div className="w-full flex flex-col items-start pt-2 px-0 pb-0 box-border">
+            <div className="w-full relative font-[Inter] font-normal text-[14px] leading-[22.75px] tracking-[0px] text-[#202A32]">
+              Report planned absences in advance and invite other families to GoSirat through our referral program to earn rewards.
+            </div>
+          </div>
+        </div>
 
         </div>
       </section>

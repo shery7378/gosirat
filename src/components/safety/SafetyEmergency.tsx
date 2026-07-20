@@ -17,20 +17,23 @@ const readinessCards = [
 
 export default function SafetyEmergency() {
     return (
-        <section id="emergency" className="bg-[white] px-6 py-20 lg:px-8">
+        <section id="emergency" className="bg-[white] px-8 py-20 mq825:px-6">
             <div className="mx-auto max-w-7xl">
-                <div className="mx-auto max-w-3xl text-center">
-                    <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#176938]">Prepared, not just reactive</p>
-                    <h2 className="mt-4 text-3xl font-extrabold text-[#0c140f] sm:text-4xl">
+                <div className="mx-auto max-w-[800px] text-center flex flex-col items-center">
+                    <div className="inline-flex items-center gap-2 rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] px-[14px] py-[6px] text-[12px] font-medium uppercase tracking-[1.68px] text-[#176938]">
+                        <span className="h-[6px] w-[6px] rounded-full bg-[#176938]" />
+                        Prepared, not just reactive
+                    </div>
+                    <h2 className="mt-4 font-[Inter] font-semibold text-[48px] leading-[63px] tracking-[-1.5px] text-[#0c140f] mq825:text-[38px] mq825:leading-[48px] mq450:text-[29px] mq450:leading-9">
                         Ready for every situation.
                     </h2>
-                    <p className="mt-5 text-lg leading-8 text-[#57605b]">
+                    <p className="mt-5 font-[Inter] font-normal text-[18px] leading-[28px] tracking-[0px] text-[#57605b]">
                         Safety is more than prevention — it is preparation. GoSirat drivers are trained, and our team is equipped to respond quickly and responsibly if an unexpected situation occurs.
                     </p>
                 </div>
-                <div className="mt-12 grid gap-8 md:grid-cols-2 items-stretch">
+                <div className="mt-12 grid gap-8 grid-cols-2 mq825:grid-cols-1 items-stretch">
                     {readinessCards.map((card) => (
-                        <div key={card.title} className="rounded-[24px] border border-[rgba(23,105,56,0.15)]/80 bg-white p-8 lg:p-10 shadow-[0_4px_20px_rgb(0,0,0,0.03)] flex flex-col">
+                        <div key={card.title} className="rounded-[24px] border border-[rgba(23,105,56,0.15)]/80 bg-white p-10 mq825:p-8 shadow-[0_4px_20px_rgb(0,0,0,0.03)] flex flex-col">
                             <div className="flex h-[52px] w-[52px] shrink-0 items-center justify-center rounded-[14px] bg-[rgba(213,240,219,0.4)] text-[#176938]">
                                 {card.accent ? <HeartIcon /> : <ShieldPlusIcon />}
                             </div>

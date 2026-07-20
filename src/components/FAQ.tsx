@@ -67,16 +67,16 @@ const FAQ: NextPage = () => {
   <section className="self-stretch flex flex-col items-center py-20 px-16 box-border w-full mq450:py-10 mq450:px-4" data-aos="zoom-in">
    <div className="w-full flex flex-col items-center max-w-full">
     <section className="self-stretch flex flex-col items-center gap-4 text-center text-xs text-[#176938] font-[Inter]">
-     <div className="flex items-center rounded-full bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.7px] py-[5px] px-3.5 gap-1.5" data-aos="zoom-in" data-aos-delay="100">
-      <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#176938]" />
-      <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
+     <div className="inline-flex rounded-[30px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] items-center py-[6px] px-[14px] gap-[8px]" data-aos="zoom-in" data-aos-delay="100">
+      <div className="h-[6px] w-[6px] relative rounded-full bg-[#176938]" />
+      <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#176938]">
        Frequently Asked Questions
       </div>
      </div>
-     <h2 className="m-0 relative font-[Inter] font-semibold text-[60px] leading-[75px] -tracking-[1.5px] text-center capitalize text-[#0C140F] mq750:text-5xl mq750:leading-[60px] mq450:text-4xl mq450:leading-[45px]">
+     <h2 className="m-0 mt-6 self-stretch relative font-[Inter] font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-center text-[#0c140f] mq825:text-[38px] mq825:leading-[48px] mq450:text-[24px] mq450:leading-[32px] break-words">
       Frequently Asked Questions About GoSirat
      </h2>
-     <div className="relative text-lg leading-7 text-[#57605b] max-w-[800px] mt-2 font-normal tracking-[0px]">
+     <div className="w-full relative font-[Inter] font-normal text-[20px] leading-[32.5px] tracking-[0px] text-center text-[#57605b] max-w-[800px] mt-[19.7px]">
       Find answers to common questions about GoSirat's school transportation services, including live GPS tracking, verified drivers, QR verification, student safety, attendance, and transportation packages. We're here to help parents, schools, and drivers make every school journey safe and stress-free.
      </div>
     </section>
