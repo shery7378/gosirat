@@ -92,10 +92,10 @@ const CookiePolicyPage = () => (
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Contact Us</h2>
                 <p className="mb-4 text-gray-700">If you have any questions about our Cookie Policy or how GoSirat uses cookies, please contact us.</p>
                 <div className="flex flex-col sm:flex-row gap-4">
-                    <a href="mailto:privacy@gosirat.com" className="inline-flex items-center justify-center gap-2 bg-[#176938] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#12532c] transition-colors">
+                    <a href="mailto:privacy@gosirat.com" className="inline-flex items-center justify-center gap-2 bg-gosirat-green text-white px-6 py-3 rounded-lg font-medium hover:bg-gosirat-green-dark transition-colors">
                         📧 privacy@gosirat.com
                     </a>
-                    <a href="tel:03099104803" className="inline-flex items-center justify-center gap-2 bg-white border border-[#176938] text-[#176938] px-6 py-3 rounded-lg font-medium hover:bg-gray-50 transition-colors">
+                    <a href="tel:03099104803" className="inline-flex items-center justify-center gap-2 bg-white border border-gosirat-green text-gosirat-green px-6 py-3 rounded-lg font-medium hover:bg-gray-50 transition-colors">
                         📞 0309 9104803
                     </a>
                 </div>
@@ -104,11 +104,11 @@ const CookiePolicyPage = () => (
             <div className="pt-8 border-t border-gray-200">
                 <h2 className="text-lg font-semibold text-gray-900 mb-4">Quick Links</h2>
                 <div className="flex flex-wrap gap-4">
-                    <Link href="/privacy-policy" className="text-[#176938] font-medium hover:underline">Privacy Policy</Link>
-                    <Link href="/terms-and-conditions" className="text-[#176938] font-medium hover:underline">Terms & Conditions</Link>
-                    <Link href="/support" className="text-[#176938] font-medium hover:underline">Support</Link>
-                    <Link href="/help-center" className="text-[#176938] font-medium hover:underline">Help Center</Link>
-                    <Link href="/contact" className="text-[#176938] font-medium hover:underline">Contact</Link>
+                    <Link href="/privacy-policy" className="text-gosirat-green font-medium hover:underline">Privacy Policy</Link>
+                    <Link href="/terms-and-conditions" className="text-gosirat-green font-medium hover:underline">Terms & Conditions</Link>
+                    <Link href="/support" className="text-gosirat-green font-medium hover:underline">Support</Link>
+                    <Link href="/help-center" className="text-gosirat-green font-medium hover:underline">Help Center</Link>
+                    <Link href="/contact" className="text-gosirat-green font-medium hover:underline">Contact</Link>
                 </div>
             </div>
         </div>

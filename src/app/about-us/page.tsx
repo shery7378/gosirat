@@ -19,7 +19,7 @@ import { WebPageSchema, BreadcrumbSchema } from "@/components/Schemas";
 
 const AboutPage: NextPage = () => {
  return (
-  <div className="w-full relative bg-[#f4f7f4] flex flex-col items-center pt-6 px-0 pb-0 box-border leading-[normal] tracking-[normal]">
+  <div className="w-full relative bg-gosirat-light flex flex-col items-center pt-6 px-0 pb-0 box-border leading-normal tracking-normal">
    <WebPageSchema 
       title="About GoSirat | Safe School Transportation Platform" 
       description="Learn about GoSirat, a smart school transportation platform providing verified drivers, live GPS tracking, QR verification, and safer student transportation for parents and schools." 

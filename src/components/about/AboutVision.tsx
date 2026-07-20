@@ -3,12 +3,12 @@ import Image from 'next/image';
 
 export const AboutVision = () => {
   return (
-    <section className="self-stretch bg-[#176938] py-16 px-4 md:py-24 md:px-12 lg:px-16 font-[Inter]" data-aos="fade-up">
+    <section className="self-stretch bg-gosirat-green py-16 px-4 md:py-24 md:px-12 lg:px-16 font-sans" data-aos="fade-up">
       <div className="w-full mx-auto flex flex-col md:flex-row items-center gap-12 md:gap-10">
 
         {/* Text Column */}
         <div className="flex flex-col items-center text-center md:items-start md:text-left gap-5 md:gap-6 w-full md:w-[55%]">
-          <div className="rounded-[22369600px] bg-[rgba(255,255,255,0.15)] border-[rgba(255,255,255,0.25)] border-solid border-[0.67px] flex items-center justify-center py-[6px] px-[14px] gap-[8px] text-white" data-aos="fade-in" data-aos-delay="100">
+          <div className="rounded-full bg-[rgba(255,255,255,0.15)] border-[rgba(255,255,255,0.25)] border-solid border-[0.67px] flex items-center justify-center py-[6px] px-[14px] gap-[8px] text-white" data-aos="fade-in" data-aos-delay="100">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z" />
               <path d="M20 3v4" />

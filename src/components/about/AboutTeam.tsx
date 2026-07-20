@@ -5,17 +5,17 @@ export const AboutTeam = () => {
       return (
             <section className="w-full bg-light-gray-30 overflow-hidden flex flex-col items-start justify-center p-[60px] box-border gap-10 max-w-full text-left text-sm text-black font-manrope mq450:gap-5 mq450:py-[39px] mq450:px-4 mq450:box-border" data-aos="fade-out">
                   <div className="w-full max-w-[770px] flex flex-col items-start justify-center gap-3 shrink-0">
-                        <div className="rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center justify-center py-[6px] px-[14px] gap-[8px] text-[#176938]">
-                              <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#176938]" />
-                              <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
+                        <div className="rounded-full bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center justify-center py-[6px] px-[14px] gap-[8px] text-gosirat-green">
+                              <div className="h-[6px] w-[6px] relative rounded-full bg-gosirat-green" />
+                              <div className="relative font-sans font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
                                     Message from Our Founder & CEO
                               </div>
                         </div>
-                        <h2 className="m-0 relative text-[44px] capitalize font-medium font-[Inter] mq450:text-[35px] mq450:text-[26px]">
+                        <h2 className="m-0 relative text-[44px] capitalize font-medium font-sans mq450:text-[35px] mq450:text-[26px]">
                               A Personal Mission to Make Every School Journey Safer
                         </h2>
                   </div>
-                  <section className="self-stretch flex flex-col md:flex-row items-center md:items-start gap-[30px] max-w-full shrink-0 text-left text-lg text-[#101010] font-[Inter]">
+                  <section className="self-stretch flex flex-col md:flex-row items-center md:items-start gap-[30px] max-w-full shrink-0 text-left text-lg text-[#101010] font-sans">
                         <div className="flex-1 flex flex-col items-start py-5 px-0 box-border w-full md:min-w-[494px] mq450:gap-4">
                               <div className="self-stretch relative tracking-[1px] leading-7 flex flex-col gap-4">
                                     <span className="font-semibold">GoSirat was born from a simple question that many parents ask every day: "Has my child reached school safely?" That question inspired us to build a smarter, safer, and more transparent school transportation platform for families, schools, and drivers.</span>
@@ -41,7 +41,7 @@ export const AboutTeam = () => {
                               <div className="self-stretch flex flex-col items-center gap-6 shrink-0 px-6 pb-6">
                                     <div className="w-full max-w-[778px] relative leading-[120%] hidden shrink-0">{`My boys, Tucker and Noah, were training hard and competing year-round. But
 the products being marketed to young athletes weren’t made for kids. `}</div>
-                                    <div className="w-full flex flex-col items-start shrink-0 text-xl font-[Inter]">
+                                    <div className="w-full flex flex-col items-start shrink-0 text-xl font-sans">
                                           <h3 className="m-0 self-stretch relative text-[length:inherit] leading-[120%] capitalize font-semibold font-[inherit] mq450:text-base mq450:leading-[19px]">Muhammad Haroon — Founder & CEO GoSirat</h3>
                                     </div>
                               </div>

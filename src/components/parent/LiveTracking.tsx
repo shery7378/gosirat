@@ -15,7 +15,7 @@ export const LiveTracking = () => {
                         data-aos="zoom-in" data-aos-delay="100" />
                     <div className="w-[312.4px] h-[330.9px] absolute !m-0 top-[334.3px] left-[337px] max-h-full z-[1] overflow-hidden flex items-center justify-center shrink-0">
                         <Image
-                            className="w-full z-[1] object-cover absolute left-[0px] top-[0px] h-full [transform:scale(1)]"
+                            className="w-full z-[1] object-cover absolute left-[0px] top-0 h-full [transform:scale(1)]"
                             loading="lazy"
                             width={312.4}
                             height={330.9}
@@ -33,21 +33,21 @@ export const LiveTracking = () => {
                         src="/images/live-tracking-route-path.webp"
                         data-aos="zoom-in" data-aos-delay="300" />
                 </div>
-                <section className="flex flex-col items-start py-5 px-0 box-border min-w-[433px] max-w-[800px] w-full text-left text-xs text-[#176938] font-[Inter] mq750:min-w-full mq450:min-w-full">
+                <section className="flex flex-col items-start py-5 px-0 box-border min-w-[433px] max-w-[800px] w-full text-left text-xs text-gosirat-green font-sans mq750:min-w-full mq450:min-w-full">
                     <div className="self-stretch flex flex-col items-start gap-2.5">
                         <div className="self-stretch h-[29.3px] flex items-start">
-                            <div className="h-[29.33px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in" data-aos-delay="200">
-                                <div className="h-[6px] w-[6px] rounded-[22369600px] bg-[#176938]" />
-                                <div className="font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#176938]">{`Live tracking & handover`}</div>
+                            <div className="h-[29.33px] rounded-full bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in" data-aos-delay="200">
+                                <div className="h-[6px] w-[6px] rounded-full bg-gosirat-green" />
+                                <div className="font-sans font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-gosirat-green">{`Live tracking & handover`}</div>
                             </div>
                         </div>
                         <div className="self-stretch flex flex-col items-start pt-3">
-                            <h2 className="m-0 self-stretch relative font-[Inter] font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-[#0c140f] mq825:text-[38px] mq450:text-[24px] mq450:leading-[32px] break-words">
+                            <h2 className="m-0 self-stretch relative font-sans font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-gosirat-black mq825:text-[38px] mq450:text-[24px] mq450:leading-[32px] break-words">
                                 Track Every School Journey Live
                             </h2>
                         </div>
                         <div className="self-stretch flex flex-col items-start pt-2">
-                            <p className="m-0 self-stretch relative font-[Inter] font-normal text-[18px] leading-[28px] tracking-[0px] text-[#57605b]">
+                            <p className="m-0 self-stretch relative font-sans font-normal text-[18px] leading-[28px] tracking-normal text-gosirat-gray">
                                 Monitor your child's school transportation in real time with live GPS tracking, ETA, and route updates.
                             </p>
                         </div>
@@ -157,12 +157,12 @@ export const LiveTracking = () => {
                         </div>
                         <div className="flex items-start gap-[100px] max-w-full shrink-0 mq450:flex-wrap">
                             <div className="w-full max-w-[329px] shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04),_0px_8px_24px_rgba(16,_24,_16,_0.06)] rounded-3xl bg-white border-[rgba(222,227,222,0.6)] border-solid border-[0.7px] box-border flex items-center py-[15px] px-5 gap-4 relative z-10" data-aos="zoom-in" data-aos-delay="300">
-                                <div className="h-8 w-8 rounded-[22369600px] bg-[#176938] flex items-start pt-[8.6px] pb-[7.4px] pl-[13px] pr-3 box-border shrink-0" data-aos="zoom-in" data-aos-delay="400">
+                                <div className="h-8 w-8 rounded-full bg-gosirat-green flex items-start pt-[8.6px] pb-[7.4px] pl-[13px] pr-3 box-border shrink-0" data-aos="zoom-in" data-aos-delay="400">
                                     <div className="h-4 w-1.5 relative leading-4 font-semibold inline-block">
                                         1
                                     </div>
                                 </div>
-                                <div className="h-6 w-[102.6px] flex items-start py-0 px-0 box-border text-base text-[#0c140f]">
+                                <div className="h-6 w-[102.6px] flex items-start py-0 px-0 box-border text-base text-gosirat-black">
                                     <div className="mt-[-1px] h-[25px] w-[103px] relative leading-6 font-medium inline-block shrink-0">
                                         Driver Pickup
                                     </div>
@@ -170,12 +170,12 @@ export const LiveTracking = () => {
                             </div>
                             <div className="flex flex-col items-start pt-12 px-0 pb-0 box-border max-w-full mq450:pt-0">
                                 <div className="w-full max-w-[329px] shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04),_0px_8px_24px_rgba(16,_24,_16,_0.06)] rounded-3xl bg-white border-[rgba(222,227,222,0.6)] border-solid border-[0.7px] box-border flex items-center py-[15px] px-5 gap-4 relative z-10" data-aos="fade-in" data-aos-delay="500">
-                                    <div className="h-8 w-8 rounded-[22369600px] bg-[#176938] flex items-start pt-[8.6px] pb-[7.4px] pl-3 pr-[11px] box-border shrink-0" data-aos="zoom-in" data-aos-delay="600">
+                                    <div className="h-8 w-8 rounded-full bg-gosirat-green flex items-start pt-[8.6px] pb-[7.4px] pl-3 pr-[11px] box-border shrink-0" data-aos="zoom-in" data-aos-delay="600">
                                         <div className="h-4 w-2 relative leading-4 font-semibold inline-block">
                                             2
                                         </div>
                                     </div>
-                                    <div className="h-6 w-[150.5px] flex items-start pt-0 pb-px px-0 box-border text-base text-[#0c140f]">
+                                    <div className="h-6 w-[150.5px] flex items-start pt-0 pb-px px-0 box-border text-base text-gosirat-black">
                                         <div className="mt-[-1px] h-6 w-[151px] relative leading-6 font-medium inline-block shrink-0">
                                             Live Route Tracking
                                         </div>
@@ -185,12 +185,12 @@ export const LiveTracking = () => {
                         </div>
                         <div className="flex items-start gap-[100px] max-w-full shrink-0 mq450:flex-wrap">
                             <div className="w-full max-w-[329px] shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04),_0px_8px_24px_rgba(16,_24,_16,_0.06)] rounded-3xl bg-white border-[rgba(222,227,222,0.6)] border-solid border-[0.7px] box-border flex items-center py-[15px] px-5 gap-4 relative z-10" data-aos="zoom-in" data-aos-delay="100">
-                                <div className="h-8 w-8 rounded-[22369600px] bg-[#176938] flex items-start pt-[8.7px] pb-[7.3px] pl-3 pr-[11px] box-border shrink-0" data-aos="fade-out" data-aos-delay="200">
+                                <div className="h-8 w-8 rounded-full bg-gosirat-green flex items-start pt-[8.7px] pb-[7.3px] pl-3 pr-[11px] box-border shrink-0" data-aos="fade-out" data-aos-delay="200">
                                     <div className="h-4 w-2 relative leading-4 font-semibold inline-block">
                                         3
                                     </div>
                                 </div>
-                                <div className="h-6 w-[131.2px] flex items-start py-0 px-0 box-border text-base text-[#0c140f]">
+                                <div className="h-6 w-[131.2px] flex items-start py-0 px-0 box-border text-base text-gosirat-black">
                                     <div className="mt-[-1px] h-[25px] w-[132px] relative leading-6 font-medium inline-block shrink-0">
                                         School Handover
                                     </div>
@@ -198,12 +198,12 @@ export const LiveTracking = () => {
                             </div>
                             <div className="flex flex-col items-start pt-12 px-0 pb-0 box-border max-w-full mq450:pt-0">
                                 <div className="w-full max-w-[329px] shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04),_0px_8px_24px_rgba(16,_24,_16,_0.06)] rounded-3xl bg-white border-[rgba(222,227,222,0.6)] border-solid border-[0.7px] box-border flex items-center py-[15px] px-5 gap-4 relative z-10" data-aos="zoom-in" data-aos-delay="300">
-                                    <div className="h-8 w-8 rounded-[22369600px] bg-[#176938] flex items-start pt-[8.7px] px-3 pb-[7.3px] box-border shrink-0" data-aos="fade-out" data-aos-delay="400">
+                                    <div className="h-8 w-8 rounded-full bg-gosirat-green flex items-start pt-[8.7px] px-3 pb-[7.3px] box-border shrink-0" data-aos="fade-out" data-aos-delay="400">
                                         <div className="h-4 w-2 relative leading-4 font-semibold inline-block">
                                             4
                                         </div>
                                     </div>
-                                    <div className="h-6 w-[117.1px] flex items-start py-0 px-0 box-border text-base text-[#0c140f]">
+                                    <div className="h-6 w-[117.1px] flex items-start py-0 px-0 box-border text-base text-gosirat-black">
                                         <div className="mt-[-1px] h-[25px] w-[118px] relative leading-6 font-medium inline-block shrink-0">
                                             School Release
                                         </div>
@@ -213,12 +213,12 @@ export const LiveTracking = () => {
                         </div>
                         <div className="flex items-start gap-[100px] max-w-full shrink-0 mq450:flex-wrap">
                             <div className="w-full max-w-[329px] shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04),_0px_8px_24px_rgba(16,_24,_16,_0.06)] rounded-3xl bg-white border-[rgba(222,227,222,0.6)] border-solid border-[0.7px] box-border flex items-center py-[15px] px-5 gap-4 relative z-10" data-aos="fade-in" data-aos-delay="500">
-                                <div className="h-8 w-8 rounded-[22369600px] bg-[#176938] flex items-start pt-[8.7px] pb-[7.3px] pl-3 pr-[11px] box-border shrink-0" data-aos="fade-out" data-aos-delay="600">
+                                <div className="h-8 w-8 rounded-full bg-gosirat-green flex items-start pt-[8.7px] pb-[7.3px] pl-3 pr-[11px] box-border shrink-0" data-aos="fade-out" data-aos-delay="600">
                                     <div className="h-4 w-2 relative leading-4 font-semibold inline-block">
                                         5
                                     </div>
                                 </div>
-                                <div className="h-6 w-[141.5px] flex items-start pt-0 pb-px px-0 box-border text-base text-[#0c140f]">
+                                <div className="h-6 w-[141.5px] flex items-start pt-0 pb-px px-0 box-border text-base text-gosirat-black">
                                     <div className="mt-[-1px] h-6 w-[142px] relative leading-6 font-medium inline-block shrink-0">
                                         Parent Verification
                                     </div>
@@ -226,12 +226,12 @@ export const LiveTracking = () => {
                             </div>
                             <div className="flex flex-col items-start pt-12 px-0 pb-0 box-border max-w-full mq450:pt-0">
                                 <div className="w-full max-w-[329px] shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04),_0px_8px_24px_rgba(16,_24,_16,_0.06)] rounded-3xl bg-white border-[rgba(222,227,222,0.6)] border-solid border-[0.7px] box-border flex items-center py-[15px] px-5 gap-4 relative z-10" data-aos="fade-out" data-aos-delay="100">
-                                    <div className="h-8 w-8 rounded-[22369600px] bg-[#176938] flex items-start pt-[8.7px] pb-[7.3px] pl-3 pr-[11px] box-border shrink-0" data-aos="fade-in" data-aos-delay="200">
+                                    <div className="h-8 w-8 rounded-full bg-gosirat-green flex items-start pt-[8.7px] pb-[7.3px] pl-3 pr-[11px] box-border shrink-0" data-aos="fade-in" data-aos-delay="200">
                                         <div className="h-4 w-2 relative leading-4 font-semibold inline-block">
                                             6
                                         </div>
                                     </div>
-                                    <div className="h-6 w-[168.1px] flex items-start py-0 px-0 box-border text-base text-[#0c140f]">
+                                    <div className="h-6 w-[168.1px] flex items-start py-0 px-0 box-border text-base text-gosirat-black">
                                         <div className="mt-[-1px] h-[25px] w-[169px] relative leading-6 font-medium inline-block shrink-0">
                                             Child Delivered Safely
                                         </div>

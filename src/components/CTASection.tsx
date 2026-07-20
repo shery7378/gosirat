@@ -3,13 +3,13 @@ import Image from "next/image";
 
 const CTASection: NextPage = () => {
   return (
-    <section className="w-full relative overflow-hidden bg-gradient-to-b from-[#176938] to-[#022913] flex flex-col items-center py-20 px-[60px] text-left font-['Inter',_sans-serif] mq450:py-12 mq450:px-6 z-10" data-aos="fade-in">
+    <section className="w-full relative overflow-hidden bg-gradient-to-b from-gosirat-green to-[#022913] flex flex-col items-center py-20 px-[60px] text-left font-['Inter',_sans-serif] mq450:py-12 mq450:px-6 z-10" data-aos="fade-in">
       <div className="w-full max-w-full flex flex-col items-start relative z-10">
         <div className="flex flex-col items-start gap-4 mb-10 max-w-[1000px]">
-          <h2 className="m-0 self-stretch relative font-[Inter] font-bold text-[48px] leading-tight tracking-[-1.5px] text-left text-white mq825:text-[38px] mq450:text-[32px]">
+          <h2 className="m-0 self-stretch relative font-sans font-bold text-[48px] leading-tight tracking-[-1.5px] text-left text-white mq825:text-[38px] mq450:text-[32px]">
             Why Parents Choose GoSirat for Safe School Transportation
           </h2>
-          <div className="w-full relative font-[Inter] font-normal text-[18px] leading-[28px] tracking-[0px] text-left text-[#a3b8ad]">
+          <div className="w-full relative font-sans font-normal text-[18px] leading-[28px] tracking-normal text-left text-[#a3b8ad]">
             GoSirat is trusted by parents because we combine safe school transportation, verified drivers, live GPS tracking, QR verification, and real-time notifications into one smart platform. Every feature is designed to provide a safer, more reliable, and stress-free school journey for children and complete peace of mind for families.
           </div>
         </div>

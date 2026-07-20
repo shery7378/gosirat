@@ -2,20 +2,20 @@ import Image from "next/image";
 
 export const InstantNotifications = () => {
   return (
-    <section className="w-full self-stretch bg-[#f4f7f4] flex flex-col items-center py-20 px-[60px] box-border mq450:px-4 mq450:py-[34px]" data-aos="fade-in">
+    <section className="w-full self-stretch bg-gosirat-light flex flex-col items-center py-20 px-[60px] box-border mq450:px-4 mq450:py-[34px]" data-aos="fade-in">
       <div className="w-full max-w-[1440px] flex flex-col items-center relative isolate gap-[60px]">
-        <section className="self-stretch flex flex-col items-center gap-4 z-[0] shrink-0 text-left text-xs text-[#176938] font-[Inter]">
-          <div className="h-[29.33px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] box-border flex items-center py-[6px] px-[14px] gap-[8px] mx-auto" data-aos="fade-in" data-aos-delay="100">
-            <div className="h-[6px] w-[6px] relative rounded-[22369600px] bg-[#176938]" />
-            <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
+        <section className="self-stretch flex flex-col items-center gap-4 z-[0] shrink-0 text-left text-xs text-gosirat-green font-sans">
+          <div className="h-[29.33px] rounded-full bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] box-border flex items-center py-[6px] px-[14px] gap-[8px] mx-auto" data-aos="fade-in" data-aos-delay="100">
+            <div className="h-[6px] w-[6px] relative rounded-full bg-gosirat-green" />
+            <div className="relative font-sans font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase">
               Instant notifications
             </div>
           </div>
           <div className="self-stretch flex flex-col items-center gap-5 text-center mt-6">
-            <h2 className="m-0 self-stretch relative font-[Inter] font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-[#0c140f] mq825:text-[38px] mq450:text-[24px] mq450:leading-[32px] break-words">
+            <h2 className="m-0 self-stretch relative font-sans font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-gosirat-black mq825:text-[38px] mq450:text-[24px] mq450:leading-[32px] break-words">
               Stay Updated at Every Step
             </h2>
-            <p className="m-0 self-stretch relative font-[Inter] font-normal text-[18px] leading-[28px] tracking-[0px] text-[#57605b] max-w-[800px] mx-auto">
+            <p className="m-0 self-stretch relative font-sans font-normal text-[18px] leading-[28px] tracking-normal text-gosirat-gray max-w-[800px] mx-auto">
               Receive real-time notifications for driver arrival, student pickup, school arrival, school departure, and safe drop-off, so you always know your child's school journey.
             </p>
           </div>
@@ -30,15 +30,15 @@ export const InstantNotifications = () => {
             {/* Card 1 */}
             <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 mr-4 shadow-sm" data-aos="zoom-in" data-aos-delay="200">
               <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0" data-aos="zoom-in" data-aos-delay="300">
-                <svg className="h-4 w-4 relative text-[#176938]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <svg className="h-4 w-4 relative text-gosirat-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                 </svg>
               </div>
               <div className="flex flex-col items-start">
-                <div className="relative leading-5 font-semibold text-[#09131a] whitespace-nowrap">
+                <div className="relative leading-5 font-semibold text-gosirat-darker whitespace-nowrap">
                   Driver on the way
                 </div>
-                <div className="relative leading-4 text-xs text-[#202A32]">
+                <div className="relative leading-4 text-xs text-gosirat-text">
                   Just now · Notification 1
                 </div>
               </div>
@@ -47,15 +47,15 @@ export const InstantNotifications = () => {
             {/* Card 2 */}
             <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 mr-16 shadow-sm" data-aos="zoom-in" data-aos-delay="400">
               <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0" data-aos="fade-out" data-aos-delay="500">
-                <svg className="h-4 w-4 relative text-[#176938]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <svg className="h-4 w-4 relative text-gosirat-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                 </svg>
               </div>
               <div className="flex flex-col items-start">
-                <div className="relative leading-5 font-semibold text-[#09131a] whitespace-nowrap">
+                <div className="relative leading-5 font-semibold text-gosirat-darker whitespace-nowrap">
                   Released at school · 14:30
                 </div>
-                <div className="relative leading-4 text-xs text-[#202A32]">
+                <div className="relative leading-4 text-xs text-gosirat-text">
                   Just now · Notification 4
                 </div>
               </div>
@@ -64,15 +64,15 @@ export const InstantNotifications = () => {
             {/* Card 3 */}
             <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 shadow-sm mr-8" data-aos="zoom-in" data-aos-delay="600">
               <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0" data-aos="zoom-in" data-aos-delay="100">
-                <svg className="h-4 w-4 relative text-[#176938]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <svg className="h-4 w-4 relative text-gosirat-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                 </svg>
               </div>
               <div className="flex flex-col items-start">
-                <div className="relative leading-5 font-semibold text-[#09131a] whitespace-nowrap">
+                <div className="relative leading-5 font-semibold text-gosirat-darker whitespace-nowrap">
                   Dropped home · 15:02
                 </div>
-                <div className="relative leading-4 text-xs text-[#202A32]">
+                <div className="relative leading-4 text-xs text-gosirat-text">
                   Just now · Notification 5
                 </div>
               </div>
@@ -98,15 +98,15 @@ export const InstantNotifications = () => {
             {/* Card 4 */}
             <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 ml-12 shadow-sm" data-aos="zoom-in" data-aos-delay="200">
               <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0" data-aos="fade-out" data-aos-delay="300">
-                <svg className="h-4 w-4 relative text-[#176938]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <svg className="h-4 w-4 relative text-gosirat-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                 </svg>
               </div>
               <div className="flex flex-col items-start">
-                <div className="relative leading-5 font-semibold text-[#09131a] whitespace-nowrap">
+                <div className="relative leading-5 font-semibold text-gosirat-darker whitespace-nowrap">
                   Driver arrived at your address
                 </div>
-                <div className="relative leading-4 text-xs text-[#202A32]">
+                <div className="relative leading-4 text-xs text-gosirat-text">
                   Just now · Notification 1
                 </div>
               </div>
@@ -115,15 +115,15 @@ export const InstantNotifications = () => {
             {/* Card 5 */}
             <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 ml-4 shadow-sm" data-aos="fade-out" data-aos-delay="400">
               <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0" data-aos="fade-in" data-aos-delay="500">
-                <svg className="h-4 w-4 relative text-[#176938]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <svg className="h-4 w-4 relative text-gosirat-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                 </svg>
               </div>
               <div className="flex flex-col items-start">
-                <div className="relative leading-5 font-semibold text-[#09131a] whitespace-nowrap">
+                <div className="relative leading-5 font-semibold text-gosirat-darker whitespace-nowrap">
                   Sara picked up · Route 14B
                 </div>
-                <div className="relative leading-4 text-xs text-[#202A32]">
+                <div className="relative leading-4 text-xs text-gosirat-text">
                   Just now · Notification 2
                 </div>
               </div>
@@ -132,15 +132,15 @@ export const InstantNotifications = () => {
             {/* Card 6 */}
             <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 ml-8 shadow-sm" data-aos="fade-in" data-aos-delay="600">
               <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0" data-aos="zoom-in" data-aos-delay="100">
-                <svg className="h-4 w-4 relative text-[#176938]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <svg className="h-4 w-4 relative text-gosirat-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                 </svg>
               </div>
               <div className="flex flex-col items-start">
-                <div className="relative leading-5 font-semibold text-[#09131a] whitespace-nowrap">
+                <div className="relative leading-5 font-semibold text-gosirat-darker whitespace-nowrap">
                   Arrived at Al Noor Academy
                 </div>
-                <div className="relative leading-4 text-xs text-[#202A32]">
+                <div className="relative leading-4 text-xs text-gosirat-text">
                   Just now · Notification 3
                 </div>
               </div>
@@ -150,7 +150,7 @@ export const InstantNotifications = () => {
         </div>
 
         {/* Mobile/Tablet Layout (Visible on mq1125 and smaller viewports) */}
-        <div className="hidden mq1125:flex flex-col items-center gap-10 w-full text-left text-sm text-[#09131a] font-[Inter]">
+        <div className="hidden mq1125:flex flex-col items-center gap-10 w-full text-left text-sm text-gosirat-darker font-sans">
           <Image
             className="w-full max-w-[240px] h-auto object-contain mx-auto"
             width={240}
@@ -163,73 +163,73 @@ export const InstantNotifications = () => {
           <div className="flex flex-col gap-4 w-full max-w-[500px]">
             <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04)]" data-aos="fade-in" data-aos-delay="200">
               <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0" data-aos="fade-in" data-aos-delay="300">
-                <svg className="h-4 w-4 text-[#176938]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <svg className="h-4 w-4 text-gosirat-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                 </svg>
               </div>
               <div>
-                <div className="font-semibold text-[#09131a]">Driver on the way</div>
-                <div className="text-xs text-[#202A32] mt-0.5">Just now · Notification 1</div>
+                <div className="font-semibold text-gosirat-darker">Driver on the way</div>
+                <div className="text-xs text-gosirat-text mt-0.5">Just now · Notification 1</div>
               </div>
             </div>
 
             <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04)]" data-aos="fade-in" data-aos-delay="400">
               <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0" data-aos="fade-in" data-aos-delay="500">
-                <svg className="h-4 w-4 text-[#176938]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <svg className="h-4 w-4 text-gosirat-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                 </svg>
               </div>
               <div>
-                <div className="font-semibold text-[#09131a]">Driver arrived at your address</div>
-                <div className="text-xs text-[#202A32] mt-0.5">Just now · Notification 2</div>
+                <div className="font-semibold text-gosirat-darker">Driver arrived at your address</div>
+                <div className="text-xs text-gosirat-text mt-0.5">Just now · Notification 2</div>
               </div>
             </div>
 
             <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04)]" data-aos="zoom-in" data-aos-delay="600">
               <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0" data-aos="fade-in" data-aos-delay="100">
-                <svg className="h-4 w-4 text-[#176938]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <svg className="h-4 w-4 text-gosirat-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                 </svg>
               </div>
               <div>
-                <div className="font-semibold text-[#09131a]">Sara picked up · Route 14B</div>
-                <div className="text-xs text-[#202A32] mt-0.5">Just now · Notification 3</div>
+                <div className="font-semibold text-gosirat-darker">Sara picked up · Route 14B</div>
+                <div className="text-xs text-gosirat-text mt-0.5">Just now · Notification 3</div>
               </div>
             </div>
 
             <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04)]" data-aos="zoom-in" data-aos-delay="200">
               <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0" data-aos="fade-out" data-aos-delay="300">
-                <svg className="h-4 w-4 text-[#176938]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <svg className="h-4 w-4 text-gosirat-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                 </svg>
               </div>
               <div>
-                <div className="font-semibold text-[#09131a]">Arrived at Al Noor Academy</div>
-                <div className="text-xs text-[#202A32] mt-0.5">Just now · Notification 4</div>
+                <div className="font-semibold text-gosirat-darker">Arrived at Al Noor Academy</div>
+                <div className="text-xs text-gosirat-text mt-0.5">Just now · Notification 4</div>
               </div>
             </div>
 
             <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04)]" data-aos="zoom-in" data-aos-delay="400">
               <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0" data-aos="fade-in" data-aos-delay="500">
-                <svg className="h-4 w-4 text-[#176938]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <svg className="h-4 w-4 text-gosirat-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                 </svg>
               </div>
               <div>
-                <div className="font-semibold text-[#09131a]">Released at school · 14:30</div>
-                <div className="text-xs text-[#202A32] mt-0.5">Just now · Notification 5</div>
+                <div className="font-semibold text-gosirat-darker">Released at school · 14:30</div>
+                <div className="text-xs text-gosirat-text mt-0.5">Just now · Notification 5</div>
               </div>
             </div>
 
             <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04)]" data-aos="fade-out" data-aos-delay="600">
               <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0" data-aos="fade-out" data-aos-delay="100">
-                <svg className="h-4 w-4 text-[#176938]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <svg className="h-4 w-4 text-gosirat-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                 </svg>
               </div>
               <div>
-                <div className="font-semibold text-[#09131a]">Dropped home · 15:02</div>
-                <div className="text-xs text-[#202A32] mt-0.5">Just now · Notification 6</div>
+                <div className="font-semibold text-gosirat-darker">Dropped home · 15:02</div>
+                <div className="text-xs text-gosirat-text mt-0.5">Just now · Notification 6</div>
               </div>
             </div>
           </div>

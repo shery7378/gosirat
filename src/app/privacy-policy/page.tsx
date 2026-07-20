@@ -123,7 +123,7 @@ const PrivacyPolicyPage = () => (
                     <li>Cloud Hosting Providers</li>
                     <li>Government Authorities when legally required</li>
                 </ul>
-                <p className="font-medium text-[#176938] bg-[#f3f7f4] border border-[#176938]/20 p-4 rounded-lg inline-block">GoSirat never sells your personal information to third parties.</p>
+                <p className="font-medium text-gosirat-green bg-gosirat-bg-light border border-gosirat-green/20 p-4 rounded-lg inline-block">GoSirat never sells your personal information to third parties.</p>
             </div>
 
             <div>
@@ -147,24 +147,24 @@ const PrivacyPolicyPage = () => (
             <div>
                 <h2 className="text-2xl font-semibold text-gray-900 mb-6">7. Your Privacy Rights</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-                    <div className="bg-[#f3f7f4] border border-[#176938] rounded-xl p-4 flex flex-col items-center justify-center text-center shadow-sm">
-                        <span className="text-2xl mb-2 text-[#176938]">✔</span>
+                    <div className="bg-gosirat-bg-light border border-gosirat-green rounded-xl p-4 flex flex-col items-center justify-center text-center shadow-sm">
+                        <span className="text-2xl mb-2 text-gosirat-green">✔</span>
                         <span className="font-semibold text-gray-900 text-sm">Access Data</span>
                     </div>
-                    <div className="bg-[#f3f7f4] border border-[#176938] rounded-xl p-4 flex flex-col items-center justify-center text-center shadow-sm">
-                        <span className="text-2xl mb-2 text-[#176938]">✔</span>
+                    <div className="bg-gosirat-bg-light border border-gosirat-green rounded-xl p-4 flex flex-col items-center justify-center text-center shadow-sm">
+                        <span className="text-2xl mb-2 text-gosirat-green">✔</span>
                         <span className="font-semibold text-gray-900 text-sm">Correct Information</span>
                     </div>
-                    <div className="bg-[#f3f7f4] border border-[#176938] rounded-xl p-4 flex flex-col items-center justify-center text-center shadow-sm">
-                        <span className="text-2xl mb-2 text-[#176938]">✔</span>
+                    <div className="bg-gosirat-bg-light border border-gosirat-green rounded-xl p-4 flex flex-col items-center justify-center text-center shadow-sm">
+                        <span className="text-2xl mb-2 text-gosirat-green">✔</span>
                         <span className="font-semibold text-gray-900 text-sm">Update Account</span>
                     </div>
-                    <div className="bg-[#f3f7f4] border border-[#176938] rounded-xl p-4 flex flex-col items-center justify-center text-center shadow-sm">
-                        <span className="text-2xl mb-2 text-[#176938]">✔</span>
+                    <div className="bg-gosirat-bg-light border border-gosirat-green rounded-xl p-4 flex flex-col items-center justify-center text-center shadow-sm">
+                        <span className="text-2xl mb-2 text-gosirat-green">✔</span>
                         <span className="font-semibold text-gray-900 text-sm">Delete Account</span>
                     </div>
-                    <div className="bg-[#f3f7f4] border border-[#176938] rounded-xl p-4 flex flex-col items-center justify-center text-center shadow-sm">
-                        <span className="text-2xl mb-2 text-[#176938]">✔</span>
+                    <div className="bg-gosirat-bg-light border border-gosirat-green rounded-xl p-4 flex flex-col items-center justify-center text-center shadow-sm">
+                        <span className="text-2xl mb-2 text-gosirat-green">✔</span>
                         <span className="font-semibold text-gray-900 text-sm">Contact Privacy Team</span>
                     </div>
                 </div>
@@ -185,7 +185,7 @@ const PrivacyPolicyPage = () => (
             <div className="bg-gray-50 border border-gray-200 rounded-xl p-8">
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Contact Us</h2>
                 <p className="mb-4 text-gray-700">If you have any questions regarding this Privacy Policy or how GoSirat handles your personal information, please contact our Privacy Team.</p>
-                <a href="mailto:privacy@gosirat.com" className="inline-flex items-center gap-2 bg-[#176938] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#12532c] transition-colors">
+                <a href="mailto:privacy@gosirat.com" className="inline-flex items-center gap-2 bg-gosirat-green text-white px-6 py-3 rounded-lg font-medium hover:bg-gosirat-green-dark transition-colors">
                     📧 privacy@gosirat.com
                 </a>
             </div>
@@ -193,10 +193,10 @@ const PrivacyPolicyPage = () => (
             <div className="pt-8 border-t border-gray-200">
                 <h2 className="text-lg font-semibold text-gray-900 mb-4">Related Links</h2>
                 <div className="flex flex-wrap gap-4">
-                    <Link href="/contact" className="text-[#176938] font-medium hover:underline">Contact</Link>
-                    <Link href="/support" className="text-[#176938] font-medium hover:underline">Support</Link>
-                    <Link href="/help-center" className="text-[#176938] font-medium hover:underline">Help Center</Link>
-                    <Link href="/terms-and-conditions" className="text-[#176938] font-medium hover:underline">Terms & Conditions</Link>
+                    <Link href="/contact" className="text-gosirat-green font-medium hover:underline">Contact</Link>
+                    <Link href="/support" className="text-gosirat-green font-medium hover:underline">Support</Link>
+                    <Link href="/help-center" className="text-gosirat-green font-medium hover:underline">Help Center</Link>
+                    <Link href="/terms-and-conditions" className="text-gosirat-green font-medium hover:underline">Terms & Conditions</Link>
                 </div>
             </div>
         </div>

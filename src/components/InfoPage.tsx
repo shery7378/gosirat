@@ -24,15 +24,15 @@ export default function InfoPage({
     sections,
 }: InfoPageProps) {
     return (
-        <main className="min-h-screen bg-[#f4f7f4] px-6 py-20 sm:px-8 lg:px-10">
+        <main className="min-h-screen bg-gosirat-light px-6 py-20 sm:px-8 lg:px-10">
             <div className="mx-auto flex max-w-4xl flex-col rounded-3xl border border-emerald-100 bg-white p-8 shadow-[0_20px_60px_rgba(15,23,42,0.08)] sm:p-12">
                 <p className="text-sm font-semibold uppercase tracking-[0.35em] text-emerald-600">
                     {eyebrow}
                 </p>
-                <h1 className="mt-4 font-[Inter] font-semibold text-4xl leading-[100%] tracking-[0px] text-center text-[#0c140f] sm:text-[64px]">
+                <h1 className="mt-4 font-sans font-semibold text-4xl leading-[100%] tracking-normal text-center text-gosirat-black sm:text-[64px]">
                     {title}
                 </h1>
-                <p className="mt-6 font-[Inter] font-normal text-[20px] leading-[32.5px] tracking-[0px] text-center text-[#57605b]">{description}</p>
+                <p className="mt-6 font-sans font-normal text-[20px] leading-[32.5px] tracking-normal text-center text-gosirat-gray">{description}</p>
 
                 {children && <div className="mt-8 space-y-6 text-gray-700">{children}</div>}
 

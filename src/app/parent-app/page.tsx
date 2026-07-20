@@ -24,7 +24,7 @@ import { ParentStories } from "../../components/parent/ParentStories";
 
 const ParentPage: NextPage = () => {
  return (
-  <div className="w-full relative bg-[#f4f7f4] flex flex-col items-center pt-6 px-0 pb-0 box-border leading-[normal] tracking-[normal] overflow-x-hidden">
+  <div className="w-full relative bg-gosirat-light flex flex-col items-center pt-6 px-0 pb-0 box-border leading-normal tracking-normal overflow-x-hidden">
    <WebPageSchema 
       title="GoSirat Parent App | Safe School Transportation & GPS" 
       description="Track your child's school transportation with the GoSirat Parent App. Enjoy live GPS tracking, QR verification, real-time notifications, and safe school pick-up and drop-off." 

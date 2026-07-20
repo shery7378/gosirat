@@ -15,6 +15,21 @@ module.exports = {
       colors: {
         "base-white": "#fff",
         "neutral-300": "#666664",
+        "gosirat-green": "#176938",
+        "gosirat-green-alt": "#0d6332",
+        "gosirat-green-dark": "#124225",
+        "gosirat-green-light": "#89b99a",
+        "gosirat-accent": "#2ecc71",
+        "gosirat-accent-light": "#8CE0B4",
+        "gosirat-gray": "#57605b",
+        "gosirat-gray-light": "#bababa",
+        "gosirat-black": "#0c140f",
+        "gosirat-dark-alt": "#1a1a1a",
+        "gosirat-light": "#f4f7f4",
+        "gosirat-bg-light": "#f8fbf8",
+        "gosirat-text": "#202A32",
+        "gosirat-text-dark": "#101828",
+        "gosirat-darker": "#09131a",
       },
       keyframes: {
         marquee: {

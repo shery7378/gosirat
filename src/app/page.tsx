@@ -21,7 +21,7 @@ import { WebPageSchema, BreadcrumbSchema } from "@/components/Schemas";
 
 const Homepage: NextPage = () => {
   return (
-    <div className="w-full relative bg-[#f4f7f4] flex flex-col items-center pt-6 px-0 pb-0 box-border leading-[normal] tracking-[normal]">
+    <div className="w-full relative bg-gosirat-light flex flex-col items-center pt-6 px-0 pb-0 box-border leading-normal tracking-normal">
       <WebPageSchema
         title="Safe & Smart School Transportation Services | GoSirat"
         description="GoSirat provides safe school transportation and pick-and-drop services with verified drivers, live GPS tracking, QR verification, and secure student travel."

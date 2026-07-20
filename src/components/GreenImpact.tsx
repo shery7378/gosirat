@@ -4,24 +4,24 @@ import Image from "next/image";
 const GreenImpact: NextPage = () => {
     return (
         <section className="self-stretch bg-white flex flex-col items-center pt-[60px] pb-0 box-border gap-0 shrink-0 max-w-full mq450:gap-5 mq450:pt-[39px]" data-aos="fade-in">
-            <section className="self-stretch flex items-center justify-between gap-8 max-w-full shrink-0 text-left text-xs text-[#176938] font-inherit px-[60px] mq450:pl-[30px] mq450:pr-[30px] mq450:box-border mq750:flex-col mq750:items-center mq750:text-center">
+            <section className="self-stretch flex items-center justify-between gap-8 max-w-full shrink-0 text-left text-xs text-gosirat-green font-inherit px-[60px] mq450:pl-[30px] mq450:pr-[30px] mq450:box-border mq750:flex-col mq750:items-center mq750:text-center">
                 <div className="h-auto w-[700px] flex flex-col items-start max-w-full mq450:min-w-full mq750:flex-1 mq750:items-center">
                     <div className="self-stretch h-[29.3px] flex items-start mq750:justify-center">
                         <div className="inline-flex rounded-[30px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] items-center py-[6px] px-[14px] gap-[8px]" data-aos="zoom-in" data-aos-delay="100">
-                            <div className="h-[6px] w-[6px] relative rounded-full bg-[#176938]" />
-                            <div className="relative font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#176938]">
+                            <div className="h-[6px] w-[6px] relative rounded-full bg-gosirat-green" />
+                            <div className="relative font-sans font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-gosirat-green">
                                 Green Initiative
                             </div>
                         </div>
                     </div>
-                    <div className="w-full max-w-[584.3px] flex flex-col items-start pt-6 px-0 pb-0 box-border text-6xl text-[#0c140f] mq750:items-center">
-                        <h2 className="m-0 self-stretch relative font-[Inter] font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-left text-[#0c140f] mq825:text-[38px] mq825:leading-[48px] mq450:text-[24px] mq450:leading-[32px] break-words mq750:text-center">
+                    <div className="w-full max-w-[584.3px] flex flex-col items-start pt-6 px-0 pb-0 box-border text-6xl text-gosirat-black mq750:items-center">
+                        <h2 className="m-0 self-stretch relative font-sans font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-left text-gosirat-black mq825:text-[38px] mq825:leading-[48px] mq450:text-[24px] mq450:leading-[32px] break-words mq750:text-center">
                             <span className="leading-[100%]">{`Eco-Friendly School Transportation for a `}</span>
-                            <span className="text-[#176938] leading-[100%]">Greener Future</span>
+                            <span className="text-gosirat-green leading-[100%]">Greener Future</span>
                         </h2>
                     </div>
-                    <div className="self-stretch flex flex-col items-start pt-[19.7px] px-0 pb-[0.3px] text-lg text-[#57605b] mq750:text-center">
-                        <div className="w-full relative font-[Inter] font-normal text-[20px] leading-[32.5px] tracking-[0px] text-left text-[#57605b] mq750:text-center">
+                    <div className="self-stretch flex flex-col items-start pt-[19.7px] px-0 pb-[0.3px] text-lg text-gosirat-gray mq750:text-center">
+                        <div className="w-full relative font-sans font-normal text-[20px] leading-[32.5px] tracking-normal text-left text-gosirat-gray mq750:text-center">
                             GoSirat is committed to building a cleaner and more sustainable future through eco-friendly school transportation services. By encouraging shared school rides, reducing traffic congestion, lowering carbon emissions, and optimizing transportation routes, we help families, schools, and communities create a healthier environment while ensuring every child travels safely.
                         </div>
                     </div>
@@ -44,7 +44,7 @@ const GreenImpact: NextPage = () => {
                         <h3 className="m-0 text-[48px] md:text-[56px] font-bold text-white tracking-tight leading-none mb-4">
                             62%
                         </h3>
-                        <div className="text-[18px] font-semibold text-[#176938] mb-3">
+                        <div className="text-[18px] font-semibold text-gosirat-green mb-3">
                             Fewer Private Car Trips
                         </div>
                         <p className="m-0 text-[14px] leading-[22px] text-[#a1a1aa] font-medium">
@@ -56,7 +56,7 @@ const GreenImpact: NextPage = () => {
                         <h3 className="m-0 text-[48px] md:text-[56px] font-bold text-white tracking-tight leading-none mb-4 flex items-baseline">
                             1.4M<span className="text-[32px] md:text-[40px] ml-2">kg</span>
                         </h3>
-                        <div className="text-[18px] font-semibold text-[#176938] mb-3">
+                        <div className="text-[18px] font-semibold text-gosirat-green mb-3">
                             Carbon Emissions Reduced
                         </div>
                         <p className="m-0 text-[14px] leading-[22px] text-[#a1a1aa] font-medium">
@@ -68,7 +68,7 @@ const GreenImpact: NextPage = () => {
                         <h3 className="m-0 text-[48px] md:text-[56px] font-bold text-white tracking-tight leading-none mb-4">
                             3x
                         </h3>
-                        <div className="text-[18px] font-semibold text-[#176938] mb-3">
+                        <div className="text-[18px] font-semibold text-gosirat-green mb-3">
                             More Efficient Transportation
                         </div>
                         <p className="m-0 text-[14px] leading-[22px] text-[#a1a1aa] font-medium">

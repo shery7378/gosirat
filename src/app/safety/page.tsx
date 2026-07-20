@@ -34,7 +34,7 @@ export default function SafetyPage() {
                 ]}
             />
 
-            <main className="overflow-x-hidden bg-[#f8fbf8] text-[#0E1B16]">
+            <main className="overflow-x-hidden bg-gosirat-bg-light text-[#0E1B16]">
                 <SafetyHero />
                 <SafetyTrust />
                 <SafetyDrivers />

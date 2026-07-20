@@ -8,22 +8,22 @@ export const ParentStories = ({ isAboutPage = false }: { isAboutPage?: boolean }
    mq650:py-14 mq650:px-8
    mq450:py-10 mq450:px-4
   " data-aos="zoom-in">
-            <section className="self-stretch flex flex-col items-start gap-2.5 text-left text-xs text-[#176938] font-[Inter]">
+            <section className="self-stretch flex flex-col items-start gap-2.5 text-left text-xs text-gosirat-green font-sans">
                 <div className="self-stretch flex items-start">
-                    <div className="h-[29.33px] rounded-[22369600px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in" data-aos-delay="100">
-                        <div className="h-[6px] w-[6px] rounded-[22369600px] bg-[#176938]" />
-                        <div className="font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#176938]">
+                    <div className="h-[29.33px] rounded-full bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in" data-aos-delay="100">
+                        <div className="h-[6px] w-[6px] rounded-full bg-gosirat-green" />
+                        <div className="font-sans font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-gosirat-green">
                             Parent Stories
                         </div>
                     </div>
                 </div>
                 <div className="self-stretch flex flex-col items-start pt-6 px-0 pb-0 box-border">
-                    <h2 className="m-0 self-stretch relative font-[Inter] font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-[#0c140f] mq825:text-[38px] mq450:text-[24px] mq450:leading-[32px] break-words">
+                    <h2 className="m-0 self-stretch relative font-sans font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-gosirat-black mq825:text-[38px] mq450:text-[24px] mq450:leading-[32px] break-words">
                         Trusted by Families for Safer School Transportation
                     </h2>
                 </div>
                 <div className="self-stretch flex flex-col items-start pt-5 px-0 pb-0 box-border">
-                    <p className="m-0 self-stretch relative font-[Inter] font-normal text-[18px] leading-[28px] tracking-[0px] text-[#57605b] max-w-[800px]">
+                    <p className="m-0 self-stretch relative font-sans font-normal text-[18px] leading-[28px] tracking-normal text-gosirat-gray max-w-[800px]">
                         Parents trust GoSirat to make every school journey safer, smarter, and more transparent. From live GPS tracking to verified drivers and secure QR verification, our platform gives families confidence and peace of mind every school day.
                     </p>
                 </div>
@@ -78,14 +78,14 @@ const TestimonialCard = ({
    p-8
    mq650:p-6
    mq450:p-5
-   text-left text-lg text-[#0c140f] font-[Inter]
+   text-left text-lg text-gosirat-black font-sans
    h-full
    w-full overflow-hidden
   "
     >
         <div className="flex gap-1 mb-2">
             {[1, 2, 3, 4, 5].map((star) => (
-                <svg key={star} className="w-6 h-6 text-[#176938] fill-current" viewBox="0 0 24 24">
+                <svg key={star} className="w-6 h-6 text-gosirat-green fill-current" viewBox="0 0 24 24">
                     <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z" />
                 </svg>
             ))}
@@ -93,7 +93,7 @@ const TestimonialCard = ({
 
         <div className="flex-1 pt-5 mq450:pt-4 w-full">
             <p className="
-    m-0 relative font-[Inter] font-normal text-[18px] leading-[29.25px] tracking-[0px] text-[#0C140F]
+    m-0 relative font-sans font-normal text-[18px] leading-[29.25px] tracking-normal text-gosirat-black
     mq450:text-[16px] mq450:leading-[26px]
     break-words whitespace-normal
    ">
@@ -106,7 +106,7 @@ const TestimonialCard = ({
    border-t border-[#dee3de] mt-8 mq450:mt-6
   ">
             <p className="m-0 text-base leading-6 font-semibold">{name}</p>
-            <p className="m-0 text-sm leading-5 text-[#57605b]">{role}</p>
+            <p className="m-0 text-sm leading-5 text-gosirat-gray">{role}</p>
         </div>
     </section>
 );

@@ -21,7 +21,7 @@ export const GlobalSchemas = () => {
     "logo": "https://gosirat.com/logo.webp",
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+92-309-9104803",
+      "telephone": "+923099104803",
       "contactType": "customer service",
       "email": "info@gosirat.com",
       "areaServed": ["Islamabad", "Rawalpindi"],
@@ -35,7 +35,7 @@ export const GlobalSchemas = () => {
     "name": "GoSirat",
     "image": "https://gosirat.com/logo.webp",
     "url": "https://gosirat.com",
-    "telephone": "+92-309-9104803",
+    "telephone": "+923099104803",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Office No C-03, Bahrain Plaza Civic Centre, Bahria Town Phase 04",

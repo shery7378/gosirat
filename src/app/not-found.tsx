@@ -2,15 +2,15 @@ import Link from 'next/link';
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-[#f3f7f4] to-white px-6 font-[Inter]">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-[#f3f7f4] to-white px-6 font-sans">
       <div className="text-center">
         {/* Animated 404 Text */}
-        <h1 className="font-[Inter] font-semibold text-[64px] leading-[100%] tracking-[0px] text-center text-[#0c140f] drop-shadow-sm mq450:text-[80px]">
+        <h1 className="font-sans font-semibold text-[64px] leading-[100%] tracking-normal text-center text-gosirat-black drop-shadow-sm mq450:text-[80px]">
           404
         </h1>
         
         {/* Subheading */}
-        <h2 className="mt-4 text-3xl font-bold text-[#101828] tracking-tight mq450:text-2xl">
+        <h2 className="mt-4 text-3xl font-bold text-gosirat-text-dark tracking-tight mq450:text-2xl">
           Oops! Page not found.
         </h2>
         
@@ -23,7 +23,7 @@ export default function NotFound() {
         <div className="mt-10 flex justify-center gap-4">
           <Link 
             href="/" 
-            className="group relative inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold text-white transition-all duration-200 bg-[#176938] border border-transparent rounded-xl hover:bg-[#11532c] hover:shadow-[0_4px_20px_rgba(23,105,56,0.25)] hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#176938]"
+            className="group relative inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold text-white transition-all duration-200 bg-gosirat-green border border-transparent rounded-xl hover:bg-[#11532c] hover:shadow-[0_4px_20px_rgba(23,105,56,0.25)] hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#176938]"
           >
             <span className="flex items-center gap-2">
               <svg 
@@ -43,8 +43,8 @@ export default function NotFound() {
       
       {/* Decorative background elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none -z-10">
-        <div className="absolute -top-[20%] -left-[10%] w-[50%] h-[50%] rounded-full bg-[#176938]/5 blur-[120px]" />
-        <div className="absolute top-[60%] -right-[10%] w-[40%] h-[40%] rounded-full bg-[#176938]/5 blur-[100px]" />
+        <div className="absolute -top-[20%] -left-[10%] w-[50%] h-[50%] rounded-full bg-gosirat-green/5 blur-[120px]" />
+        <div className="absolute top-[60%] -right-[10%] w-[40%] h-[40%] rounded-full bg-gosirat-green/5 blur-[100px]" />
       </div>
     </div>
   );

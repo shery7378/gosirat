@@ -33,7 +33,7 @@ const footerSections: Array<{ title: string; links: FooterLink[] }> = [
             { label: "Support", href: "/support", icon: "shield" },
             { label: "Help center", href: "/help-center", icon: "help" },
             { label: "info@gosirat.com", href: "mailto:info@gosirat.com", icon: "mail" },
-            { label: "03099104803", href: "tel:03099104803", icon: "phone" },
+            { label: "+92 309 9104803", href: "tel:+923099104803", icon: "phone" },
         ],
     },
     {
@@ -105,8 +105,8 @@ const renderIcon = (icon: string) => {
 
 const Footer: NextPage = () => {
     return (
-        <div className="mt-auto box-border flex max-w-full flex-col border-t-[0.7px] border-solid border-gray-200 bg-white px-[60px] py-0 leading-[normal] tracking-[normal] shadow-[0_-4px_20px_rgba(23,105,56,0.15)] mq725:box-border mq725:px-[20px] max-sm:px-4">
-            <footer className="box-border flex w-full flex-col items-start gap-4 px-0 pb-6 pt-16 text-left text-base text-gray-900 font-[Inter] mq725:box-border mq725:pb-6 mq725:pt-8">
+        <div className="mt-auto box-border flex max-w-full flex-col border-t-[0.7px] border-solid border-gray-200 bg-white px-[60px] py-0 leading-normal tracking-normal shadow-[0_-4px_20px_rgba(23,105,56,0.15)] mq725:box-border mq725:px-[20px] max-sm:px-4">
+            <footer className="box-border flex w-full flex-col items-start gap-4 px-0 pb-6 pt-16 text-left text-base text-gray-900 font-sans mq725:box-border mq725:pb-6 mq725:pt-8">
                 <div className="flex max-w-full min-w-0 flex-wrap items-start justify-between gap-8 sm:gap-12 self-stretch py-0 px-0 lg:flex-nowrap mq1050:flex-col mq1050:items-stretch">
                     <div className="flex shrink-0 max-w-[350px] flex-col items-start gap-6 mq1050:mx-auto mq1050:items-center mq1050:text-center">
                         <Image
@@ -123,6 +123,10 @@ const Footer: NextPage = () => {
                         <div className="flex w-full flex-col items-start gap-4 mq1050:items-center">
                             <div className="relative inline-block leading-5 text-gray-600">
                                 Safe school transportation for modern families. Built around verified drivers, live tracking and secure handover.
+                            </div>
+                            <div className="flex items-start gap-2 mt-2 leading-5 text-gray-600 text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0 mt-0.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" /></svg>
+                                <span>Office No C-03, Bahrain Plaza Civic Centre, Bahria Town Phase 04, Islamabad, PK</span>
                             </div>
                         </div>
                     </div>
@@ -166,7 +170,7 @@ const Footer: NextPage = () => {
 
                 <div className="mt-4 mb-4 flex justify-start self-stretch mq1050:justify-center">
                     <div className="flex shrink-0 flex-row gap-4 mq1050:flex-wrap mq1050:justify-center">
-                        <a href="/register" className="flex h-[54px] w-[160px] shrink-0 items-center justify-center gap-[10px] rounded-xl border border-[#444] bg-black py-2 transition-colors hover:bg-[#1a1a1a]">
+                        <a href="/register" className="flex h-[54px] w-[160px] shrink-0 items-center justify-center gap-[10px] rounded-xl border border-[#444] bg-black py-2 transition-colors hover:bg-gosirat-dark-alt">
                             <svg viewBox="0 0 384 512" className="h-[20px] w-[20px] text-white" fill="currentColor">
                                 <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z" />
                             </svg>
@@ -176,7 +180,7 @@ const Footer: NextPage = () => {
                             </div>
                         </a>
 
-                        <a href="/register" className="flex h-[54px] w-[160px] shrink-0 items-center justify-center gap-[10px] rounded-xl border border-[#444] bg-black py-2 transition-colors hover:bg-[#1a1a1a]">
+                        <a href="/register" className="flex h-[54px] w-[160px] shrink-0 items-center justify-center gap-[10px] rounded-xl border border-[#444] bg-black py-2 transition-colors hover:bg-gosirat-dark-alt">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Play_Arrow_logo.svg" alt="Google Play" className="h-[20px] w-[20px]" data-aos="fade-in" data-aos-delay="200" />
                             <div className="flex flex-col items-start justify-center">
                                 <span className="text-[9px] font-medium uppercase leading-[11px] tracking-wide text-gray-200">Get it on</span>

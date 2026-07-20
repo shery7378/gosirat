@@ -23,7 +23,7 @@ import { ParentStories } from "../../components/parent/ParentStories";
 
 const DriverPage: NextPage = () => {
  return (
-  <div className="w-full relative bg-[#f4f7f4] flex flex-col items-center pt-6 px-0 pb-0 box-border leading-[normal] tracking-[normal]">
+  <div className="w-full relative bg-gosirat-light flex flex-col items-center pt-6 px-0 pb-0 box-border leading-normal tracking-normal">
    <WebPageSchema 
       title="Driver App | Become a Verified School Driver | GoSirat" 
       description="Join the GoSirat driver network to earn reliable income with optimized routes, transparent payments, and professional support." 

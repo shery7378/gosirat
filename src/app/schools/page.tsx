@@ -20,7 +20,7 @@ import FAQ from "@/components/FAQ";
 
 const SchoolsPage: NextPage = () => {
  return (
-  <div className="w-full relative bg-[#f4f7f4] flex flex-col items-center pt-6 px-0 pb-0 box-border leading-[normal] tracking-[normal]">
+  <div className="w-full relative bg-gosirat-light flex flex-col items-center pt-6 px-0 pb-0 box-border leading-normal tracking-normal">
    <WebPageSchema 
       title="School Transportation Management System | GoSirat" 
       description="Improve school transportation with live vehicle tracking, verified handovers, operational analytics, and better communication for parents." 

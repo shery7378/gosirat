@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Branding: NextPage = () => {
     return (
-        <div className="w-full bg-[#0c140f] overflow-hidden py-10 text-center text-lg text-[#FFFFFF] font-manrope px-4 md:px-12 box-border flex flex-col items-center gap-12" data-aos="zoom-in">
+        <div className="w-full bg-gosirat-black overflow-hidden py-10 text-center text-lg text-[#FFFFFF] font-manrope px-4 md:px-12 box-border flex flex-col items-center gap-12" data-aos="zoom-in">
             <div className="w-full relative tracking-[-0.012em] leading-[160%] font-semibold">
                 Trusted by Over 100 Company Worldwide
             </div>

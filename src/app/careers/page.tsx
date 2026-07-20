@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const CareersPage: NextPage = () => {
     return (
-        <div className="w-full relative bg-[#f4f7f4] flex flex-col items-center pt-6 px-0 pb-0 box-border leading-[normal] tracking-[normal]">
+        <div className="w-full relative bg-gosirat-light flex flex-col items-center pt-6 px-0 pb-0 box-border leading-normal tracking-normal">
             <WebPageSchema
                 title="Careers at GoSirat | Join Our School Transportation Team"
                 description="Explore careers at GoSirat and help build safer school transportation. Join our team in product design, engineering, operations, partnerships, or customer support."
@@ -26,18 +26,18 @@ const CareersPage: NextPage = () => {
 
             {/* Hero Section */}
             <section className="w-full max-w-7xl mx-auto px-4 py-16 md:py-24 flex flex-col items-center text-center">
-                <div className="rounded-[20px] bg-[#89b99a] flex items-center py-1.5 px-3.5 gap-2 mb-8" data-aos="fade-in">
-                    <div className="h-[6px] w-[6px] rounded-[22369600px] bg-[#124225]" />
-                    <div className="font-[Inter] font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[#124225]">
+                <div className="rounded-[20px] bg-gosirat-green-light flex items-center py-1.5 px-3.5 gap-2 mb-8" data-aos="fade-in">
+                    <div className="h-[6px] w-[6px] rounded-full bg-gosirat-green-dark" />
+                    <div className="font-sans font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-gosirat-green-dark">
                         Careers at GoSirat
                     </div>
                 </div>
 
-                <h1 className="m-0 font-[Inter] font-semibold text-[64px] leading-[100%] tracking-[0px] text-center text-[#0c140f] mb-8" data-aos="fade-up">
+                <h1 className="m-0 font-sans font-semibold text-[64px] leading-[100%] tracking-normal text-center text-gosirat-black mb-8" data-aos="fade-up">
                     Build the Future of School Transportation
                 </h1>
 
-                <p className="m-0 font-[Inter] font-normal text-[20px] leading-[32.5px] tracking-[0px] text-center text-[#57605b] mb-12 max-w-2xl" data-aos="fade-up" data-aos-delay="100">
+                <p className="m-0 font-sans font-normal text-[20px] leading-[32.5px] tracking-normal text-center text-gosirat-gray mb-12 max-w-2xl" data-aos="fade-up" data-aos-delay="100">
                     Join GoSirat and help transform school transportation through innovation, safety, and technology. We're building a platform that connects parents, schools, and drivers with live GPS tracking, verified drivers, secure QR verification, and smarter transportation management. If you're passionate about creating meaningful impact, we'd love to hear from you.
                 </p>
 
@@ -58,29 +58,29 @@ const CareersPage: NextPage = () => {
 
                 {/* Open Positions */}
                 <div className="flex flex-col w-full" data-aos="fade-up">
-                    <h2 className="m-0 text-3xl md:text-4xl font-semibold text-[#09131a] mb-10 text-center">Open Positions</h2>
+                    <h2 className="m-0 text-3xl md:text-4xl font-semibold text-gosirat-darker mb-10 text-center">Open Positions</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         <div className="bg-white rounded-[22px] p-8 border border-[rgba(0,0,0,0.1)] shadow-sm flex flex-col h-full hover:shadow-md transition-shadow">
-                            <h3 className="m-0 text-xl font-semibold text-[#0D6332] mb-4">📢 Marketing Team</h3>
-                            <p className="m-0 text-[#202A32] leading-relaxed flex-1">
+                            <h3 className="m-0 text-xl font-semibold text-gosirat-green-alt mb-4">📢 Marketing Team</h3>
+                            <p className="m-0 text-gosirat-text leading-relaxed flex-1">
                                 Help more parents and schools discover GoSirat. Promote our safe school transportation services through digital marketing, social media, and community campaigns.
                             </p>
                         </div>
                         <div className="bg-white rounded-[22px] p-8 border border-[rgba(0,0,0,0.1)] shadow-sm flex flex-col h-full hover:shadow-md transition-shadow">
-                            <h3 className="m-0 text-xl font-semibold text-[#0D6332] mb-4">🤝 Operations & Partnerships</h3>
-                            <p className="m-0 text-[#202A32] leading-relaxed flex-1">
+                            <h3 className="m-0 text-xl font-semibold text-gosirat-green-alt mb-4">🤝 Operations & Partnerships</h3>
+                            <p className="m-0 text-gosirat-text leading-relaxed flex-1">
                                 Work with schools and transportation partners to keep school transportation running smoothly, safely, and on time every day.
                             </p>
                         </div>
                         <div className="bg-white rounded-[22px] p-8 border border-[rgba(0,0,0,0.1)] shadow-sm flex flex-col h-full hover:shadow-md transition-shadow">
-                            <h3 className="m-0 text-xl font-semibold text-[#0D6332] mb-4">💬 Community & Customer Support</h3>
-                            <p className="m-0 text-[#202A32] leading-relaxed flex-1">
+                            <h3 className="m-0 text-xl font-semibold text-gosirat-green-alt mb-4">💬 Community & Customer Support</h3>
+                            <p className="m-0 text-gosirat-text leading-relaxed flex-1">
                                 Support parents, schools, and drivers by answering questions, solving problems, and providing the best GoSirat experience.
                             </p>
                         </div>
                         <div className="bg-white rounded-[22px] p-8 border border-[rgba(0,0,0,0.1)] shadow-sm flex flex-col h-full hover:shadow-md transition-shadow">
-                            <h3 className="m-0 text-xl font-semibold text-[#0D6332] mb-4">🚌 Transport Managers</h3>
-                            <p className="m-0 text-[#202A32] leading-relaxed flex-1">
+                            <h3 className="m-0 text-xl font-semibold text-gosirat-green-alt mb-4">🚌 Transport Managers</h3>
+                            <p className="m-0 text-gosirat-text leading-relaxed flex-1">
                                 Manage drivers, plan school routes, monitor daily trips, and make sure every school transportation journey is safe, reliable, and on time.
                             </p>
                         </div>
@@ -89,41 +89,41 @@ const CareersPage: NextPage = () => {
 
                 {/* Why Join GoSirat */}
                 <div className="flex flex-col w-full" data-aos="fade-up">
-                    <h2 className="m-0 text-3xl md:text-4xl font-semibold text-[#09131a] mb-10 text-center">Why Join GoSirat?</h2>
+                    <h2 className="m-0 text-3xl md:text-4xl font-semibold text-gosirat-darker mb-10 text-center">Why Join GoSirat?</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         <div className="bg-white rounded-[22px] p-8 border border-[rgba(0,0,0,0.1)] shadow-sm flex flex-col gap-4 h-full hover:shadow-md transition-shadow">
                             <div className="flex items-center gap-3">
                                 <span className="text-3xl">🛡️</span>
-                                <h3 className="m-0 text-xl font-semibold text-[#09131a]">Make a Real Impact</h3>
+                                <h3 className="m-0 text-xl font-semibold text-gosirat-darker">Make a Real Impact</h3>
                             </div>
-                            <p className="m-0 text-[#202A32] leading-relaxed flex-1">
+                            <p className="m-0 text-gosirat-text leading-relaxed flex-1">
                                 Help create safer school transportation for children, families, schools, and communities.
                             </p>
                         </div>
                         <div className="bg-white rounded-[22px] p-8 border border-[rgba(0,0,0,0.1)] shadow-sm flex flex-col gap-4 h-full hover:shadow-md transition-shadow">
                             <div className="flex items-center gap-3">
                                 <span className="text-3xl">🚀</span>
-                                <h3 className="m-0 text-xl font-semibold text-[#09131a]">Grow With Innovation</h3>
+                                <h3 className="m-0 text-xl font-semibold text-gosirat-darker">Grow With Innovation</h3>
                             </div>
-                            <p className="m-0 text-[#202A32] leading-relaxed flex-1">
+                            <p className="m-0 text-gosirat-text leading-relaxed flex-1">
                                 Work on modern technologies that improve transportation management, live tracking, and student safety.
                             </p>
                         </div>
                         <div className="bg-white rounded-[22px] p-8 border border-[rgba(0,0,0,0.1)] shadow-sm flex flex-col gap-4 h-full hover:shadow-md transition-shadow">
                             <div className="flex items-center gap-3">
                                 <span className="text-3xl">🤝</span>
-                                <h3 className="m-0 text-xl font-semibold text-[#09131a]">Mission-Driven Team</h3>
+                                <h3 className="m-0 text-xl font-semibold text-gosirat-darker">Mission-Driven Team</h3>
                             </div>
-                            <p className="m-0 text-[#202A32] leading-relaxed flex-1">
+                            <p className="m-0 text-gosirat-text leading-relaxed flex-1">
                                 Join a collaborative team focused on trust, transparency, and continuous improvement.
                             </p>
                         </div>
                         <div className="bg-white rounded-[22px] p-8 border border-[rgba(0,0,0,0.1)] shadow-sm flex flex-col gap-4 h-full hover:shadow-md transition-shadow">
                             <div className="flex items-center gap-3">
                                 <span className="text-3xl">🌍</span>
-                                <h3 className="m-0 text-xl font-semibold text-[#09131a]">Flexible Work Culture</h3>
+                                <h3 className="m-0 text-xl font-semibold text-gosirat-darker">Flexible Work Culture</h3>
                             </div>
-                            <p className="m-0 text-[#202A32] leading-relaxed flex-1">
+                            <p className="m-0 text-gosirat-text leading-relaxed flex-1">
                                 Enjoy a supportive, flexible, and growth-oriented environment where your ideas matter.
                             </p>
                         </div>
@@ -134,13 +134,13 @@ const CareersPage: NextPage = () => {
 
             {/* CTA Section */}
             <section className="w-full max-w-4xl mx-auto px-4 py-20 text-center flex flex-col items-center">
-                <h2 className="m-0 text-3xl md:text-4xl font-semibold text-[#09131a] mb-6" data-aos="fade-up">Ready to Make a Difference?</h2>
-                <p className="m-0 text-lg text-[#202A32] mb-10 max-w-2xl" data-aos="fade-up" data-aos-delay="100">
+                <h2 className="m-0 text-3xl md:text-4xl font-semibold text-gosirat-darker mb-6" data-aos="fade-up">Ready to Make a Difference?</h2>
+                <p className="m-0 text-lg text-gosirat-text mb-10 max-w-2xl" data-aos="fade-up" data-aos-delay="100">
                     Join us in building the future of safe school transportation. We'd love to hear your story.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 items-center justify-center w-full" data-aos="fade-up" data-aos-delay="200">
-                    <a href="mailto:info@gosirat.com" className="bg-[#0D6332] text-white font-semibold py-4 px-10 rounded-xl hover:bg-[#0a4f27] transition-colors text-lg inline-block w-full sm:w-auto no-underline">
+                    <a href="mailto:info@gosirat.com" className="bg-gosirat-green-alt text-white font-semibold py-4 px-10 rounded-xl hover:bg-[#0a4f27] transition-colors text-lg inline-block w-full sm:w-auto no-underline">
                         Apply Now
                     </a>
                 </div>
