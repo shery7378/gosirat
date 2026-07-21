@@ -108,7 +108,7 @@ const Footer: NextPage = () => {
         <div className="mt-auto box-border flex max-w-full flex-col border-t-[0.7px] border-solid border-gray-200 bg-white px-[60px] py-0 leading-normal tracking-normal shadow-[0_-4px_20px_rgba(23,105,56,0.15)] mq725:box-border mq725:px-[20px] max-sm:px-4">
             <footer className="box-border flex w-full flex-col items-start gap-4 px-0 pb-6 pt-16 text-left text-base text-gray-900 font-sans mq725:box-border mq725:pb-6 mq725:pt-8">
                 <div className="flex max-w-full min-w-0 flex-wrap items-start justify-between gap-8 sm:gap-12 self-stretch py-0 px-0 lg:flex-nowrap mq1050:flex-col mq1050:items-stretch">
-                    <div className="flex shrink-0 max-w-[350px] flex-col items-start gap-6 mq1050:mx-auto mq1050:items-center mq1050:text-center">
+                    <div className="flex shrink-0 max-w-[300px] xl:max-w-[350px] flex-col items-start gap-6 mq1050:mx-auto mq1050:items-center mq1050:text-center">
                         <Image
                             className="relative h-auto w-[250px] object-contain"
                             loading="lazy"
@@ -129,9 +129,28 @@ const Footer: NextPage = () => {
                                 <span>Office No C-03, Bahrain Plaza Civic Centre, Bahria Town Phase 04, Islamabad, PK</span>
                             </div>
                         </div>
+                        <div className="mt-2 flex shrink-0 flex-row gap-4 flex-wrap mq1050:justify-center">
+                            <a href="/register" className="flex h-[54px] w-[145px] shrink-0 items-center justify-center gap-[8px] rounded-xl border border-[#444] bg-black py-2 transition-colors hover:bg-gosirat-dark-alt">
+                                <svg viewBox="0 0 384 512" className="h-[20px] w-[20px] text-white" fill="currentColor">
+                                    <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z" />
+                                </svg>
+                                <div className="flex flex-col items-start justify-center">
+                                    <span className="text-[9px] font-medium leading-[11px] text-gray-200">Download on the</span>
+                                    <span className="text-[15px] font-semibold leading-[20px] tracking-wide text-white">App Store</span>
+                                </div>
+                            </a>
+
+                            <a href="/register" className="flex h-[54px] w-[145px] shrink-0 items-center justify-center gap-[8px] rounded-xl border border-[#444] bg-black py-2 transition-colors hover:bg-gosirat-dark-alt">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Play_Arrow_logo.svg" alt="Google Play" className="h-[20px] w-[20px]" data-aos="fade-in" data-aos-delay="200" />
+                                <div className="flex flex-col items-start justify-center">
+                                    <span className="text-[9px] font-medium uppercase leading-[11px] tracking-wide text-gray-200">Get it on</span>
+                                    <span className="text-[15px] font-semibold leading-[20px] tracking-wide text-white">Google Play</span>
+                                </div>
+                            </a>
+                        </div>
                     </div>
 
-                    <div className="grid w-full min-w-0 flex-1 grid-cols-4 justify-between gap-x-12 gap-y-6 pt-6 text-gray-900 mq725:grid-cols-[auto_auto] mq725:justify-center mq650:gap-x-8 mq450:gap-x-6">
+                    <div className="grid w-full min-w-0 flex-1 grid-cols-4 justify-between gap-x-4 lg:gap-x-8 xl:gap-x-12 gap-y-6 pt-6 text-gray-900 mq725:grid-cols-[auto_auto] mq725:justify-center mq650:gap-x-8 mq450:gap-x-6">
                         {footerSections.map((section) => (
                             <div key={section.title} className="flex flex-col items-start min-w-0 max-w-full">
                                 <div className="flex flex-col items-start self-stretch">
@@ -168,29 +187,7 @@ const Footer: NextPage = () => {
                     </div>
                 </div>
 
-                <div className="mt-4 mb-4 flex justify-start self-stretch mq1050:justify-center">
-                    <div className="flex shrink-0 flex-row gap-4 mq1050:flex-wrap mq1050:justify-center">
-                        <a href="/register" className="flex h-[54px] w-[160px] shrink-0 items-center justify-center gap-[10px] rounded-xl border border-[#444] bg-black py-2 transition-colors hover:bg-gosirat-dark-alt">
-                            <svg viewBox="0 0 384 512" className="h-[20px] w-[20px] text-white" fill="currentColor">
-                                <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z" />
-                            </svg>
-                            <div className="flex flex-col items-start justify-center">
-                                <span className="text-[9px] font-medium leading-[11px] text-gray-200">Download on the</span>
-                                <span className="text-[17px] font-semibold leading-[20px] tracking-wide text-white">App Store</span>
-                            </div>
-                        </a>
-
-                        <a href="/register" className="flex h-[54px] w-[160px] shrink-0 items-center justify-center gap-[10px] rounded-xl border border-[#444] bg-black py-2 transition-colors hover:bg-gosirat-dark-alt">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Play_Arrow_logo.svg" alt="Google Play" className="h-[20px] w-[20px]" data-aos="fade-in" data-aos-delay="200" />
-                            <div className="flex flex-col items-start justify-center">
-                                <span className="text-[9px] font-medium uppercase leading-[11px] tracking-wide text-gray-200">Get it on</span>
-                                <span className="text-[17px] font-semibold leading-[20px] tracking-wide text-white">Google Play</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div className="mt-2 flex flex-col items-center self-stretch text-gray-600">
+                <div className="mt-8 flex flex-col items-center self-stretch text-gray-600">
                     <div className="box-border flex w-full max-w-full items-center justify-between gap-4 border-t-[0.7px] border-solid border-gray-200 px-0 pb-0 pt-4 [row-gap:16px] mq650:flex-col mq650:items-center mq650:text-center">
                         <div className="flex items-start mq650:justify-center">
                             <div className="relative flex-1 leading-5">© 2026 GoSirat. All rights reserved.</div>

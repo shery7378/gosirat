@@ -18,6 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/parent-app',
     '/press',
     '/privacy-policy',
+    '/register',
     '/safety',
     '/schools',
     '/support',

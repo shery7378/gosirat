@@ -54,7 +54,7 @@ const ContactPage: NextPage = () => {
            Call Us
           </h3>
           <div className="self-stretch relative text-lg leading-6 font-normal font-sans text-[#000000] tracking-[0%]">
-           +1 03099104803
+           +92 309 910 4803
           </div>
          </div>
        </div>
