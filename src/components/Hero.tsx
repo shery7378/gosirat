@@ -4,7 +4,7 @@ import Image from "next/image";
 const Hero: NextPage = () => {
   return (
     <section className="w-full border-gosirat-green border-solid border-b-[6px] box-border overflow-hidden flex flex-col items-start pt-10 px-0 pb-0 mq450:pt-[34px] mq450:h-auto" data-aos="fade-out">
-      <div className="self-stretch flex items-start justify-between pt-0 px-[60px] pb-0 box-border [row-gap:20px] max-w-full mq1125:px-8 mq825:flex-col mq825:items-center mq450:pb-10 mq825:px-6">
+      <div className="self-stretch flex items-start justify-between pt-0 px-[60px] pb-0 box-border [row-gap:20px] max-w-full mq1125:px-8 mq825:flex-col mq825:items-center mq450:pb-10 mq825:px-6 pb-5">
         <section className="flex flex-col items-start gap-5 max-w-full text-center text-xs text-gosirat-green font-sans mq450:flex-1 mq450:min-w-full">
           <div className="flex flex-col items-start gap-4 mq825:items-center">
             <div className="flex flex-col items-start mq825:items-center">
@@ -96,7 +96,7 @@ const Hero: NextPage = () => {
             sizes="100vw"
             alt="GoSirat safe school transport platform overview"
             src="/images/gosirat-home-hero-illustration.webp"
-          data-aos="fade-in" data-aos-delay="200" />
+            data-aos="fade-in" data-aos-delay="200" />
           <Image
             className="w-[385px] absolute top-[170px] left-[88px] max-h-full object-contain z-[1] shrink-0 mq1125:w-[240px] mq1125:left-[55px] mq1125:top-[106px]"
             loading="lazy"
@@ -105,7 +105,7 @@ const Hero: NextPage = () => {
             sizes="100vw"
             alt="GoSirat safe school transportation vehicle with verified drivers providing secure school pick and drop services for students."
             src="/images/gosirat-safe-school-transportation.webp"
-          data-aos="fade-out" data-aos-delay="300" />
+            data-aos="fade-out" data-aos-delay="300" />
         </div>
       </div>
     </section>
