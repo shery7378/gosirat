@@ -53,7 +53,7 @@ const socialLinks = [
     { href: "https://www.linkedin.com/company/gosiratofficial/", label: "LinkedIn", icon: "linkedin" },
     { href: "https://www.youtube.com/@GoSiratOfficial", label: "YouTube", icon: "youtube" },
     { href: "https://www.facebook.com/gosiratofficial/", label: "Facebook", icon: "facebook" },
-    { href: "https://www.tiktok.com/@gosiratofficial", label: "TikTok", icon: "tiktok" },
+    { href: "https://www.tiktok.com/@gosirat_official", label: "TikTok", icon: "tiktok" },
 ];
 
 const renderIcon = (icon: string) => {
@@ -163,18 +163,18 @@ const Footer: NextPage = () => {
                                         const content = (
                                             <div className="flex items-start gap-2 leading-5 text-base break-words min-w-0 w-full mq725:text-[13px] mq725:gap-1.5">
                                                 <div className="shrink-0 mt-[2px]">{link.icon ? renderIcon(link.icon) : null}</div>
-                                                <span className="break-words min-w-0 whitespace-normal">{link.label}</span>
+                                                <span className="min-w-0 whitespace-nowrap">{link.label}</span>
                                             </div>
                                         );
 
                                         return (
                                             <div key={link.label} className="flex flex-col items-start self-stretch min-w-0 w-full">
                                                 {link.href.startsWith("http") ? (
-                                                    <a href={link.href} className="relative leading-5 transition-colors hover:text-gray-900 w-full">
+                                                    <a href={link.href} className="relative leading-5 transition-colors hover:text-gray-900 w-full overflow-hidden text-ellipsis">
                                                         {content}
                                                     </a>
                                                 ) : (
-                                                    <Link href={link.href} className="relative leading-5 transition-colors hover:text-gray-900 w-full">
+                                                    <Link href={link.href} className="relative leading-5 transition-colors hover:text-gray-900 w-full overflow-hidden text-ellipsis">
                                                         {content}
                                                     </Link>
                                                 )}
