@@ -161,20 +161,20 @@ const Footer: NextPage = () => {
                                 <div className="flex flex-col items-start self-stretch pt-3 pb-0 px-0 text-gray-600 gap-2 min-w-0 mq725:pt-4 mq725:gap-3">
                                     {section.links.map((link) => {
                                         const content = (
-                                            <div className="flex items-start gap-2 leading-5 text-base break-words min-w-0 w-full mq725:text-[13px] mq725:gap-1.5">
+                                            <div className="flex items-start gap-2 leading-5 text-base min-w-0 w-full mq725:text-[13px] mq725:gap-1.5">
                                                 <div className="shrink-0 mt-[2px]">{link.icon ? renderIcon(link.icon) : null}</div>
-                                                <span className="min-w-0 whitespace-nowrap">{link.label}</span>
+                                                <span className="min-w-0 whitespace-normal break-words">{link.label}</span>
                                             </div>
                                         );
 
                                         return (
                                             <div key={link.label} className="flex flex-col items-start self-stretch min-w-0 w-full">
                                                 {link.href.startsWith("http") ? (
-                                                    <a href={link.href} className="relative leading-5 transition-colors hover:text-gray-900 w-full overflow-hidden text-ellipsis">
+                                                    <a href={link.href} className="relative leading-5 transition-colors hover:text-gray-900 w-full">
                                                         {content}
                                                     </a>
                                                 ) : (
-                                                    <Link href={link.href} className="relative leading-5 transition-colors hover:text-gray-900 w-full overflow-hidden text-ellipsis">
+                                                    <Link href={link.href} className="relative leading-5 transition-colors hover:text-gray-900 w-full">
                                                         {content}
                                                     </Link>
                                                 )}
