@@ -4,8 +4,8 @@ import Image from "next/image";
 const ParentAppSection: NextPage = () => {
   return (
     <section className="self-stretch flex flex-col items-start p-[60px] box-border max-w-full gap-16 mq1125:p-[40px] mq825:py-[39px] mq825:px-[30px] mq825:box-border mq450:px-4 mq450:pt-[25px] mq450:pb-[25px] mq450:box-border" data-aos="zoom-in">
-      <div className="self-stretch h-auto flex items-center justify-between gap-5 max-w-full mq825:flex-col mq825:items-center mq825:gap-8">
-        <section className="w-full max-w-2xl flex-1 flex flex-col items-start py-5 px-0 box-border text-left text-xs text-gosirat-green font-sans">
+      <div className="self-stretch h-auto flex items-stretch justify-between gap-5 max-w-full mq825:flex-col mq825:items-center mq825:gap-8">
+        <section className="w-full max-w-2xl flex-1 flex flex-col items-start py-5 px-0 box-border text-left text-xs text-gosirat-green font-sans justify-center">
           <div className="self-stretch flex items-start">
             <div className="inline-flex rounded-[30px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in" data-aos-delay="100">
               <div className="h-[6px] w-[6px] relative rounded-full bg-gosirat-green" />
@@ -38,7 +38,7 @@ const ParentAppSection: NextPage = () => {
             </button>
           </div>
         </section>
-        <div className="flex justify-center items-center w-full max-w-[458px] flex-1">
+        <div className="flex justify-center items-end w-full max-w-[458px] flex-1 -mb-16 z-10">
           <Image
             className="h-auto w-full relative object-contain"
             loading="lazy"
