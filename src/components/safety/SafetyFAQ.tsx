@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function SafetyFAQ() {
     return (
-        <section className="bg-[white] px-8 py-20 mq825:px-6">
+        <section className="bg-[white] px-8 py-20 mq825:px-6" data-aos="fade-up">
             <div className="mx-auto max-w-3xl rounded-[32px] border border-[rgba(23,105,56,0.15)] bg-white p-10 text-center shadow-sm flex flex-col items-center">
                 <div className="inline-flex items-center gap-2 rounded-full bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] px-[14px] py-[6px] text-[12px] font-medium uppercase tracking-[1.68px] text-gosirat-green">
                     <span className="h-[6px] w-[6px] rounded-full bg-gosirat-green" />

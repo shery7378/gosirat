@@ -12,7 +12,7 @@ const standards = [
 
 export default function SafetyStandards() {
     return (
-        <section className="bg-gradient-to-b from-gosirat-green to-[#022913] px-8 py-20 text-white mq825:px-6">
+        <section className="bg-gradient-to-b from-gosirat-green to-[#022913] px-8 py-20 text-white mq825:px-6" data-aos="fade-up">
             <div className="mx-auto max-w-7xl">
                 <div className="mx-auto max-w-[800px] text-center flex flex-col items-center">
                     <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-[14px] py-[6px] text-[12px] font-medium uppercase tracking-[1.68px] text-[#F8FBF8]">

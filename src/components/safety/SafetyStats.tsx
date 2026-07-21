@@ -11,7 +11,7 @@ const stats = [
 
 export default function SafetyStats() {
     return (
-        <section id="stats" className="bg-gosirat-bg-light px-8 py-20 mq825:px-6">
+        <section id="stats" className="bg-gosirat-bg-light px-8 py-20 mq825:px-6" data-aos="fade-up">
             <div className="mx-auto max-w-7xl">
                 <div className="mx-auto max-w-[800px] text-center flex flex-col items-center">
                     <div className="inline-flex items-center gap-2 rounded-full bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] px-[14px] py-[6px] text-[12px] font-medium uppercase tracking-[1.68px] text-gosirat-green">

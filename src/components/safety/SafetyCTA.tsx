@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function SafetyCTA() {
     return (
-        <section className="relative overflow-hidden bg-gradient-to-b from-gosirat-green to-[#022913] px-8 py-24 text-white mq825:px-6">
+        <section className="relative overflow-hidden bg-gradient-to-b from-gosirat-green to-[#022913] px-8 py-24 text-white mq825:px-6" data-aos="zoom-in">
             <div className="relative z-10 mx-auto max-w-[800px] text-center flex flex-col items-center">
                 <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-[14px] py-[6px] text-[12px] font-medium uppercase tracking-[1.68px] text-[#F8FBF8]">
                     <span className="h-[6px] w-[6px] rounded-full bg-gosirat-accent" />

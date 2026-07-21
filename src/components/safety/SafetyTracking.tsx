@@ -11,7 +11,7 @@ const trackingItems = [
 
 export default function SafetyTracking() {
     return (
-        <section id="tracking" className="bg-gosirat-bg-light px-8 py-20 mq825:px-6">
+        <section id="tracking" className="bg-gosirat-bg-light px-8 py-20 mq825:px-6" data-aos="fade-up">
             <div className="mx-auto grid grid-cols-2 mq825:grid-cols-1 max-w-7xl gap-12 items-center">
                 <div className="flex flex-col items-start text-left">
                     <div className="inline-flex items-center gap-2 rounded-full bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] px-[14px] py-[6px] text-[12px] font-medium uppercase tracking-[1.68px] text-gosirat-green">

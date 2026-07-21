@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function SafetyHero() {
     return (
-        <section className="relative flex min-h-[85vh] items-center justify-center overflow-hidden text-white">
+        <section className="relative flex min-h-[85vh] items-center justify-center overflow-hidden text-white" data-aos="fade-in">
             <Image
                 src="/images/gosirat-school-transportation-safety.webp"
                 alt="GoSirat safe school transportation with verified drivers and secure student pickup"

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const DriverHero = () => {
  return (
-  <section className="self-stretch overflow-hidden flex flex-col items-start pt-10 px-0 pb-5 box-border max-w-full mq450:pt-[26px] mq450:box-border">
+  <section className="self-stretch overflow-hidden flex flex-col items-start pt-10 px-0 pb-5 box-border max-w-full mq450:pt-[26px] mq450:box-border" data-aos="fade-in">
    <div className="self-stretch flex items-center justify-between pt-0 px-[60px] pb-10 box-border gap-10 max-w-full flex-wrap mq825:px-[30px] mq450:px-4 mq450:pb-[52px]">
     <section className="flex flex-col items-start py-5 px-0 box-border max-w-full text-left text-xs text-gosirat-green font-sans flex-1 min-w-[300px] mq1050:min-w-full mq1050:items-center mq1050:text-center">
      <div className="w-full max-w-[657px] flex flex-col items-start gap-6 mq1050:items-center">
