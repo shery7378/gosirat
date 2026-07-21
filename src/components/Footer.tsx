@@ -150,7 +150,7 @@ const Footer: NextPage = () => {
                         </div>
                     </div>
 
-                    <div className="grid w-full min-w-0 flex-1 grid-cols-4 justify-between gap-x-4 lg:gap-x-8 xl:gap-x-12 gap-y-6 pt-6 text-gray-900 mq725:grid-cols-[auto_auto] mq725:justify-center mq650:gap-x-8 mq450:gap-x-6">
+                    <div className="flex w-full min-w-0 flex-1 flex-wrap justify-between gap-x-4 lg:gap-x-8 xl:gap-x-12 gap-y-6 pt-6 text-gray-900 mq725:grid mq725:grid-cols-[auto_auto] mq725:justify-center mq650:gap-x-8 mq450:gap-x-6">
                         {footerSections.map((section) => (
                             <div key={section.title} className="flex flex-col items-start min-w-0 max-w-full">
                                 <div className="flex flex-col items-start self-stretch">
@@ -163,7 +163,7 @@ const Footer: NextPage = () => {
                                         const content = (
                                             <div className="flex items-start gap-2 leading-5 text-base min-w-0 w-full mq725:text-[13px] mq725:gap-1.5">
                                                 <div className="shrink-0 mt-[2px]">{link.icon ? renderIcon(link.icon) : null}</div>
-                                                <span className="min-w-0 whitespace-normal break-words">{link.label}</span>
+                                                <span className="min-w-0 whitespace-nowrap">{link.label}</span>
                                             </div>
                                         );
 
