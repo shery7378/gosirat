@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const DriverHero = () => {
  return (
@@ -27,19 +28,19 @@ export const DriverHero = () => {
        </div>
       </div>
       <div className="flex items-center justify-start mq1050:justify-center gap-4 shrink-0 flex-wrap w-full">
-       <button className="cursor-pointer [border:none] py-5 px-6 bg-gradient-to-r from-gosirat-green to-[#2ecc71] rounded-2xl flex items-center justify-center gap-2 hover:shadow-lg hover:scale-[1.02] active:scale-95 transition-all duration-300 mq450:w-full">
+       <Link href="/register" className="cursor-pointer [border:none] py-5 px-6 bg-gradient-to-r from-gosirat-green to-[#2ecc71] rounded-2xl flex items-center justify-center gap-2 hover:shadow-lg hover:scale-[1.02] active:scale-95 transition-all duration-300 mq450:w-full no-underline">
         <div className="relative text-xl leading-5 font-medium font-sans text-gosirat-bg-light text-center">
          Become a Driver
         </div>
         <svg className="h-4 w-4 relative text-gosirat-bg-light" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
          <path strokeLinecap="round" strokeLinejoin="round" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
         </svg>
-       </button>
-       <button className="cursor-pointer border-[rgba(0,0,0,0.2)] border-solid border-[1px] py-5 px-[23px] bg-base-white rounded-2xl flex items-center justify-center hover:bg-[#e6e6e6] hover:border-[rgba(51,51,51,0.2)] hover:border-solid hover:hover:border-[1px] hover:box-border mq450:w-full">
+       </Link>
+       <Link href="/register" className="cursor-pointer border-[rgba(0,0,0,0.2)] border-solid border-[1px] py-5 px-[23px] bg-base-white rounded-2xl flex items-center justify-center hover:bg-[#e6e6e6] hover:border-[rgba(51,51,51,0.2)] hover:border-solid hover:hover:border-[1px] hover:box-border mq450:w-full no-underline">
         <div className="relative text-xl leading-5 font-medium font-sans text-gosirat-black text-center">
          Download the Driver App
         </div>
-       </button>
+       </Link>
       </div>
      </div>
     </section>
