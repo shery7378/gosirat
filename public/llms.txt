@@ -1,0 +1,18 @@
+# GoSirat - Safe School Transportation Platform
+
+## Overview
+GoSirat is a smart, safe, and transparent school transportation platform designed to connect parents, schools, and drivers. Our mission is to ensure child safety through verified drivers, live GPS tracking, and real-time notifications.
+
+## Key Features
+- **For Parents**: Live GPS tracking, real-time push notifications for pickup/drop-off, QR code child verification, and absence management.
+- **For Schools**: Complete fleet management, route optimization, driver verification, and instant communication with parents.
+- **For Drivers**: Optimized routing, earning opportunities, Green score bonuses, and verified pickup/drop-off workflows.
+
+## Safety Measures
+- 100% Verified Drivers with thorough background checks.
+- QR code scanning for secure student handovers.
+- SOS Emergency features and live ride tracking.
+
+## Contact & Support
+- Email: support@gosirat.com
+- App Availability: iOS App Store and Google Play Store

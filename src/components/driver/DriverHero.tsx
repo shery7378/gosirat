@@ -47,7 +47,8 @@ export const DriverHero = () => {
     <section className="h-[480px] mq825:h-[450px] mq450:h-[350px] flex-1 flex items-start justify-center relative isolate min-w-[300px] max-w-full mq1050:min-w-full">
      <Image
       className="w-full max-w-[350px] h-auto object-contain shrink-0"
-      loading="lazy"
+      priority
+      fetchPriority="high"
       width={350}
       height={727}
       sizes="100vw"
