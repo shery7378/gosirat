@@ -55,7 +55,7 @@ const AppDownload: React.FC<AppDownloadProps> = ({
 
                         {/* Google Play Button */}
                         <a href="#" className="flex items-center justify-center gap-[10px] bg-black border border-black rounded-[12px] py-2 hover:bg-gray-900 transition-colors h-[54px] w-[170px] no-underline">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Play_Arrow_logo.svg" alt="Google Play" className="w-[22px] h-[22px]" data-aos="fade-in" data-aos-delay="100" />
+                            <img src="/images/Google_Play_Arrow_logo.svg" alt="Google Play" className="w-[22px] h-[22px]" data-aos="fade-in" data-aos-delay="100" />
                             <div className="flex flex-col items-start justify-center">
                                 <span className="text-[10px] leading-[12px] text-gray-200 font-medium tracking-wide uppercase font-sans">GET IT ON</span>
                                 <span className="text-[18px] leading-[20px] text-white font-semibold tracking-wide font-sans">Google Play</span>

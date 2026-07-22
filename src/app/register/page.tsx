@@ -2,11 +2,21 @@
 
 import type { NextPage } from "next";
 import Image from "@/components/CustomImage";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const RegisterPage: NextPage = () => {
     const [activeCard, setActiveCard] = useState<'parent' | 'driver' | 'school'>('parent');
     const [isSubmitted, setIsSubmitted] = useState(false);
+
+    useEffect(() => {
+        let timer: NodeJS.Timeout;
+        if (isSubmitted) {
+            timer = setTimeout(() => {
+                setIsSubmitted(false);
+            }, 5000);
+        }
+        return () => clearTimeout(timer);
+    }, [isSubmitted]);
 
     const renderForm = () => {
         if (activeCard === 'parent') {
@@ -208,6 +218,7 @@ const RegisterPage: NextPage = () => {
                 <div
                     onClick={() => {
                         setActiveCard('parent');
+                        setIsSubmitted(false);
                         window.history.pushState(null, '', '?type=parent');
                     }}
                     className={`flex-1 rounded-[18px] box-border flex flex-col items-start p-6 min-w-[235px] min-h-[223px] cursor-pointer transition-all hover:shadow-md ${activeCard === 'parent' ? 'bg-gosirat-bg-light border-gosirat-green border-solid border-[2px] shadow-lg' : 'bg-white border-[rgba(0,0,0,0.1)] border-solid border-[0.7px] hover:bg-gosirat-bg-light hover:border-gosirat-green hover:border-[2px] hover:shadow-lg'}`}
@@ -234,6 +245,7 @@ const RegisterPage: NextPage = () => {
                 <div
                     onClick={() => {
                         setActiveCard('driver');
+                        setIsSubmitted(false);
                         window.history.pushState(null, '', '?type=driver');
                     }}
                     className={`flex-1 rounded-[18px] box-border flex flex-col items-start p-6 min-w-[235px] min-h-[223px] cursor-pointer transition-all hover:shadow-md ${activeCard === 'driver' ? 'bg-gosirat-bg-light border-gosirat-green border-solid border-[2px] shadow-lg' : 'bg-white border-[rgba(0,0,0,0.1)] border-solid border-[0.7px] hover:bg-gosirat-bg-light hover:border-gosirat-green hover:border-[2px] hover:shadow-lg'}`}
@@ -260,6 +272,7 @@ const RegisterPage: NextPage = () => {
                 <div
                     onClick={() => {
                         setActiveCard('school');
+                        setIsSubmitted(false);
                         window.history.pushState(null, '', '?type=school');
                     }}
                     className={`flex-1 rounded-[18px] box-border flex flex-col items-start p-6 min-w-[235px] min-h-[223px] cursor-pointer transition-all hover:shadow-md ${activeCard === 'school' ? 'bg-gosirat-bg-light border-gosirat-green border-solid border-[2px] shadow-lg' : 'bg-white border-[rgba(0,0,0,0.1)] border-solid border-[0.7px] hover:bg-gosirat-bg-light hover:border-gosirat-green hover:border-[2px] hover:shadow-lg'}`}

@@ -43,7 +43,7 @@ const Hero: NextPage = () => {
 
               {/* Google Play Button */}
               <a href="#" className="flex items-center justify-center gap-[10px] bg-black border border-[#444] rounded-xl py-2 hover:bg-gosirat-dark-alt transition-colors h-[54px] w-[180px] no-underline">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Play_Arrow_logo.svg" alt="Google Play" className="w-[24px] h-[24px]" data-aos="fade-in" data-aos-delay="100" />
+                <img src="/images/Google_Play_Arrow_logo.svg" alt="Google Play" className="w-[24px] h-[24px]" data-aos="fade-in" data-aos-delay="100" />
                 <div className="flex flex-col items-start justify-center">
                   <span className="text-[10px] leading-[12px] text-gray-200 font-medium tracking-wide uppercase font-sans">Get it on</span>
                   <span className="text-[19px] leading-[22px] text-white font-semibold tracking-wide font-sans">Google Play</span>
@@ -95,6 +95,7 @@ const Hero: NextPage = () => {
             fetchPriority="high"
             width={243}
             height={505}
+            sizes="(max-width: 1125px) 150px, 243px"
             alt="GoSirat safe school transport platform overview"
             src="/images/gosirat-home-hero-illustration.webp"
             data-aos="fade-in" data-aos-delay="200" />
@@ -104,6 +105,7 @@ const Hero: NextPage = () => {
             fetchPriority="high"
             width={385}
             height={385}
+            sizes="(max-width: 1125px) 240px, 385px"
             alt="GoSirat safe school transportation vehicle with verified drivers providing secure school pick and drop services for students."
             src="/images/gosirat-safe-school-transportation.webp"
             data-aos="fade-out" data-aos-delay="300" />

@@ -141,7 +141,7 @@ const Footer: NextPage = () => {
                             </a>
 
                             <a href="/register" className="flex h-[54px] w-[145px] shrink-0 items-center justify-center gap-[8px] rounded-xl border border-[#444] bg-black py-2 transition-colors hover:bg-gosirat-dark-alt">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Play_Arrow_logo.svg" alt="Google Play" className="h-[20px] w-[20px]" data-aos="fade-in" data-aos-delay="200" />
+                                <img src="/images/Google_Play_Arrow_logo.svg" alt="Google Play" className="h-[20px] w-[20px]" data-aos="fade-in" data-aos-delay="200" />
                                 <div className="flex flex-col items-start justify-center">
                                     <span className="text-[9px] font-medium uppercase leading-[11px] tracking-wide text-gray-200">Get it on</span>
                                     <span className="text-[15px] font-semibold leading-[20px] tracking-wide text-white">Google Play</span>
