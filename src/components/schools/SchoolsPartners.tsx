@@ -31,7 +31,6 @@ export const SchoolsPartners: NextPage = () => {
        className="w-full h-auto object-contain shrink-0"
        width={630}
        height={511}
-       sizes="100vw"
        title="GoSirat Trusted School Partners"
        alt="Schools partnering with GoSirat for safe school transportation, verified drivers, live GPS tracking, and student transportation management."
        src="/images/gosirat-school-partners.webp"

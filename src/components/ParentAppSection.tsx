@@ -44,7 +44,6 @@ const ParentAppSection: NextPage = () => {
             loading="lazy"
             width={458}
             height={448}
-            sizes="100vw"
             alt="GoSirat Parent App showing live GPS tracking, school pick and drop updates, attendance monitoring, and real-time notifications."
             title="GoSirat Parent App for School Transportation"
             src="/images/gosirat-parent-app-school-transportation.webp"

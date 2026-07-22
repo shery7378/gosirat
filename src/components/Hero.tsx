@@ -95,7 +95,6 @@ const Hero: NextPage = () => {
             fetchPriority="high"
             width={243}
             height={505}
-            sizes="100vw"
             alt="GoSirat safe school transport platform overview"
             src="/images/gosirat-home-hero-illustration.webp"
             data-aos="fade-in" data-aos-delay="200" />
@@ -105,7 +104,6 @@ const Hero: NextPage = () => {
             fetchPriority="high"
             width={385}
             height={385}
-            sizes="100vw"
             alt="GoSirat safe school transportation vehicle with verified drivers providing secure school pick and drop services for students."
             src="/images/gosirat-safe-school-transportation.webp"
             data-aos="fade-out" data-aos-delay="300" />

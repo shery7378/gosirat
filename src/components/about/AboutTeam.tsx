@@ -33,7 +33,6 @@ export const AboutTeam = () => {
                                     loading="lazy"
                                     width={530}
                                     height={280}
-                                    sizes="100vw"
                                     alt="Muhammad Haroon, Founder and CEO of GoSirat, sharing the vision for safer and smarter school transportation."
                                     title="Muhammad Haroon Founder and CEO of GoSirat"
                                     src="/images/muhammad-haroon-founder-ceo-gosirat.webp"
@@ -50,7 +49,6 @@ the products being marketed to young athletes weren’t made for kids. `}</div>
                                           className="w-[95.2px] h-[36.7px] relative"
                                           width={95.2}
                                           height={36.7}
-                                          sizes="100vw"
                                           alt=""
                                           src="/Group-1707479798.svg"
                                           data-aos="zoom-in" data-aos-delay="200" />

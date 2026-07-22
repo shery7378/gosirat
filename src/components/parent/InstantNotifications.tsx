@@ -86,7 +86,6 @@ export const InstantNotifications = () => {
             loading="lazy"
             width={483}
             height={979}
-            sizes="100vw"
             title="GoSirat Parent App Real-Time Notifications"
             alt="GoSirat Parent App showing real-time notifications for school transportation, including pickup, school arrival, and safe drop-off."
             src="/images/gosirat-parent-app-notifications.webp"
@@ -155,7 +154,6 @@ export const InstantNotifications = () => {
             className="w-full max-w-[240px] h-auto object-contain mx-auto"
             width={240}
             height={487}
-            sizes="100vw"
             title="GoSirat Parent App Real-Time Notifications"
             alt="GoSirat Parent App showing real-time notifications for school transportation, including pickup, school arrival, and safe drop-off."
             src="/images/gosirat-parent-app-notifications.webp"

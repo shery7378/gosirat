@@ -52,7 +52,6 @@ export const ParentHero = () => {
                         fetchPriority="high"
                         width={350}
                         height={727}
-                        sizes="100vw"
                         alt="GoSirat Parent App showing live GPS tracking, school pick and drop updates, QR verification, and real-time notifications for parents."
                         title="GoSirat Parent App for Safe School Transportation"
                         src="/images/gosirat-parent-app-live-gps-tracking.webp"

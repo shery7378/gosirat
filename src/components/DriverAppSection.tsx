@@ -51,7 +51,6 @@ const DriverAppSection: NextPage = () => {
                             className="w-full h-auto object-contain drop-shadow-2xl scale-[1.1]"
                             width={593}
                             height={590}
-                            sizes="100vw"
                             alt="GoSirat Driver App showing route navigation, QR verification, student attendance, and school transportation management."
                             title="GoSirat Driver App for School Transportation"
                             src="/images/gosirat-driver-app-school-transportation.webp"
@@ -84,7 +83,6 @@ const DriverAppSection: NextPage = () => {
                         className="w-full max-w-[320px] h-auto object-contain drop-shadow-xl"
                         width={320}
                         height={318}
-                        sizes="100vw"
                         alt="GoSirat Driver App showing route navigation, QR verification, student attendance, and school transportation management."
                         title="GoSirat Driver App for School Transportation"
                         src="/images/gosirat-driver-app-school-transportation.webp"

@@ -48,7 +48,6 @@ export const SchoolsVisibility: NextPage = () => {
           loading="lazy"
           width={458}
           height={448}
-          sizes="100vw"
           alt="GoSirat school transportation dashboard showing live routes, student tracking, verified handovers, and transportation analytics."
           title="GoSirat School Transportation Management Dashboard"
           src="/images/gosirat-school-transportation-dashboard.webp"

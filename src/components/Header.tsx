@@ -25,7 +25,6 @@ const Header: NextPage = () => {
                         fetchPriority="high"
                         width={160}
                         height={51}
-                        sizes="100vw"
                         alt="Logo"
                         src="/images/logo.webp"
                     />

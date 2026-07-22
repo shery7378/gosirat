@@ -52,7 +52,6 @@ export const DriverHero = () => {
       style={{ color: undefined }}
       width={350}
       height={727}
-      sizes="100vw"
       title="GoSirat Driver App for School Transportation"
       alt="GoSirat Driver App showing route management, QR verification, navigation, and student pickup for safe school transportation."
       src="/images/gosirat-driver-app-hero.webp"

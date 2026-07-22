@@ -31,7 +31,6 @@ const GreenImpact: NextPage = () => {
                         className="w-full h-full object-cover rounded-xl shrink-0 z-10 drop-shadow-2xl"
                         width={630}
                         height={511}
-                        sizes="100vw"
                         alt="GoSirat eco-friendly school transportation reducing traffic congestion and carbon emissions through shared school rides."
                         title="GoSirat Eco-Friendly School Transportation"
                         src="/images/gosirat-green-school-transportation.webp"

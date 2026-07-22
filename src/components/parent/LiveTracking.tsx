@@ -9,7 +9,6 @@ export const LiveTracking = () => {
                         className="w-[591.4px] h-[371.9px] absolute !m-0 top-[calc(50%_-_308.6px)] left-[calc(50%_-_288.2px)] rounded-[28px] object-contain shrink-0"
                         width={591.4}
                         height={371.9}
-                        sizes="100vw"
                         alt="Live GPS tracking in the GoSirat Parent App for school transportation."
                         src="/images/gosirat-live-gps-tracking.webp"
                         data-aos="zoom-in" data-aos-delay="100" />
@@ -19,7 +18,6 @@ export const LiveTracking = () => {
                             loading="lazy"
                             width={312.4}
                             height={330.9}
-                            sizes="100vw"
                             alt="Live map marker indicating school bus location"
                             src="/images/live-tracking-map-marker.webp"
                             data-aos="fade-out" data-aos-delay="200" />
@@ -28,7 +26,6 @@ export const LiveTracking = () => {
                         className="w-[347.3px] h-[232.4px] absolute !m-0 top-[401.3px] left-[0px] object-contain z-[2] shrink-0"
                         width={347.3}
                         height={232.4}
-                        sizes="100vw"
                         alt="Optimized school transport route path on map"
                         src="/images/live-tracking-route-path.webp"
                         data-aos="zoom-in" data-aos-delay="300" />
