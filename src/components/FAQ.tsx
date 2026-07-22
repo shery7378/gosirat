@@ -119,7 +119,7 @@ const FAQ: NextPage = () => {
                       }`}
                   >
                     <div className="w-full max-w-3xl flex items-start pt-0 px-0 pb-[1.2px] box-border">
-                      <div className="w-full relative leading-[24.4px] break-words whitespace-normal">
+                      <div className="w-full relative leading-[24.4px] break-words whitespace-normal max-h-[48.8px] overflow-hidden">
                         {faq.answer}
                       </div>
                     </div>
