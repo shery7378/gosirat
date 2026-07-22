@@ -21,7 +21,8 @@ const Header: NextPage = () => {
                 <Link href="/" className="shrink-0 cursor-pointer z-50 transform hover:scale-105 transition-transform duration-300">
                     <Image
                         className="w-48 md:w-56 h-auto relative max-h-full object-contain"
-                        loading="lazy"
+                        priority
+                        fetchPriority="high"
                         width={160}
                         height={51}
                         sizes="100vw"
@@ -74,7 +75,7 @@ const Header: NextPage = () => {
                 </nav>
 
                 {/* Desktop Register Button */}
-                <Link href="/register" className="shrink-0 cursor-pointer [border:none] py-3.5 px-7 bg-gradient-to-r from-gosirat-green to-[#2ecc71] h-[52px] shadow-md rounded-full flex items-center box-border gap-2 hover:shadow-lg hover:-translate-y-1 hover:scale-105 active:scale-95 no-underline transition-all duration-300 mq1125:hidden group">
+                <Link href="/register" className="shrink-0 cursor-pointer [border:none] py-3.5 px-7 bg-gradient-to-r from-gosirat-green to-[#2ecc71] h-[52px] shadow-md rounded-2xl flex items-center box-border gap-2 hover:shadow-lg hover:-translate-y-1 hover:scale-105 active:scale-95 no-underline transition-all duration-300 mq1125:hidden group">
                     <div className="relative text-base leading-5 font-semibold font-sans text-white text-left">
                         Register Here
                     </div>

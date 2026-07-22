@@ -14,15 +14,15 @@ export default function SafetyStandards() {
     return (
         <section className="bg-gradient-to-b from-gosirat-green to-[#022913] px-8 py-20 text-white mq825:px-6" data-aos="fade-up">
             <div className="mx-auto max-w-7xl">
-                <div className="mx-auto max-w-[800px] text-center flex flex-col items-center">
+                <div className="mx-auto max-w-[1200px] text-center flex flex-col items-center">
                     <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-[14px] py-[6px] text-[12px] font-medium uppercase tracking-[1.68px] text-[#F8FBF8]">
                         <span className="h-[6px] w-[6px] rounded-full bg-gosirat-accent" />
                         Fleet standards
                     </div>
-                    <h2 className="mt-4 font-sans font-semibold text-[48px] leading-[63px] tracking-[-1.5px] text-white mq825:text-[38px] mq825:leading-[48px] mq450:text-[29px] mq450:leading-9">
+                    <h2 className="mt-4 font-sans font-semibold text-[48px] leading-[63px] tracking-[-1.5px] text-white mq825:text-[38px] mq825:leading-[48px] mq450:text-[29px] mq450:leading-9 whitespace-nowrap">
                         Every vehicle meets safety standards.
                     </h2>
-                    <p className="mt-5 font-sans font-normal text-[18px] leading-[28px] tracking-normal text-[#F8FBF8]/80">
+                    <p className="mt-5 font-sans font-normal text-[18px] leading-[28px] tracking-normal text-[#F8FBF8]/80 max-w-[1050px]">
                         Every GoSirat vehicle is regularly inspected and maintained to provide a clean, comfortable, and safe journey for students.
                     </p>
                 </div>

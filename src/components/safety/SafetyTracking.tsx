@@ -13,7 +13,7 @@ export default function SafetyTracking() {
     return (
         <section id="tracking" className="bg-gosirat-bg-light px-8 py-20 mq825:px-6" data-aos="fade-up">
             <div className="mx-auto grid grid-cols-2 mq825:grid-cols-1 max-w-7xl gap-12 items-center">
-                <div className="flex flex-col items-start text-left">
+                <div className="flex flex-col items-start text-left order-2 mq825:order-1">
                     <div className="inline-flex items-center gap-2 rounded-full bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] px-[14px] py-[6px] text-[12px] font-medium uppercase tracking-[1.68px] text-gosirat-green">
                         <span className="h-[6px] w-[6px] rounded-full bg-gosirat-green" />
                         Live GPS tracking
@@ -35,7 +35,7 @@ export default function SafetyTracking() {
                         ))}
                     </div>
                 </div>
-                <div className="relative aspect-[4/5] w-full max-w-none mq825:max-w-md mq825:mx-auto overflow-hidden rounded-[28px] shadow-lg">
+                <div className="relative aspect-[4/5] w-full max-w-none mq825:max-w-md mq825:mx-auto overflow-hidden rounded-[28px] shadow-lg order-1 mq825:order-2">
                     <Image 
                         src="/images/Phone_with_live_tracking_map_202607131952.webp" 
                         alt="Live GPS tracking on GoSirat App" 

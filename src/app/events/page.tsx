@@ -95,7 +95,7 @@ export default function EventsPage() {
                                 </div>
                                 <div className="self-stretch flex flex-col items-start justify-center pt-7 px-0 pb-4 gap-4 text-left text-6xl text-gosirat-black mq825:items-center mq825:text-center mq750:text-5xl mq450:text-4xl">
                                     <div className="self-stretch flex flex-col items-start justify-center mq825:items-center">
-                                        <h1 className="m-0 self-stretch relative font-sans font-semibold text-[64px] leading-[100%] tracking-normal text-left text-gosirat-black mq825:text-center mq825:text-[51px] mq450:text-[38px]">
+                                        <h1 className="m-0 self-stretch relative font-sans font-semibold text-[64px] leading-[100%] tracking-normal text-left text-gosirat-black capitalize mq825:text-center mq825:text-[51px] mq450:text-[38px]">
                                             Community safety programs that help every ride start and end safely.
                                         </h1>
                                     </div>
@@ -180,7 +180,7 @@ export default function EventsPage() {
             </section>
 
             <section className="w-full px-[60px] py-8 mq825:px-[30px] mq450:px-4">
-                <div className="rounded-[32px] bg-gosirat-green p-10 text-white shadow-[0_20px_60px_rgba(23,105,56,0.2)] md:p-12">
+                <div className="rounded-[32px] bg-gosirat-black p-10 text-white shadow-[0_20px_60px_rgba(0,0,0,0.15)] md:p-12">
                     <div className="max-w-3xl">
                         <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#f8fbf8]">Community outreach</p>
                         <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
@@ -190,10 +190,10 @@ export default function EventsPage() {
                             We collaborate with schools, parents, and local authorities to deliver practical awareness programs that strengthen trust and promote safer road behavior.
                         </p>
                         <div className="mt-6 flex flex-wrap gap-4 mq450:flex-col w-full">
-                            <Link href="/contact-us" className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-gosirat-green transition hover:bg-[rgba(213,240,219,0.4)] flex justify-center items-center mq450:w-full">
+                            <Link href="/contact-us" className="rounded-2xl bg-white px-6 py-3 text-sm font-semibold text-gosirat-green transition hover:bg-[rgba(213,240,219,0.4)] flex justify-center items-center mq450:w-full">
                                 Contact us
                             </Link>
-                            <Link href="/register" className="rounded-full border border-white/30 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10 flex justify-center items-center mq450:w-full">
+                            <Link href="/register" className="rounded-2xl border border-white/30 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10 flex justify-center items-center mq450:w-full">
                                 Join GoSirat
                             </Link>
                         </div>

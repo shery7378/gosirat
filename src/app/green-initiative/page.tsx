@@ -17,7 +17,7 @@ export default function EnvironmentPage() {
                     <div className="absolute inset-0 bg-gradient-to-br from-[rgba(15,76,58,0.5)] to-[rgba(29,111,224,0.28)]"></div>
                 </div>
 
-                <div className="relative z-10 max-w-[820px] px-6 text-white flex flex-col items-center">
+                <div className="relative z-10 max-w-[1200px] px-6 text-white flex flex-col items-center">
                     <div className="flex justify-center" data-aos="fade-in">
                         <div className="min-h-[29px] h-auto rounded-[30px] bg-gosirat-light/5 border-gosirat-light/20 border-solid border-[0.67px] box-border flex items-center py-[6px] px-[14px] gap-[8px]">
                             <div className="h-[6px] w-[6px] shrink-0 relative rounded-full bg-gosirat-light" />
@@ -27,10 +27,10 @@ export default function EnvironmentPage() {
                         </div>
                     </div>
                     <h1 className="m-0 self-stretch relative font-sans font-semibold text-[64px] leading-[100%] tracking-normal text-center text-gosirat-bg-light mq825:text-[51px] mq450:text-[38px] mt-[22px]" data-aos="fade-up" data-aos-delay="100">
-                        Moving Every Child Toward a Cleaner Tomorrow
+                        Moving Every Child <br className="hidden md:block" /> Toward a Cleaner Tomorrow
                     </h1>
-                    <p className="self-stretch relative font-sans font-normal text-[20px] leading-[32.5px] tracking-normal text-center text-gosirat-light/80 mq450:text-base mq450:leading-[26px] mt-[22px] max-w-[800px] mx-auto" data-aos="fade-up" data-aos-delay="200">
-                        We provide simple and eco-friendly school transportation to make your daily pick and drop easier. By choosing us, you help reduce traffic and create a cleaner, healthier future for our kids.
+                    <p className="self-stretch relative font-sans font-normal text-[20px] leading-[32.5px] tracking-normal text-center text-gosirat-light/80 mq450:text-base mq450:leading-[26px] mt-[22px] max-w-[1050px] mx-auto" data-aos="fade-up" data-aos-delay="200">
+                        We provide simple and eco-friendly school transportation to make your daily pick and drop easier.<br className="hidden md:block" /> By choosing us, you help reduce traffic and create a cleaner, healthier future for our kids.
                     </p>
                     <div className="flex gap-4 justify-center mt-10 mq450:flex-col mq450:w-full" data-aos="fade-up" data-aos-delay="300">
                         <a href="#cta" className="no-underline rounded-2xl bg-gradient-to-r from-gosirat-green to-[#2ecc71] flex items-center justify-center py-4 px-6 gap-[7px] cursor-pointer hover:shadow-lg hover:scale-[1.02] active:scale-95 transition-all duration-300 mq450:w-full">
@@ -190,6 +190,7 @@ export default function EnvironmentPage() {
                     </div>
 
                     <div className="grid grid-cols-3 lg:grid-cols-2 mq825:grid-cols-1 gap-5">
+                        {/* CARD 1 */}
                         <div className="bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.12)] rounded-[20px] p-[30px_28px] mq825:p-6 flex gap-[18px] transition-all hover:bg-[rgba(255,255,255,0.09)] hover:-translate-y-1 hover:border-[rgba(255,255,255,0.25)]" data-aos="fade-up">
                             <div className="bg-[rgba(31,164,99,0.22)] text-gosirat-accent-light w-[46px] h-[46px] rounded-xl shrink-0 flex items-center justify-center">
                                 <svg className="w-[22px] h-[22px]" viewBox="0 0 24 24" fill="none"><path d="M12 3C7 3 4 7 4 12c0 5 3.5 9 8 9s8-4 8-9c0-2-1-4-2-5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /><path d="M12 21V9" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg>
@@ -199,34 +200,8 @@ export default function EnvironmentPage() {
                                 <p className="text-[13.5px] text-[rgba(255,255,255,0.65)] leading-[1.6]">Every new vehicle we add must meet high standards for fuel efficiency and low emissions.</p>
                             </div>
                         </div>
+                        {/* CARD 5 */}
                         <div className="bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.12)] rounded-[20px] p-[30px_28px] mq825:p-6 flex gap-[18px] transition-all hover:bg-[rgba(255,255,255,0.09)] hover:-translate-y-1 hover:border-[rgba(255,255,255,0.25)]" data-aos="fade-up" data-aos-delay="100">
-                            <div className="bg-[rgba(31,164,99,0.22)] text-gosirat-accent-light w-[46px] h-[46px] rounded-xl shrink-0 flex items-center justify-center">
-                                <svg className="w-[22px] h-[22px]" viewBox="0 0 24 24" fill="none"><path d="M13 3L5 14h6l-1 7 8-11h-6l1-7z" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" /></svg>
-                            </div>
-                            <div>
-                                <h4 className="text-white text-[16px] mb-2 font-bold leading-[1.1]">Renewable Energy Partnerships</h4>
-                                <p className="text-[13.5px] text-[rgba(255,255,255,0.65)] leading-[1.6]">Working with clean-energy providers to power depots and charging infrastructure.</p>
-                            </div>
-                        </div>
-                        <div className="bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.12)] rounded-[20px] p-[30px_28px] mq825:p-6 flex gap-[18px] transition-all hover:bg-[rgba(255,255,255,0.09)] hover:-translate-y-1 hover:border-[rgba(255,255,255,0.25)]" data-aos="fade-up" data-aos-delay="200">
-                            <div className="bg-[rgba(31,164,99,0.22)] text-gosirat-accent-light w-[46px] h-[46px] rounded-xl shrink-0 flex items-center justify-center">
-                                <svg className="w-[22px] h-[22px]" viewBox="0 0 24 24" fill="none"><path d="M4 7l1-3h14l1 3" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /><path d="M5 7l1 12.2A2 2 0 0 0 8 21h8a2 2 0 0 0 2-1.8L19 7" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /><path d="M9.5 11v6M14.5 11v6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg>
-                            </div>
-                            <div>
-                                <h4 className="text-white text-[16px] mb-2 font-bold leading-[1.1]">Zero-Waste Operations Goal</h4>
-                                <p className="text-[13.5px] text-[rgba(255,255,255,0.65)] leading-[1.6]">Reducing operational waste across depots, maintenance, and back-office logistics.</p>
-                            </div>
-                        </div>
-                        <div className="bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.12)] rounded-[20px] p-[30px_28px] mq825:p-6 flex gap-[18px] transition-all hover:bg-[rgba(255,255,255,0.09)] hover:-translate-y-1 hover:border-[rgba(255,255,255,0.25)]" data-aos="fade-up" data-aos-delay="300">
-                            <div className="bg-[rgba(31,164,99,0.22)] text-gosirat-accent-light w-[46px] h-[46px] rounded-xl shrink-0 flex items-center justify-center">
-                                <svg className="w-[22px] h-[22px]" viewBox="0 0 24 24" fill="none"><circle cx="8" cy="9" r="2.6" stroke="currentColor" strokeWidth="1.8" /><circle cx="17" cy="9" r="2.2" stroke="currentColor" strokeWidth="1.8" /><path d="M3.5 19c.7-3 2.4-4.6 4.5-4.6s3.8 1.6 4.5 4.6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /><path d="M13.8 14.6c1.9.2 3.3 1.8 3.9 4.4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg>
-                            </div>
-                            <div>
-                                <h4 className="text-white text-[16px] mb-2 font-bold leading-[1.1]">Local Green Job Creation</h4>
-                                <p className="text-[13.5px] text-[rgba(255,255,255,0.65)] leading-[1.6]">Building driver and technician roles within the communities GoSirat serves.</p>
-                            </div>
-                        </div>
-                        <div className="bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.12)] rounded-[20px] p-[30px_28px] mq825:p-6 flex gap-[18px] transition-all hover:bg-[rgba(255,255,255,0.09)] hover:-translate-y-1 hover:border-[rgba(255,255,255,0.25)]" data-aos="fade-up" data-aos-delay="400">
                             <div className="bg-[rgba(31,164,99,0.22)] text-gosirat-accent-light w-[46px] h-[46px] rounded-xl shrink-0 flex items-center justify-center">
                                 <svg className="w-[22px] h-[22px]" viewBox="0 0 24 24" fill="none"><path d="M4 19.5V6a2 2 0 0 1 2-2h9l5 5v10.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 4 19.5z" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" /><path d="M8 12h8M8 15.5h5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg>
                             </div>
@@ -235,13 +210,44 @@ export default function EnvironmentPage() {
                                 <p className="text-[13.5px] text-[rgba(255,255,255,0.65)] leading-[1.6]">Classroom programs that teach students the value of shared, sustainable travel.</p>
                             </div>
                         </div>
-                        <div className="bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.12)] rounded-[20px] p-[30px_28px] mq825:p-6 flex gap-[18px] transition-all hover:bg-[rgba(255,255,255,0.09)] hover:-translate-y-1 hover:border-[rgba(255,255,255,0.25)]" data-aos="fade-up" data-aos-delay="500">
+                        {/* CARD 6 */}
+                        <div className="bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.12)] rounded-[20px] p-[30px_28px] mq825:p-6 flex gap-[18px] transition-all hover:bg-[rgba(255,255,255,0.09)] hover:-translate-y-1 hover:border-[rgba(255,255,255,0.25)]" data-aos="fade-up" data-aos-delay="200">
                             <div className="bg-[rgba(31,164,99,0.22)] text-gosirat-accent-light w-[46px] h-[46px] rounded-xl shrink-0 flex items-center justify-center">
                                 <svg className="w-[22px] h-[22px]" viewBox="0 0 24 24" fill="none"><path d="M4 19V9l6-4 6 4v10" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" /><path d="M9 19v-6h4v6M14 9h5v10" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" /></svg>
                             </div>
                             <div>
                                 <h4 className="text-white text-[16px] mb-2 font-bold leading-[1.1]">Transparent Sustainability Reporting</h4>
                                 <p className="text-[13.5px] text-[rgba(255,255,255,0.65)] leading-[1.6]">Publishing clear, verifiable progress against every environmental commitment.</p>
+                            </div>
+                        </div>
+                        {/* CARD 2 */}
+                        <div className="bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.12)] rounded-[20px] p-[30px_28px] mq825:p-6 flex gap-[18px] transition-all hover:bg-[rgba(255,255,255,0.09)] hover:-translate-y-1 hover:border-[rgba(255,255,255,0.25)]" data-aos="fade-up" data-aos-delay="300">
+                            <div className="bg-[rgba(31,164,99,0.22)] text-gosirat-accent-light w-[46px] h-[46px] rounded-xl shrink-0 flex items-center justify-center">
+                                <svg className="w-[22px] h-[22px]" viewBox="0 0 24 24" fill="none"><path d="M13 3L5 14h6l-1 7 8-11h-6l1-7z" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" /></svg>
+                            </div>
+                            <div>
+                                <h4 className="text-white text-[16px] mb-2 font-bold leading-[1.1]">Renewable Energy Partnerships</h4>
+                                <p className="text-[13.5px] text-[rgba(255,255,255,0.65)] leading-[1.6]">Working with clean-energy providers to power depots and charging infrastructure.</p>
+                            </div>
+                        </div>
+                        {/* CARD 3 */}
+                        <div className="bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.12)] rounded-[20px] p-[30px_28px] mq825:p-6 flex gap-[18px] transition-all hover:bg-[rgba(255,255,255,0.09)] hover:-translate-y-1 hover:border-[rgba(255,255,255,0.25)]" data-aos="fade-up" data-aos-delay="400">
+                            <div className="bg-[rgba(31,164,99,0.22)] text-gosirat-accent-light w-[46px] h-[46px] rounded-xl shrink-0 flex items-center justify-center">
+                                <svg className="w-[22px] h-[22px]" viewBox="0 0 24 24" fill="none"><path d="M4 7l1-3h14l1 3" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /><path d="M5 7l1 12.2A2 2 0 0 0 8 21h8a2 2 0 0 0 2-1.8L19 7" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /><path d="M9.5 11v6M14.5 11v6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg>
+                            </div>
+                            <div>
+                                <h4 className="text-white text-[16px] mb-2 font-bold leading-[1.1]">Zero-Waste Operations Goal</h4>
+                                <p className="text-[13.5px] text-[rgba(255,255,255,0.65)] leading-[1.6]">Reducing operational waste across depots, maintenance, and back-office logistics.</p>
+                            </div>
+                        </div>
+                        {/* CARD 4 */}
+                        <div className="bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.12)] rounded-[20px] p-[30px_28px] mq825:p-6 flex gap-[18px] transition-all hover:bg-[rgba(255,255,255,0.09)] hover:-translate-y-1 hover:border-[rgba(255,255,255,0.25)]" data-aos="fade-up" data-aos-delay="500">
+                            <div className="bg-[rgba(31,164,99,0.22)] text-gosirat-accent-light w-[46px] h-[46px] rounded-xl shrink-0 flex items-center justify-center">
+                                <svg className="w-[22px] h-[22px]" viewBox="0 0 24 24" fill="none"><circle cx="8" cy="9" r="2.6" stroke="currentColor" strokeWidth="1.8" /><circle cx="17" cy="9" r="2.2" stroke="currentColor" strokeWidth="1.8" /><path d="M3.5 19c.7-3 2.4-4.6 4.5-4.6s3.8 1.6 4.5 4.6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /><path d="M13.8 14.6c1.9.2 3.3 1.8 3.9 4.4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg>
+                            </div>
+                            <div>
+                                <h4 className="text-white text-[16px] mb-2 font-bold leading-[1.1]">Local Green Job Creation</h4>
+                                <p className="text-[13.5px] text-[rgba(255,255,255,0.65)] leading-[1.6]">Building driver and technician roles within the communities GoSirat serves.</p>
                             </div>
                         </div>
                     </div>
@@ -380,7 +386,7 @@ export default function EnvironmentPage() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-[rgba(9,38,28,0.82)] via-[rgba(9,38,28,0.7)] to-[rgba(8,32,24,0.88)]"></div>
                 </div>
-                <div className="relative z-10 max-w-[640px] px-6 text-white" data-aos="fade-up">
+                <div className="relative z-10 max-w-[800px] px-6 text-white flex flex-col items-center" data-aos="fade-up">
                     <div className="flex justify-center">
                         <div className="min-h-[29px] h-auto rounded-[30px] bg-gosirat-light/5 border-gosirat-light/20 border-solid border-[0.67px] box-border flex items-center py-[6px] px-[14px] gap-[8px]">
                             <div className="h-[6px] w-[6px] shrink-0 relative rounded-full bg-gosirat-light" />
@@ -389,8 +395,8 @@ export default function EnvironmentPage() {
                             </div>
                         </div>
                     </div>
-                    <h2 className="m-0 mt-6 self-stretch relative font-sans font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-center text-gosirat-bg-light mq825:text-[38px] mq825:leading-[48px] mq450:text-[24px] mq450:leading-[32px] break-words">
-                        Join the Movement Toward Greener School Journeys
+                    <h2 className="m-0 mt-6 self-stretch relative font-sans font-semibold text-[48px] leading-[1.1] capitalize tracking-[-1.5px] text-center text-gosirat-bg-light mq825:text-[38px] mq825:leading-[48px] mq450:text-[24px] mq450:leading-[32px] break-words">
+                        Join the Movement <br className="hidden md:block" /> Toward Greener School Journeys
                     </h2>
                     <div className="w-full relative font-sans font-normal text-[20px] leading-[32.5px] tracking-normal text-center text-gosirat-light/80 mt-[19.7px] max-w-[600px] mx-auto">
                         Register your school or family today and be part of a cleaner, safer commute for the next generation.

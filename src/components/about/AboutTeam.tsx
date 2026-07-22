@@ -11,7 +11,7 @@ export const AboutTeam = () => {
                                     Message from Our Founder & CEO
                               </div>
                         </div>
-                        <h2 className="m-0 relative text-[44px] capitalize font-medium font-sans mq450:text-[35px] mq450:text-[26px]">
+                        <h2 className="m-0 mt-6 self-stretch relative font-sans font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-left text-gosirat-black mq825:text-[38px] mq825:leading-[48px] mq450:text-[24px] mq450:leading-[32px] break-words">
                               A Personal Mission to Make Every School Journey Safer
                         </h2>
                   </div>
@@ -27,7 +27,7 @@ export const AboutTeam = () => {
                                     <span>Thank you for believing in our vision. Together, we're building a future where every school journey is backed by trust, innovation, and care.</span>
                               </div>
                         </div>
-                        <div className="h-fit w-full max-w-[530px] rounded-xl bg-white flex flex-col items-center gap-8 text-base text-black font-manrope mq450:gap-4 flex-1 shadow-sm" data-aos="fade-out" data-aos-delay="100">
+                        <div className="md:sticky md:top-[120px] h-fit w-full max-w-[530px] rounded-xl bg-white flex flex-col items-center gap-8 text-base text-black font-manrope mq450:gap-4 flex-1 shadow-sm" data-aos="fade-out" data-aos-delay="100">
                               <Image
                                     className="self-stretch relative rounded-lg w-full h-auto object-cover shrink-0"
                                     loading="lazy"

@@ -18,13 +18,14 @@ export const ParentHero = () => {
                             </div>
                             <div className="self-stretch flex flex-col items-start justify-center pt-7 px-0 pb-4 gap-4 text-left text-6xl text-gosirat-black">
                                 <div className="self-stretch flex flex-col items-start justify-center">
-                                    <h1 className="m-0 self-stretch relative font-sans font-semibold text-[64px] leading-[100%] tracking-normal text-center text-gosirat-black mq1050:text-center mq825:text-[51px] mq825:leading-[59px] mq450:text-[38px] mq450:leading-[44px]">
+                                    <h1 className="m-0 self-stretch relative font-sans font-semibold text-[64px] leading-[100%] tracking-normal text-left text-gosirat-black mq1050:text-left mq825:text-[51px] mq825:leading-[59px] mq450:text-[38px] mq450:leading-[44px]">
                                         Never wonder where your child is again.
                                     </h1>
                                 </div>
-                                <h3 className="m-0 w-full relative font-sans font-normal text-[20px] leading-[32.5px] tracking-normal text-center text-gosirat-gray mq450:text-base mq450:leading-[26px]">
-                                    The GoSirat Parent App gives parents complete visibility and control over their child's school transportation. Track every school pick-up and drop-off in real time with live GPS tracking, receive instant notifications, verify safe handovers through QR verification, and monitor attendance—all from one easy-to-use app.
-                                </h3>
+                                <p className="m-0 w-full relative font-sans font-normal text-[20px] leading-[32.5px] tracking-normal text-left text-gosirat-gray mq450:text-base mq450:leading-[26px]">
+                                    Parents trust GoSirat to make every school journey safer, smarter, and more transparent.<br />
+                                    From live GPS tracking to verified drivers and secure QR verification, our platform gives families confidence and peace of mind every school day.
+                                </p>
                             </div>
                         </div>
                         <div className="flex items-center gap-2 shrink-0 mq450:flex-wrap">

@@ -6,8 +6,8 @@ export const DriverHero = () => {
   <section className="self-stretch overflow-hidden flex flex-col items-start pt-10 px-0 pb-5 box-border max-w-full mq450:pt-[26px] mq450:box-border" data-aos="fade-in">
    <div className="self-stretch flex items-center justify-between pt-0 px-[60px] pb-10 box-border gap-10 max-w-full flex-wrap mq825:px-[30px] mq450:px-4 mq450:pb-[52px]">
     <section className="flex flex-col items-start py-5 px-0 box-border max-w-full text-left text-xs text-gosirat-green font-sans flex-1 min-w-[300px] mq1050:min-w-full mq1050:items-center mq1050:text-center">
-     <div className="w-full max-w-[657px] flex flex-col items-start gap-6 mq1050:items-center">
-      <div className="w-full max-w-[706px] flex flex-col items-start shrink-0 mq1050:items-center">
+     <div className="w-full max-w-[800px] flex flex-col items-start gap-6 mq1050:items-center">
+      <div className="w-full max-w-[800px] flex flex-col items-start shrink-0 mq1050:items-center">
        <div className="h-[29.3px] flex items-start justify-start mq1050:justify-center">
         <div className="self-stretch rounded-full bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in" data-aos-delay="100">
          <div className="h-[6px] w-[6px] relative rounded-full bg-gosirat-green" />
@@ -19,12 +19,12 @@ export const DriverHero = () => {
        <div className="self-stretch flex flex-col items-start justify-center pt-7 px-0 pb-4 gap-4 text-left text-6xl text-gosirat-black mq1050:items-center mq1050:text-center mq750:text-5xl mq450:text-4xl">
         <div className="self-stretch flex flex-col items-start justify-center mq1050:items-center">
          <h1 className="m-0 self-stretch relative font-sans font-semibold text-[64px] leading-[100%] tracking-normal text-left text-gosirat-black mq1050:text-center mq825:text-[51px] mq825:leading-[59px] mq450:text-[38px] mq450:leading-[44px]">
-          Driver App for Safe School Transportation
+          Driver App for Safe <br className="hidden lg:block" /> School Transportation
          </h1>
         </div>
-        <h3 className="m-0 self-stretch relative font-sans font-normal text-[20px] leading-[32.5px] tracking-normal text-left text-gosirat-gray mq1050:text-center mq450:text-base mq450:leading-[26px] mt-4 max-w-[800px]">
+        <p className="m-0 self-stretch relative font-sans font-normal text-[20px] leading-[32.5px] tracking-normal text-left text-gosirat-gray mq1050:text-center mq450:text-base mq450:leading-[26px] mt-4 max-w-[1050px]">
          Join the GoSirat Driver App and become part of a trusted school transportation network. Manage assigned routes, verify student pick-up and drop-off with QR verification, navigate efficiently, and earn with confidence through a safe, reliable, and transparent platform.
-        </h3>
+        </p>
        </div>
       </div>
       <div className="flex items-center justify-start mq1050:justify-center gap-4 shrink-0 flex-wrap w-full">

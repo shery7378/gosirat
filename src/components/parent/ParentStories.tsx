@@ -23,7 +23,7 @@ export const ParentStories = ({ isAboutPage = false }: { isAboutPage?: boolean }
                     </h2>
                 </div>
                 <div className="self-stretch flex flex-col items-start pt-5 px-0 pb-0 box-border">
-                    <p className="m-0 self-stretch relative font-sans font-normal text-[18px] leading-[28px] tracking-normal text-gosirat-gray max-w-[800px]">
+                    <p className="m-0 self-stretch relative font-sans font-normal text-[18px] leading-[28px] tracking-normal text-gosirat-gray max-w-[1050px]">
                         Parents trust GoSirat to make every school journey safer, smarter, and more transparent. From live GPS tracking to verified drivers and secure QR verification, our platform gives families confidence and peace of mind every school day.
                     </p>
                 </div>

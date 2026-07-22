@@ -15,7 +15,7 @@ export const DriverVerification = () => {
       Every GoSirat Driver Is Verified Before Every School Journey
      </h2>
      <div className="self-stretch flex flex-col items-start pt-3 px-0 pb-0 text-[18px] text-gosirat-light/70">
-      <div className="max-w-[800px] relative font-sans font-normal text-[18px] leading-[28px] tracking-normal inline-block">
+      <div className="max-w-[1050px] relative font-sans font-normal text-[18px] leading-[28px] tracking-normal inline-block">
        Every GoSirat driver completes a structured verification process, including application review, professional training, certification, identity verification, and ongoing performance monitoring to ensure safe and reliable school transportation.
       </div>
      </div>

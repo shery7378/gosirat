@@ -24,9 +24,9 @@ const Hero: NextPage = () => {
                     <span className="text-gosirat-green">for modern families.</span>
                   </h1>
                 </div>
-                <h3 className="m-0 self-stretch relative font-sans font-normal text-[20px] leading-[32.5px] tracking-normal text-left text-gosirat-gray mq825:text-center mq450:text-base mq450:leading-[1.5] mt-4">
+                <p className="m-0 self-stretch relative font-sans font-normal text-[20px] leading-[32.5px] tracking-normal text-left text-gosirat-gray mq825:text-center mq450:text-base mq450:leading-[1.5] mt-4">
                   GoSirat provides safe school transportation and school pick and drop services with verified drivers, live GPS tracking, QR verification, and real-time updates. Parents, schools, and drivers stay connected through one smart transportation platform.
-                </h3>
+                </p>
               </div>
             </div>
             <div className="flex items-center gap-4 mq450:flex-wrap mt-2 mq825:justify-center w-full justify-start">
@@ -91,6 +91,8 @@ const Hero: NextPage = () => {
         <div className="min-h-[505px] w-[474px] flex flex-col items-start relative isolate mq1125:h-[350px] mq1125:w-[350px] mq825:flex-none mq825:mx-auto mq825:mt-10">
           <Image
             className="w-[243px] h-[505px] absolute top-[40px] left-[0px] object-contain shrink-0 mq1125:w-[150px] mq1125:h-[310px] mq1125:left-[0px] mq1125:top-[25px]"
+            priority
+            fetchPriority="high"
             width={243}
             height={505}
             sizes="100vw"
@@ -99,7 +101,8 @@ const Hero: NextPage = () => {
             data-aos="fade-in" data-aos-delay="200" />
           <Image
             className="w-[385px] absolute top-[170px] left-[88px] max-h-full object-contain z-[1] shrink-0 mq1125:w-[240px] mq1125:left-[55px] mq1125:top-[106px]"
-            loading="lazy"
+            priority
+            fetchPriority="high"
             width={385}
             height={385}
             sizes="100vw"
