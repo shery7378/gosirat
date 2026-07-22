@@ -1,7 +1,7 @@
 "use client";
 
 import type { NextPage } from "next";
-import Image from "next/image";
+import Image from "@/components/CustomImage";
 import { useState } from "react";
 
 const RegisterPage: NextPage = () => {

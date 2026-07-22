@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import Image from "next/image";
+import Image from "@/components/CustomImage";
 
 const Hero: NextPage = () => {
   return (

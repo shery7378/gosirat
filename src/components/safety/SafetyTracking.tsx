@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/CustomImage";
 import { CheckIcon } from "./SafetyIcons";
 
 const trackingItems = [

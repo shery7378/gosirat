@@ -1,4 +1,17 @@
 import type { NextPage, Metadata } from "next";
+import dynamic from "next/dynamic";
+import Hero from "@/components/Hero";
+import { WebPageSchema, BreadcrumbSchema } from "@/components/Schemas";
+
+// Dynamic imports for below-the-fold components to reduce unused JavaScript and improve LCP/TTI
+const TrustAndSafety = dynamic(() => import("@/components/TrustAndSafety"));
+const ParentAppSection = dynamic(() => import("@/components/ParentAppSection"));
+const GreenImpact = dynamic(() => import("@/components/GreenImpact"));
+const DriverAppSection = dynamic(() => import("@/components/DriverAppSection"));
+const CTASection = dynamic(() => import("@/components/CTASection"));
+const FeaturesList = dynamic(() => import("@/components/FeaturesList"));
+const AppDownload = dynamic(() => import("@/components/AppDownload"));
+const FAQ = dynamic(() => import("@/components/FAQ"));
 
 export const metadata: Metadata = {
   title: "Safe & Smart School Transportation Services | GoSirat",
@@ -7,17 +20,6 @@ export const metadata: Metadata = {
     canonical: "https://gosirat.com/",
   },
 };
-import Hero from "@/components/Hero";
-// import Branding from "@/components/Branding";
-import TrustAndSafety from "@/components/TrustAndSafety";
-import ParentAppSection from "@/components/ParentAppSection";
-import GreenImpact from "@/components/GreenImpact";
-import DriverAppSection from "@/components/DriverAppSection";
-import CTASection from "@/components/CTASection";
-import FeaturesList from "@/components/FeaturesList";
-import AppDownload from "@/components/AppDownload";
-import FAQ from "@/components/FAQ";
-import { WebPageSchema, BreadcrumbSchema } from "@/components/Schemas";
 
 const Homepage: NextPage = () => {
   return (
@@ -29,7 +31,6 @@ const Homepage: NextPage = () => {
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "https://gosirat.com/" }]} />
       <Hero />
-      {/* <Branding /> */}
       <TrustAndSafety />
       <ParentAppSection />
       <GreenImpact />

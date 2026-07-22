@@ -1,7 +1,7 @@
 import type { NextPage, Metadata } from "next";
 import { WebPageSchema, BreadcrumbSchema } from "@/components/Schemas";
 import AppDownload from "@/components/AppDownload";
-import Image from "next/image";
+import Image from "@/components/CustomImage";
 
 export const metadata: Metadata = {
     title: "Careers at GoSirat | Join Our School Transportation Team",

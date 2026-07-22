@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import Image from "@/components/CustomImage";
 import Link from "next/link";
 import AppDownload from "@/components/AppDownload";
 import { WebPageSchema, BreadcrumbSchema } from "@/components/Schemas";

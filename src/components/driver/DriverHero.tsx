@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/CustomImage";
 import Link from "next/link";
 
 export const DriverHero = () => {
@@ -49,6 +49,7 @@ export const DriverHero = () => {
       className="w-full max-w-[350px] h-auto object-contain shrink-0"
       priority
       fetchPriority="high"
+      style={{ color: undefined }}
       width={350}
       height={727}
       sizes="100vw"

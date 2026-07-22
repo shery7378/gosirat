@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/CustomImage";
 import { Container } from "../Container";
 
 export const DriverTraining = () => {

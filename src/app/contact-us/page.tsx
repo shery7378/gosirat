@@ -7,7 +7,7 @@ export const metadata: Metadata = {
         canonical: "https://gosirat.com/contact-us",
     },
 };
-import Image from "next/image";
+import Image from "@/components/CustomImage";
 import { WebPageSchema, BreadcrumbSchema } from "@/components/Schemas";
 
 const ContactPage: NextPage = () => {
