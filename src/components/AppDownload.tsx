@@ -8,6 +8,8 @@ interface AppDownloadProps {
     label?: string;
     heading?: string;
     description?: string;
+    primaryCtaText?: string;
+    primaryCtaLink?: string;
 }
 
 const AppDownload: React.FC<AppDownloadProps> = ({
