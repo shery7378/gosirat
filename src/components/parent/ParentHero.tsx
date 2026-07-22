@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const ParentHero = () => {
     return (
-        <section className="self-stretch overflow-hidden flex flex-col items-start pt-10 px-0 pb-5 box-border max-w-full mq450:pt-[26px] mq450:box-border" data-aos="fade-in">
+        <section className="self-stretch gosirat-bg-light overflow-hidden flex flex-col items-start pt-10 px-0 pb-5 box-border max-w-full mq450:pt-[26px] mq450:box-border" data-aos="fade-in">
             <div className="self-stretch flex items-center justify-between pt-0 px-[60px] pb-10 box-border gap-10 max-w-full flex-wrap mq450:px-4 mq450:pb-[52px]">
                 <section className="flex flex-col items-start py-5 px-0 box-border max-w-full text-center text-xs text-gosirat-green font-sans flex-1 min-w-[300px]">
                     <div className="w-full max-w-[657px] flex flex-col items-start gap-6">

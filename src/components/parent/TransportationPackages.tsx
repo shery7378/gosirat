@@ -28,7 +28,7 @@ export const TransportationPackages = () => {
   ];
 
   return (
-    <section className="self-stretch bg-base-white flex flex-col items-start py-[102.4px] px-[60px] text-left text-xs text-gosirat-green-alt font-sans mq450:py-[67px] mq450:px-4 mq450:box-border" data-aos="fade-in">
+    <section className="self-stretch bg-white flex flex-col items-start py-[102.4px] px-[60px] text-left text-xs text-gosirat-green-alt font-sans mq450:py-[67px] mq450:px-4 mq450:box-border" data-aos="fade-in">
       <div className="w-full flex flex-col items-start">
         <div className="flex flex-col items-start">
           <div className="self-stretch flex flex-col items-start">

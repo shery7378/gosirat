@@ -3,7 +3,7 @@ import Image from "@/components/CustomImage";
 
 const DriverAppSection: NextPage = () => {
     return (
-        <main className="w-full max-w-[1440px] bg-gosirat-light flex flex-col items-center p-[60px] mq1125:p-[40px] mq825:py-[39px] mq825:px-[30px] mq450:pt-[25px] mq450:pb-[25px] mq450:px-4 box-border relative gap-16 mx-auto mt-8" data-aos="zoom-in">
+        <main className="w-full  bg-gosirat-light flex flex-col items-center p-[60px] mq1125:p-[40px] mq825:py-[39px] mq825:px-[30px] mq450:pt-[25px] mq450:pb-[25px] mq450:px-4 box-border relative gap-16 mx-auto" data-aos="zoom-in">
             <section className="flex flex-col items-center gap-4 text-center z-10 relative">
                 <div className="inline-flex rounded-[30px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] items-center py-[6px] px-[14px] gap-[8px] mx-auto" data-aos="fade-in" data-aos-delay="100">
                     <div className="h-[6px] w-[6px] relative rounded-full bg-gosirat-green" />
@@ -15,7 +15,7 @@ const DriverAppSection: NextPage = () => {
                     <h2 className="m-0 mt-6 self-stretch relative font-sans font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-center text-gosirat-black mq825:text-[38px] mq825:leading-[48px] mq450:text-[24px] mq450:leading-[32px] break-words">
                         Driver App for Safe & Smart School Transportation
                     </h2>
-                    <div className="w-full relative font-sans font-normal text-[20px] leading-[32.5px] tracking-normal text-center text-gosirat-gray max-w-[1050px] mt-[19.7px]">
+                    <div className="w-full relative font-sans font-normal text-[20px] leading-[32.5px] tracking-normal text-center text-gosirat-gray max-w-[1250px] mt-[19.7px]">
                         The GoSirat Driver App is designed to help drivers deliver safe, efficient, and reliable school transportation services. From smart route navigation and QR verification to student attendance, earnings management, and real-time support, the app simplifies daily operations so drivers can focus on providing a safe and smooth school journey for every student.
                     </div>
                 </div>

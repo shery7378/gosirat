@@ -241,7 +241,7 @@ const RegisterPage: NextPage = () => {
                 <h1 className="m-0 relative font-sans font-semibold text-[64px] leading-[100%] tracking-normal text-center text-gosirat-black inline-block max-w-full">
                     Join GoSirat Today
                 </h1>
-                <p className="m-0 relative font-sans font-normal text-[20px] leading-[32.5px] tracking-normal text-center text-gosirat-gray inline-block max-w-[800px]">
+                <p className="m-0 relative font-sans font-normal text-[20px] leading-[32.5px] tracking-normal text-center text-gosirat-gray inline-block max-w-[1200px]">
                     Start your journey with GoSirat. Whether you're a parent looking for safe school transportation, a driver seeking reliable earning opportunities, or a school wanting smarter transportation management, we're here to help. Complete the form below, and our team will contact you within one business day.
                 </p>
             </header>

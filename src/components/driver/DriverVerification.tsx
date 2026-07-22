@@ -1,6 +1,6 @@
 export const DriverVerification = () => {
  return (
-  <section className="w-full bg-gosirat-black flex flex-col items-start py-[100px] px-[60px] box-border mq450:py-[65px] mq450:px-4 mq450:box-border">
+  <section className="w-full bg-[#0C140F] flex flex-col items-start py-[100px] px-[60px] box-border mq450:py-[65px] mq450:px-4 mq450:box-border">
    <section className="w-full flex flex-col items-start text-left text-xs text-gosirat-light font-sans">
     <div className="self-stretch flex flex-col items-start gap-2.5">
      <div className="self-stretch h-[29.3px] flex items-start">

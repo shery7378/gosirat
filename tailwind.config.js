@@ -30,6 +30,7 @@ module.exports = {
         "gosirat-text": "#202A32",
         "gosirat-text-dark": "#101828",
         "gosirat-darker": "#09131a",
+        "bg-gosirat-black": "#1F252E",
       },
       keyframes: {
         marquee: {

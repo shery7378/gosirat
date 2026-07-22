@@ -2,7 +2,7 @@ import Image from "@/components/CustomImage";
 
 export const GoSiratSolution = () => {
     return (
-        <section className="self-stretch flex flex-col items-start py-[100px] px-[60px] box-border max-w-full mq450:py-[65px] mq450:px-4 mq450:box-border" data-aos="fade-in">
+        <section className="self-stretch gosirat-bg-light flex flex-col items-start py-[100px] px-[60px] box-border max-w-full mq450:py-[65px] mq450:px-4 mq450:box-border" data-aos="fade-in">
             <div className="w-full h-auto flex items-end justify-between py-0 px-0 box-border gap-[135.7px] flex-wrap xl:gap-10 lg:gap-10 mq1125:gap-10 mq1125:flex-col mq1125:items-center mq450:gap-[34px] mq450:px-0 mq450:box-border">
                 <section className="h-auto w-full max-w-[580.3px] flex flex-col items-start text-left text-xs text-gosirat-green-alt font-sans flex-1 min-w-[300px]">
                     <div className="w-full h-auto flex flex-col items-start max-w-[768px] mq450:max-w-full">

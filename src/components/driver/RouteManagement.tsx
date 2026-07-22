@@ -4,7 +4,7 @@ import { Container } from "../Container";
 
 export const RouteManagement = () => {
  return (
-  <section className="self-stretch bg-gosirat-light flex flex-col items-center py-[100px] px-[60px] box-border max-w-full mq450:py-[65px] mq450:px-4 mq450:box-border">
+  <section className="self-stretch bg-white flex flex-col items-center py-[100px] px-[60px] box-border max-w-full mq450:py-[65px] mq450:px-4 mq450:box-border">
    <Container className="flex items-center justify-between gap-12 lg:flex-wrap">
     <div className="flex-1 min-w-[400px] flex justify-center mq450:min-w-full">
      <Image

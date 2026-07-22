@@ -2,7 +2,7 @@ import Image from "@/components/CustomImage";
 
 export const LiveTracking = () => {
     return (
-        <section className="self-stretch bg-base-white overflow-hidden flex flex-col items-start py-20 px-[60px] box-border max-w-full mq450:py-[52px] mq450:px-4 mq450:box-border mq450:pt-[34px] mq450:pb-[34px] mq450:box-border" data-aos="zoom-in">
+        <section className="self-stretch bg-white overflow-hidden flex flex-col items-start py-20 px-[60px] box-border max-w-full mq450:py-[52px] mq450:px-4 mq450:box-border mq450:pt-[34px] mq450:pb-[34px] mq450:box-border" data-aos="zoom-in">
             <div className="self-stretch flex items-center justify-between gap-[60px] max-w-full mq1125:flex-col mq450:gap-[30px] mq450:flex-wrap">
                 <div className="h-[645px] w-full max-w-[594px] rounded-[28px] bg-[#fcfaf5] overflow-hidden shrink-0 flex flex-col items-start relative isolate mq450:min-w-full mq450:flex-1" data-aos="fade-out" data-aos-delay="100">
                     <Image
@@ -68,86 +68,86 @@ export const LiveTracking = () => {
                                 <svg width="72" height="44" viewBox="0 0 72 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <defs>
                                         <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
-                                            <stop offset="0%" stopColor="#FFE033"/>
-                                            <stop offset="50%" stopColor="#FFC107"/>
-                                            <stop offset="100%" stopColor="#E6A800"/>
+                                            <stop offset="0%" stopColor="#FFE033" />
+                                            <stop offset="50%" stopColor="#FFC107" />
+                                            <stop offset="100%" stopColor="#E6A800" />
                                         </linearGradient>
                                         <linearGradient id="roofGrad" x1="0" y1="0" x2="0" y2="1">
-                                            <stop offset="0%" stopColor="#FFD000"/>
-                                            <stop offset="100%" stopColor="#FFA000"/>
+                                            <stop offset="0%" stopColor="#FFD000" />
+                                            <stop offset="100%" stopColor="#FFA000" />
                                         </linearGradient>
                                         <linearGradient id="wheelGrad" x1="0" y1="0" x2="0" y2="1">
-                                            <stop offset="0%" stopColor="#555"/>
-                                            <stop offset="100%" stopColor="#111"/>
+                                            <stop offset="0%" stopColor="#555" />
+                                            <stop offset="100%" stopColor="#111" />
                                         </linearGradient>
                                         <linearGradient id="windowGrad" x1="0" y1="0" x2="0" y2="1">
-                                            <stop offset="0%" stopColor="#B3E5FC"/>
-                                            <stop offset="100%" stopColor="#4FC3F7"/>
+                                            <stop offset="0%" stopColor="#B3E5FC" />
+                                            <stop offset="100%" stopColor="#4FC3F7" />
                                         </linearGradient>
                                         <filter id="busShadow">
-                                            <feDropShadow dx="0" dy="2" stdDeviation="2" floodColor="#00000044"/>
+                                            <feDropShadow dx="0" dy="2" stdDeviation="2" floodColor="#00000044" />
                                         </filter>
                                     </defs>
 
                                     {/* Drop Shadow */}
-                                    <ellipse cx="36" cy="43" rx="30" ry="3" fill="rgba(0,0,0,0.15)"/>
+                                    <ellipse cx="36" cy="43" rx="30" ry="3" fill="rgba(0,0,0,0.15)" />
 
                                     {/* Main bus body */}
-                                    <rect x="2" y="8" width="62" height="28" rx="4" fill="url(#bodyGrad)" filter="url(#busShadow)"/>
+                                    <rect x="2" y="8" width="62" height="28" rx="4" fill="url(#bodyGrad)" filter="url(#busShadow)" />
 
                                     {/* Roof highlight */}
-                                    <rect x="4" y="8" width="58" height="6" rx="3" fill="url(#roofGrad)"/>
-                                    <rect x="6" y="9" width="54" height="2" rx="1" fill="rgba(255,255,255,0.35)"/>
+                                    <rect x="4" y="8" width="58" height="6" rx="3" fill="url(#roofGrad)" />
+                                    <rect x="6" y="9" width="54" height="2" rx="1" fill="rgba(255,255,255,0.35)" />
 
                                     {/* Black stripe */}
-                                    <rect x="2" y="22" width="62" height="3" fill="#212121"/>
+                                    <rect x="2" y="22" width="62" height="3" fill="#212121" />
 
                                     {/* Windows */}
-                                    <rect x="8" y="11" width="10" height="9" rx="1.5" fill="url(#windowGrad)" stroke="#0288D1" strokeWidth="0.5"/>
-                                    <rect x="21" y="11" width="10" height="9" rx="1.5" fill="url(#windowGrad)" stroke="#0288D1" strokeWidth="0.5"/>
-                                    <rect x="34" y="11" width="10" height="9" rx="1.5" fill="url(#windowGrad)" stroke="#0288D1" strokeWidth="0.5"/>
-                                    <rect x="47" y="11" width="10" height="9" rx="1.5" fill="url(#windowGrad)" stroke="#0288D1" strokeWidth="0.5"/>
+                                    <rect x="8" y="11" width="10" height="9" rx="1.5" fill="url(#windowGrad)" stroke="#0288D1" strokeWidth="0.5" />
+                                    <rect x="21" y="11" width="10" height="9" rx="1.5" fill="url(#windowGrad)" stroke="#0288D1" strokeWidth="0.5" />
+                                    <rect x="34" y="11" width="10" height="9" rx="1.5" fill="url(#windowGrad)" stroke="#0288D1" strokeWidth="0.5" />
+                                    <rect x="47" y="11" width="10" height="9" rx="1.5" fill="url(#windowGrad)" stroke="#0288D1" strokeWidth="0.5" />
                                     {/* Window highlights */}
-                                    <rect x="9" y="12" width="3" height="2" rx="0.5" fill="rgba(255,255,255,0.6)"/>
-                                    <rect x="22" y="12" width="3" height="2" rx="0.5" fill="rgba(255,255,255,0.6)"/>
-                                    <rect x="35" y="12" width="3" height="2" rx="0.5" fill="rgba(255,255,255,0.6)"/>
-                                    <rect x="48" y="12" width="3" height="2" rx="0.5" fill="rgba(255,255,255,0.6)"/>
+                                    <rect x="9" y="12" width="3" height="2" rx="0.5" fill="rgba(255,255,255,0.6)" />
+                                    <rect x="22" y="12" width="3" height="2" rx="0.5" fill="rgba(255,255,255,0.6)" />
+                                    <rect x="35" y="12" width="3" height="2" rx="0.5" fill="rgba(255,255,255,0.6)" />
+                                    <rect x="48" y="12" width="3" height="2" rx="0.5" fill="rgba(255,255,255,0.6)" />
 
                                     {/* Front hood / nose */}
-                                    <path d="M64 12 L70 16 L70 32 L64 32 Z" fill="#E6A800" stroke="#C68600" strokeWidth="0.5"/>
+                                    <path d="M64 12 L70 16 L70 32 L64 32 Z" fill="#E6A800" stroke="#C68600" strokeWidth="0.5" />
 
                                     {/* Headlight */}
-                                    <rect x="65" y="14" width="5" height="5" rx="1" fill="#FFF9C4" stroke="#F9A825" strokeWidth="0.5"/>
-                                    <rect x="65.5" y="14.5" width="2" height="2" rx="0.3" fill="white"/>
+                                    <rect x="65" y="14" width="5" height="5" rx="1" fill="#FFF9C4" stroke="#F9A825" strokeWidth="0.5" />
+                                    <rect x="65.5" y="14.5" width="2" height="2" rx="0.3" fill="white" />
 
                                     {/* Rear tail light */}
-                                    <rect x="1" y="14" width="3" height="5" rx="1" fill="#EF5350"/>
-                                    <rect x="1" y="21" width="3" height="3" rx="0.5" fill="#FF8A65"/>
+                                    <rect x="1" y="14" width="3" height="5" rx="1" fill="#EF5350" />
+                                    <rect x="1" y="21" width="3" height="3" rx="0.5" fill="#FF8A65" />
 
                                     {/* Bumpers */}
-                                    <rect x="2" y="32" width="62" height="3" rx="1" fill="#333"/>
-                                    <rect x="64" y="28" width="6" height="7" rx="2" fill="#424242"/>
-                                    <rect x="1" y="28" width="3" height="7" rx="1" fill="#424242"/>
+                                    <rect x="2" y="32" width="62" height="3" rx="1" fill="#333" />
+                                    <rect x="64" y="28" width="6" height="7" rx="2" fill="#424242" />
+                                    <rect x="1" y="28" width="3" height="7" rx="1" fill="#424242" />
 
                                     {/* Wheels */}
-                                    <circle cx="16" cy="38" r="6" fill="url(#wheelGrad)"/>
-                                    <circle cx="16" cy="38" r="3.5" fill="#888"/>
-                                    <circle cx="16" cy="38" r="1.5" fill="#DDD"/>
-                                    <circle cx="54" cy="38" r="6" fill="url(#wheelGrad)"/>
-                                    <circle cx="54" cy="38" r="3.5" fill="#888"/>
-                                    <circle cx="54" cy="38" r="1.5" fill="#DDD"/>
+                                    <circle cx="16" cy="38" r="6" fill="url(#wheelGrad)" />
+                                    <circle cx="16" cy="38" r="3.5" fill="#888" />
+                                    <circle cx="16" cy="38" r="1.5" fill="#DDD" />
+                                    <circle cx="54" cy="38" r="6" fill="url(#wheelGrad)" />
+                                    <circle cx="54" cy="38" r="3.5" fill="#888" />
+                                    <circle cx="54" cy="38" r="1.5" fill="#DDD" />
                                     {/* Wheel bolts */}
-                                    <circle cx="16" cy="35.5" r="0.7" fill="#555"/>
-                                    <circle cx="16" cy="40.5" r="0.7" fill="#555"/>
-                                    <circle cx="13.5" cy="38" r="0.7" fill="#555"/>
-                                    <circle cx="18.5" cy="38" r="0.7" fill="#555"/>
-                                    <circle cx="54" cy="35.5" r="0.7" fill="#555"/>
-                                    <circle cx="54" cy="40.5" r="0.7" fill="#555"/>
-                                    <circle cx="51.5" cy="38" r="0.7" fill="#555"/>
-                                    <circle cx="56.5" cy="38" r="0.7" fill="#555"/>
+                                    <circle cx="16" cy="35.5" r="0.7" fill="#555" />
+                                    <circle cx="16" cy="40.5" r="0.7" fill="#555" />
+                                    <circle cx="13.5" cy="38" r="0.7" fill="#555" />
+                                    <circle cx="18.5" cy="38" r="0.7" fill="#555" />
+                                    <circle cx="54" cy="35.5" r="0.7" fill="#555" />
+                                    <circle cx="54" cy="40.5" r="0.7" fill="#555" />
+                                    <circle cx="51.5" cy="38" r="0.7" fill="#555" />
+                                    <circle cx="56.5" cy="38" r="0.7" fill="#555" />
 
                                     {/* SCHOOL BUS text stripe */}
-                                    <rect x="8" y="25" width="54" height="6" rx="1" fill="#CC8800" opacity="0.4"/>
+                                    <rect x="8" y="25" width="54" height="6" rx="1" fill="#CC8800" opacity="0.4" />
                                     <text x="35" y="30" textAnchor="middle" fill="#5D3A00" fontSize="4" fontWeight="bold" fontFamily="Arial">SCHOOL BUS</text>
                                 </svg>
                             </div>

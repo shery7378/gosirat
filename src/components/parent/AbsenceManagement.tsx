@@ -2,7 +2,7 @@ import Image from "@/components/CustomImage";
 
 export const AbsenceManagement = () => {
     return (
-        <section className="self-stretch bg-base-white flex items-center justify-between py-16 px-[60px] box-border gap-10 max-w-full mq1125:flex-col mq1125:items-center mq450:gap-5 mq450:py-[60px] mq450:box-border mq450:flex-wrap mq450:px-4">
+        <section className="self-stretch bg-white flex items-center justify-between py-16 px-[60px] box-border gap-10 max-w-full mq1125:flex-col mq1125:items-center mq450:gap-5 mq450:py-[60px] mq450:box-border mq450:flex-wrap mq450:px-4">
             <div className="w-full max-w-[580.3px] flex flex-col items-center justify-center relative isolate mq450:min-w-full mq450:flex-1">
                 {/* Main Card: Will Ahmed be absent? */}
                 <div className="w-[398px] relative bg-white rounded-[24px] shadow-[0px_12px_24px_rgba(0,0,0,0.08)] border-2 border-solid border-gosirat-green/30 p-6 flex flex-col gap-5 z-[1] shrink-0 font-sans mq450:w-full" data-aos="fade-in" data-aos-delay="100">

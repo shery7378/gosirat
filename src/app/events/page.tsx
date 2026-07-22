@@ -153,11 +153,17 @@ export default function EventsPage() {
                 </div>
             </section>
 
-            <section className="w-full px-[60px] py-8 mq825:px-[30px] mq450:px-4">
-                <div className="rounded-[32px] border border-[rgba(23,105,56,0.15)] bg-white p-8 shadow-[0_20px_60px_rgba(15,23,42,0.08)] md:p-10">
-                    <div className="grid grid-cols-1 gap-10 xl:grid-cols-[1.1fr_0.9fr] xl:items-start">
+            <section className="self-stretch bg-white flex flex-col items-start py-[100px] px-[60px] box-border max-w-full mq450:py-[65px] mq450:px-4 mq450:box-border">
+                <div className="self-stretch grid grid-cols-1 gap-10 xl:grid-cols-[1.1fr_0.9fr] xl:items-center max-w-full">
                         <div>
-                            <p className="relative font-sans font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-gosirat-green">Why families and schools join</p>
+                            <div className="h-[29.3px] flex items-start justify-start">
+                                <div className="rounded-full bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]">
+                                    <div className="h-[6px] w-[6px] relative rounded-full bg-gosirat-green" />
+                                    <div className="relative font-sans font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-gosirat-green">
+                                        Why families and schools join
+                                    </div>
+                                </div>
+                            </div>
                             <h2 className="m-0 mt-3 self-stretch relative font-sans font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-gosirat-black mq825:text-[38px] mq450:text-[24px] mq450:leading-[32px] break-words">
                                 Practical learning that makes school transport safer every day.
                             </h2>
@@ -175,28 +181,39 @@ export default function EventsPage() {
                                 ))}
                             </ul>
                         </div>
-                    </div>
                 </div>
             </section>
 
-            <section className="w-full px-[60px] py-8 mq825:px-[30px] mq450:px-4">
-                <div className="rounded-[32px] bg-gosirat-black p-10 text-white shadow-[0_20px_60px_rgba(0,0,0,0.15)] md:p-12">
-                    <div className="max-w-3xl">
-                        <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#f8fbf8]">Community outreach</p>
-                        <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
-                            Bring a safety event to your school or community.
-                        </h2>
-                        <p className="mt-4 text-lg leading-8 text-[rgba(248,251,248,0.8)]">
-                            We collaborate with schools, parents, and local authorities to deliver practical awareness programs that strengthen trust and promote safer road behavior.
-                        </p>
-                        <div className="mt-6 flex flex-wrap gap-4 mq450:flex-col w-full">
-                            <Link href="/contact-us" className="rounded-2xl bg-white px-6 py-3 text-sm font-semibold text-gosirat-green transition hover:bg-[rgba(213,240,219,0.4)] flex justify-center items-center mq450:w-full">
-                                Contact us
-                            </Link>
-                            <Link href="/register" className="rounded-2xl border border-white/30 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10 flex justify-center items-center mq450:w-full">
-                                Join GoSirat
-                            </Link>
+            <section className="w-full bg-[#0C140F] px-[60px] py-[100px] box-border mq825:px-[30px] mq450:py-[65px] mq450:px-4 text-white">
+                <div className="max-w-3xl">
+                    <div className="h-[29.3px] flex items-start justify-start mb-3">
+                        <div className="rounded-full bg-[rgba(213,240,219,0.1)] border-[rgba(23,105,56,0.3)] border-solid border-[0.67px] box-border flex items-center py-[6px] px-[14px] gap-[8px]">
+                            <div className="h-[6px] w-[6px] relative rounded-full bg-base-white" />
+                            <div className="relative font-sans font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-[rgba(255,255,255,0.8)]">
+                                Community outreach
+                            </div>
                         </div>
+                    </div>
+                    <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
+                        Bring a safety event to your school or community.
+                    </h2>
+                    <p className="mt-4 text-lg leading-8 text-[rgba(248,251,248,0.8)]">
+                        We collaborate with schools, parents, and local authorities to deliver practical awareness programs that strengthen trust and promote safer road behavior.
+                    </p>
+                    <div className="mt-6 flex flex-wrap gap-4 mq450:flex-col w-full">
+                        <Link href="/contact-us" className="cursor-pointer border-none py-4 px-6 bg-gradient-to-r from-gosirat-green to-[#2ecc71] rounded-2xl flex items-center justify-center gap-2 hover:shadow-lg hover:scale-[1.02] active:scale-95 transition-all duration-300 no-underline mq450:w-full">
+                            <div className="relative text-xl leading-5 font-medium font-sans text-gosirat-bg-light text-center">
+                                Contact us
+                            </div>
+                            <svg className="h-4 w-4 relative text-gosirat-bg-light" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M4 12h16m0 0l-6-6m6 6l-6 6" />
+                            </svg>
+                        </Link>
+                        <Link href="/register" className="cursor-pointer border-[rgba(0,0,0,0.2)] border-solid border-[1px] py-4 px-6 bg-white rounded-2xl flex items-center justify-center hover:bg-[#e6e6e6] hover:border-[rgba(51,51,51,0.2)] transition-all duration-300 no-underline mq450:w-full">
+                            <div className="relative text-xl leading-5 font-medium font-sans text-gosirat-black text-center">
+                                Join GoSirat
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </section>

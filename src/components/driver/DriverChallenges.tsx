@@ -1,6 +1,6 @@
 export const DriverChallenges = () => {
  return (
-  <section className="self-stretch bg-base-white flex flex-col items-start py-[100px] px-[60px] mq450:py-[65px] mq450:px-4 mq450:box-border">
+  <section className="self-stretch bg-white flex flex-col items-start py-[100px] px-[60px] mq450:py-[65px] mq450:px-4 mq450:box-border">
    <div className="self-stretch flex flex-col items-start">
     <section className="w-full flex flex-col items-start max-w-[768px] text-left text-xs text-gosirat-green-alt font-sans mq450:max-w-full">
      <div className="self-stretch flex flex-col items-start">
