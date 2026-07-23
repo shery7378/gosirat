@@ -7,7 +7,10 @@ import { useState, useEffect } from "react";
 const RegisterPage: NextPage = () => {
     const [activeCard, setActiveCard] = useState<'parent' | 'driver' | 'school'>('parent');
     const [isSubmitted, setIsSubmitted] = useState(false);
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const [errorMessage, setErrorMessage] = useState<string | null>(null);
     const [vehicleType, setVehicleType] = useState<string>('');
+    const [trackingCode, setTrackingCode] = useState<string>('');
 
     useEffect(() => {
         let timer: NodeJS.Timeout;
@@ -18,6 +21,28 @@ const RegisterPage: NextPage = () => {
         }
         return () => clearTimeout(timer);
     }, [isSubmitted]);
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            const url = new URL(window.location.href);
+            const params = url.searchParams;
+            // Will check for ?tracking_code=XYZ or ?ref=XYZ, otherwise fallback to the default one you showed
+            const code = params.get('tracking_code') || params.get('ref') || '';
+            setTrackingCode(code);
+            
+            const type = params.get('type');
+            if (type === 'driver' || type === 'school' || type === 'parent') {
+                setActiveCard(type);
+            }
+
+            // Hide the tracking code from the visible URL
+            if (params.has('tracking_code') || params.has('ref')) {
+                params.delete('tracking_code');
+                params.delete('ref');
+                window.history.replaceState({}, document.title, url.toString());
+            }
+        }
+    }, []);
 
     const renderForm = () => {
         if (activeCard === 'parent') {
@@ -31,12 +56,14 @@ const RegisterPage: NextPage = () => {
                         <input
                             className="h-[50px] flex-1 rounded-[10px] bg-white border border-gray-300 box-border px-4 w-full min-w-[220px] outline-none focus:ring-[3px] focus:ring-gosirat-green/20 focus:border-gosirat-green font-sans text-base text-gosirat-text-dark placeholder:text-[#a0aab2] transition-all duration-300 shadow-sm hover:border-gray-400"
                             type="text"
+                            name="name"
                             placeholder="Enter your full name"
                             required
                         />
                         <input
                             className="h-[50px] flex-1 rounded-[10px] bg-white border border-gray-300 box-border px-4 w-full min-w-[220px] outline-none focus:ring-[3px] focus:ring-gosirat-green/20 focus:border-gosirat-green font-sans text-base text-gosirat-text-dark placeholder:text-[#a0aab2] transition-all duration-300 shadow-sm hover:border-gray-400"
                             type="tel"
+                            name="phone"
                             placeholder="+92 300 1234567"
                             pattern="^(?:\+92|0092|0)?\d{10}$"
                             title="Pakistan: 11 digits or 10 digits without the leading 0 (after country code)"
@@ -47,12 +74,14 @@ const RegisterPage: NextPage = () => {
                         <input
                             className="h-[50px] flex-1 rounded-[10px] bg-white border border-gray-300 box-border px-4 w-full min-w-[220px] outline-none focus:ring-[3px] focus:ring-gosirat-green/20 focus:border-gosirat-green font-sans text-base text-gosirat-text-dark placeholder:text-[#a0aab2] transition-all duration-300 shadow-sm hover:border-gray-400"
                             type="text"
+                            name="area"
                             placeholder="House No, Street, Area"
                             required
                         />
                         <input
                             className="h-[50px] flex-1 rounded-[10px] bg-white border border-gray-300 box-border px-4 w-full min-w-[220px] outline-none focus:ring-[3px] focus:ring-gosirat-green/20 focus:border-gosirat-green font-sans text-base text-gosirat-text-dark placeholder:text-[#a0aab2] transition-all duration-300 shadow-sm hover:border-gray-400"
                             type="text"
+                            name="school_name"
                             placeholder="School name and complete address"
                             required
                         />
@@ -61,6 +90,7 @@ const RegisterPage: NextPage = () => {
                         <select
                             className="h-[50px] flex-1 rounded-[10px] bg-white border border-gray-300 box-border px-4 w-full min-w-[220px] outline-none focus:ring-[3px] focus:ring-gosirat-green/20 focus:border-gosirat-green font-sans text-base text-gosirat-text-dark invalid:text-[#a0aab2] transition-all duration-300 shadow-sm hover:border-gray-400 appearance-none bg-[url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23176938%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E')] bg-[length:12px_auto] bg-no-repeat bg-[position:right_16px_center] pr-10 cursor-pointer"
                             required
+                            name="city"
                             defaultValue=""
                         >
                             <option value="" disabled hidden>City</option>
@@ -71,6 +101,7 @@ const RegisterPage: NextPage = () => {
                     <div className="self-stretch rounded-[10px] bg-white border border-gray-300 flex items-start p-4 transition-all duration-300 shadow-sm hover:border-gray-400 focus-within:ring-[3px] focus-within:ring-gosirat-green/20 focus-within:border-gosirat-green">
                         <textarea
                             className="w-full min-h-[164px] [border:none] [outline:none] font-sans text-base bg-[transparent] resize-none text-gosirat-text-dark placeholder:text-gosirat-gray-light leading-[18.2px]"
+                            name="message"
                             placeholder="Tell us about your child's transportation requirements, preferred pickup time, or any special instructions."
                             rows={6}
                         ></textarea>
@@ -90,12 +121,14 @@ const RegisterPage: NextPage = () => {
                         <input
                             className="h-[50px] flex-1 rounded-[10px] bg-white border border-gray-300 box-border px-4 w-full min-w-[220px] outline-none focus:ring-[3px] focus:ring-gosirat-green/20 focus:border-gosirat-green font-sans text-base text-gosirat-text-dark placeholder:text-[#a0aab2] transition-all duration-300 shadow-sm hover:border-gray-400"
                             type="text"
+                            name="name"
                             placeholder="Enter your full name"
                             required
                         />
                         <input
                             className="h-[50px] flex-1 rounded-[10px] bg-white border border-gray-300 box-border px-4 w-full min-w-[220px] outline-none focus:ring-[3px] focus:ring-gosirat-green/20 focus:border-gosirat-green font-sans text-base text-gosirat-text-dark placeholder:text-[#a0aab2] transition-all duration-300 shadow-sm hover:border-gray-400"
                             type="tel"
+                            name="phone"
                             placeholder="+92 300 1234567"
                             pattern="^(?:\+92|0092|0)?\d{10}$"
                             title="Pakistan: 11 digits or 10 digits without the leading 0 (after country code)"
@@ -106,6 +139,7 @@ const RegisterPage: NextPage = () => {
                         <select 
                             className="h-[50px] flex-1 rounded-[10px] bg-white border border-gray-300 box-border px-4 w-full min-w-[220px] outline-none focus:ring-[3px] focus:ring-gosirat-green/20 focus:border-gosirat-green font-sans text-base text-gosirat-text-dark invalid:text-[#a0aab2] transition-all duration-300 shadow-sm hover:border-gray-400 appearance-none bg-[url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23176938%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E')] bg-[length:12px_auto] bg-no-repeat bg-[position:right_16px_center] pr-10 cursor-pointer"
                             required
+                            name="vehicle_type"
                             value={vehicleType}
                             onChange={(e) => setVehicleType(e.target.value)}
                         >
@@ -116,6 +150,7 @@ const RegisterPage: NextPage = () => {
                         <select 
                             className="h-[50px] flex-1 rounded-[10px] bg-white border border-gray-300 box-border px-4 w-full min-w-[220px] outline-none focus:ring-[3px] focus:ring-gosirat-green/20 focus:border-gosirat-green font-sans text-base text-gosirat-text-dark invalid:text-[#a0aab2] transition-all duration-300 shadow-sm hover:border-gray-400 appearance-none bg-[url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23176938%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E')] bg-[length:12px_auto] bg-no-repeat bg-[position:right_16px_center] pr-10 cursor-pointer"
                             required
+                            name="has_license"
                             defaultValue=""
                         >
                             <option value="" disabled hidden>Do you have a driving license?</option>
@@ -128,18 +163,21 @@ const RegisterPage: NextPage = () => {
                             <input
                                 className="h-[50px] flex-1 rounded-[10px] bg-white border border-gray-300 box-border px-4 w-full min-w-[220px] outline-none focus:ring-[3px] focus:ring-gosirat-green/20 focus:border-gosirat-green font-sans text-base text-gosirat-text-dark placeholder:text-[#a0aab2] transition-all duration-300 shadow-sm hover:border-gray-400"
                                 type="text"
+                                name="company_name"
                                 placeholder="Company Name (e.g., Toyota)"
                                 required
                             />
                             <input
                                 className="h-[50px] flex-1 rounded-[10px] bg-white border border-gray-300 box-border px-4 w-full min-w-[220px] outline-none focus:ring-[3px] focus:ring-gosirat-green/20 focus:border-gosirat-green font-sans text-base text-gosirat-text-dark placeholder:text-[#a0aab2] transition-all duration-300 shadow-sm hover:border-gray-400"
                                 type="text"
+                                name="car_model"
                                 placeholder="Car Model (e.g., Corolla 2020)"
                                 required
                             />
                             <input
                                 className="h-[50px] flex-1 rounded-[10px] bg-white border border-gray-300 box-border px-4 w-full min-w-[220px] outline-none focus:ring-[3px] focus:ring-gosirat-green/20 focus:border-gosirat-green font-sans text-base text-gosirat-text-dark placeholder:text-[#a0aab2] transition-all duration-300 shadow-sm hover:border-gray-400"
                                 type="number"
+                                name="number_of_seats"
                                 placeholder="Number of Seats"
                                 min="2"
                                 required
@@ -150,6 +188,7 @@ const RegisterPage: NextPage = () => {
                         <select
                             className="h-[50px] flex-1 rounded-[10px] bg-white border border-gray-300 box-border px-4 w-full min-w-[220px] outline-none focus:ring-[3px] focus:ring-gosirat-green/20 focus:border-gosirat-green font-sans text-base text-gosirat-text-dark invalid:text-[#a0aab2] transition-all duration-300 shadow-sm hover:border-gray-400 appearance-none bg-[url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23176938%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E')] bg-[length:12px_auto] bg-no-repeat bg-[position:right_16px_center] pr-10 cursor-pointer"
                             required
+                            name="city"
                             defaultValue=""
                         >
                             <option value="" disabled hidden>City</option>
@@ -160,6 +199,7 @@ const RegisterPage: NextPage = () => {
                     <div className="self-stretch rounded-[10px] bg-white border border-gray-300 flex items-start p-4 transition-all duration-300 shadow-sm hover:border-gray-400 focus-within:ring-[3px] focus-within:ring-gosirat-green/20 focus-within:border-gosirat-green">
                         <textarea
                             className="w-full min-h-[164px] [border:none] [outline:none] font-sans text-base bg-[transparent] resize-none text-gosirat-text-dark placeholder:text-gosirat-gray-light leading-[18.2px]"
+                            name="message"
                             placeholder="Tell us about your driving experience, availability, city, or any additional information."
                             rows={6}
                         ></textarea>
@@ -179,12 +219,14 @@ const RegisterPage: NextPage = () => {
                         <input
                             className="h-[50px] flex-1 rounded-[10px] bg-white border border-gray-300 box-border px-4 w-full min-w-[220px] outline-none focus:ring-[3px] focus:ring-gosirat-green/20 focus:border-gosirat-green font-sans text-base text-gosirat-text-dark placeholder:text-[#a0aab2] transition-all duration-300 shadow-sm hover:border-gray-400"
                             type="text"
+                            name="school_name"
                             placeholder="Enter school name"
                             required
                         />
                         <input
                             className="h-[50px] flex-1 rounded-[10px] bg-white border border-gray-300 box-border px-4 w-full min-w-[220px] outline-none focus:ring-[3px] focus:ring-gosirat-green/20 focus:border-gosirat-green font-sans text-base text-gosirat-text-dark placeholder:text-[#a0aab2] transition-all duration-300 shadow-sm hover:border-gray-400"
                             type="text"
+                            name="name"
                             placeholder="Principal / Administrator / Transport Manager"
                             required
                         />
@@ -193,6 +235,7 @@ const RegisterPage: NextPage = () => {
                         <input
                             className="h-[50px] flex-1 rounded-[10px] bg-white border border-gray-300 box-border px-4 w-full min-w-[220px] outline-none focus:ring-[3px] focus:ring-gosirat-green/20 focus:border-gosirat-green font-sans text-base text-gosirat-text-dark placeholder:text-[#a0aab2] transition-all duration-300 shadow-sm hover:border-gray-400"
                             type="tel"
+                            name="phone"
                             placeholder="+92 300 1234567"
                             pattern="^(?:\+92|0092|0)?\d{10}$"
                             title="Pakistan: 11 digits or 10 digits without the leading 0 (after country code)"
@@ -201,6 +244,7 @@ const RegisterPage: NextPage = () => {
                         <input
                             className="h-[50px] flex-1 rounded-[10px] bg-white border border-gray-300 box-border px-4 w-full min-w-[220px] outline-none focus:ring-[3px] focus:ring-gosirat-green/20 focus:border-gosirat-green font-sans text-base text-gosirat-text-dark placeholder:text-[#a0aab2] transition-all duration-300 shadow-sm hover:border-gray-400"
                             type="email"
+                            name="email"
                             placeholder="school@example.com"
                         />
                     </div>
@@ -208,6 +252,7 @@ const RegisterPage: NextPage = () => {
                         <select
                             className="h-[50px] flex-1 rounded-[10px] bg-white border border-gray-300 box-border px-4 w-full min-w-[220px] outline-none focus:ring-[3px] focus:ring-gosirat-green/20 focus:border-gosirat-green font-sans text-base text-gosirat-text-dark invalid:text-[#a0aab2] transition-all duration-300 shadow-sm hover:border-gray-400 appearance-none bg-[url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23176938%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E')] bg-[length:12px_auto] bg-no-repeat bg-[position:right_16px_center] pr-10 cursor-pointer"
                             required
+                            name="city"
                             defaultValue=""
                         >
                             <option value="" disabled hidden>City</option>
@@ -218,6 +263,7 @@ const RegisterPage: NextPage = () => {
                     <div className="self-stretch rounded-[10px] bg-white border border-gray-300 flex items-start p-4 transition-all duration-300 shadow-sm hover:border-gray-400 focus-within:ring-[3px] focus-within:ring-gosirat-green/20 focus-within:border-gosirat-green">
                         <textarea
                             className="w-full min-h-[164px] [border:none] [outline:none] font-sans text-base bg-[transparent] resize-none text-gosirat-text-dark placeholder:text-gosirat-gray-light leading-[18.2px]"
+                            name="message"
                             placeholder="Tell us about your school's transportation requirements, existing transport system, or any questions for our team."
                             rows={6}
                         ></textarea>
@@ -344,17 +390,58 @@ const RegisterPage: NextPage = () => {
                 <section className="w-full rounded-[10px] bg-[#F3F7F4] flex flex-col items-start justify-center p-7 box-border max-w-[970px] text-left text-base text-gosirat-gray-light font-sans mq450:pt-5 mq450:pb-5 mq450:box-border mq975:max-w-full shadow-sm">
                     <form 
                         className="self-stretch flex flex-col items-start gap-5 max-w-full"
-                        onSubmit={(e) => { e.preventDefault(); setIsSubmitted(true); }}
+                        onSubmit={async (e) => {
+                            e.preventDefault();
+                            const formElement = e.currentTarget;
+                            setIsSubmitting(true);
+                            setErrorMessage(null);
+                            
+                            try {
+                                const formData = new FormData(formElement);
+                                const payload = Object.fromEntries(formData.entries());
+                                payload.source = 'Website Register Form';
+                                if (trackingCode) {
+                                    payload.tracking_code = trackingCode;
+                                }
+
+                                const apiUrl = process.env.NEXT_PUBLIC_CRM_API_URL || 'http://localhost:8000';
+                                
+                                const response = await fetch(`${apiUrl}/api/leads/capture`, {
+                                    method: 'POST',
+                                    headers: {
+                                        'Content-Type': 'application/json',
+                                        'Accept': 'application/json'
+                                    },
+                                    body: JSON.stringify(payload)
+                                });
+                                
+                                if (!response.ok) {
+                                    const data = await response.json();
+                                    throw new Error(data.message || 'Registration failed.');
+                                }
+                                
+                                setIsSubmitted(true);
+                                formElement.reset();
+                            } catch (err: any) {
+                                setErrorMessage(err.message || 'Something went wrong. Please try again.');
+                            } finally {
+                                setIsSubmitting(false);
+                            }
+                        }}
                     >
                         <input type="hidden" name="lead_type" value={activeCard} />
+                        <input type="hidden" name="tracking_code" value={trackingCode} />
                         <div className="self-stretch flex flex-col items-start gap-5 max-w-full">
                             {renderForm()}
                         </div>
-                        <button type="submit" className="cursor-pointer border-none bg-gosirat-green w-full h-[60px] rounded-2xl flex items-center justify-center hover:bg-gosirat-green-dark hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 px-5 py-3 gap-3">
+                        <button disabled={isSubmitting} type="submit" className="cursor-pointer border-none bg-gosirat-green w-full h-[60px] rounded-2xl flex items-center justify-center hover:bg-gosirat-green-dark hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 px-5 py-3 gap-3 disabled:opacity-50 disabled:cursor-not-allowed">
                             <div className="relative text-lg font-semibold font-sans text-white text-center">
-                                Submit Registration
+                                {isSubmitting ? 'Submitting...' : 'Submit Registration'}
                             </div>
                         </button>
+                        {errorMessage && (
+                            <div className="w-full text-red-500 text-center font-sans mt-2">{errorMessage}</div>
+                        )}
                     </form>
                 </section>
             )}
