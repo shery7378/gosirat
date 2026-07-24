@@ -6,8 +6,8 @@ import { Container } from "./Container";
 interface AppDownloadProps {
     hideImage?: boolean;
     label?: string;
-    heading?: string;
-    description?: string;
+    heading?: React.ReactNode;
+    description?: React.ReactNode;
     primaryCtaText?: string;
     primaryCtaLink?: string;
 }
@@ -15,8 +15,19 @@ interface AppDownloadProps {
 const AppDownload: React.FC<AppDownloadProps> = ({
     hideImage,
     label = "Download",
-    heading = "Start Your Safe School Transportation Journey Today",
-    description = "Experience smart and reliable school transportation. GoSirat offers live GPS tracking, verified drivers, and real-time notifications to ensure every journey is secure from pick-up to drop-off.",
+    heading = (
+        <>
+            Start Your Safe School<br />
+            Transportation Journey Today
+        </>
+    ),
+    description = (
+        <>
+            Experience smart and reliable school transportation. GoSirat<br className="hidden md:block" />
+            offers live GPS tracking, verified drivers, and real-time notifications<br className="hidden md:block" />
+            to ensure every journey is secure from pick-up to drop-off.
+        </>
+    ),
     primaryCtaText = "Register Now",
     primaryCtaLink = "/register"
 }) => {
@@ -72,7 +83,7 @@ const AppDownload: React.FC<AppDownloadProps> = ({
                         <img
                             src="/images/gosirat-parent-app-mockup.webp"
                             alt="Parent using GoSirat App"
-                            className="w-full h-full object-cover object-[center_20%] scale-[1.4] translate-x-[5%]"
+                            className="w-full h-full object-cover object-[center_20%] scale-[1.4]"
                         />
                     </div>
                 )}
