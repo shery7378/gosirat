@@ -96,7 +96,7 @@ export const InstantNotifications = () => {
               title="GoSirat Parent App Real-Time Notifications"
               alt="GoSirat Parent App showing real-time notifications for school transportation, including pickup, school arrival, and safe drop-off."
               src="/images/gosirat-parent-app-notifications.webp"
-              data-aos="fade-up-large" data-aos-delay="600" data-aos-duration="1500" data-aos-easing="ease-out-cubic" data-aos-anchor="#desktop-notifications-container" />
+              data-aos="fade-up" data-aos-delay="800" data-aos-duration="3000" data-aos-easing="linear" data-aos-anchor="#desktop-notifications-container" />
           </div>
 
           {/* Right Cards */}
@@ -171,7 +171,7 @@ export const InstantNotifications = () => {
             title="GoSirat Parent App Real-Time Notifications"
             alt="GoSirat Parent App showing real-time notifications for school transportation, including pickup, school arrival, and safe drop-off."
             src="/images/gosirat-parent-app-notifications.webp"
-            data-aos="fade-up-large" data-aos-delay="600" data-aos-duration="1500" data-aos-easing="ease-out-cubic" data-aos-anchor="#mobile-notifications-container" />
+            data-aos="fade-up" data-aos-delay="800" data-aos-duration="2500" data-aos-easing="ease-out-cubic" data-aos-anchor="#mobile-notifications-container" />
           <div className="flex flex-col gap-4 w-full max-w-[500px]">
             <div className="rounded-[20px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[14px] px-6 gap-4 shadow-[0px_1px_2px_rgba(16,_24,_16,_0.04)]" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="300" data-aos-easing="ease-out" data-aos-anchor="#mobile-notifications-container">
               <div className="h-10 w-10 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="300" data-aos-easing="ease-out" data-aos-anchor="#mobile-notifications-container">

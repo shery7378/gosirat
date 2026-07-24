@@ -12,15 +12,15 @@ export const DriverTraining = () => {
                             Driver Training Program
                         </div>
                     </div>
-                    <h2 className="m-0 self-stretch relative font-sans font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-gosirat-black mq825:text-[38px] mq450:text-[24px] mq450:leading-[32px] break-words">
+                    <h2 className="m-0 self-stretch relative font-sans font-semibold text-[48px] leading-none tracking-[-1.5px] text-center text-gosirat-black mq825:text-[38px] mq450:text-[24px] mq450:leading-[32px] break-words">
                         Professional Driver Training for Safe School Transportation
                     </h2>
-                    <p className="m-0 self-stretch relative font-sans font-normal text-[18px] leading-[28px] tracking-normal text-gosirat-gray max-w-[800px]">
+                    <p className="m-0 w-full mx-auto relative font-sans font-normal text-[18px] leading-[28px] tracking-normal text-center text-gosirat-gray max-w-[800px]">
                         Every GoSirat driver completes a comprehensive training program covering defensive driving, child safety, communication, and emergency response before transporting students.
                     </p>
                 </div>
 
-                <div className="relative w-full flex justify-center mt-8">
+                <div className="relative w-full flex justify-center mt-8 origin-top scale-[0.5] -mb-[350px] lg:scale-[0.6] lg:-mb-[280px] xl:scale-[0.7] xl:-mb-[210px] min-[1400px]:scale-[0.85] min-[1400px]:-mb-[105px]">
                     <div className="relative w-full max-w-[340px] h-auto shrink-0">
                         <Image
                             className="w-full h-auto object-contain"
@@ -29,10 +29,10 @@ export const DriverTraining = () => {
                             alt="GoSirat driver training program covering defensive driving, child safety, communication, and emergency response."
                             width={340}
                             height={700}
-                        data-aos="fade-in" data-aos-delay="100" />
+                        data-aos="fade-up" data-aos-delay="800" data-aos-duration="3000" data-aos-easing="linear" />
 
                         {/* Floating Card Left */}
-                        <div className="absolute top-[30%] -left-[380px] bg-white rounded-[20px] shadow-[0px_8px_24px_rgba(0,0,0,0.08)] py-4 px-6 flex items-center gap-4 animate-[float_4s_ease-in-out_infinite] min-w-[260px] lg:hidden xl:flex mq750:hidden">
+                        <div className="absolute top-[30%] -left-[380px] bg-white rounded-[20px] shadow-[0px_8px_24px_rgba(0,0,0,0.08)] py-4 px-6 flex items-center gap-4 animate-[float_4s_ease-in-out_infinite] min-w-[260px] lg:hidden xl:flex mq750:hidden" data-aos="fade-right" data-aos-delay="1600" data-aos-duration="800">
                             <div className="w-10 h-10 bg-[rgba(213,240,219,0.5)] rounded-full flex items-center justify-center shrink-0">
                                 <svg className="w-5 h-5 text-gosirat-green" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -45,7 +45,7 @@ export const DriverTraining = () => {
                         </div>
 
                         {/* Floating Card Right Top */}
-                        <div className="absolute top-[20%] -right-[380px] bg-white rounded-[20px] shadow-[0px_8px_24px_rgba(0,0,0,0.08)] py-4 px-6 flex items-center gap-4 animate-[float_4.5s_ease-in-out_infinite] min-w-[260px] lg:hidden xl:flex mq750:hidden">
+                        <div className="absolute top-[20%] -right-[380px] bg-white rounded-[20px] shadow-[0px_8px_24px_rgba(0,0,0,0.08)] py-4 px-6 flex items-center gap-4 animate-[float_4.5s_ease-in-out_infinite] min-w-[260px] lg:hidden xl:flex mq750:hidden" data-aos="fade-left" data-aos-delay="2000" data-aos-duration="800">
                             <div className="w-10 h-10 bg-[rgba(213,240,219,0.5)] rounded-full flex items-center justify-center shrink-0">
                                 <svg className="w-5 h-5 text-gosirat-green" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5z" />
@@ -59,7 +59,7 @@ export const DriverTraining = () => {
                         </div>
 
                         {/* Floating Card Right Bottom */}
-                        <div className="absolute top-[60%] -right-[380px] bg-white rounded-[20px] shadow-[0px_8px_24px_rgba(0,0,0,0.08)] py-4 px-6 flex items-center gap-4 animate-[float_5s_ease-in-out_infinite] min-w-[260px] lg:hidden xl:flex mq750:hidden">
+                        <div className="absolute top-[60%] -right-[380px] bg-white rounded-[20px] shadow-[0px_8px_24px_rgba(0,0,0,0.08)] py-4 px-6 flex items-center gap-4 animate-[float_5s_ease-in-out_infinite] min-w-[260px] lg:hidden xl:flex mq750:hidden" data-aos="fade-left" data-aos-delay="2400" data-aos-duration="800">
                             <div className="w-10 h-10 bg-[rgba(213,240,219,0.5)] rounded-full flex items-center justify-center shrink-0">
                                 <svg className="w-5 h-5 text-gosirat-green" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />

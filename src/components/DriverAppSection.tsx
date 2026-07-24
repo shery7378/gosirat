@@ -29,19 +29,25 @@ const DriverAppSection: NextPage = () => {
                     
                     {/* Left Cards */}
                     <div className="flex flex-col justify-between h-[538px] w-[541px] min-w-[310px] flex-shrink relative z-20">
-                        <div className="w-[310px] self-end translate-x-[120px] bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] animate-[float_4s_ease-in-out_infinite]">
-                            <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Smart Route Navigation</div>
-                            <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Safe routes, less travel time, and efficient school transportation.</div>
+                        <div className="self-end" data-aos="fade-right" data-aos-delay="1600" data-aos-duration="800">
+                            <div className="w-[310px] translate-x-[120px] bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] animate-[float_4s_ease-in-out_infinite]">
+                                <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Smart Route Navigation</div>
+                                <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Safe routes, less travel time, and efficient school transportation.</div>
+                            </div>
                         </div>
 
-                        <div className="w-[310px] self-center bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] animate-[float_4.5s_ease-in-out_infinite]">
-                            <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">QR Verification</div>
-                            <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Secure student pickup and drop-off with identity verification.</div>
+                        <div className="self-center" data-aos="fade-right" data-aos-delay="2000" data-aos-duration="800">
+                            <div className="w-[310px] bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] animate-[float_4.5s_ease-in-out_infinite]">
+                                <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">QR Verification</div>
+                                <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Secure student pickup and drop-off with identity verification.</div>
+                            </div>
                         </div>
 
-                        <div className="w-[310px] self-start -translate-x-8 bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] animate-[float_5s_ease-in-out_infinite]">
-                            <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Safety Rewards & Incentives</div>
-                            <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Earn rewards for safe driving and quality service.</div>
+                        <div className="self-start" data-aos="fade-right" data-aos-delay="2400" data-aos-duration="800">
+                            <div className="w-[310px] -translate-x-8 bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] animate-[float_5s_ease-in-out_infinite]">
+                                <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Safety Rewards & Incentives</div>
+                                <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Earn rewards for safe driving and quality service.</div>
+                            </div>
                         </div>
                     </div>
 
@@ -55,30 +61,36 @@ const DriverAppSection: NextPage = () => {
                             title="GoSirat Driver App for School Transportation"
                             src="/images/gosirat-driver-app-school-transportation.webp"
                             priority
-                            data-aos="fade-in" data-aos-delay="100" />
+                            data-aos="fade-up" data-aos-delay="800" data-aos-duration="3000" data-aos-easing="linear" />
                     </div>
 
                     {/* Right Cards */}
                     <div className="flex flex-col justify-between h-[535px] w-[531px] min-w-[310px] mt-[106px] flex-shrink relative z-20">
-                        <div className="w-[310px] self-end bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] animate-[float_5s_ease-in-out_infinite]">
-                            <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Student Manifest</div>
-                            <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Manage student details, attendance, and trip verification.</div>
+                        <div className="self-end" data-aos="fade-left" data-aos-delay="1800" data-aos-duration="800">
+                            <div className="w-[310px] bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] animate-[float_5s_ease-in-out_infinite]">
+                                <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Student Manifest</div>
+                                <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Manage student details, attendance, and trip verification.</div>
+                            </div>
                         </div>
 
-                        <div className="w-[310px] self-start bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] animate-[float_4s_ease-in-out_infinite]">
-                            <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Earnings Dashboard</div>
-                            <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Track earnings and transparent trip records.</div>
+                        <div className="self-start" data-aos="fade-left" data-aos-delay="2200" data-aos-duration="800">
+                            <div className="w-[310px] bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] animate-[float_4s_ease-in-out_infinite]">
+                                <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Earnings Dashboard</div>
+                                <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Track earnings and transparent trip records.</div>
+                            </div>
                         </div>
 
-                        <div className="w-[310px] self-end bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] animate-[float_4.5s_ease-in-out_infinite]">
-                            <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Availability & Support</div>
-                            <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Manage schedules and get driver support anytime.</div>
+                        <div className="self-end" data-aos="fade-left" data-aos-delay="2600" data-aos-duration="800">
+                            <div className="w-[310px] bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] animate-[float_4.5s_ease-in-out_infinite]">
+                                <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Availability & Support</div>
+                                <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Manage schedules and get driver support anytime.</div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 {/* Mobile/Tablet Layout */}
-                <div className="hidden mq825:flex flex-col items-center gap-12 w-full">
+                <div id="mobile-driverapp-container" className="hidden mq825:flex flex-col items-center gap-12 w-full">
                     <Image
                         className="w-full max-w-[320px] h-auto object-contain drop-shadow-xl"
                         width={320}
@@ -86,29 +98,29 @@ const DriverAppSection: NextPage = () => {
                         alt="GoSirat Driver App showing route navigation, QR verification, student attendance, and school transportation management."
                         title="GoSirat Driver App for School Transportation"
                         src="/images/gosirat-driver-app-school-transportation.webp"
-                        data-aos="zoom-in" data-aos-delay="200" />
+                        data-aos="fade-up" data-aos-delay="800" data-aos-duration="3000" data-aos-easing="linear" data-aos-anchor="#mobile-driverapp-container" />
                     <div className="grid grid-cols-2 gap-6 w-full max-w-[800px] mq750:grid-cols-1">
-                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] flex flex-col h-full" data-aos="zoom-in" data-aos-delay="200">
+                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] flex flex-col h-full" data-aos="fade-right" data-aos-delay="200" data-aos-duration="600" data-aos-easing="ease-out" data-aos-anchor="#mobile-driverapp-container">
                             <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Smart Route Navigation</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Safe routes, less travel time, and efficient school transportation.</div>
                         </div>
-                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] flex flex-col h-full" data-aos="fade-in" data-aos-delay="300">
+                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] flex flex-col h-full" data-aos="fade-left" data-aos-delay="300" data-aos-duration="600" data-aos-easing="ease-out" data-aos-anchor="#mobile-driverapp-container">
                             <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">QR Verification</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Secure student pickup and drop-off with identity verification.</div>
                         </div>
-                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] flex flex-col h-full" data-aos="zoom-in" data-aos-delay="400">
+                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] flex flex-col h-full" data-aos="fade-right" data-aos-delay="400" data-aos-duration="600" data-aos-easing="ease-out" data-aos-anchor="#mobile-driverapp-container">
                             <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Student Manifest</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Manage student details, attendance, and trip verification.</div>
                         </div>
-                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] flex flex-col h-full" data-aos="fade-in" data-aos-delay="500">
+                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] flex flex-col h-full" data-aos="fade-left" data-aos-delay="500" data-aos-duration="600" data-aos-easing="ease-out" data-aos-anchor="#mobile-driverapp-container">
                             <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Earnings Dashboard</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Track earnings and transparent trip records.</div>
                         </div>
-                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] flex flex-col h-full" data-aos="zoom-in" data-aos-delay="600">
+                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] flex flex-col h-full" data-aos="fade-right" data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-out" data-aos-anchor="#mobile-driverapp-container">
                             <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Safety Rewards & Incentives</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Earn rewards for safe driving and quality service.</div>
                         </div>
-                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] flex flex-col h-full" data-aos="zoom-in" data-aos-delay="100">
+                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] flex flex-col h-full" data-aos="fade-left" data-aos-delay="700" data-aos-duration="600" data-aos-easing="ease-out" data-aos-anchor="#mobile-driverapp-container">
                             <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Availability & Support</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Manage schedules and get driver support anytime.</div>
                         </div>
