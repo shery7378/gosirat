@@ -3,7 +3,7 @@ import Image from "@/components/CustomImage";
 
 const DriverAppSection: NextPage = () => {
     return (
-        <main className="w-full  bg-gosirat-light flex flex-col items-center p-[60px] mq1125:p-[40px] mq825:py-[39px] mq825:px-[30px] mq450:pt-[25px] mq450:pb-[25px] mq450:px-4 box-border relative gap-16 mx-auto" data-aos="zoom-in">
+        <main className="w-full overflow-hidden bg-gosirat-light flex flex-col items-center p-[60px] mq1125:p-[40px] mq825:py-[39px] mq825:px-[30px] mq450:pt-[25px] mq450:pb-[25px] mq450:px-4 box-border relative gap-16 mx-auto" data-aos="zoom-in">
             <section className="flex flex-col items-center gap-4 text-center z-10 relative">
                 <div className="inline-flex rounded-[30px] bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] items-center py-[6px] px-[14px] gap-[8px] mx-auto" data-aos="fade-in" data-aos-delay="100">
                     <div className="h-[6px] w-[6px] relative rounded-full bg-gosirat-green" />
