@@ -36,7 +36,7 @@ const AppDownload: React.FC<AppDownloadProps> = ({
             <div className="w-full rounded-[24px] md:rounded-[40px] overflow-hidden flex flex-col md:flex-row items-center justify-between relative box-border min-h-0 md:min-h-[464px] bg-[linear-gradient(179.47deg,#176938_0.48%,#022913_98.43%)]">
 
                 {/* Text Section (Left Column) */}
-                <div className="flex flex-col gap-6 z-10 relative w-full md:w-[60%] min-[1050px]:w-[55%] xl:w-[50%] items-start text-left py-12 px-6 sm:px-8 md:py-24 md:pl-12 md:pr-4 min-[1050px]:pl-16">
+                <div className="flex flex-col gap-6 z-10 relative w-full min-[1050px]:w-[55%] xl:w-[50%] items-start text-left py-12 px-6 sm:px-8 md:py-24 md:px-12 min-[1050px]:pl-16 min-[1050px]:pr-4">
                     <div className="flex flex-col gap-4 w-full items-start">
                         <div className="inline-flex rounded-[30px] bg-white/20 items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in" data-aos-delay="100">
                             <div className="h-[6px] w-[6px] relative rounded-full bg-gray-300" />
@@ -54,9 +54,9 @@ const AppDownload: React.FC<AppDownloadProps> = ({
                         </div>
                     </div>
 
-                    <div className="flex items-center gap-4 sm:gap-8 flex-wrap w-full justify-start mt-6">
+                    <div className="flex items-center gap-3 sm:gap-8 flex-wrap w-full justify-start mt-6">
                         {/* App Store Button */}
-                        <a href="#" className="flex items-center justify-center gap-[8px] sm:gap-[10px] bg-black border border-black rounded-[12px] py-2 hover:bg-gray-900 transition-colors h-[48px] sm:h-[54px] w-[140px] sm:w-[170px] no-underline">
+                        <a href="#" className="flex items-center justify-center gap-[8px] sm:gap-[10px] bg-black border border-black rounded-[12px] py-2 hover:bg-gray-900 transition-colors h-[48px] sm:h-[54px] w-[130px] sm:w-[170px] no-underline">
                             <svg viewBox="0 0 384 512" className="w-[20px] h-[20px] sm:w-[24px] sm:h-[24px] text-white" fill="currentColor">
                                 <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z" />
                             </svg>
@@ -67,7 +67,7 @@ const AppDownload: React.FC<AppDownloadProps> = ({
                         </a>
 
                         {/* Google Play Button */}
-                        <a href="#" className="flex items-center justify-center gap-[8px] sm:gap-[10px] bg-black border border-black rounded-[12px] py-2 hover:bg-gray-900 transition-colors h-[48px] sm:h-[54px] w-[140px] sm:w-[170px] no-underline">
+                        <a href="#" className="flex items-center justify-center gap-[8px] sm:gap-[10px] bg-black border border-black rounded-[12px] py-2 hover:bg-gray-900 transition-colors h-[48px] sm:h-[54px] w-[130px] sm:w-[170px] no-underline">
                             <img src="/images/Google_Play_Arrow_logo.svg" alt="Google Play" className="w-[18px] h-[18px] sm:w-[22px] sm:h-[22px]" data-aos="fade-in" data-aos-delay="100" />
                             <div className="flex flex-col items-start justify-center">
                                 <span className="text-[9px] sm:text-[10px] leading-[10px] sm:leading-[12px] text-gray-200 font-medium tracking-wide uppercase font-sans">GET IT ON</span>
@@ -79,11 +79,11 @@ const AppDownload: React.FC<AppDownloadProps> = ({
 
                 {/* Image Section (Right Column) */}
                 {!hideImage && (
-                    <div className="absolute inset-0 w-full h-full hidden md:block pointer-events-none">
+                    <div className="absolute inset-0 w-full h-full hidden min-[1050px]:block pointer-events-none">
                         <img
                             src="/images/gosirat-parent-app-mockup.webp"
                             alt="Parent using GoSirat App"
-                            className="absolute md:left-[55%] xl:left-[728px] top-[-131px] w-[966px] h-[969px] max-w-none object-cover"
+                            className="absolute md:left-[65%] min-[1050px]:left-[55%] xl:left-[728px] top-[-131px] w-[966px] h-[969px] max-w-none object-cover"
                         />
                     </div>
                 )}

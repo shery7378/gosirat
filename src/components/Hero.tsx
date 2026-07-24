@@ -88,7 +88,7 @@ const Hero: NextPage = () => {
             </div>
           </div>
         </section>
-        <div className="min-h-[505px] w-[474px] flex flex-col items-start relative isolate mq1125:h-[350px] mq1125:w-[350px] mq825:flex-none mq825:mx-auto mq825:mt-10">
+        <div className="h-[555px] w-[474px] flex flex-col items-start relative isolate mq1125:h-[350px] mq1125:w-[350px] mq825:flex-none mq825:mx-auto mq825:mt-10 mq450:mt-6">
           <Image
             className="w-[243px] h-[505px] absolute top-[40px] left-[0px] object-contain shrink-0 mq1125:w-[150px] mq1125:h-[310px] mq1125:left-[0px] mq1125:top-[25px]"
             priority

@@ -4,7 +4,7 @@ import Link from "next/link";
 export const DriverHero = () => {
     return (
         <section className="self-stretch gosirat-bg-light overflow-hidden flex flex-col items-start pt-10 px-0 pb-5 box-border max-w-full mq450:pt-[26px] mq450:box-border" data-aos="fade-in">
-            <div className="self-stretch flex items-center justify-between pt-0 px-[60px] pb-10 box-border gap-10 max-w-full flex-wrap mq825:px-[30px] mq450:px-4 mq450:pb-[52px]">
+            <div className="self-stretch flex items-center justify-between pt-0 px-[60px] pb-10 box-border gap-10 max-w-full flex-wrap mq1050:gap-6 mq825:px-[30px] mq450:gap-2 mq450:px-4 mq450:pb-8">
                 <section className="flex flex-col items-start py-5 px-0 box-border max-w-full text-left text-xs text-gosirat-green font-sans flex-1 min-w-[300px] mq1050:min-w-full mq1050:items-center mq1050:text-center">
                     <div className="w-full max-w-[800px] flex flex-col items-start gap-6 mq1050:items-center">
                         <div className="w-full max-w-[800px] flex flex-col items-start shrink-0 mq1050:items-center">
@@ -44,7 +44,7 @@ export const DriverHero = () => {
                         </div>
                     </div>
                 </section>
-                <section className="h-[480px] mq825:h-[450px] mq450:h-[350px] flex-1 flex items-start justify-center relative isolate min-w-[300px] max-w-full mq1050:min-w-full">
+                <section className="flex-1 flex items-start justify-center relative isolate min-w-[300px] max-w-full mq1050:min-w-full">
                     <Image
                         className="w-full max-w-[350px] h-auto object-contain shrink-0"
                         priority
