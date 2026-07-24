@@ -28,19 +28,19 @@ const DriverAppSection: NextPage = () => {
                 <div className="w-full flex mq825:hidden flex-row items-start justify-center relative z-10 gap-0 origin-top scale-[0.6] -mb-[240px] lg:scale-[0.75] lg:-mb-[150px] xl:scale-[0.9] xl:-mb-[60px] min-[1400px]:scale-100 min-[1400px]:mb-0">
                     
                     {/* Left Cards */}
-                    <div className="flex flex-col justify-between h-[538px] w-[541px] min-w-[340px] flex-shrink relative z-20">
-                        <div className="w-[340px] self-end translate-x-[120px] bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[26px] animate-[float_4s_ease-in-out_infinite]">
-                            <div className="tracking-[-0.45px] leading-7 font-semibold text-gosirat-darker text-[17px]">Smart Route Navigation</div>
+                    <div className="flex flex-col justify-between h-[538px] w-[541px] min-w-[310px] flex-shrink relative z-20">
+                        <div className="w-[310px] self-end translate-x-[120px] bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] animate-[float_4s_ease-in-out_infinite]">
+                            <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Smart Route Navigation</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Safe routes, less travel time, and efficient school transportation.</div>
                         </div>
 
-                        <div className="w-[340px] self-center bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[26px] animate-[float_4.5s_ease-in-out_infinite]">
-                            <div className="tracking-[-0.45px] leading-7 font-semibold text-gosirat-darker text-[17px]">QR Verification</div>
+                        <div className="w-[310px] self-center bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] animate-[float_4.5s_ease-in-out_infinite]">
+                            <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">QR Verification</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Secure student pickup and drop-off with identity verification.</div>
                         </div>
 
-                        <div className="w-[340px] self-start -translate-x-8 bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[26px] animate-[float_5s_ease-in-out_infinite]">
-                            <div className="tracking-[-0.45px] leading-7 font-semibold text-gosirat-darker text-[17px]">Safety Rewards & Incentives</div>
+                        <div className="w-[310px] self-start -translate-x-8 bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] animate-[float_5s_ease-in-out_infinite]">
+                            <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Safety Rewards & Incentives</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Earn rewards for safe driving and quality service.</div>
                         </div>
                     </div>
@@ -59,19 +59,19 @@ const DriverAppSection: NextPage = () => {
                     </div>
 
                     {/* Right Cards */}
-                    <div className="flex flex-col justify-between h-[535px] w-[531px] min-w-[340px] mt-[106px] flex-shrink relative z-20">
-                        <div className="w-[340px] self-end bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[26px] animate-[float_5s_ease-in-out_infinite]">
-                            <div className="tracking-[-0.45px] leading-7 font-semibold text-gosirat-darker text-[17px]">Student Manifest</div>
+                    <div className="flex flex-col justify-between h-[535px] w-[531px] min-w-[310px] mt-[106px] flex-shrink relative z-20">
+                        <div className="w-[310px] self-end bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] animate-[float_5s_ease-in-out_infinite]">
+                            <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Student Manifest</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Manage student details, attendance, and trip verification.</div>
                         </div>
 
-                        <div className="w-[340px] self-start bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[26px] animate-[float_4s_ease-in-out_infinite]">
-                            <div className="tracking-[-0.45px] leading-7 font-semibold text-gosirat-darker text-[17px]">Earnings Dashboard</div>
+                        <div className="w-[310px] self-start bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] animate-[float_4s_ease-in-out_infinite]">
+                            <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Earnings Dashboard</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Track earnings and transparent trip records.</div>
                         </div>
 
-                        <div className="w-[340px] self-end bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[26px] animate-[float_4.5s_ease-in-out_infinite]">
-                            <div className="tracking-[-0.45px] leading-7 font-semibold text-gosirat-darker text-[17px]">Availability & Support</div>
+                        <div className="w-[310px] self-end bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] animate-[float_4.5s_ease-in-out_infinite]">
+                            <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Availability & Support</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Manage schedules and get driver support anytime.</div>
                         </div>
                     </div>
@@ -88,28 +88,28 @@ const DriverAppSection: NextPage = () => {
                         src="/images/gosirat-driver-app-school-transportation.webp"
                         data-aos="zoom-in" data-aos-delay="200" />
                     <div className="grid grid-cols-2 gap-6 w-full max-w-[800px] mq750:grid-cols-1">
-                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[26px] flex flex-col h-full" data-aos="zoom-in" data-aos-delay="200">
-                            <div className="tracking-[-0.45px] leading-7 font-semibold text-gosirat-darker text-[17px]">Smart Route Navigation</div>
+                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] flex flex-col h-full" data-aos="zoom-in" data-aos-delay="200">
+                            <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Smart Route Navigation</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Safe routes, less travel time, and efficient school transportation.</div>
                         </div>
-                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[26px] flex flex-col h-full" data-aos="fade-in" data-aos-delay="300">
-                            <div className="tracking-[-0.45px] leading-7 font-semibold text-gosirat-darker text-[17px]">QR Verification</div>
+                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] flex flex-col h-full" data-aos="fade-in" data-aos-delay="300">
+                            <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">QR Verification</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Secure student pickup and drop-off with identity verification.</div>
                         </div>
-                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[26px] flex flex-col h-full" data-aos="zoom-in" data-aos-delay="400">
-                            <div className="tracking-[-0.45px] leading-7 font-semibold text-gosirat-darker text-[17px]">Student Manifest</div>
+                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] flex flex-col h-full" data-aos="zoom-in" data-aos-delay="400">
+                            <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Student Manifest</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Manage student details, attendance, and trip verification.</div>
                         </div>
-                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[26px] flex flex-col h-full" data-aos="fade-in" data-aos-delay="500">
-                            <div className="tracking-[-0.45px] leading-7 font-semibold text-gosirat-darker text-[17px]">Earnings Dashboard</div>
+                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] flex flex-col h-full" data-aos="fade-in" data-aos-delay="500">
+                            <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Earnings Dashboard</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Track earnings and transparent trip records.</div>
                         </div>
-                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[26px] flex flex-col h-full" data-aos="zoom-in" data-aos-delay="600">
-                            <div className="tracking-[-0.45px] leading-7 font-semibold text-gosirat-darker text-[17px]">Safety Rewards & Incentives</div>
+                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] flex flex-col h-full" data-aos="zoom-in" data-aos-delay="600">
+                            <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Safety Rewards & Incentives</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Earn rewards for safe driving and quality service.</div>
                         </div>
-                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[26px] flex flex-col h-full" data-aos="zoom-in" data-aos-delay="100">
-                            <div className="tracking-[-0.45px] leading-7 font-semibold text-gosirat-darker text-[17px]">Availability & Support</div>
+                        <div className="bg-white shadow-[0_8px_30px_rgb(0,0,0,0.08)] rounded-[24px] border-none p-[24px] flex flex-col h-full" data-aos="zoom-in" data-aos-delay="100">
+                            <div className="tracking-[-0.45px] leading-[26px] font-semibold text-gosirat-darker text-[16px]">Availability & Support</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Manage schedules and get driver support anytime.</div>
                         </div>
                     </div>
