@@ -3,7 +3,7 @@ import Image from "@/components/CustomImage";
 
 export const AboutTeam = () => {
       return (
-            <section className="w-full bg-light-gray-30 overflow-hidden flex flex-col items-start justify-center p-[60px] box-border gap-10 max-w-full text-left text-sm text-black font-manrope mq450:gap-5 mq450:py-[39px] mq450:px-4 mq450:box-border" data-aos="fade-out">
+            <section className="w-full bg-white overflow-hidden flex flex-col items-start justify-center p-[60px] box-border gap-10 max-w-full text-left text-sm text-black font-manrope mq450:gap-5 mq450:py-[39px] mq450:px-4 mq450:box-border" data-aos="fade-out">
                   <div className="w-full max-w-[770px] flex flex-col items-start justify-center gap-3 shrink-0">
                         <div className="rounded-full bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center justify-center py-[6px] px-[14px] gap-[8px] text-gosirat-green">
                               <div className="h-[6px] w-[6px] relative rounded-full bg-gosirat-green" />
@@ -17,8 +17,8 @@ export const AboutTeam = () => {
                   </div>
                   <section className="self-stretch flex flex-col md:flex-row items-center md:items-start gap-[30px] max-w-full shrink-0 text-left text-lg text-[#101010] font-sans">
                         <div className="flex-1 flex flex-col items-start py-5 px-0 box-border w-full md:min-w-[494px] mq450:gap-4">
-                              <div className="self-stretch relative tracking-[1px] leading-7 flex flex-col gap-4">
-                                    <span className="font-semibold">GoSirat was born from a simple question that many parents ask every day: "Has my child reached school safely?" That question inspired us to build a smarter, safer, and more transparent school transportation platform for families, schools, and drivers.</span>
+                              <div className="self-stretch relative font-sans font-normal text-[18px] text-[#101010] tracking-[1px] leading-[28px] flex flex-col gap-4">
+                                    <span>GoSirat was born from a simple question that many parents ask every day: "Has my child reached school safely?" That question inspired us to build a smarter, safer, and more transparent school transportation platform for families, schools, and drivers.</span>
                                     <span>Like many parents, I watched my four-year-old daughter leave for school each morning. Although I trusted the driver, there was always a moment of uncertainty until I received confirmation that she had arrived safely.</span>
                                     <span>I soon realized this wasn't just my concern—it was a concern shared by thousands of parents every day. Families deserved more than hope; they deserved visibility, trust, and peace of mind. That vision became GoSirat.</span>
                                     <span>We built a school transportation platform that combines live GPS tracking, verified drivers, secure QR verification, and real-time notifications so parents always know where their child is and schools can manage transportation with confidence.</span>

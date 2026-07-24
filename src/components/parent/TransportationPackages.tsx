@@ -33,32 +33,32 @@ export const TransportationPackages = () => {
         <div className="flex flex-col items-start">
           <div className="self-stretch flex flex-col items-start">
             <div className="h-[29.33px] rounded-full bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in" data-aos-delay="100">
-                <div className="h-[6px] w-[6px] rounded-full bg-gosirat-green" />
-                <div className="font-sans font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-gosirat-green">
-                    TRANSPORTATION PACKAGES
-                </div>
+              <div className="h-[6px] w-[6px] rounded-full bg-gosirat-green" />
+              <div className="font-sans font-medium text-[12px] leading-[16px] tracking-[1.68px] uppercase text-gosirat-green">
+                TRANSPORTATION PACKAGES
+              </div>
             </div>
           </div>
           <div className="self-stretch flex flex-col items-start pt-6 px-0 pb-0 box-border">
-              <h2 className="m-0 self-stretch relative font-sans font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-gosirat-black mq825:text-[38px] mq450:text-[24px] mq450:leading-[32px] break-words">
-                Choose the Ride That Fits Your Family.
-              </h2>
+            <h2 className="m-0 self-stretch relative font-sans font-semibold text-[48px] leading-none capitalize tracking-[-1.5px] text-gosirat-black mq825:text-[38px] mq450:text-[24px] mq450:leading-[32px] break-words">
+              Choose the Ride That Fits Your Family.
+            </h2>
           </div>
           <div className="self-stretch flex flex-col items-start pt-5 px-0 pb-0 box-border">
-              <p className="m-0 self-stretch relative font-sans font-normal text-[18px] leading-[28px] tracking-normal text-gosirat-gray max-w-[800px]">
-                Select the school transportation package that best matches your child's travel needs, schedule, and comfort. GoSirat offers safe, flexible, and reliable school pick-up and drop-off services for every family.
-              </p>
+            <p className="m-0 self-stretch relative font-sans font-normal text-[18px] leading-[28px] tracking-normal text-gosirat-gray max-w-[800px]">
+              Select the school transportation package that best matches your child's travel needs, schedule, and comfort. GoSirat offers safe, flexible, and reliable school pick-up and drop-off services for every family.
+            </p>
           </div>
         </div>
         <section className="self-stretch flex flex-col items-start pt-12 px-0 pb-0 text-left text-xs text-gosirat-green-alt font-sans">
-          <div className="self-stretch flex items-center justify-start flex-wrap content-center gap-4">
+          <div className="self-stretch flex items-stretch justify-start flex-wrap content-center gap-4">
             {packages.map((pkg, index) => {
               const isActive = activeCard === index;
               return (
                 <div
                   key={index}
                   onClick={() => setActiveCard(index)}
-                  className={`h-[166.8px] flex-1 rounded-[22px] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7 min-w-[255px] cursor-pointer transition-all duration-300 ${isActive
+                  className={`flex-1 rounded-[22px] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7 min-w-[255px] cursor-pointer transition-all duration-300 ${isActive
                     ? "bg-gosirat-green-alt border-[#0D6332] text-[rgba(255,255,255,0.7)] shadow-lg"
                     : "bg-gosirat-light border-[rgba(0,0,0,0.05)] text-gosirat-green-alt hover:bg-[#e8ece8]"
                     }`}

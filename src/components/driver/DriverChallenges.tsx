@@ -26,7 +26,7 @@ export const DriverChallenges = () => {
     </section>
     <section className="self-stretch flex flex-col items-start pt-12 px-0 pb-0 text-left text-lg text-gosirat-darker font-sans">
      <div className="self-stretch flex items-center flex-wrap content-center gap-4">
-      <div className="h-[138.8px] flex-1 rounded-[22px] bg-white border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7 min-w-[353px] mq450:min-w-full" data-aos="fade-in" data-aos-delay="100">
+      <div className="h-[138.8px] flex-1 rounded-[22px] bg-gosirat-light border-[rgba(0,0,0,0.1)] border-solid border-[1px] box-border flex flex-col items-start py-[27px] px-7 min-w-[353px] mq450:min-w-full" data-aos="fade-in" data-aos-delay="100">
        <div className="self-stretch flex flex-col items-start">
         <div className="relative tracking-[-0.45px] leading-7 font-semibold text-gosirat-darker">
          Unorganized Routes
@@ -38,7 +38,7 @@ export const DriverChallenges = () => {
         </div>
        </div>
       </div>
-      <div className="h-[138.8px] flex-1 rounded-[22px] bg-white border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7 min-w-[353px] mq450:min-w-full" data-aos="fade-in" data-aos-delay="200">
+      <div className="h-[138.8px] flex-1 rounded-[22px] bg-gosirat-light border-[rgba(0,0,0,0.1)] border-solid border-[1px] box-border flex flex-col items-start py-[27px] px-7 min-w-[353px] mq450:min-w-full" data-aos="fade-in" data-aos-delay="200">
        <div className="self-stretch flex flex-col items-start">
         <div className="relative tracking-[-0.45px] leading-7 font-semibold text-gosirat-darker">
          Unstable Earnings
@@ -50,7 +50,7 @@ export const DriverChallenges = () => {
         </div>
        </div>
       </div>
-      <div className="h-[138.8px] flex-1 rounded-[22px] bg-white border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] box-border flex flex-col items-start py-[27px] px-7 min-w-[353px] mq450:min-w-full" data-aos="zoom-in" data-aos-delay="300">
+      <div className="h-[138.8px] flex-1 rounded-[22px] bg-gosirat-light border-[rgba(0,0,0,0.1)] border-solid border-[1px] box-border flex flex-col items-start py-[27px] px-7 min-w-[353px] mq450:min-w-full" data-aos="zoom-in" data-aos-delay="300">
        <div className="self-stretch flex flex-col items-start">
         <div className="relative tracking-[-0.45px] leading-7 font-semibold text-gosirat-darker">
          Limited Driver Support

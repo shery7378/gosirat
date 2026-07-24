@@ -70,7 +70,7 @@ export const AbsenceManagement = () => {
                 </div>
 
                 {/* Floating Pill Card: Tomorrow, 5 June */}
-                <div className="w-[300px] absolute top-2 right-0 bg-white rounded-[20px] shadow-[0px_16px_32px_rgba(0,0,0,0.12)] border border-gray-100 p-4 flex flex-col gap-3 z-[2] font-sans mq1125:relative mq1125:top-0 mq1125:mt-6 mq1125:right-auto mq450:w-[calc(100%-32px)]">
+                <div className="w-[300px] absolute top-2 right-0 bg-white rounded-[20px] shadow-[0px_16px_32px_rgba(0,0,0,0.12)] border border-gray-100 p-4 flex flex-col gap-3 z-[2] font-sans mq1125:relative mq1125:top-0 mq1125:mt-6 mq1125:right-auto mq450:w-[calc(100%-32px)] animate-[float_4s_ease-in-out_infinite]">
                     <div className="flex items-start gap-3 w-full">
                         <div className="w-10 h-10 rounded-full bg-[#f0f4f8] flex items-center justify-center shrink-0 mt-1" data-aos="fade-in" data-aos-delay="200">
                             <svg className="w-5 h-5 text-gosirat-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

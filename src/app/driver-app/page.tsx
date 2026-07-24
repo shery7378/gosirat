@@ -36,14 +36,22 @@ const DriverPage: NextPage = () => {
    <DriverHero />
    <DriverChallenges />
    {/* <GoSiratSolution /> */}
-   <DriverVerification />
+   <div className="w-full bg-white">
+     <DriverVerification />
+   </div>
    <DriverTraining />
-   <RouteManagement />
+   <div className="w-full bg-white">
+     <RouteManagement />
+   </div>
    <DriverSafeHandover />
    <DriverEarnings />
-   <ParentStories />
+   <div className="w-full bg-white">
+     <ParentStories />
+   </div>
    <AppDownload />
-   <FAQ />
+   <div className="w-full bg-white">
+     <FAQ />
+   </div>
   </div>
  );
 };

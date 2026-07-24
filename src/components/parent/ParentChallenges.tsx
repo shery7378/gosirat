@@ -25,7 +25,7 @@ export const ParentChallenges = () => {
                     </div>
                 </section>
                 <section className="self-stretch flex flex-col items-start pt-12 px-0 pb-0 text-left text-base text-base-white font-sans">
-                    <div className="self-stretch flex items-center gap-4 lg:flex-wrap mq750:flex-col">
+                    <div className="self-stretch flex items-stretch gap-4 lg:flex-wrap mq750:flex-col">
                         <div className="h-auto flex-1 rounded-[18px] bg-[rgba(255,255,255,0.05)] border-[rgba(255,255,255,0.1)] border-solid border-[0.7px] box-border flex flex-col items-start py-[23px] px-6 min-w-[308px] mq750:w-full mq750:min-w-0" data-aos="fade-in" data-aos-delay="100">
                             <div className="self-stretch flex flex-col items-start">
                                 <div className="relative tracking-[-0.32px] leading-6 font-semibold">
@@ -33,7 +33,7 @@ export const ParentChallenges = () => {
                                 </div>
                             </div>
                             <div className="w-full flex flex-col items-start pt-2 px-0 pb-0 box-border text-sm text-[rgba(255,255,255,0.7)]">
-                                <div className="w-full relative leading-[22.8px] inline-block">
+                                <div className="w-full relative leading-[22.8px] line-clamp-3">
                                     Parents shouldn't have to wonder where their child is between home and school. Without live GPS tracking and real-time updates, every school journey can feel uncertain.
                                 </div>
                             </div>
@@ -45,7 +45,7 @@ export const ParentChallenges = () => {
                                 </div>
                             </div>
                             <div className="w-full h-auto flex flex-col items-start pt-2 px-0 pb-0 box-border text-sm text-[rgba(255,255,255,0.7)]">
-                                <div className="w-full relative leading-[22.8px] inline-block">
+                                <div className="w-full relative leading-[22.8px] line-clamp-3">
                                     Important information should arrive at the right time. Parents need instant pickup, journey, arrival, and drop-off notifications—not delayed messages or unanswered questions.
                                 </div>
                             </div>
@@ -57,7 +57,7 @@ export const ParentChallenges = () => {
                                 </div>
                             </div>
                             <div className="w-full flex flex-col items-start pt-2 px-0 pb-0 box-border text-sm text-[rgba(255,255,255,0.7)]">
-                                <div className="w-full relative leading-[22.8px] inline-block">
+                                <div className="w-full relative leading-[22.8px] line-clamp-3">
                                     Every child deserves a verified and secure handover. GoSirat records pickup and drop-off through QR verification and authorized guardian confirmation, helping schools and parents stay informed and protected.
                                 </div>
                             </div>

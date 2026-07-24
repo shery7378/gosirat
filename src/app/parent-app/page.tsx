@@ -41,14 +41,22 @@ const ParentPage: NextPage = () => {
       ]} />
       <ParentHero />
       <ParentChallenges />
-      <GoSiratSolution />
+      <div className="w-full bg-white">
+        <GoSiratSolution />
+      </div>
       <HowItWorks />
-      <LiveTracking />
+      <div className="w-full bg-white">
+        <LiveTracking />
+      </div>
       <InstantNotifications />
-      <AbsenceManagement />
+      <div className="w-full bg-white">
+        <AbsenceManagement />
+      </div>
       <SafeHandover />
       <TransportationPackages />
-      <ParentStories />
+      <div className="w-full bg-white">
+        <ParentStories />
+      </div>
       <AppDownload
         label="Download the Parent App"
         heading="Start Your Child's Safer School Journey Today"
@@ -56,7 +64,9 @@ const ParentPage: NextPage = () => {
         primaryCtaText="Register as a Parent"
         primaryCtaLink="/register"
       />
-      <FAQ />
+      <div className="w-full bg-white">
+        <FAQ />
+      </div>
     </div>
   );
 };

@@ -37,9 +37,14 @@ module.exports = {
           '0%': { transform: 'translateX(0%)' },
           '100%': { transform: 'translateX(-100%)' },
         },
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-15px)' },
+        },
       },
       animation: {
         marquee: 'marquee 25s linear infinite',
+        float: 'float 3s ease-in-out infinite',
       },
     },
     screens: {

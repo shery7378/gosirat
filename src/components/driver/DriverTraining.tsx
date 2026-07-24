@@ -3,7 +3,7 @@ import { Container } from "../Container";
 
 export const DriverTraining = () => {
     return (
-        <section className="self-stretch bg-gosirat-light overflow-hidden flex flex-col items-center pt-[100px] pb-0 px-[60px] mq450:pt-[65px] mq450:pb-0 mq450:px-4 mq450:box-border">
+        <section className="self-stretch bg-gosirat-light flex flex-col items-center pt-[100px] pb-0 px-[60px] mq450:pt-[65px] mq450:pb-0 mq450:px-4 mq450:box-border">
             <Container className="w-full flex flex-col items-center gap-12">
                 <div className="flex flex-col items-center text-center gap-6">
                     <div className="h-[29.33px] rounded-full bg-[rgba(213,240,219,0.4)] border-[rgba(23,105,56,0.15)] border-solid border-[0.67px] flex items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in" data-aos-delay="100">
@@ -21,7 +21,7 @@ export const DriverTraining = () => {
                 </div>
 
                 <div className="relative w-full flex justify-center mt-8">
-                    <div className="relative w-full max-w-[340px] h-auto shrink-0 -mb-[120px]">
+                    <div className="relative w-full max-w-[340px] h-auto shrink-0">
                         <Image
                             className="w-full h-auto object-contain"
                             src="/images/gosirat-driver-training-program.webp"

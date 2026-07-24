@@ -36,14 +36,22 @@ export default function SafetyPage() {
 
             <main className="overflow-x-hidden bg-gosirat-bg-light text-[#0E1B16]">
                 <SafetyHero />
-                <SafetyTrust />
+                <div className="w-full bg-white">
+                    <SafetyTrust />
+                </div>
                 <SafetyDrivers />
-                <SafetyTracking />
+                <div className="w-full bg-white">
+                    <SafetyTracking />
+                </div>
                 <SafetyHandovers />
-                <SafetyEmergency />
+                <div className="w-full bg-white">
+                    <SafetyEmergency />
+                </div>
                 <SafetyStandards />
                 <SafetyStats />
-                <SafetyFAQ />
+                <div className="w-full bg-white">
+                    <SafetyFAQ />
+                </div>
                 <SafetyCTA />
             </main>
         </>

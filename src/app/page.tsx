@@ -31,14 +31,22 @@ const Homepage: NextPage = () => {
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "https://gosirat.com/" }]} />
       <Hero />
-      <TrustAndSafety />
+      <div className="w-full bg-white">
+        <TrustAndSafety />
+      </div>
       <ParentAppSection />
-      <GreenImpact />
+      <div className="w-full bg-white">
+        <GreenImpact />
+      </div>
       <DriverAppSection />
       <CTASection />
-      <FeaturesList />
+      <div className="w-full bg-white">
+        <FeaturesList />
+      </div>
       <AppDownload />
-      <FAQ />
+      <div className="w-full bg-white">
+        <FAQ />
+      </div>
     </div>
   );
 };

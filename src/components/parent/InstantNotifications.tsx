@@ -22,14 +22,14 @@ export const InstantNotifications = () => {
         </section>
 
         {/* Desktop Overlapping Layout (Hidden on mobile/tablet mq1125) */}
-        <div id="desktop-notifications-container" className="w-full max-w-[1200px] h-[640.8px] flex items-center justify-between relative isolate shrink-0 mq1125:hidden mx-auto overflow-hidden px-4">
+        <div id="desktop-notifications-container" className="w-full max-w-[1200px] h-[640.8px] flex items-center justify-between relative isolate shrink-0 mq1125:hidden mx-auto px-4">
 
           {/* Left Cards */}
           <div className="flex flex-col justify-center items-end gap-12 w-[320px] z-[2]">
 
             {/* Card 1 */}
-            <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 mr-4 shadow-sm" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="300" data-aos-easing="ease-out" data-aos-anchor="#desktop-notifications-container">
-              <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="300" data-aos-easing="ease-out" data-aos-anchor="#desktop-notifications-container">
+            <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 mr-4 shadow-sm animate-[float_4s_ease-in-out_infinite]">
+              <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0">
                 <svg className="h-4 w-4 relative text-gosirat-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                 </svg>
@@ -45,8 +45,8 @@ export const InstantNotifications = () => {
             </div>
 
             {/* Card 2 */}
-            <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 mr-16 shadow-sm" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="300" data-aos-easing="ease-out" data-aos-anchor="#desktop-notifications-container">
-              <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="300" data-aos-easing="ease-out" data-aos-anchor="#desktop-notifications-container">
+            <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 mr-16 shadow-sm animate-[float_4.5s_ease-in-out_infinite]">
+              <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0">
                 <svg className="h-4 w-4 relative text-gosirat-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                 </svg>
@@ -62,8 +62,8 @@ export const InstantNotifications = () => {
             </div>
 
             {/* Card 3 */}
-            <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 shadow-sm mr-8" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="300" data-aos-easing="ease-out" data-aos-anchor="#desktop-notifications-container">
-              <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="300" data-aos-easing="ease-out" data-aos-anchor="#desktop-notifications-container">
+            <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 mr-8 shadow-sm animate-[float_5s_ease-in-out_infinite]">
+              <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0">
                 <svg className="h-4 w-4 relative text-gosirat-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                 </svg>
@@ -89,14 +89,14 @@ export const InstantNotifications = () => {
             title="GoSirat Parent App Real-Time Notifications"
             alt="GoSirat Parent App showing real-time notifications for school transportation, including pickup, school arrival, and safe drop-off."
             src="/images/gosirat-parent-app-notifications.webp"
-          data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-anchor="#desktop-notifications-container" />
+            data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" data-aos-anchor="#desktop-notifications-container" />
 
           {/* Right Cards */}
           <div className="flex flex-col justify-center items-start gap-12 w-[320px] z-[2]">
 
             {/* Card 4 */}
-            <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 ml-12 shadow-sm" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="300" data-aos-easing="ease-out" data-aos-anchor="#desktop-notifications-container">
-              <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="300" data-aos-easing="ease-out" data-aos-anchor="#desktop-notifications-container">
+            <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 ml-12 shadow-sm animate-[float_4.5s_ease-in-out_infinite]">
+              <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0">
                 <svg className="h-4 w-4 relative text-gosirat-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                 </svg>
@@ -112,8 +112,8 @@ export const InstantNotifications = () => {
             </div>
 
             {/* Card 5 */}
-            <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 ml-4 shadow-sm" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="300" data-aos-easing="ease-out" data-aos-anchor="#desktop-notifications-container">
-              <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="300" data-aos-easing="ease-out" data-aos-anchor="#desktop-notifications-container">
+            <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 ml-4 shadow-sm animate-[float_5s_ease-in-out_infinite]" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="300" data-aos-easing="ease-out" data-aos-anchor="#desktop-notifications-container">
+              <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0">
                 <svg className="h-4 w-4 relative text-gosirat-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                 </svg>
@@ -129,8 +129,8 @@ export const InstantNotifications = () => {
             </div>
 
             {/* Card 6 */}
-            <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 ml-8 shadow-sm" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="300" data-aos-easing="ease-out" data-aos-anchor="#desktop-notifications-container">
-              <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="300" data-aos-easing="ease-out" data-aos-anchor="#desktop-notifications-container">
+            <div className="rounded-[18px] bg-white border-[rgba(0,0,0,0.05)] border-solid border-[0.7px] flex items-center py-[15px] px-6 gap-3 ml-8 shadow-sm animate-[float_4s_ease-in-out_infinite]" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="300" data-aos-easing="ease-out" data-aos-anchor="#desktop-notifications-container">
+              <div className="h-9 w-9 rounded-[14px] bg-[rgba(13,99,50,0.15)] flex items-center justify-center shrink-0">
                 <svg className="h-4 w-4 relative text-gosirat-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                 </svg>

@@ -25,8 +25,8 @@ export const SafeHandover = () => {
                 <section className="self-stretch flex flex-col items-start pt-12 px-0 pb-0 text-left text-xs text-gosirat-green-alt font-sans">
                     <div className="self-stretch flex items-center justify-start flex-wrap content-center gap-4">
                         <div className="h-[177.6px] flex-1 rounded-[22px] bg-[rgba(255,255,255,0.05)] border-[rgba(255,255,255,0.1)] border-solid border-[0.7px] box-border flex flex-col items-start py-[23px] px-6 min-w-[263px]" data-aos="fade-out" data-aos-delay="100">
-                            <div className="self-stretch flex flex-col items-start font-mono">
-                                <div className="relative leading-4">01</div>
+                            <div className="self-stretch flex flex-col items-start font-mono text-xl font-bold">
+                                <div className="relative leading-none">01</div>
                             </div>
                             <div className="self-stretch flex flex-col items-start pt-3 px-0 pb-0 text-base text-base-white">
                                 <div className="self-stretch flex flex-col items-start">
@@ -42,8 +42,8 @@ export const SafeHandover = () => {
                             </div>
                         </div>
                         <div className="h-[177.6px] flex-1 rounded-[22px] bg-[rgba(255,255,255,0.05)] border-[rgba(255,255,255,0.1)] border-solid border-[0.7px] box-border flex flex-col items-start py-[23px] px-6 min-w-[263px]" data-aos="zoom-in" data-aos-delay="200">
-                            <div className="self-stretch flex flex-col items-start font-mono">
-                                <div className="relative leading-4">02</div>
+                            <div className="self-stretch flex flex-col items-start font-mono text-xl font-bold">
+                                <div className="relative leading-none">02</div>
                             </div>
                             <div className="self-stretch flex flex-col items-start pt-3 px-0 pb-0 text-base text-base-white">
                                 <div className="self-stretch flex flex-col items-start">
@@ -59,8 +59,8 @@ export const SafeHandover = () => {
                             </div>
                         </div>
                         <div className="h-[177.6px] flex-1 rounded-[22px] bg-[rgba(255,255,255,0.05)] border-[rgba(255,255,255,0.1)] border-solid border-[0.7px] box-border flex flex-col items-start py-[23px] px-6 min-w-[263px]" data-aos="zoom-in" data-aos-delay="300">
-                            <div className="self-stretch flex flex-col items-start font-mono">
-                                <div className="relative leading-4">03</div>
+                            <div className="self-stretch flex flex-col items-start font-mono text-xl font-bold">
+                                <div className="relative leading-none">03</div>
                             </div>
                             <div className="self-stretch flex flex-col items-start pt-3 px-0 pb-0 text-base text-base-white">
                                 <div className="self-stretch flex flex-col items-start">
@@ -76,8 +76,8 @@ export const SafeHandover = () => {
                             </div>
                         </div>
                         <div className="h-[177.6px] flex-1 rounded-[22px] bg-[rgba(255,255,255,0.05)] border-[rgba(255,255,255,0.1)] border-solid border-[0.7px] box-border flex flex-col items-start py-[23px] px-6 min-w-[263px]" data-aos="zoom-in" data-aos-delay="400">
-                            <div className="self-stretch flex flex-col items-start font-mono">
-                                <div className="relative leading-4">04</div>
+                            <div className="self-stretch flex flex-col items-start font-mono text-xl font-bold">
+                                <div className="relative leading-none">04</div>
                             </div>
                             <div className="self-stretch flex flex-col items-start pt-3 px-0 pb-0 text-base text-base-white">
                                 <div className="self-stretch flex flex-col items-start">

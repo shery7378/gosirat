@@ -29,24 +29,24 @@ const DriverAppSection: NextPage = () => {
 
                     {/* Left Cards */}
                     <div className="flex flex-col gap-10 mq1125:gap-4 flex-1 max-w-[330px] mq1125:max-w-[240px] items-end relative z-20">
-                        <div className="w-full bg-white border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] rounded-[22px] p-[26px] mq1125:p-[16px] translate-x-8 mq1125:translate-x-2 mt-[-60px] mq1125:mt-0" data-aos="zoom-in" data-aos-delay="200">
+                        <div className="w-full bg-white border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] rounded-[22px] p-[26px] mq1125:p-[16px] translate-x-8 mq1125:translate-x-2 mt-[-60px] mq1125:mt-0 animate-[float_4s_ease-in-out_infinite]">
                             <div className="tracking-[-0.45px] leading-7 font-semibold text-gosirat-darker text-[17px]">Smart Route Navigation</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Optimized turn-by-turn navigation helps drivers follow the safest and most efficient routes while reducing travel time and improving school transportation operations.</div>
                         </div>
 
-                        <div className="w-full bg-white border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] rounded-[22px] p-[26px] mq1125:p-[16px] -translate-x-9 mq1125:-translate-x-2" data-aos="fade-out" data-aos-delay="300">
+                        <div className="w-full bg-white border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] rounded-[22px] p-[26px] mq1125:p-[16px] -translate-x-9 mq1125:-translate-x-2 animate-[float_4.5s_ease-in-out_infinite]">
                             <div className="tracking-[-0.45px] leading-7 font-semibold text-gosirat-darker text-[17px]">QR Verification</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Secure QR code verification confirms every student's identity during pickup and drop-off, ensuring safe and accurate school transportation.</div>
                         </div>
 
-                        <div className="w-full bg-white border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] rounded-[22px] p-[26px] mq1125:p-[16px] translate-x-6 mq1125:translate-x-2" data-aos="fade-in" data-aos-delay="400">
+                        <div className="w-full bg-white border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] rounded-[22px] p-[26px] mq1125:p-[16px] translate-x-6 mq1125:translate-x-2 animate-[float_5s_ease-in-out_infinite]">
                             <div className="tracking-[-0.45px] leading-7 font-semibold text-gosirat-darker text-[17px]">Safety Rewards & Incentives</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Drivers receive performance-based rewards for safe driving, punctuality, and positive parent feedback, encouraging high-quality transportation services.</div>
                         </div>
                     </div>
 
                     {/* Center Phone */}
-                    <div className="flex-none w-[420px] mq1125:w-[280px] relative z-10 flex justify-center translate-y-4">
+                    <div className="flex-none w-[420px] mq1125:w-[280px] relative z-10 flex justify-center translate-y-4 translate-x-12 mq1125:translate-x-4">
                         <Image
                             className="w-full h-auto object-contain drop-shadow-2xl scale-[1.1]"
                             width={593}
@@ -60,17 +60,17 @@ const DriverAppSection: NextPage = () => {
 
                     {/* Right Cards */}
                     <div className="flex flex-col gap-10 mq1125:gap-4 flex-1 max-w-[330px] mq1125:max-w-[240px] items-start relative z-20">
-                        <div className="w-full bg-white border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] rounded-[22px] p-[26px] mq1125:p-[16px] translate-x-8 mq1125:translate-x-2 mt-[-40px] mq1125:mt-0" data-aos="fade-in" data-aos-delay="500">
+                        <div className="w-full bg-white border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] rounded-[22px] p-[26px] mq1125:p-[16px] -translate-x-8 mq1125:-translate-x-2 mt-[-40px] mq1125:mt-0 animate-[float_5s_ease-in-out_infinite]">
                             <div className="tracking-[-0.45px] leading-7 font-semibold text-gosirat-darker text-[17px]">Student Manifest</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Access a complete student list with pickup and drop-off locations, photos, attendance records, and verification status for every journey.</div>
                         </div>
 
-                        <div className="w-full bg-white border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] rounded-[22px] p-[26px] mq1125:p-[16px] -translate-x-8 mq1125:-translate-x-2" data-aos="fade-in" data-aos-delay="600">
+                        <div className="w-full bg-white border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] rounded-[22px] p-[26px] mq1125:p-[16px] translate-x-9 mq1125:translate-x-2 animate-[float_4s_ease-in-out_infinite]">
                             <div className="tracking-[-0.45px] leading-7 font-semibold text-gosirat-darker text-[17px]">Earnings Dashboard</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">View daily, weekly, and monthly earnings with transparent payment records and detailed trip summaries.</div>
                         </div>
 
-                        <div className="w-full bg-white border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] rounded-[22px] p-[26px] mq1125:p-[16px] translate-x-4 mq1125:translate-x-2" data-aos="fade-in" data-aos-delay="100">
+                        <div className="w-full bg-white border-[rgba(0,0,0,0.6)] border-solid border-[0.7px] rounded-[22px] p-[26px] mq1125:p-[16px] -translate-x-6 mq1125:-translate-x-2 animate-[float_4.5s_ease-in-out_infinite]">
                             <div className="tracking-[-0.45px] leading-7 font-semibold text-gosirat-darker text-[17px]">Availability & Support</div>
                             <div className="text-[14px] leading-6 text-gosirat-gray mt-1.5">Update your driving schedule, manage availability, and contact the GoSirat support team whenever assistance is needed.</div>
                         </div>

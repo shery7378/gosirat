@@ -35,7 +35,9 @@ export const DriverVerification = () => {
        <h3 className="m-0 relative text-xl font-bold font-[inherit] text-gosirat-light">
         Application
        </h3>
-       <div className="w-8 h-1 bg-gosirat-green rounded-full shrink-0" />
+       <div className="w-full h-1 bg-[rgba(255,255,255,0.1)] rounded-full shrink-0 overflow-hidden">
+        <div className="h-full bg-gosirat-green rounded-full w-[20%]" />
+       </div>
        <div className="text-sm text-gosirat-light/70 leading-6 mt-2">
         Complete the registration process and submit the required documents.
        </div>
@@ -51,7 +53,9 @@ export const DriverVerification = () => {
        <h3 className="m-0 relative text-xl font-bold font-[inherit] text-gosirat-light">
         Training
        </h3>
-       <div className="w-8 h-1 bg-gosirat-green rounded-full shrink-0" />
+       <div className="w-full h-1 bg-[rgba(255,255,255,0.1)] rounded-full shrink-0 overflow-hidden">
+        <div className="h-full bg-gosirat-green rounded-full w-[40%]" />
+       </div>
        <div className="text-sm text-gosirat-light/70 leading-6 mt-2">
         Receive child safety, customer service, and defensive driving training.
        </div>
@@ -67,7 +71,9 @@ export const DriverVerification = () => {
        <h3 className="m-0 relative text-xl font-bold font-[inherit] text-gosirat-light">
         Certification
        </h3>
-       <div className="w-8 h-1 bg-gosirat-green rounded-full shrink-0" />
+       <div className="w-full h-1 bg-[rgba(255,255,255,0.1)] rounded-full shrink-0 overflow-hidden">
+        <div className="h-full bg-gosirat-green rounded-full w-[60%]" />
+       </div>
        <div className="text-sm text-gosirat-light/70 leading-6 mt-2">
         Pass the required assessments before joining the GoSirat platform.
        </div>
@@ -83,7 +89,9 @@ export const DriverVerification = () => {
        <h3 className="m-0 relative text-xl font-bold font-[inherit] text-gosirat-light">
         Verification
        </h3>
-       <div className="w-8 h-1 bg-gosirat-green rounded-full shrink-0" />
+       <div className="w-full h-1 bg-[rgba(255,255,255,0.1)] rounded-full shrink-0 overflow-hidden">
+        <div className="h-full bg-gosirat-green rounded-full w-[80%]" />
+       </div>
        <div className="text-sm text-gosirat-light/70 leading-6 mt-2">
         Identity, background, and document verification are completed before activation.
        </div>
@@ -99,7 +107,9 @@ export const DriverVerification = () => {
        <h3 className="m-0 relative text-xl font-bold font-[inherit] text-gosirat-light">
         Active Driver
        </h3>
-       <div className="w-8 h-1 bg-gosirat-green rounded-full shrink-0" />
+       <div className="w-full h-1 bg-[rgba(255,255,255,0.1)] rounded-full shrink-0 overflow-hidden">
+        <div className="h-full bg-gosirat-green rounded-full w-full" />
+       </div>
        <div className="text-sm text-gosirat-light/70 leading-6 mt-2">
         Begin accepting assigned school transportation routes with continuous performance monitoring.
        </div>

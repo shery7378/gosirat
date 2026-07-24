@@ -38,7 +38,7 @@ export const DriverEarnings = () => {
           <div className="flex-1 flex flex-col gap-6 min-w-[400px] mq450:min-w-full" data-aos="fade-in" data-aos-delay="300">
 
             {/* Card 1: Monthly earnings */}
-            <div className="bg-white rounded-[24px] shadow-[0px_8px_32px_rgba(0,0,0,0.06)] border border-gray-100 p-8 flex flex-col gap-6 font-sans">
+            <div className="bg-gosirat-light rounded-[24px] shadow-[0px_8px_32px_rgba(0,0,0,0.06)] border border-gray-100 p-8 flex flex-col gap-6 font-sans">
               <div className="flex flex-col gap-2">
                 <div className="text-[14px] font-medium text-gosirat-gray">Monthly earnings</div>
                 <div className="text-[42px] font-bold text-gosirat-darker tracking-tight">PKR 70,400</div>
@@ -95,7 +95,7 @@ export const DriverEarnings = () => {
             </div>
 
             {/* Card 2: Green Impact score */}
-            <div className="bg-white rounded-[24px] shadow-[0px_8px_32px_rgba(0,0,0,0.06)] border border-gray-100 p-6 flex items-center gap-6 font-sans">
+            <div className="bg-gosirat-light rounded-[24px] shadow-[0px_8px_32px_rgba(0,0,0,0.06)] border border-gray-100 p-6 flex items-center gap-6 font-sans">
               {/* Circular Progress (mockup) */}
               <div className="relative w-[72px] h-[72px] flex items-center justify-center shrink-0">
                 <svg className="w-full h-full transform -rotate-90" viewBox="0 0 36 36">
@@ -131,8 +131,8 @@ export const DriverEarnings = () => {
         <div className="w-full grid grid-cols-4 gap-6 mt-4 lg:grid-cols-2 mq750:grid-cols-1" data-aos="fade-up" data-aos-delay="400">
           
           {/* Card 1 */}
-          <div className="bg-white rounded-[20px] border border-gray-100 p-6 flex flex-col items-start gap-4 hover:shadow-[0px_8px_24px_rgba(0,0,0,0.04)] transition-shadow font-sans">
-            <div className="w-10 h-10 rounded-xl bg-gosirat-light flex items-center justify-center text-[20px]">
+          <div className="bg-gosirat-light rounded-[20px] border border-gray-100 p-6 flex flex-col items-start gap-4 hover:shadow-[0px_8px_24px_rgba(0,0,0,0.04)] transition-shadow font-sans">
+            <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center text-[20px]">
               🤖
             </div>
             <div className="flex flex-col gap-2">
@@ -144,8 +144,8 @@ export const DriverEarnings = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-white rounded-[20px] border border-gray-100 p-6 flex flex-col items-start gap-4 hover:shadow-[0px_8px_24px_rgba(0,0,0,0.04)] transition-shadow font-sans">
-            <div className="w-10 h-10 rounded-xl bg-gosirat-light flex items-center justify-center text-[20px]">
+          <div className="bg-gosirat-light rounded-[20px] border border-gray-100 p-6 flex flex-col items-start gap-4 hover:shadow-[0px_8px_24px_rgba(0,0,0,0.04)] transition-shadow font-sans">
+            <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center text-[20px]">
               🌱
             </div>
             <div className="flex flex-col gap-2">
@@ -157,8 +157,8 @@ export const DriverEarnings = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-white rounded-[20px] border border-gray-100 p-6 flex flex-col items-start gap-4 hover:shadow-[0px_8px_24px_rgba(0,0,0,0.04)] transition-shadow font-sans">
-            <div className="w-10 h-10 rounded-xl bg-gosirat-light flex items-center justify-center text-[20px]">
+          <div className="bg-gosirat-light rounded-[20px] border border-gray-100 p-6 flex flex-col items-start gap-4 hover:shadow-[0px_8px_24px_rgba(0,0,0,0.04)] transition-shadow font-sans">
+            <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center text-[20px]">
               🎯
             </div>
             <div className="flex flex-col gap-2">
@@ -170,8 +170,8 @@ export const DriverEarnings = () => {
           </div>
 
           {/* Card 4 */}
-          <div className="bg-white rounded-[20px] border border-gray-100 p-6 flex flex-col items-start gap-4 hover:shadow-[0px_8px_24px_rgba(0,0,0,0.04)] transition-shadow font-sans">
-            <div className="w-10 h-10 rounded-xl bg-gosirat-light flex items-center justify-center text-[20px]">
+          <div className="bg-gosirat-light rounded-[20px] border border-gray-100 p-6 flex flex-col items-start gap-4 hover:shadow-[0px_8px_24px_rgba(0,0,0,0.04)] transition-shadow font-sans">
+            <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center text-[20px]">
               💰
             </div>
             <div className="flex flex-col gap-2">

@@ -32,12 +32,18 @@ const SchoolsPage: NextPage = () => {
     ]} />
    <SchoolsHero />
    <SchoolsChallenge />
-   <SchoolsVisibility />
+   <div className="w-full bg-white">
+     <SchoolsVisibility />
+   </div>
    <SchoolsPartners />
    <SchoolsStats />
-   <ParentStories isAboutPage={false} />
+   <div className="w-full bg-white">
+     <ParentStories isAboutPage={false} />
+   </div>
    <AppDownload hideImage={false} />
-   <FAQ />
+   <div className="w-full bg-white">
+     <FAQ />
+   </div>
   </div>
  );
 };
