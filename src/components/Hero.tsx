@@ -97,8 +97,7 @@ const Hero: NextPage = () => {
             height={505}
             sizes="(max-width: 1125px) 150px, 243px"
             alt="GoSirat safe school transport platform overview"
-            src="/images/gosirat-home-hero-illustration.webp"
-            data-aos="fade-in" data-aos-delay="200" />
+            src="/images/gosirat-home-hero-illustration.webp" />
           <Image
             className="w-[385px] absolute top-[170px] left-[88px] max-h-full object-contain z-[1] shrink-0 mq1125:w-[240px] mq1125:left-[55px] mq1125:top-[106px]"
             priority
@@ -107,8 +106,7 @@ const Hero: NextPage = () => {
             height={385}
             sizes="(max-width: 1125px) 240px, 385px"
             alt="GoSirat safe school transportation vehicle with verified drivers providing secure school pick and drop services for students."
-            src="/images/gosirat-safe-school-transportation.webp"
-            data-aos="fade-out" data-aos-delay="300" />
+            src="/images/gosirat-safe-school-transportation.webp" />
         </div>
       </div>
     </section>
