@@ -33,7 +33,7 @@ const AppDownload: React.FC<AppDownloadProps> = ({
 }) => {
     return (
         <section className="w-full flex flex-col items-center py-16 px-[60px] box-border mq725:px-[30px] mq450:py-10 mq450:px-4 mx-auto" data-aos="zoom-in">
-            <div className="w-full rounded-[24px] md:rounded-[40px] overflow-hidden flex flex-col md:flex-row items-center justify-between relative box-border min-h-0 md:min-h-[464px] bg-[linear-gradient(179.47deg,#176938_0.48%,#022913_98.43%)]">
+            <div className="w-full max-w-[1320px] rounded-[24px] md:rounded-[40px] overflow-hidden flex flex-col md:flex-row items-center justify-between relative box-border min-h-0 md:min-h-[464px] bg-[linear-gradient(179.47deg,#176938_0.48%,#022913_98.43%)]">
 
                 {/* Text Section (Left Column) */}
                 <div className="flex flex-col gap-6 z-10 relative w-full md:w-[60%] min-[1050px]:w-[55%] xl:w-[50%] items-start text-left py-12 px-6 sm:px-8 md:py-24 md:pl-12 md:pr-4 min-[1050px]:pl-16">
@@ -79,11 +79,11 @@ const AppDownload: React.FC<AppDownloadProps> = ({
 
                 {/* Image Section (Right Column) */}
                 {!hideImage && (
-                    <div className="absolute right-0 top-0 bottom-0 h-full w-[45%] hidden md:block pointer-events-none">
+                    <div className="absolute inset-0 w-full h-full hidden md:block pointer-events-none">
                         <img
                             src="/images/gosirat-parent-app-mockup.webp"
                             alt="Parent using GoSirat App"
-                            className="w-full h-full object-contain object-right"
+                            className="absolute md:left-[55%] xl:left-[728px] top-[-131px] w-[966px] h-[969px] max-w-none object-cover"
                         />
                     </div>
                 )}
