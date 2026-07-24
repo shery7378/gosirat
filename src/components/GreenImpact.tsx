@@ -43,7 +43,7 @@ const GreenImpact: NextPage = () => {
                         <h3 className="m-0 text-[48px] md:text-[56px] font-bold text-white tracking-tight leading-none mb-4">
                             62%
                         </h3>
-                        <div className="text-[18px] font-semibold text-gosirat-green mb-3">
+                        <div className="text-[18px] font-semibold text-gosirat-accent mb-3">
                             Fewer Private Car Trips
                         </div>
                         <p className="m-0 text-[14px] leading-[22px] text-[#a1a1aa] font-medium">
@@ -55,7 +55,7 @@ const GreenImpact: NextPage = () => {
                         <h3 className="m-0 text-[48px] md:text-[56px] font-bold text-white tracking-tight leading-none mb-4 flex items-baseline">
                             1.4M<span className="text-[32px] md:text-[40px] ml-2">kg</span>
                         </h3>
-                        <div className="text-[18px] font-semibold text-gosirat-green mb-3">
+                        <div className="text-[18px] font-semibold text-gosirat-accent mb-3">
                             Carbon Emissions Reduced
                         </div>
                         <p className="m-0 text-[14px] leading-[22px] text-[#a1a1aa] font-medium">
@@ -67,7 +67,7 @@ const GreenImpact: NextPage = () => {
                         <h3 className="m-0 text-[48px] md:text-[56px] font-bold text-white tracking-tight leading-none mb-4">
                             3x
                         </h3>
-                        <div className="text-[18px] font-semibold text-gosirat-green mb-3">
+                        <div className="text-[18px] font-semibold text-gosirat-accent mb-3">
                             More Efficient Transportation
                         </div>
                         <p className="m-0 text-[14px] leading-[22px] text-[#a1a1aa] font-medium">

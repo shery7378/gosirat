@@ -22,7 +22,7 @@ export const SafeHandover = () => {
                         </p>
                     </div>
                 </section>
-                <section className="self-stretch flex flex-col items-start pt-12 px-0 pb-0 text-left text-xs text-gosirat-green-alt font-sans">
+                <section className="self-stretch flex flex-col items-start pt-12 px-0 pb-0 text-left text-xs text-gosirat-accent font-sans">
                     <div className="self-stretch flex items-center justify-start flex-wrap content-center gap-4">
                         <div className="h-[177.6px] flex-1 rounded-[22px] bg-[rgba(255,255,255,0.05)] border-[rgba(255,255,255,0.1)] border-solid border-[0.7px] box-border flex flex-col items-start py-[23px] px-6 min-w-[263px]" data-aos="fade-out" data-aos-delay="100">
                             <div className="self-stretch flex flex-col items-start font-mono text-xl font-bold">

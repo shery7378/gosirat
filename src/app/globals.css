@@ -140,3 +140,14 @@ body {
 .image-transparent {
   color: transparent !important;
 }
+
+[data-aos="fade-up-large"] {
+  transform: translate3d(0, 300px, 0);
+  opacity: 0;
+  transition-property: transform, opacity;
+}
+
+[data-aos="fade-up-large"].aos-animate {
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
