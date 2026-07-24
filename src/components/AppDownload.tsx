@@ -36,7 +36,7 @@ const AppDownload: React.FC<AppDownloadProps> = ({
             <div className="w-full rounded-[24px] md:rounded-[40px] overflow-hidden flex flex-col md:flex-row items-center justify-between relative box-border min-h-0 md:min-h-[464px] bg-[linear-gradient(179.47deg,#176938_0.48%,#022913_98.43%)]">
 
                 {/* Text Section (Left Column) */}
-                <div className="flex flex-col gap-6 z-10 relative w-full md:w-[50%] min-[1050px]:w-[45%] xl:w-[40%] items-start text-left py-12 px-6 sm:px-8 md:py-24 md:pl-12 md:pr-4 min-[1050px]:pl-16">
+                <div className="flex flex-col gap-6 z-10 relative w-full md:w-[60%] min-[1050px]:w-[55%] xl:w-[50%] items-start text-left py-12 px-6 sm:px-8 md:py-24 md:pl-12 md:pr-4 min-[1050px]:pl-16">
                     <div className="flex flex-col gap-4 w-full items-start">
                         <div className="inline-flex rounded-[30px] bg-white/20 items-center py-[6px] px-[14px] gap-[8px]" data-aos="fade-in" data-aos-delay="100">
                             <div className="h-[6px] w-[6px] relative rounded-full bg-gray-300" />
@@ -45,11 +45,11 @@ const AppDownload: React.FC<AppDownloadProps> = ({
                             </div>
                         </div>
 
-                        <h2 className="m-0 mt-6 self-stretch relative font-sans font-bold text-[38px] min-[1150px]:text-[42px] leading-[1.15] tracking-[-1.5px] text-left text-white mq825:text-[32px] mq825:leading-[40px] mq450:text-[28px] mq450:leading-[1.2] break-words max-w-[650px]">
+                        <h2 className="m-0 mt-6 self-stretch relative font-sans font-bold text-[28px] min-[1150px]:text-[32px] leading-[1.15] tracking-[-1.5px] text-left text-white mq825:text-[24px] mq825:leading-[32px] mq450:text-[22px] mq450:leading-[1.2] break-words max-w-full">
                             {heading}
                         </h2>
 
-                        <div className="w-full relative font-sans font-normal text-[18px] leading-[28px] tracking-normal text-left text-[rgba(255,255,255,0.85)] max-w-[580px] mt-4">
+                        <div className="w-full relative font-sans font-normal text-[15px] leading-[23px] tracking-[0px] text-left text-[#F8FBF8]/80 max-w-full mt-4">
                             {description}
                         </div>
                     </div>
@@ -79,11 +79,11 @@ const AppDownload: React.FC<AppDownloadProps> = ({
 
                 {/* Image Section (Right Column) */}
                 {!hideImage && (
-                    <div className="absolute right-0 top-0 bottom-0 h-full w-[40%] hidden md:block pointer-events-none">
+                    <div className="absolute right-0 top-0 bottom-0 h-full w-[45%] hidden md:block pointer-events-none">
                         <img
                             src="/images/gosirat-parent-app-mockup.webp"
                             alt="Parent using GoSirat App"
-                            className="w-full h-full object-cover object-[center_20%] scale-[1.4]"
+                            className="w-full h-full object-contain object-right"
                         />
                     </div>
                 )}
