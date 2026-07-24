@@ -25,7 +25,7 @@ const DriverAppSection: NextPage = () => {
             <div className="w-full max-w-[1320px] flex flex-col items-center justify-center relative mt-4">
 
                 {/* Desktop Layout - 3 Column Flexbox */}
-                <div className="w-full flex mq825:hidden flex-row items-start justify-center relative z-10 gap-0">
+                <div className="w-full flex mq825:hidden flex-row items-start justify-center relative z-10 gap-0 origin-top max-[1350px]:scale-[0.9] max-[1350px]:-mb-[60px] max-[1200px]:scale-[0.8] max-[1200px]:-mb-[120px] max-[1050px]:scale-[0.7] max-[1050px]:-mb-[180px] max-[950px]:scale-[0.6] max-[950px]:-mb-[240px]">
                     
                     {/* Left Cards */}
                     <div className="flex flex-col justify-between h-[538px] w-[541px] min-w-[340px] flex-shrink relative z-20">
